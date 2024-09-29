@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201 55">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #00a775;
+      }
+
+      .cls-3, .cls-2, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        font-family: OxaniumRoman-Medium, Oxanium;
+        font-size: 52.28px;
+        font-variation-settings: 'wght' 500;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-4 {
+        fill: #38c660;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="M25,0H0v25h25V0Z"/>
+  <path class="cls-2" d="M50,0h-25v25h25V0Z"/>
+  <path class="cls-4" d="M50,25h-25v25h25v-25Z"/>
+  <path class="cls-3" d="M25,25H0v25h25v-25Z"/>
+  <text class="cls-5" transform="translate(56.04 44.18) scale(.74 1)"><tspan class="cls-1" x="0" y="0">WEX</tspan><tspan class="cls-6" x="112.09" y="0">ICO</tspan></text>
+</svg>

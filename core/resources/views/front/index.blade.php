@@ -1,0 +1,4235 @@
+@extends('layout')
+@section('css')
+
+@stop
+@section('content')
+
+    <main id="main" class="cmsmasters-main site-main">
+        <div class="cmsmasters-main__outer">
+            <div class="cmsmasters-main__inner">
+                <div class="cmsmasters-content-wrap">
+                    <div class="cmsmasters-content">
+                        <div data-elementor-type="wp-page" data-elementor-id="7199" class="elementor elementor-7199">
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-5f506fe elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="5f506fe" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1a19479"
+                                        data-id="1a19479" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-background-overlay"></div>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-90973b4 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="90973b4" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-483da87"
+                                                        data-id="483da87" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-13f51ef cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="13f51ef" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h5
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        Premium Bank for You</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-8601489 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="8601489" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h2
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        Stay In Control Your Finances With Our Bank</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-079a59b cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="079a59b" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <p
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        The advantage of online banking is that you can pay
+                                                                        bills superfast, and your account is automatically
+                                                                        credited or debited</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-44ce5d6 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                data-id="44ce5d6" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-button.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div
+                                                                        class="elementor-widget-cmsmasters-button__button-container">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                            <a href="contacts/index.html"
+                                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                role="button"><span
+                                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                        class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                            aria-hidden="true"
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                        class="elementor-widget-cmsmasters-button__text">More
+                                                                                        About App</span></span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f56960b cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
+                                        data-id="f56960b" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-2411b19 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                data-id="2411b19" data-element_type="widget"
+                                                data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-67a1170"
+                                        data-id="67a1170" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-883128c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="883128c" data-element_type="section"
+                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a8dce94"
+                                                        data-id="a8dce94" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-8cc9960 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="8cc9960" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h3
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        Online Banking</h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-4c69f6a cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="4c69f6a" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <p
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        Check out some of the things you can do with our
+                                                                        mobile banking app.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-c513947 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                data-id="c513947" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-button.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div
+                                                                        class="elementor-widget-cmsmasters-button__button-container">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                            <a href="services/index.html"
+                                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                role="button"><span
+                                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                        class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                            aria-hidden="true"
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                        class="elementor-widget-cmsmasters-button__text">More
+                                                                                        About App</span></span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-9df1515 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="9df1515" data-element_type="section"
+                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1f88be4"
+                                                        data-id="1f88be4" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-553182e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="553182e" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <h3
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        Latest News</h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-6850ca1 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                                data-id="6850ca1" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <p
+                                                                        class="elementor-heading-title elementor-size-default">
+                                                                        Check more information & stories about our bank in
+                                                                        latests posts.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-91c98eb cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                data-id="91c98eb" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-button.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div
+                                                                        class="elementor-widget-cmsmasters-button__button-container">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                            <a href="blog/index.html"
+                                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                role="button"><span
+                                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                        class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                            aria-hidden="true"
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                        class="elementor-widget-cmsmasters-button__text">Show
+                                                                                        Blog</span></span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <div class="elementor-element elementor-element-39fdaff cmsmasters-button-align-justify cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                data-id="39fdaff" data-element_type="widget"
+                                                data-widget_type="cmsmasters-button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-button__button-container">
+                                                        <div
+                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                            <a href="contacts/index.html"
+                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
+                                                                role="button"><span
+                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
+                                                                        class="elementor-widget-cmsmasters-button__text">Need
+                                                                        Help?</span></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-a39664d elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="a39664d" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cf36bba"
+                                        data-id="cf36bba" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-a1f73ad cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="a1f73ad" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Great offer
+                                                        for great experience</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-c72bc39 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="c72bc39" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Choose What
+                                                        Right for You</h2>
+                                                </div>
+                                            </div>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-585f3c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="585f3c3" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-wide">
+                                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cd7e3fe"
+                                                        data-id="cd7e3fe" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-984a0bf cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="984a0bf" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/mortgages/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-mortgage"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Mortgage</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a404594"
+                                                        data-id="a404594" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-3c9f7f7 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="3c9f7f7" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/manage-your-account/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-briefcase"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Business</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a249eef"
+                                                        data-id="a249eef" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-c8fdba5 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="c8fdba5" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/everyday-spending-cards/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-credit-card-1"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Credit
+                                                                                            Cards</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-f2dc16f"
+                                                        data-id="f2dc16f" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-7f0d2b2 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="7f0d2b2" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/easy-access-savings-account/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-insurance"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Saving</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-0542b68 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="0542b68" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-wide">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8239cf"
+                                        data-id="f8239cf" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-36542a9 elementor-widget-divider--view-line cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-divider"
+                                                data-id="36542a9" data-element_type="widget"
+                                                data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-2ee2a51 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="2ee2a51" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-wide">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-91743eb"
+                                        data-id="91743eb" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-0ed718f cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="0ed718f" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Popular
+                                                        Products</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f865224 cmsmasters-blog--layout-custom cmsmasters-slider--effect-slide cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-blog-slider elementor-widget-cmsmasters-blog-similar"
+                                                data-id="f865224" data-element_type="widget"
+                                                data-settings="{&quot;blog_layout&quot;:&quot;custom&quot;,&quot;blog_template_id&quot;:&quot;55&quot;,&quot;slider_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;slider_per_view_tablet&quot;:&quot;2&quot;,&quot;slider_type&quot;:&quot;carousel&quot;,&quot;slider_effect&quot;:&quot;slide&quot;,&quot;slider_direction&quot;:&quot;horizontal&quot;,&quot;slider_height_type&quot;:&quot;auto&quot;,&quot;slider_per_view&quot;:&quot;3&quot;,&quot;slider_autoplay&quot;:&quot;yes&quot;,&quot;slider_autoplay_speed&quot;:5000,&quot;slider_speed&quot;:500,&quot;slider_pause_on_hover&quot;:&quot;yes&quot;,&quot;slider_infinite&quot;:&quot;yes&quot;,&quot;slider_arrows&quot;:&quot;yes&quot;,&quot;slider_arrows_visibility&quot;:&quot;always&quot;,&quot;slider_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_scrollbar_circle&quot;:&quot;circle&quot;}"
+                                                data-widget_type="cmsmasters-blog-slider.default">
+                                                <div class="elementor-widget-container">
+                                                    <style id="elementor-post-dynamic-55">
+                                                        .elementor-55 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                        .elementor-55 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                        .elementor-55 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                            background-color: #00A775;
+                                                        }
+                                                    </style>
+                                                    <div
+                                                        class="cmsmasters-blog cmsmasters-blog-slider cmsmasters-blog--type-default">
+                                                        <div class="cmsmasters-blog__posts-variable">
+                                                            <div class="cmsmasters-blog__posts-wrap">
+                                                                <div class="cmsmasters-blog__posts">
+                                                                    <div id="cmsmasters-slider-f865224"
+                                                                        class="cmsmasters-slider">
+                                                                        <div
+                                                                            class="swiper swiper-container cmsmasters-swiper-container">
+                                                                            <div class="swiper-wrapper">
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-2521"
+                                                                                        class="cmsmasters-blog__post post-2521 cmsms_service type-cmsms_service status-publish has-post-thumbnail hentry">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <style>
+                                                                                                .post-2521 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                                                                .post-2521 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                                                                .post-2521 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                                                                    background-color: #16705a;
+                                                                                                }
+                                                                                            </style>
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="55"
+                                                                                                class="elementor elementor-55 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-4d8d4195 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="4d8d4195"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d17343"
+                                                                                                                    data-id="41d17343"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-db17099 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="db17099"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
+                                                                                                                                    data-id="22c5382"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-13a19fed cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="13a19fed"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="cmsms_service/manage-your-account/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            fetchpriority="high"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="770"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-7068 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 770px) 100vw, 770px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
+                                                                                                                                                            sizes="(max-width: 770px) 100vw, 770px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-6d87ad17 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="6d87ad17"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fb80dc4"
+                                                                                                                                    data-id="fb80dc4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-6ca6e79d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="6ca6e79d"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="cmsms_service/manage-your-account/index.html">Manage
+                                                                                                                                                        your
+                                                                                                                                                        account
+                                                                                                                                                        anytime</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-173e3a1c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="173e3a1c"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-73523ed4"
+                                                                                                                                    data-id="73523ed4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-15afa5df cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="15afa5df"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>Far
+                                                                                                                                                        far
+                                                                                                                                                        away,
+                                                                                                                                                        behind
+                                                                                                                                                        the
+                                                                                                                                                        word
+                                                                                                                                                        mountains,
+                                                                                                                                                        far
+                                                                                                                                                        from
+                                                                                                                                                        the
+                                                                                                                                                        countries
+                                                                                                                                                        Vokalia
+                                                                                                                                                        and
+                                                                                                                                                        Consonantia,
+                                                                                                                                                        there
+                                                                                                                                                        live
+                                                                                                                                                        the
+                                                                                                                                                        blind
+                                                                                                                                                        texts.
+                                                                                                                                                        Separated
+                                                                                                                                                        they
+                                                                                                                                                        live
+                                                                                                                                                        in
+                                                                                                                                                        Bookmarksgrove
+                                                                                                                                                        right
+                                                                                                                                                        at
+                                                                                                                                                        the
+                                                                                                                                                        coast
+                                                                                                                                                        of
+                                                                                                                                                        the
+                                                                                                                                                        Semantics,
+                                                                                                                                                        a
+                                                                                                                                                        large
+                                                                                                                                                        language
+                                                                                                                                                        ocean.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-1e0f1146 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="1e0f1146"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="cmsms_service/manage-your-account/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="fas fa-chevron-right"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">read
+                                                                                                                                                                    more</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-2515"
+                                                                                        class="cmsmasters-blog__post post-2515 cmsms_service type-cmsms_service status-publish has-post-thumbnail hentry">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <style>
+                                                                                                .post-2515 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                                                                .post-2515 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                                                                .post-2515 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                                                                    background-color: #38c660;
+                                                                                                }
+                                                                                            </style>
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="55"
+                                                                                                class="elementor elementor-55 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-4d8d4195 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="4d8d4195"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d17343"
+                                                                                                                    data-id="41d17343"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-db17099 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="db17099"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
+                                                                                                                                    data-id="22c5382"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-13a19fed cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="13a19fed"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="cmsms_service/your-financial-action-plan/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="770"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-7076 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 770px) 100vw, 770px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
+                                                                                                                                                            sizes="(max-width: 770px) 100vw, 770px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-6d87ad17 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="6d87ad17"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fb80dc4"
+                                                                                                                                    data-id="fb80dc4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-6ca6e79d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="6ca6e79d"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="cmsms_service/your-financial-action-plan/index.html">Your
+                                                                                                                                                        financial
+                                                                                                                                                        action
+                                                                                                                                                        plan
+                                                                                                                                                        and
+                                                                                                                                                        guide
+                                                                                                                                                        to
+                                                                                                                                                        investing</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-173e3a1c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="173e3a1c"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-73523ed4"
+                                                                                                                                    data-id="73523ed4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-15afa5df cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="15afa5df"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>The
+                                                                                                                                                        copy
+                                                                                                                                                        warned
+                                                                                                                                                        the
+                                                                                                                                                        Little
+                                                                                                                                                        Blind
+                                                                                                                                                        Text,
+                                                                                                                                                        that
+                                                                                                                                                        where
+                                                                                                                                                        it
+                                                                                                                                                        came
+                                                                                                                                                        from
+                                                                                                                                                        it
+                                                                                                                                                        would
+                                                                                                                                                        have
+                                                                                                                                                        been
+                                                                                                                                                        rewritten
+                                                                                                                                                        a
+                                                                                                                                                        thousand
+                                                                                                                                                        times
+                                                                                                                                                        and
+                                                                                                                                                        everything
+                                                                                                                                                        that
+                                                                                                                                                        was
+                                                                                                                                                        left
+                                                                                                                                                        from
+                                                                                                                                                        its
+                                                                                                                                                        origin
+                                                                                                                                                        would
+                                                                                                                                                        be
+                                                                                                                                                        the
+                                                                                                                                                        word
+                                                                                                                                                        &#8220;and&#8221;
+                                                                                                                                                        and
+                                                                                                                                                        the
+                                                                                                                                                        Little
+                                                                                                                                                        Blind
+                                                                                                                                                        Text.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-1e0f1146 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="1e0f1146"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="cmsms_service/your-financial-action-plan/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="fas fa-chevron-right"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">read
+                                                                                                                                                                    more</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-2514"
+                                                                                        class="cmsmasters-blog__post post-2514 cmsms_service type-cmsms_service status-publish has-post-thumbnail hentry">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <style>
+                                                                                                .post-2514 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                                                                .post-2514 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                                                                .post-2514 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                                                                    background-color: #00a775;
+                                                                                                }
+                                                                                            </style>
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="55"
+                                                                                                class="elementor elementor-55 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-4d8d4195 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="4d8d4195"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d17343"
+                                                                                                                    data-id="41d17343"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-db17099 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="db17099"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
+                                                                                                                                    data-id="22c5382"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-13a19fed cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="13a19fed"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="cmsms_service/credit-card-eligibility-checker/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="770"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-7075 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 770px) 100vw, 770px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
+                                                                                                                                                            sizes="(max-width: 770px) 100vw, 770px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-6d87ad17 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="6d87ad17"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fb80dc4"
+                                                                                                                                    data-id="fb80dc4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-6ca6e79d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="6ca6e79d"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="cmsms_service/credit-card-eligibility-checker/index.html">Credit
+                                                                                                                                                        card
+                                                                                                                                                        eligibility
+                                                                                                                                                        checker</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-173e3a1c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="173e3a1c"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-73523ed4"
+                                                                                                                                    data-id="73523ed4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-15afa5df cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="15afa5df"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>When
+                                                                                                                                                        she
+                                                                                                                                                        reached
+                                                                                                                                                        the
+                                                                                                                                                        first
+                                                                                                                                                        hills
+                                                                                                                                                        of
+                                                                                                                                                        the
+                                                                                                                                                        Italic
+                                                                                                                                                        Mountains,
+                                                                                                                                                        she
+                                                                                                                                                        had
+                                                                                                                                                        a
+                                                                                                                                                        last
+                                                                                                                                                        view
+                                                                                                                                                        back
+                                                                                                                                                        on
+                                                                                                                                                        the
+                                                                                                                                                        skyline
+                                                                                                                                                        of
+                                                                                                                                                        her
+                                                                                                                                                        hometown
+                                                                                                                                                        Bookmarksgrove,
+                                                                                                                                                        the
+                                                                                                                                                        headline
+                                                                                                                                                        of
+                                                                                                                                                        Alphabet
+                                                                                                                                                        Village
+                                                                                                                                                        and
+                                                                                                                                                        the
+                                                                                                                                                        subline
+                                                                                                                                                        of
+                                                                                                                                                        her
+                                                                                                                                                        own
+                                                                                                                                                        road,
+                                                                                                                                                        the
+                                                                                                                                                        Line
+                                                                                                                                                        Lane.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-1e0f1146 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="1e0f1146"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="cmsms_service/credit-card-eligibility-checker/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="fas fa-chevron-right"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">read
+                                                                                                                                                                    more</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-2513"
+                                                                                        class="cmsmasters-blog__post post-2513 cmsms_service type-cmsms_service status-publish has-post-thumbnail hentry">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <style>
+                                                                                                .post-2513 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                                                                .post-2513 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                                                                .post-2513 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                                                                    background-color: #16705a;
+                                                                                                }
+                                                                                            </style>
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="55"
+                                                                                                class="elementor elementor-55 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-4d8d4195 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="4d8d4195"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d17343"
+                                                                                                                    data-id="41d17343"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-db17099 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="db17099"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
+                                                                                                                                    data-id="22c5382"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-13a19fed cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="13a19fed"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="cmsms_service/home-improvement-loan/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="770"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-7074 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 770px) 100vw, 770px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
+                                                                                                                                                            sizes="(max-width: 770px) 100vw, 770px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-6d87ad17 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="6d87ad17"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fb80dc4"
+                                                                                                                                    data-id="fb80dc4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-6ca6e79d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="6ca6e79d"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="cmsms_service/home-improvement-loan/index.html">Home
+                                                                                                                                                        improvement
+                                                                                                                                                        and
+                                                                                                                                                        car
+                                                                                                                                                        loan</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-173e3a1c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="173e3a1c"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-73523ed4"
+                                                                                                                                    data-id="73523ed4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-15afa5df cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="15afa5df"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>It
+                                                                                                                                                        is
+                                                                                                                                                        a
+                                                                                                                                                        paradisematic
+                                                                                                                                                        country,
+                                                                                                                                                        in
+                                                                                                                                                        which
+                                                                                                                                                        roasted
+                                                                                                                                                        parts
+                                                                                                                                                        of
+                                                                                                                                                        sentences
+                                                                                                                                                        fly
+                                                                                                                                                        into
+                                                                                                                                                        your
+                                                                                                                                                        mouth.
+                                                                                                                                                        A
+                                                                                                                                                        small
+                                                                                                                                                        river
+                                                                                                                                                        named
+                                                                                                                                                        Duden
+                                                                                                                                                        flows
+                                                                                                                                                        by
+                                                                                                                                                        their
+                                                                                                                                                        place
+                                                                                                                                                        and
+                                                                                                                                                        supplies
+                                                                                                                                                        it
+                                                                                                                                                        with
+                                                                                                                                                        the
+                                                                                                                                                        necessary
+                                                                                                                                                        regelialia.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-1e0f1146 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="1e0f1146"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="cmsms_service/home-improvement-loan/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="fas fa-chevron-right"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">read
+                                                                                                                                                                    more</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-2512"
+                                                                                        class="cmsmasters-blog__post post-2512 cmsms_service type-cmsms_service status-publish has-post-thumbnail hentry">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <style>
+                                                                                                .post-2512 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                                                                .post-2512 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                                                                .post-2512 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                                                                    background-color: #38c660;
+                                                                                                }
+                                                                                            </style>
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="55"
+                                                                                                class="elementor elementor-55 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-4d8d4195 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="4d8d4195"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d17343"
+                                                                                                                    data-id="41d17343"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-db17099 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="db17099"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
+                                                                                                                                    data-id="22c5382"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-13a19fed cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="13a19fed"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="cmsms_service/staying-safe-and-secure/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="770"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-7073 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 770px) 100vw, 770px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
+                                                                                                                                                            sizes="(max-width: 770px) 100vw, 770px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-6d87ad17 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="6d87ad17"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fb80dc4"
+                                                                                                                                    data-id="fb80dc4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-6ca6e79d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="6ca6e79d"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="cmsms_service/staying-safe-and-secure/index.html">Staying
+                                                                                                                                                        safe
+                                                                                                                                                        and
+                                                                                                                                                        growing
+                                                                                                                                                        money</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-173e3a1c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="173e3a1c"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-73523ed4"
+                                                                                                                                    data-id="73523ed4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-15afa5df cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="15afa5df"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>The
+                                                                                                                                                        Big
+                                                                                                                                                        Oxmox
+                                                                                                                                                        advised
+                                                                                                                                                        her
+                                                                                                                                                        not
+                                                                                                                                                        to
+                                                                                                                                                        do
+                                                                                                                                                        so,
+                                                                                                                                                        because
+                                                                                                                                                        there
+                                                                                                                                                        were
+                                                                                                                                                        thousands
+                                                                                                                                                        of
+                                                                                                                                                        bad
+                                                                                                                                                        Commas,
+                                                                                                                                                        wild
+                                                                                                                                                        Question
+                                                                                                                                                        Marks
+                                                                                                                                                        and
+                                                                                                                                                        devious
+                                                                                                                                                        Semikoli,
+                                                                                                                                                        but
+                                                                                                                                                        the
+                                                                                                                                                        Little
+                                                                                                                                                        Blind
+                                                                                                                                                        Text
+                                                                                                                                                        didn’t
+                                                                                                                                                        listen.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-1e0f1146 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="1e0f1146"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="cmsms_service/staying-safe-and-secure/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="fas fa-chevron-right"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">read
+                                                                                                                                                                    more</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-2501"
+                                                                                        class="cmsmasters-blog__post post-2501 cmsms_service type-cmsms_service status-publish has-post-thumbnail hentry">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <style>
+                                                                                                .post-2501 .elementor-element.elementor-element-6d87ad17:not(.elementor-motion-effects-element-type-background):not(.cmsmasters-bg-effect),
+                                                                                                .post-2501 .elementor-element.elementor-element-6d87ad17>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+                                                                                                .post-2501 .elementor-element.elementor-element-6d87ad17>.cmsmasters-bg-effects-container>.cmsmasters-bg-effects-element {
+                                                                                                    background-color: #00a775;
+                                                                                                }
+                                                                                            </style>
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="55"
+                                                                                                class="elementor elementor-55 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-4d8d4195 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="4d8d4195"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-41d17343"
+                                                                                                                    data-id="41d17343"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-db17099 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="db17099"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
+                                                                                                                                    data-id="22c5382"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-13a19fed cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="13a19fed"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="cmsms_service/home-insurance-support/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="770"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-7072 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 770px) 100vw, 770px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
+                                                                                                                                                            sizes="(max-width: 770px) 100vw, 770px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-6d87ad17 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="6d87ad17"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fb80dc4"
+                                                                                                                                    data-id="fb80dc4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-6ca6e79d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="6ca6e79d"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="cmsms_service/home-insurance-support/index.html">Home
+                                                                                                                                                        and
+                                                                                                                                                        travel
+                                                                                                                                                        insurance
+                                                                                                                                                        support</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-173e3a1c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="173e3a1c"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-73523ed4"
+                                                                                                                                    data-id="73523ed4"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-15afa5df cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="15afa5df"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>The
+                                                                                                                                                        copy
+                                                                                                                                                        warned
+                                                                                                                                                        the
+                                                                                                                                                        Little
+                                                                                                                                                        Blind
+                                                                                                                                                        Text,
+                                                                                                                                                        that
+                                                                                                                                                        where
+                                                                                                                                                        it
+                                                                                                                                                        came
+                                                                                                                                                        from
+                                                                                                                                                        it
+                                                                                                                                                        would
+                                                                                                                                                        have
+                                                                                                                                                        been
+                                                                                                                                                        rewritten
+                                                                                                                                                        a
+                                                                                                                                                        thousand
+                                                                                                                                                        times
+                                                                                                                                                        and
+                                                                                                                                                        everything
+                                                                                                                                                        that
+                                                                                                                                                        was
+                                                                                                                                                        left
+                                                                                                                                                        from
+                                                                                                                                                        its
+                                                                                                                                                        origin
+                                                                                                                                                        would
+                                                                                                                                                        be
+                                                                                                                                                        the
+                                                                                                                                                        word
+                                                                                                                                                        &#8220;and&#8221;
+                                                                                                                                                        and
+                                                                                                                                                        the
+                                                                                                                                                        Little
+                                                                                                                                                        Blind
+                                                                                                                                                        Text.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-1e0f1146 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="1e0f1146"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="cmsms_service/home-insurance-support/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="fas fa-chevron-right"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">read
+                                                                                                                                                                    more</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-buttons-wrap">
+                                                                            <div class="swiper-buttons-wrap-inner">
+                                                                                <div
+                                                                                    class="swiper-button swiper-button-prev">
+                                                                                    <div class="swiper-button-inner"><span
+                                                                                            class="cmsmasters-wrap-icon"><i
+                                                                                                class="fas fa-chevron-left"></i></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="swiper-button swiper-button-next">
+                                                                                    <div class="swiper-button-inner"><span
+                                                                                            class="cmsmasters-wrap-icon"><i
+                                                                                                class="fas fa-chevron-right"></i></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-39420c0 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="39420c0" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-84070a8 cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
+                                        data-id="84070a8" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-background-overlay"></div>
+                                            <div class="elementor-element elementor-element-4f71d6e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                data-id="4f71d6e" data-element_type="widget"
+                                                data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-0796f89 elementor-hidden-tablet elementor-hidden-mobile"
+                                        data-id="0796f89" data-element_type="column">
+                                        <div class="elementor-widget-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-42fcd6e"
+                                        data-id="42fcd6e" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-88b7f36 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="88b7f36" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Investments
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d281f6e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="d281f6e" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Invest with
+                                                        $0 Commission</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f5202cc cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="f5202cc" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">When you're
+                                                        ready, we're ready with a MultiBank High-Yield Savings Account. Save
+                                                        more with no limit on earnings.</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-ba53d93 cmsmasters-widget-layout-row cmsmasters-widget-align-stretch cmsmasters-widget-direction-default cmsmasters-widget-marker-element-icon cmsmasters-widget-marker-view-default cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-icon-list cmsmasters-widget-icon-list"
+                                                data-id="ba53d93" data-element_type="widget"
+                                                data-widget_type="cmsmasters-icon-list.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul class="cmsmasters-widget-icon-list-items">
+                                                        <li class="cmsmasters-widget-icon-list-item active-icon-item">
+                                                            <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                <span class="cmsmasters-widget-icon-list-item-icon">
+                                                                    <span>
+                                                                        <i aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-check-circle"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="cmsmasters-widget-icon-list-item-text-inner">
+                                                                    <span class="cmsmasters-widget-icon-list-item-text">
+                                                                        Invest your way </span>
+                                                                </span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="cmsmasters-widget-icon-list-item active-icon-item">
+                                                            <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                <span class="cmsmasters-widget-icon-list-item-icon">
+                                                                    <span>
+                                                                        <i aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-check-circle"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="cmsmasters-widget-icon-list-item-text-inner">
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                                        Stay on top of the market </span>
+                                                                </span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="cmsmasters-widget-icon-list-item active-icon-item">
+                                                            <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                <span class="cmsmasters-widget-icon-list-item-icon">
+                                                                    <span>
+                                                                        <i aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-check-circle"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="cmsmasters-widget-icon-list-item-text-inner">
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                                        Benefit from your relationship </span>
+                                                                </span>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5b7a2f3 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                data-id="5b7a2f3" data-element_type="widget"
+                                                data-widget_type="cmsmasters-button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-button__button-container">
+                                                        <div
+                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                            <a href="cmsms_service/easy-access-savings-account/index.html"
+                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
+                                                                role="button"><span
+                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
+                                                                        class="elementor-widget-cmsmasters-button__text">Learn
+                                                                        More</span></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-d90ba7e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="d90ba7e" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a76ae15"
+                                        data-id="a76ae15" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-a7cbafd cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="a7cbafd" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Operate Your
+                                                        Accounts in Smartphone</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-a5d577d cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="a5d577d" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">MultiBank
+                                                        Mobile</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-128ab33 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="128ab33" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">The UK’s
+                                                        largest banking groups are required to comply with ring-fencing
+                                                        requirements from 1 January 2019. From shares to shopping centres
+                                                        and term deposits to toll roads, there’s a huge range of investments
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-65b730a elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                data-id="65b730a" data-element_type="widget"
+                                                data-widget_type="cmsmasters-button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-button__button-container">
+                                                        <div
+                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                            <a href="shop/index.html"
+                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
+                                                                role="button"><span
+                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
+                                                                        class="elementor-widget-cmsmasters-button__text">Download
+                                                                        App</span></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f33438c elementor-widget__width-initial cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                data-id="f33438c" data-element_type="widget"
+                                                data-widget_type="cmsmasters-button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-button__button-container">
+                                                        <div
+                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                            <a href="contacts/index.html"
+                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                role="button"><span
+                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                        class="elementor-widget-cmsmasters-button__icon"><i
+                                                                            aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                        class="elementor-widget-cmsmasters-button__text">Learn
+                                                                        More</span></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a44c14 cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
+                                        data-id="5a44c14" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-54fadee cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                data-id="54fadee" data-element_type="widget"
+                                                data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-a0bff24 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="a0bff24" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-941c27a"
+                                        data-id="941c27a" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-9a11f86 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="9a11f86" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Premium
+                                                        Services</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f7a1ca6 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="f7a1ca6" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Our Banking
+                                                        Services for You</h2>
+                                                </div>
+                                            </div>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-2cfb930 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="2cfb930" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-wide">
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e43ab5a"
+                                                        data-id="e43ab5a" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-b6a67e7 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="b6a67e7" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/mortgages/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Mortgage</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-mortgage"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Mortgage</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f6d7c17"
+                                                        data-id="f6d7c17" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-ca6a7a1 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="ca6a7a1" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/everyday-spending-cards/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Business</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-briefcase"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Business</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-671534a elementor-hidden-tablet"
+                                                        data-id="671534a" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-b969cee cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="b969cee" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/everyday-spending-cards/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Credit Cards</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-credit-card-1"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Credit Cards</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-10e7b12 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="10e7b12" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-wide">
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6517455"
+                                                        data-id="6517455" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-afe97bc cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="afe97bc" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/home-improvement-loan/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Loans</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-wallet"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Loans</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-59f2235"
+                                                        data-id="59f2235" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-92bc7e6 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="92bc7e6" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/your-financial-action-plan/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Investments</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-profits"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Investments</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-efb6879 elementor-hidden-tablet"
+                                                        data-id="efb6879" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-cdefb94 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="cdefb94" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/easy-access-savings-account/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Saving</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-insurance"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Saving</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-ea02788 elementor-hidden-desktop elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                data-id="ea02788" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-wide">
+                                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5a61545"
+                                                        data-id="5a61545" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-bff80b1 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="bff80b1" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/everyday-spending-cards/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Credit Cards</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-credit-card-1"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Credit Cards</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6e3fcdd"
+                                                        data-id="6e3fcdd" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-e2dfa32 cmsmasters-featured-box__graphic-align-center cmsmasters-featured-box__graphic-position-column cmsmasters-featured-box__graphic-position-tablet-column cmsmasters-featured-box__graphic-position-mobile-column cmsmasters-featured-box__both cmsmasters-featured-box__text-valign-middle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-featured-box"
+                                                                data-id="e2dfa32" data-element_type="widget"
+                                                                data-widget_type="cmsmasters-featured-box.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <a href="cmsms_service/easy-access-savings-account/index.html"
+                                                                        class="elementor-widget-cmsmasters-featured-box__wrapper">
+                                                                        <div
+                                                                            class="elementor-widget-cmsmasters-featured-box__content">
+                                                                            <div
+                                                                                class="elementor-widget-cmsmasters-featured-box__content-vertical-inner">
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__graphic-wrapper elementor-widget-cmsmasters-featured-box__content-item elementor-widget-cmsmasters-featured-box__icon">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Saving</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__icon-wrap elementor-widget-cmsmasters-featured-box__graphic-item">
+                                                                                        <i
+                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-insurance"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                    <h3
+                                                                                        class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Saving</h3>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        Explore the power of simpler and
+                                                                                        smarter banking online </div>
+                                                                                    <div
+                                                                                        class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
+                                                                                        <span
+                                                                                            class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button elementor-widget-cmsmasters-featured-box__button-icon-right"><span
+                                                                                                class="elementor-widget-cmsmasters-featured-box__button-icon-stacked elementor-widget-cmsmasters-featured-box__button-icon-circle elementor-widget-cmsmasters-featured-box__button-icon"><i
+                                                                                                    class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span>Learn
+                                                                                            More</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-5a9d83f elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="5a9d83f" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6061839 cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
+                                        data-id="6061839" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-071a6eb cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="071a6eb" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Calculate
+                                                        Your Deposit</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-ec4d44e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="ec4d44e" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">Depostis are
+                                                        now easier than ever</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-2ce79c8 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-forminator"
+                                                data-id="2ce79c8" data-element_type="widget"
+                                                data-settings="{&quot;form_list&quot;:&quot;22&quot;}"
+                                                data-widget_type="cmsmasters-forminator.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-contact-form__wrapper elementor-widget-cmsmasters-contact-form cmsmasters-default-color cmsmasters-default-font"
+                                                        id="cmsmasters-widget-form-2ce79c8">
+                                                        <div class="elementor-widget-cmsmasters-contact-form__inner">
+                                                            <form id="forminator-module-22"
+                                                                class="forminator-custom-form forminator-custom-form-22"
+                                                                method="post" data-forminator-render="0"
+                                                                data-uid="66f651316e652">
+                                                                <div role="alert" aria-live="polite"
+                                                                    class="forminator-response-message forminator-error"
+                                                                    aria-hidden="true"></div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2e9ddd6 cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
+                                        data-id="2e9ddd6" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-c0de8fc cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                data-id="c0de8fc" data-element_type="widget"
+                                                data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-e92c59a elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="e92c59a" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-wide">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-850a7c1"
+                                        data-id="850a7c1" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-ce68f30 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="ce68f30" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Latest
+                                                        Articles</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-990d7ea cmsmasters-blog--layout-custom cmsmasters-slider--effect-slide cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-blog-slider elementor-widget-cmsmasters-blog-similar"
+                                                data-id="990d7ea" data-element_type="widget"
+                                                data-settings="{&quot;blog_layout&quot;:&quot;custom&quot;,&quot;blog_template_id&quot;:&quot;118&quot;,&quot;slider_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;slider_per_view_tablet&quot;:&quot;2&quot;,&quot;slider_type&quot;:&quot;carousel&quot;,&quot;slider_effect&quot;:&quot;slide&quot;,&quot;slider_direction&quot;:&quot;horizontal&quot;,&quot;slider_height_type&quot;:&quot;auto&quot;,&quot;slider_per_view&quot;:&quot;3&quot;,&quot;slider_autoplay&quot;:&quot;yes&quot;,&quot;slider_autoplay_speed&quot;:5000,&quot;slider_speed&quot;:500,&quot;slider_pause_on_hover&quot;:&quot;yes&quot;,&quot;slider_infinite&quot;:&quot;yes&quot;,&quot;slider_arrows&quot;:&quot;yes&quot;,&quot;slider_arrows_visibility&quot;:&quot;always&quot;,&quot;slider_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;slider_scrollbar_circle&quot;:&quot;circle&quot;}"
+                                                data-widget_type="cmsmasters-blog-slider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div
+                                                        class="cmsmasters-blog cmsmasters-blog-slider cmsmasters-blog--type-default">
+                                                        <div class="cmsmasters-blog__posts-variable">
+                                                            <div class="cmsmasters-blog__posts-wrap">
+                                                                <div class="cmsmasters-blog__posts">
+                                                                    <div id="cmsmasters-slider-990d7ea"
+                                                                        class="cmsmasters-slider">
+                                                                        <div
+                                                                            class="swiper swiper-container cmsmasters-swiper-container">
+                                                                            <div class="swiper-wrapper">
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-728"
+                                                                                        class="cmsmasters-blog__post post-728 post type-post status-publish format-standard has-post-thumbnail hentry category-new-digital tag-sustainability tag-sustainable-banking">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="118"
+                                                                                                class="elementor elementor-118 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-324f3d5c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="324f3d5c"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-509d138b"
+                                                                                                                    data-id="509d138b"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-731e272 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="731e272"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74bce162"
+                                                                                                                                    data-id="74bce162"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-3418bfdf cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="3418bfdf"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="1280"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-30x15.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-1367 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 1280px) 100vw, 1280px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-20x10.jpg 20w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9.jpg 1280w"
+                                                                                                                                                            sizes="(max-width: 1280px) 100vw, 1280px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1d685af5 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="1d685af5"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-wide">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-38a4d619"
+                                                                                                                                    data-id="38a4d619"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="47c62048"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    data-taxonomy="category"
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="taxonomy"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
+                                                                                                                                                                                class="term-wrap"><a
+                                                                                                                                                                                    class="term"
+                                                                                                                                                                                    rel="category tag"
+                                                                                                                                                                                    href="category/new-digital/index.html"><span>New
+                                                                                                                                                                                        Digital</span></a></span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="61f14f89"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="date"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
+                                                                                                                                                                                23,
+                                                                                                                                                                                2024</span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                                                                                                            data-id="229e62e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="spacer.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-spacer">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-spacer-inner">
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-7660ef92 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="7660ef92"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/index.html">In
+                                                                                                                                                        Banking,
+                                                                                                                                                        Sustainability
+                                                                                                                                                        is
+                                                                                                                                                        the
+                                                                                                                                                        New
+                                                                                                                                                        Digital</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-49d7d059 cmsmasters-line-clamp-yes cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="49d7d059"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>This
+                                                                                                                                                        year´s
+                                                                                                                                                        reporting
+                                                                                                                                                        season
+                                                                                                                                                        has
+                                                                                                                                                        brought
+                                                                                                                                                        sustainability
+                                                                                                                                                        and
+                                                                                                                                                        environmental,
+                                                                                                                                                        social
+                                                                                                                                                        and
+                                                                                                                                                        governance
+                                                                                                                                                        (ESG)-related
+                                                                                                                                                        efforts
+                                                                                                                                                        to
+                                                                                                                                                        the
+                                                                                                                                                        forefront
+                                                                                                                                                        of
+                                                                                                                                                        international
+                                                                                                                                                        banks’
+                                                                                                                                                        annual
+                                                                                                                                                        reports,
+                                                                                                                                                        including
+                                                                                                                                                        their
+                                                                                                                                                        future
+                                                                                                                                                        outlooks
+                                                                                                                                                        and
+                                                                                                                                                        bold
+                                                                                                                                                        pledges.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-65a52b3e cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="65a52b3e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">Learn
+                                                                                                                                                                    More</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-1059"
+                                                                                        class="cmsmasters-blog__post post-1059 post type-post status-publish format-standard has-post-thumbnail hentry category-core-banking tag-customer-experience tag-mobile-payments">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="118"
+                                                                                                class="elementor elementor-118 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-324f3d5c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="324f3d5c"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-509d138b"
+                                                                                                                    data-id="509d138b"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-731e272 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="731e272"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74bce162"
+                                                                                                                                    data-id="74bce162"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-3418bfdf cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="3418bfdf"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="2024/01/21/the-magic-of-mobile-payments/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="1280"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-30x15.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-1366 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 1280px) 100vw, 1280px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-20x10.jpg 20w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8.jpg 1280w"
+                                                                                                                                                            sizes="(max-width: 1280px) 100vw, 1280px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1d685af5 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="1d685af5"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-wide">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-38a4d619"
+                                                                                                                                    data-id="38a4d619"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="47c62048"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    data-taxonomy="category"
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="taxonomy"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
+                                                                                                                                                                                class="term-wrap"><a
+                                                                                                                                                                                    class="term"
+                                                                                                                                                                                    rel="category tag"
+                                                                                                                                                                                    href="category/core-banking/index.html"><span>Core
+                                                                                                                                                                                        Banking</span></a></span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="61f14f89"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="date"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
+                                                                                                                                                                                21,
+                                                                                                                                                                                2024</span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                                                                                                            data-id="229e62e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="spacer.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-spacer">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-spacer-inner">
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-7660ef92 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="7660ef92"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="2024/01/21/the-magic-of-mobile-payments/index.html">The
+                                                                                                                                                        Magic
+                                                                                                                                                        of
+                                                                                                                                                        Mobile
+                                                                                                                                                        Payments</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-49d7d059 cmsmasters-line-clamp-yes cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="49d7d059"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>Location.
+                                                                                                                                                        Location.
+                                                                                                                                                        Location.
+                                                                                                                                                        This
+                                                                                                                                                        may
+                                                                                                                                                        be
+                                                                                                                                                        real
+                                                                                                                                                        estate’s
+                                                                                                                                                        golden
+                                                                                                                                                        rule,
+                                                                                                                                                        but
+                                                                                                                                                        it
+                                                                                                                                                        applies
+                                                                                                                                                        to
+                                                                                                                                                        payments
+                                                                                                                                                        now
+                                                                                                                                                        more
+                                                                                                                                                        than
+                                                                                                                                                        ever.
+                                                                                                                                                        Tomorrow’s
+                                                                                                                                                        industry
+                                                                                                                                                        leaders
+                                                                                                                                                        will
+                                                                                                                                                        go
+                                                                                                                                                        where
+                                                                                                                                                        their
+                                                                                                                                                        customers
+                                                                                                                                                        are
+                                                                                                                                                        &#8211;
+                                                                                                                                                        and
+                                                                                                                                                        their
+                                                                                                                                                        customers
+                                                                                                                                                        are
+                                                                                                                                                        going
+                                                                                                                                                        mobile.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-65a52b3e cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="65a52b3e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="2024/01/21/the-magic-of-mobile-payments/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">Learn
+                                                                                                                                                                    More</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-1167"
+                                                                                        class="cmsmasters-blog__post post-1167 post type-post status-publish format-standard has-post-thumbnail hentry category-payments tag-open-banking tag-payments-navigator">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="118"
+                                                                                                class="elementor elementor-118 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-324f3d5c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="324f3d5c"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-509d138b"
+                                                                                                                    data-id="509d138b"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-731e272 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="731e272"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74bce162"
+                                                                                                                                    data-id="74bce162"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-3418bfdf cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="3418bfdf"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="2024/01/18/request-to-paya-growing-global-trend-in-payments/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="1280"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-30x15.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-1365 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 1280px) 100vw, 1280px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-20x10.jpg 20w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7.jpg 1280w"
+                                                                                                                                                            sizes="(max-width: 1280px) 100vw, 1280px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1d685af5 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="1d685af5"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-wide">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-38a4d619"
+                                                                                                                                    data-id="38a4d619"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="47c62048"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    data-taxonomy="category"
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="taxonomy"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
+                                                                                                                                                                                class="term-wrap"><a
+                                                                                                                                                                                    class="term"
+                                                                                                                                                                                    rel="category tag"
+                                                                                                                                                                                    href="category/payments/index.html"><span>Payments</span></a></span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="61f14f89"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="date"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
+                                                                                                                                                                                18,
+                                                                                                                                                                                2024</span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                                                                                                            data-id="229e62e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="spacer.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-spacer">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-spacer-inner">
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-7660ef92 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="7660ef92"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="2024/01/18/request-to-paya-growing-global-trend-in-payments/index.html">Request
+                                                                                                                                                        to
+                                                                                                                                                        Pay
+                                                                                                                                                        &#8211;
+                                                                                                                                                        a
+                                                                                                                                                        Growing
+                                                                                                                                                        Global
+                                                                                                                                                        Trend
+                                                                                                                                                        in
+                                                                                                                                                        Payments</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-49d7d059 cmsmasters-line-clamp-yes cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="49d7d059"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>Organisations
+                                                                                                                                                        including
+                                                                                                                                                        banks,
+                                                                                                                                                        fintechs,
+                                                                                                                                                        and
+                                                                                                                                                        payment
+                                                                                                                                                        providers
+                                                                                                                                                        who
+                                                                                                                                                        want
+                                                                                                                                                        to
+                                                                                                                                                        play
+                                                                                                                                                        a
+                                                                                                                                                        leading
+                                                                                                                                                        role
+                                                                                                                                                        in
+                                                                                                                                                        tomorrow’s
+                                                                                                                                                        payment
+                                                                                                                                                        services
+                                                                                                                                                        ecosystem
+                                                                                                                                                        will
+                                                                                                                                                        need
+                                                                                                                                                        to
+                                                                                                                                                        be
+                                                                                                                                                        smart
+                                                                                                                                                        and
+                                                                                                                                                        start
+                                                                                                                                                        identifying
+                                                                                                                                                        their
+                                                                                                                                                        roles
+                                                                                                                                                        in
+                                                                                                                                                        the
+                                                                                                                                                        RtP
+                                                                                                                                                        ecosystem
+                                                                                                                                                        today.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-65a52b3e cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="65a52b3e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="2024/01/18/request-to-paya-growing-global-trend-in-payments/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">Learn
+                                                                                                                                                                    More</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-1207"
+                                                                                        class="cmsmasters-blog__post post-1207 post type-post status-publish format-standard has-post-thumbnail hentry category-payments tag-ecosystems tag-open-banking">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="118"
+                                                                                                class="elementor elementor-118 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-324f3d5c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="324f3d5c"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-509d138b"
+                                                                                                                    data-id="509d138b"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-731e272 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="731e272"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74bce162"
+                                                                                                                                    data-id="74bce162"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-3418bfdf cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="3418bfdf"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="2024/01/16/open-bankingwhere-partnerships-are-required/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="1280"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-30x15.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-1364 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 1280px) 100vw, 1280px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-20x10.jpg 20w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6.jpg 1280w"
+                                                                                                                                                            sizes="(max-width: 1280px) 100vw, 1280px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1d685af5 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="1d685af5"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-wide">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-38a4d619"
+                                                                                                                                    data-id="38a4d619"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="47c62048"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    data-taxonomy="category"
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="taxonomy"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
+                                                                                                                                                                                class="term-wrap"><a
+                                                                                                                                                                                    class="term"
+                                                                                                                                                                                    rel="category tag"
+                                                                                                                                                                                    href="category/payments/index.html"><span>Payments</span></a></span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="61f14f89"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="date"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
+                                                                                                                                                                                16,
+                                                                                                                                                                                2024</span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                                                                                                            data-id="229e62e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="spacer.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-spacer">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-spacer-inner">
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-7660ef92 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="7660ef92"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="2024/01/16/open-bankingwhere-partnerships-are-required/index.html">Open
+                                                                                                                                                        Banking
+                                                                                                                                                        &#8211;
+                                                                                                                                                        Where
+                                                                                                                                                        Partnerships
+                                                                                                                                                        are
+                                                                                                                                                        Required</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-49d7d059 cmsmasters-line-clamp-yes cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="49d7d059"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>Open
+                                                                                                                                                        Banking
+                                                                                                                                                        requires
+                                                                                                                                                        and
+                                                                                                                                                        depends
+                                                                                                                                                        on
+                                                                                                                                                        partnerships
+                                                                                                                                                        &#8211;
+                                                                                                                                                        from
+                                                                                                                                                        suppliers
+                                                                                                                                                        to
+                                                                                                                                                        business
+                                                                                                                                                        collaborators
+                                                                                                                                                        and
+                                                                                                                                                        from
+                                                                                                                                                        vendors
+                                                                                                                                                        to
+                                                                                                                                                        customers.
+                                                                                                                                                        Banks
+                                                                                                                                                        have
+                                                                                                                                                        to
+                                                                                                                                                        build
+                                                                                                                                                        an
+                                                                                                                                                        ecosystem
+                                                                                                                                                        of
+                                                                                                                                                        alliances.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-65a52b3e cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="65a52b3e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="2024/01/16/open-bankingwhere-partnerships-are-required/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">Learn
+                                                                                                                                                                    More</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-1244"
+                                                                                        class="cmsmasters-blog__post post-1244 post type-post status-publish format-standard has-post-thumbnail hentry category-core-banking tag-digital-decoupling tag-exponential-it">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="118"
+                                                                                                class="elementor elementor-118 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-324f3d5c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="324f3d5c"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-509d138b"
+                                                                                                                    data-id="509d138b"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-731e272 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="731e272"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74bce162"
+                                                                                                                                    data-id="74bce162"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-3418bfdf cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="3418bfdf"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="1280"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-30x15.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-1363 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 1280px) 100vw, 1280px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-20x10.jpg 20w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5.jpg 1280w"
+                                                                                                                                                            sizes="(max-width: 1280px) 100vw, 1280px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1d685af5 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="1d685af5"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-wide">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-38a4d619"
+                                                                                                                                    data-id="38a4d619"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="47c62048"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    data-taxonomy="category"
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="taxonomy"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
+                                                                                                                                                                                class="term-wrap"><a
+                                                                                                                                                                                    class="term"
+                                                                                                                                                                                    rel="category tag"
+                                                                                                                                                                                    href="category/core-banking/index.html"><span>Core
+                                                                                                                                                                                        Banking</span></a></span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="61f14f89"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="date"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
+                                                                                                                                                                                14,
+                                                                                                                                                                                2024</span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                                                                                                            data-id="229e62e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="spacer.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-spacer">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-spacer-inner">
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-7660ef92 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="7660ef92"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/index.html">Digital
+                                                                                                                                                        Decoupling:
+                                                                                                                                                        A
+                                                                                                                                                        Maturing
+                                                                                                                                                        Concept
+                                                                                                                                                        in
+                                                                                                                                                        Digital
+                                                                                                                                                        Disruption</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-49d7d059 cmsmasters-line-clamp-yes cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="49d7d059"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>Some
+                                                                                                                                                        organizations
+                                                                                                                                                        transform
+                                                                                                                                                        their
+                                                                                                                                                        business
+                                                                                                                                                        without
+                                                                                                                                                        a
+                                                                                                                                                        corresponding
+                                                                                                                                                        investment
+                                                                                                                                                        in
+                                                                                                                                                        transforming
+                                                                                                                                                        their
+                                                                                                                                                        legacy
+                                                                                                                                                        IT
+                                                                                                                                                        applications,
+                                                                                                                                                        a
+                                                                                                                                                        solution
+                                                                                                                                                        called
+                                                                                                                                                        digital
+                                                                                                                                                        decoupling.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-65a52b3e cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="65a52b3e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">Learn
+                                                                                                                                                                    More</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                                <div class="swiper-slide">
+                                                                                    <article id="post-1297"
+                                                                                        class="cmsmasters-blog__post post-1297 post type-post status-publish format-image has-post-thumbnail hentry category-credit tag-banking-trends tag-credit-research tag-credit-trends post_format-post-format-image">
+                                                                                        <div
+                                                                                            class="cmsmasters-blog__post-inner">
+                                                                                            <div data-elementor-type="cmsmasters_entry"
+                                                                                                data-elementor-id="118"
+                                                                                                class="elementor elementor-118 cmsmasters-header-position-absolute-">
+                                                                                                <div
+                                                                                                    class="elementor-inner">
+                                                                                                    <div
+                                                                                                        class="elementor-section-wrap">
+                                                                                                        <section
+                                                                                                            class="elementor-section elementor-top-section elementor-element elementor-element-324f3d5c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                            data-id="324f3d5c"
+                                                                                                            data-element_type="section">
+                                                                                                            <div
+                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-509d138b"
+                                                                                                                    data-id="509d138b"
+                                                                                                                    data-element_type="column">
+                                                                                                                    <div
+                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-731e272 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="731e272"
+                                                                                                                            data-element_type="section">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-74bce162"
+                                                                                                                                    data-id="74bce162"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-3418bfdf cmsmasters-object-fit cmsmasters-object-fit-cover elementor-absolute cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-featured-image cmsmasters-widget-image"
+                                                                                                                                            data-id="3418bfdf"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+                                                                                                                                            data-widget_type="cmsmasters-post-featured-image.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-widget-image__wrap">
+                                                                                                                                                    <a href="2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/index.html"
+                                                                                                                                                        data-elementor-open-lightbox=""
+                                                                                                                                                        aria-label="Featured Image"><img
+                                                                                                                                                            loading="lazy"
+                                                                                                                                                            decoding="async"
+                                                                                                                                                            width="1280"
+                                                                                                                                                            height="640"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-30x15.jpg"
+                                                                                                                                                            class="attachment-full size-full wp-image-1362 cmsmasters_img cmsmasters-lazyload lazyload"
+                                                                                                                                                            alt=""
+                                                                                                                                                            data-sizes="(max-width: 1280px) 100vw, 1280px"
+                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4.jpg"
+                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-20x10.jpg 20w"
+                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4.jpg 1280w"
+                                                                                                                                                            sizes="(max-width: 1280px) 100vw, 1280px" /></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                        <section
+                                                                                                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1d685af5 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                                                                                                            data-id="1d685af5"
+                                                                                                                            data-element_type="section"
+                                                                                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                                                            <div
+                                                                                                                                class="elementor-container elementor-column-gap-wide">
+                                                                                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-38a4d619"
+                                                                                                                                    data-id="38a4d619"
+                                                                                                                                    data-element_type="column">
+                                                                                                                                    <div
+                                                                                                                                        class="elementor-widget-wrap elementor-element-populated">
+                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="47c62048"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    data-taxonomy="category"
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="taxonomy"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
+                                                                                                                                                                                class="term-wrap"><a
+                                                                                                                                                                                    class="term"
+                                                                                                                                                                                    rel="category tag"
+                                                                                                                                                                                    href="category/credit/index.html"><span>Credit</span></a></span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
+                                                                                                                                            data-id="61f14f89"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="cmsmasters-meta-data">
+                                                                                                                                                    <div
+                                                                                                                                                        class="cmsmasters-meta-data__inner">
+                                                                                                                                                        <div
+                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
+                                                                                                                                                            <div
+                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
+                                                                                                                                                                <span
+                                                                                                                                                                    class="cmsmasters-postmeta"
+                                                                                                                                                                    data-name="date"><span
+                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
+                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
+                                                                                                                                                                                12,
+                                                                                                                                                                                2024</span></span></span></span>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                                                                                                            data-id="229e62e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="spacer.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-spacer">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-spacer-inner">
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-7660ef92 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
+                                                                                                                                            data-id="7660ef92"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-title.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <h3
+                                                                                                                                                    class="entry-title cmsmasters-widget-title__heading">
+                                                                                                                                                    <a
+                                                                                                                                                        href="2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/index.html">Adopting
+                                                                                                                                                        Digital
+                                                                                                                                                        Innovation
+                                                                                                                                                        Throughout
+                                                                                                                                                        the
+                                                                                                                                                        Credit
+                                                                                                                                                        Value
+                                                                                                                                                        Chain</a>
+                                                                                                                                                </h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-49d7d059 cmsmasters-line-clamp-yes cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
+                                                                                                                                            data-id="49d7d059"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-post-excerpt.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="entry-content">
+                                                                                                                                                    <p>The
+                                                                                                                                                        challenges
+                                                                                                                                                        lenders
+                                                                                                                                                        face
+                                                                                                                                                        are
+                                                                                                                                                        numerous.
+                                                                                                                                                        And
+                                                                                                                                                        achieving
+                                                                                                                                                        sustainable
+                                                                                                                                                        profitability
+                                                                                                                                                        is
+                                                                                                                                                        difficult
+                                                                                                                                                        since
+                                                                                                                                                        customers
+                                                                                                                                                        are
+                                                                                                                                                        less
+                                                                                                                                                        loyal
+                                                                                                                                                        than
+                                                                                                                                                        in
+                                                                                                                                                        the
+                                                                                                                                                        past,
+                                                                                                                                                        regulation
+                                                                                                                                                        more
+                                                                                                                                                        stringent
+                                                                                                                                                        and
+                                                                                                                                                        the
+                                                                                                                                                        economic
+                                                                                                                                                        outlook
+                                                                                                                                                        still
+                                                                                                                                                        uncertain.
+                                                                                                                                                    </p>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="elementor-element elementor-element-65a52b3e cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                                                                                                            data-id="65a52b3e"
+                                                                                                                                            data-element_type="widget"
+                                                                                                                                            data-widget_type="cmsmasters-button.default">
+                                                                                                                                            <div
+                                                                                                                                                class="elementor-widget-container">
+                                                                                                                                                <div
+                                                                                                                                                    class="elementor-widget-cmsmasters-button__button-container">
+                                                                                                                                                    <div
+                                                                                                                                                        class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                                                                                                                        <a href="2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/index.html"
+                                                                                                                                                            class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
+                                                                                                                                                            role="button"><span
+                                                                                                                                                                class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__icon"><i
+                                                                                                                                                                        aria-hidden="true"
+                                                                                                                                                                        class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
+                                                                                                                                                                    class="elementor-widget-cmsmasters-button__text">Learn
+                                                                                                                                                                    More</span></span></a>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </section>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </section>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </article>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-buttons-wrap">
+                                                                            <div class="swiper-buttons-wrap-inner">
+                                                                                <div
+                                                                                    class="swiper-button swiper-button-prev">
+                                                                                    <div class="swiper-button-inner"><span
+                                                                                            class="cmsmasters-wrap-icon"><i
+                                                                                                class="fas fa-chevron-left"></i></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="swiper-button swiper-button-next">
+                                                                                    <div class="swiper-button-inner"><span
+                                                                                            class="cmsmasters-wrap-icon"><i
+                                                                                                class="fas fa-chevron-right"></i></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-3e49ea9 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="3e49ea9" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-wide">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c37abce"
+                                        data-id="c37abce" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-be2bc97 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="be2bc97" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Have Any
+                                                        Quastions?</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-89b2ae6 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="89b2ae6" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Top
+                                                        Questions People Ask Us</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-03fe165 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
+                                                data-id="03fe165" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Got a question about how we’re organised, applying to work for us, or
+                                                        looking for financial or shareholder information? <a
+                                                            href="#">View more Q&amp;A here</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-6d5644f cmsmasters-trigger-icon-view-stacked cmsmasters-title-alignment-left cmsmasters-item-icon-position-left cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-toggles cmsmasters-widget-toggles"
+                                                data-id="6d5644f" data-element_type="widget"
+                                                data-settings="{&quot;toggles&quot;:[{&quot;toggle_title&quot;:&quot;What is an APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;54a4bf4&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Will I receive my quoted APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;832afa9&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Can you tell me how to apply for a loan?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;10c5781&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;When will I receive my money?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;800bd62&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;}],&quot;type&quot;:&quot;toggles&quot;}"
+                                                data-widget_type="cmsmasters-toggles.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-toggles__list"
+                                                        role="tablist">
+                                                        <div class="elementor-widget-cmsmasters-toggles__item">
+                                                            <h4 id="elementor-tab-title-1141"
+                                                                class="elementor-widget-cmsmasters-toggles__title"
+                                                                data-tab="1" role="tab"
+                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1141"
+                                                                aria-expanded="false"><a
+                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
+                                                                    href="#"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__title-text">What
+                                                                        is an APR?</span></a><span
+                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
+                                                                    aria-hidden="true"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
+                                                                            class="fas fa-minus"></i></span></span></h4>
+                                                            <div id="elementor-widget-cmsmasters-toggles__content-1141"
+                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
+                                                                data-tab="1" role="tabpanel"
+                                                                aria-labelledby="elementor-tab-title-1141">APR is the
+                                                                annual percentage rate (APR) and is used to describe the
+                                                                overall cost of money borrowed. It takes into account the
+                                                                interest rate, when it is charged (daily, weekly, monthly or
+                                                                annually), any fees charged when setting up the loan and any
+                                                                other costs applicable.</div>
+                                                        </div>
+                                                        <div class="elementor-widget-cmsmasters-toggles__item">
+                                                            <h4 id="elementor-tab-title-1142"
+                                                                class="elementor-widget-cmsmasters-toggles__title"
+                                                                data-tab="2" role="tab"
+                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1142"
+                                                                aria-expanded="false"><a
+                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
+                                                                    href="#"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__title-text">Will
+                                                                        I receive my quoted APR?</span></a><span
+                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
+                                                                    aria-hidden="true"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
+                                                                            class="fas fa-minus"></i></span></span></h4>
+                                                            <div id="elementor-widget-cmsmasters-toggles__content-1142"
+                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
+                                                                data-tab="2" role="tabpanel"
+                                                                aria-labelledby="elementor-tab-title-1142">APR is the
+                                                                annual percentage rate (APR) and is used to describe the
+                                                                overall cost of money borrowed. It takes into account the
+                                                                interest rate, when it is charged (daily, weekly, monthly or
+                                                                annually), any fees charged when setting up the loan and any
+                                                                other costs applicable.</div>
+                                                        </div>
+                                                        <div class="elementor-widget-cmsmasters-toggles__item">
+                                                            <h4 id="elementor-tab-title-1143"
+                                                                class="elementor-widget-cmsmasters-toggles__title"
+                                                                data-tab="3" role="tab"
+                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1143"
+                                                                aria-expanded="false"><a
+                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
+                                                                    href="#"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__title-text">Can
+                                                                        you tell me how to apply for a loan?</span></a><span
+                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
+                                                                    aria-hidden="true"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
+                                                                            class="fas fa-minus"></i></span></span></h4>
+                                                            <div id="elementor-widget-cmsmasters-toggles__content-1143"
+                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
+                                                                data-tab="3" role="tabpanel"
+                                                                aria-labelledby="elementor-tab-title-1143">APR is the
+                                                                annual percentage rate (APR) and is used to describe the
+                                                                overall cost of money borrowed. It takes into account the
+                                                                interest rate, when it is charged (daily, weekly, monthly or
+                                                                annually), any fees charged when setting up the loan and any
+                                                                other costs applicable.</div>
+                                                        </div>
+                                                        <div class="elementor-widget-cmsmasters-toggles__item">
+                                                            <h4 id="elementor-tab-title-1144"
+                                                                class="elementor-widget-cmsmasters-toggles__title"
+                                                                data-tab="4" role="tab"
+                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1144"
+                                                                aria-expanded="false"><a
+                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
+                                                                    href="#"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__title-text">When
+                                                                        will I receive my money?</span></a><span
+                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
+                                                                    aria-hidden="true"><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
+                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
+                                                                            class="fas fa-minus"></i></span></span></h4>
+                                                            <div id="elementor-widget-cmsmasters-toggles__content-1144"
+                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
+                                                                data-tab="4" role="tabpanel"
+                                                                aria-labelledby="elementor-tab-title-1144">APR is the
+                                                                annual percentage rate (APR) and is used to describe the
+                                                                overall cost of money borrowed. It takes into account the
+                                                                interest rate, when it is charged (daily, weekly, monthly or
+                                                                annually), any fees charged when setting up the loan and any
+                                                                other costs applicable.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-971176d cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="971176d" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">Still have
+                                                        questions about services?</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-a0cabea cmsmasters-button-align-center cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
+                                                data-id="a0cabea" data-element_type="widget"
+                                                data-widget_type="cmsmasters-button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-button__button-container">
+                                                        <div
+                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
+                                                            <a href="contacts/index.html"
+                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
+                                                                role="button"><span
+                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
+                                                                        class="elementor-widget-cmsmasters-button__text">Read
+                                                                        FAQs</span></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                class="elementor-section elementor-top-section elementor-element elementor-element-9d68c71 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                data-id="9d68c71" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1a7ec9f"
+                                        data-id="1a7ec9f" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-c232e6a cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-google-maps"
+                                                data-id="c232e6a" data-element_type="widget"
+                                                data-settings="{&quot;address&quot;:&quot;243 Heights Promenade, Brooklyn, NY, USA&quot;,&quot;zoom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;markers&quot;:[],&quot;address_type_global&quot;:&quot;address-g&quot;,&quot;map_type&quot;:&quot;roadmap&quot;,&quot;map_type_control&quot;:&quot;no&quot;,&quot;street_view_control&quot;:&quot;no&quot;,&quot;fullscreen_control&quot;:&quot;no&quot;,&quot;gesture_handling&quot;:&quot;yes&quot;}"
+                                                data-widget_type="cmsmasters-google-maps.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-cmsmasters-google-maps__wrapper"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b0529cf"
+                                        data-id="b0529cf" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-3dca669 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
+                                                data-id="3dca669" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Find our
+                                                        location and nearest branch or ATM</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-964ecad cmsmasters-widget-layout-column cmsmasters-value-position-inline cmsmasters-widget-align-column-left cmsmasters-widget-direction-default cmsmasters-widget-marker-element-icon cmsmasters-widget-marker-view-default cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-icon-list cmsmasters-widget-icon-list"
+                                                data-id="964ecad" data-element_type="widget"
+                                                data-widget_type="cmsmasters-icon-list.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul class="cmsmasters-widget-icon-list-items">
+                                                        <li class="cmsmasters-widget-icon-list-item active-icon-item">
+                                                            <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                <span class="cmsmasters-widget-icon-list-item-icon">
+                                                                    <span>
+                                                                        <i aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-location-2"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="cmsmasters-widget-icon-list-item-text-inner">
+                                                                    <span class="cmsmasters-widget-icon-list-item-text">
+                                                                        243 Heights Promenade, </span>
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Brooklyn,
+                                                                        NY, USA</span> </span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="cmsmasters-widget-icon-list-item active-icon-item">
+                                                            <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                <span class="cmsmasters-widget-icon-list-item-icon">
+                                                                    <span>
+                                                                        <i aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-mail-2"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span
+                                                                    class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                                        <a
+                                                                            href="mailto:example@example.com">example@example.com</a>
+                                                                    </span>
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Support
+                                                                        24/7</span> </span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="cmsmasters-widget-icon-list-item active-icon-item">
+                                                            <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                <span class="cmsmasters-widget-icon-list-item-icon">
+                                                                    <span>
+                                                                        <i aria-hidden="true"
+                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-phone-2"></i>
+                                                                    </span>
+                                                                </span>
+                                                                <span
+                                                                    class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                                        <a href="tel:+1%20452%20123%201235">+1 452 123
+                                                                            1235</a> </span>
+                                                                    <span
+                                                                        class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Free
+                                                                        Consultation</span> </span>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="cmsmasters-single-comments cmsmasters-section-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+@stop
