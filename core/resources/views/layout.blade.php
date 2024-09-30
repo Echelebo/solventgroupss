@@ -714,7 +714,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-button__button-container">
                                             <div class="elementor-widget-cmsmasters-button__button-container-inner"><a
-                                                    href="cmsms_service/everyday-spending-cards/index.html"
+                                                    href="{{route('bussines')}}"
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -729,7 +729,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-button__button-container">
                                             <div class="elementor-widget-cmsmasters-button__button-container-inner"><a
-                                                    href="cmsms_service/manage-your-account/index.html"
+                                                    href="{{route('commercial')}}"
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -758,7 +758,7 @@
                                                     </span>
                                                     <span class="cmsmasters-widget-icon-list-item-text-inner">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            Brooklyn Heights Promenade, Brooklyn, NY, USA </span>
+                                                            {{ $set->address }} </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -781,7 +781,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="mailto:example@exaple.com">example@exaple.com</a>
+                                                            <a href="mailto:{{ $set->email }}">{{ $set->email }}</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -805,7 +805,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="tel:+1%20452%20123%201235">+1 452 123 1235</a>
+                                                            <a>{{ $set->mobile }}</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -830,12 +830,12 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-site-logo__container">
                                             <div class="elementor-widget-cmsmasters-site-logo__image-container"><a
-                                                    href="https://multibank.cmsmasters.net/alternative"
+                                                    href="{{ route('home') }}"
                                                     class="elementor-widget-cmsmasters-site-logo__link"
                                                     rel="nofollow"><img
                                                         src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/logo-1.svg"
                                                         alt="Alternative" title="Alternative"
-                                                        class="cmsmasters-lazyload-disabled elementor-widget-cmsmasters-site-logo__img elementor-widget-cmsmasters-site-logo-main" /></a>
+                                                        class="cmsmasters-lazyload-disabled-x elementor-widget-cmsmasters-site-logo__img-x elementor-widget-cmsmasters-site-logo-main-x" /></a>
                                             </div>
                                         </div>
                                     </div>
