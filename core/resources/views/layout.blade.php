@@ -1284,7 +1284,7 @@
                                                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                             <div
                                                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                <a href="{{ route('auth.login') }}"
+                                                                                                                                <a href="{{ route('login') }}"
                                                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                                                     role="button"><span
                                                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
