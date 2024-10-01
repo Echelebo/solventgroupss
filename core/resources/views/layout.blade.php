@@ -1545,7 +1545,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('business') }}">Credit
+                                                            <a href="{{ route('bussines') }}">Credit
                                                                 Cards</a> </span>
                                                     </span>
                                                 </span>
