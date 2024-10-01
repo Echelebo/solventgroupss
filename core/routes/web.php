@@ -40,6 +40,8 @@ Route::get('/financialaction', 'FrontendController@financialaction')->name('fina
 Route::get('/insurancesupport', 'FrontendController@insurancesupport')->name('insurancesupport');
 Route::get('/cardeligibility', 'FrontendController@cardeligibility')->name('cardeligibility');
 Route::get('/moneytransfers', 'FrontendController@moneytransfers')->name('moneytransfers');
+Route::get('/openaccount', 'FrontendController@openaccount')->name('openaccount');
+Route::get('/security', 'FrontendController@security')->name('security');
 Route::get('/faq', 'FrontendController@faq')->name('faq');
 Route::get('/about', 'FrontendController@about')->name('about');
 Route::get('/blog', 'FrontendController@blog')->name('blog');

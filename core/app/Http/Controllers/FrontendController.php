@@ -29,6 +29,20 @@ class FrontendController extends Controller
         return view('front.index', $data);
     }
 
+    public function openaccount()
+    {
+        $set = Settings::first();
+        $data['title'] = $set->site_desc;
+        return view('front.openaccount', $data);
+    }
+
+    public function security()
+    {
+        $set = Settings::first();
+        $data['title'] = $set->site_desc;
+        return view('front.security', $data);
+    }
+
     public function personal()
     {
         $data['title'] = "Personal";
