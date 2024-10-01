@@ -5,17 +5,19 @@
 <!-- /Added by HTTrack -->
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="profile" href="https://gmpg.org/xfn/11" />
-    <title>{{ $title }} | {{ $set->site_name }}</title>
-    <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="Credit Union, Banking" href="#" />
-    <link rel="alternate" type="application/rss+xml" title="Credit Union, Banking" href="#" />
-    <link rel='stylesheet' id='cmsmasters-default-vars-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/assets/css/default-vars.min.css' type='text/css'
-        media='all' />
-    <style id='classic-theme-styles-inline-css' type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <title>Alternative – Multibank – Business and Finance WordPress Theme</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="alternate" type="application/rss+xml" title="Alternative » Feed"
+        href="https://multibank.cmsmasters.net/alternative/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Alternative » Comments Feed"
+        href="https://multibank.cmsmasters.net/alternative/comments/feed/">
+    <link rel="stylesheet" id="cmsmasters-default-vars-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/assets/css/default-vars.min.css"
+        type="text/css" media="all">
+    <style id="classic-theme-styles-inline-css" type="text/css">
         /*! This file is auto-generated */
         .wp-block-button__link {
             color: #fff;
@@ -33,7 +35,7 @@
             text-decoration: none
         }
     </style>
-    <style id='global-styles-inline-css' type='text/css'>
+    <style id="global-styles-inline-css" type="text/css">
         body {
             --wp--preset--color--black: #000000;
             --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -406,38 +408,39 @@
             line-height: 1.6;
         }
     </style>
-    <link rel='stylesheet' id='cookie-law-info-css'
-        href='{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='cookie-law-info-gdpr-css'
-        href='{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-layout-css'
-        href='{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='woocommerce-smallscreen-css'
-        href='{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css'
-        media='only screen and (max-width: 768px)' />
-    <link rel='stylesheet' id='woocommerce-general-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/woocommerce.min.css'
-        type='text/css' media='all' />
-    <style id='woocommerce-inline-inline-css' type='text/css'>
+    <link rel="stylesheet" id="cookie-law-info-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="cookie-law-info-gdpr-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-layout-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-smallscreen-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css"
+        type="text/css" media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" id="woocommerce-general-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/woocommerce.min.css"
+        type="text/css" media="all">
+    <style id="woocommerce-inline-inline-css" type="text/css">
         .woocommerce form .form-row .required {
             visibility: visible;
         }
     </style>
-    <link rel='stylesheet' id='multibank-root-style-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='multibank-frontend-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/assets/css/frontend.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='multibank-gutenberg-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/assets/css/gutenberg-wp-frontend.min.css' type='text/css'
-        media='all' />
-    <style id='multibank-gutenberg-inline-css' type='text/css'>
+    <link rel="stylesheet" id="multibank-root-style-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/style.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="multibank-frontend-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/assets/css/frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="multibank-gutenberg-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/assets/css/gutenberg-wp-frontend.min.css"
+        type="text/css" media="all">
+    <style id="multibank-gutenberg-inline-css" type="text/css">
         .has-cmsmasters-colors-text-color {
             color: var(--cmsmasters-colors-text) !important;
         }
@@ -494,50 +497,52 @@
             background-color: var(--cmsmasters-colors-bd) !important;
         }
     </style>
-    <link rel='stylesheet' id='elementor-frontend-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/css/frontend.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='swiper-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-25-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-25.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='cmsmasters-icons-css'
-        href='{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/cmsicons/css/cmsmasters-icons.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='cmsmasters-frontend-css'
-        href='{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/css/frontend.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-7199-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-7199.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='wc-frontend-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/wc-frontend.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-104-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-104.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-59-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-59.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='multibank-child-style-css'
-        href='{{ url('/') }}/wp-content/themes/multibank-child/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-shared-0-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-Local-Icons-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/cmsmasters-local-icons/Local-Icons/style.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css'
-        type='text/css' media='all' />
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js">
-    </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/jquery-migrate.min.js"
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/css/frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="swiper-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-25-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-25.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="cmsmasters-icons-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/cmsicons/css/cmsmasters-icons.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="cmsmasters-frontend-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/css/frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-7199-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-7199.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="wc-frontend-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/wc-frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-104-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-104.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-59-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-59.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="multibank-child-style-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank-child/style.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-Local-Icons-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-icons/Local-Icons/style.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css"
+        type="text/css" media="all">
+    <script type="text/javascript" src="https://multibank.cmsmasters.net/alternative/wp-includes/js/jquery/jquery.min.js"
+        id="jquery-core-js"></script>
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-includes/js/jquery/jquery-migrate.min.js"
         id="jquery-migrate-js"></script>
     <script type="text/javascript" id="cookie-law-info-js-extra">
         /* <![CDATA[ */
@@ -613,56 +618,58 @@
             "widget_position": "left"
         };
         var log_object = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php"
+            "ajax_url": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php"
         };
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js"
         id="cookie-law-info-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
         id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
         var wc_add_to_cart_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php",
             "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%",
             "i18n_view_cart": "View cart",
-            "cart_url": "\/cart\/",
+            "cart_url": "https:\/\/multibank.cmsmasters.net\/alternative\/cart\/",
             "is_cart": "",
             "cart_redirect_after_add": "no"
         };
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
         id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js"
-        defer="defer" data-wp-strategy="defer"></script>
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+        id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="woocommerce-js-extra">
         /* <![CDATA[ */
         var woocommerce_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
-            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+            "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%"
         };
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"
-        defer="defer" data-wp-strategy="defer"></script>
-    <link rel="alternate" type="application/json" href="{{ url('/') }}/wp-json/wp/v2/pages/7199.json" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
-    <meta name="generator" content="WordPress 6.4.5" />
-    <meta name="generator" content="WooCommerce 8.7.0" />
-    <link rel="canonical" href="\" />
-    <link rel='shortlink' href='\' />
-    <link rel="alternate"
-        type="application/json+oembed"
-        href="{{ url('/') }}/wp-json/oembed/1.0/embed2ff5.json?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F" />
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+        id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+    <link rel="https://api.w.org/" href="https://multibank.cmsmasters.net/alternative/wp-json/">
+    <link rel="alternate" type="application/json"
+        href="https://multibank.cmsmasters.net/alternative/wp-json/wp/v2/pages/7199">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD"
+        href="https://multibank.cmsmasters.net/alternative/xmlrpc.php?rsd">
+    <meta name="generator" content="WordPress 6.4.5">
+    <meta name="generator" content="WooCommerce 8.7.0">
+    <link rel="canonical" href="https://multibank.cmsmasters.net/alternative/">
+    <link rel="shortlink" href="https://multibank.cmsmasters.net/alternative/">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://multibank.cmsmasters.net/alternative/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="{{ url('/') }}/wp-json/oembed/1.0/embeddfea?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F&amp;format=xml" />
+        href="https://multibank.cmsmasters.net/alternative/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F&amp;format=xml">
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -672,10 +679,20 @@
     </noscript>
     <meta name="generator"
         content="Elementor 3.20.3; features: additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
-    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" sizes="32x32" />
-    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" />
-    <meta name="msapplication-TileImage" content="{{ url('/') }}/asset/{{ $logo->image_link2 }}" />
+    <link rel="icon"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/favicon-100x100.png"
+        sizes="32x32">
+    <link rel="icon"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/favicon-260x260.png"
+        sizes="192x192">
+    <link rel="apple-touch-icon"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/favicon-260x260.png">
+    <meta name="msapplication-TileImage"
+        content="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/favicon-300x300.png">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/6/common.js">
+    </script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/6/util.js">
+    </script>
 </head>
 
 <body id="cmsmasters_body"
@@ -2006,50 +2023,51 @@
     <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
     <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
     <!--googleon: all-->
-    <script type='text/javascript'>
+    <script type="text/javascript">
         (function() {
             var c = document.body.className;
             c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
             document.body.className = c;
         })();
     </script>
-    <link rel='stylesheet' id='elementor-icons-fa-regular-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-52-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-52.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-55-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-55.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='forminator-module-css-22-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/forminator/22_afdf0d603f1b4c7a522aa90ebb5e027f/css/style-22.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-icons-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/forminator-icons.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-utilities-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/forminator-utilities.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-forms-default-base-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.base.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-forms-default-full-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.full.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='buttons-css' href='wp-includes/css/buttons.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-118-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-118.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='cookie-law-info-table-css'
-        href='{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='e-animations-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/animations/animations.min.css'
-        type='text/css' media='all' />
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-52-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-52.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-55-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-55.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-module-css-22-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/forminator/22_afdf0d603f1b4c7a522aa90ebb5e027f/css/style-22.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-icons-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/forminator-ui/css/forminator-icons.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-utilities-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/forminator-ui/css/src/forminator-utilities.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-forms-default-base-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.base.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-forms-default-full-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.full.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="buttons-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-includes/css/buttons.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-118-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/css/post-118.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="cookie-law-info-table-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="e-animations-css"
+        href="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/animations/animations.min.css"
+        type="text/css" media="all">
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
         id="sourcebuster-js-js"></script>
     <script type="text/javascript" id="wc-order-attribution-js-extra">
         /* <![CDATA[ */
@@ -2080,13 +2098,13 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
         id="wc-order-attribution-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/lazysizes/lazysizes.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/lazysizes/lazysizes.min.js"
         id="lazysizes-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js">
-    </script>
+    <script type="text/javascript" src="https://multibank.cmsmasters.net/alternative/wp-includes/js/imagesloaded.min.js"
+        id="imagesloaded-js"></script>
     <script type="text/javascript" id="multibank-frontend-js-extra">
         /* <![CDATA[ */
         var cmsmasters_localize_vars = {
@@ -2097,30 +2115,32 @@
             "assets_data": {
                 "script": {
                     "swiper": {
-                        "src": "\/wp-content\/themes\/multibank\/assets\/lib\/swiper\/js\/swiper.min.js"
+                        "src": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/themes\/multibank\/assets\/lib\/swiper\/js\/swiper.min.js"
                     }
                 }
             }
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/themes/multibank/assets/js/frontend.min.js"
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank/assets/js/frontend.min.js"
         id="multibank-frontend-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/themes/multibank-child/assets/js/script.js"
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/themes/multibank-child/assets/js/script.js"
         id="multibank-child-script-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"
         id="perfect-scrollbar-js-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/jquery.validate.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/jquery.validate.min.js"
         id="forminator-jquery-validate-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/js/forminator-form.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/forminator-ui/js/forminator-form.min.js"
         id="forminator-form-js"></script>
     <script type="text/javascript" id="forminator-front-scripts-js-extra">
         /* <![CDATA[ */
         var ForminatorFront = {
-            "ajaxUrl": "\/wp-admin\/admin-ajax.php",
+            "ajaxUrl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
             "cform": {
                 "processing": "Submitting form, please wait",
                 "error": "An error occurred while processing the form. Please try again",
@@ -2135,7 +2155,7 @@
                 },
                 "captcha_error": "Invalid CAPTCHA",
                 "no_file_chosen": "No file chosen",
-                "intlTelInput_utils_script": "\/wp-content\/plugins\/forminator\/assets\/js\/library\/intlTelInputUtils.js",
+                "intlTelInput_utils_script": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/forminator\/assets\/js\/library\/intlTelInputUtils.js",
                 "process_error": "Please try again"
             },
             "poll": {
@@ -2154,7 +2174,8 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/forminator/build/front/front.multi.min.js"
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/build/front/front.multi.min.js"
         id="forminator-front-scripts-js"></script>
     <script type="text/javascript" id="forminator-front-scripts-js-after">
         /* <![CDATA[ */
@@ -2176,7 +2197,7 @@
                                             "is_preview": false,
                                             "preview_data": [],
                                             "last_submit_data": [],
-                                            "nonce": "3e2b496a73",
+                                            "nonce": "c2d6fd196d",
                                             "extra": {
                                                 "_wp_http_referer": "",
                                                 "page_id": 7199,
@@ -2198,7 +2219,7 @@
                                     "is_preview": false,
                                     "preview_data": [],
                                     "last_submit_data": [],
-                                    "nonce": "3e2b496a73",
+                                    "nonce": "c2d6fd196d",
                                     "extra": {
                                         "_wp_http_referer": "",
                                         "page_id": 7199,
@@ -2220,7 +2241,7 @@
                             "is_preview": false,
                             "preview_data": [],
                             "last_submit_data": [],
-                            "nonce": "3e2b496a73",
+                            "nonce": "c2d6fd196d",
                             "extra": {
                                 "_wp_http_referer": "",
                                 "page_id": 7199,
@@ -2241,39 +2262,40 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/inputmask.min.js"
         id="forminator-inputmask-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js"
         id="forminator-jquery-inputmask-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js"
         id="forminator-inputmask-binding-js"></script>
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGKYF0r2-jl1P0aUeqiD5kBWdJt5nwWac&amp;ver=1.0.0"
         id="google-maps-api-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/js/webpack.runtime.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/js/webpack.runtime.min.js"
         id="cmsmasters-webpack-runtime-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
         id="elementor-webpack-runtime-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
         id="elementor-frontend-modules-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/basicScroll/basicScroll.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/basicScroll/basicScroll.min.js"
         id="basicScroll-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/vanilla-tilt/vanilla-tilt.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/vanilla-tilt/vanilla-tilt.min.js"
         id="vanilla-tilt-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/anime/anime.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/anime/anime.min.js"
         id="anime-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/hc-sticky/hc-sticky.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/hc-sticky/hc-sticky.min.js"
         id="hc-sticky-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/headroom/headroom.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/headroom/headroom.min.js"
         id="headroom-js"></script>
     <script type="text/javascript" id="cmsmasters-frontend-js-before">
         /* <![CDATA[ */
@@ -2302,16 +2324,16 @@
             "instagram_user_id": "",
             "instagram_account_type": "personal",
             "nonces": {
-                "social_counter": "c83f978f2c",
-                "meta_data": "cca55569cc",
-                "ajax_widget": "628979789c"
+                "social_counter": "5357a25317",
+                "meta_data": "6bd9f418e3",
+                "ajax_widget": "c6dc0417e8"
             },
             "version": "1.11.9",
-            "ajaxurl": "\/wp-admin\/admin-ajax.php",
+            "ajaxurl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
             "urls": {
-                "assets": "\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/",
-                "modules": "\/wp-content\/plugins\/cmsmasters-elementor-addon\/modules\/",
-                "cmsmasters_assets": "\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/"
+                "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/",
+                "modules": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/modules\/",
+                "cmsmasters_assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/"
             },
             "multisite_current_blog_id": 3,
             "cmsmasters_version": "1.11.9",
@@ -2323,19 +2345,21 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/js/frontend.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/cmsmasters-elementor-addon/assets/js/frontend.min.js"
         id="cmsmasters-frontend-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
         id="elementor-waypoints-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js">
-    </script>
+    <script type="text/javascript" src="https://multibank.cmsmasters.net/alternative/wp-includes/js/jquery/ui/core.min.js"
+        id="jquery-ui-core-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js" id="swiper-js"></script>
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js"
+        id="swiper-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" id="share-link-js">
-    </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js"
+        id="share-link-js"></script>
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
         id="elementor-dialog-js"></script>
     <script type="text/javascript" id="elementor-frontend-js-before">
         /* <![CDATA[ */
@@ -2431,7 +2455,7 @@
                 "e_image_loading_optimization": true
             },
             "urls": {
-                "assets": "\/wp-content\/plugins\/elementor\/assets\/"
+                "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/elementor\/assets\/"
             },
             "swiperClass": "swiper",
             "settings": {
@@ -2457,11 +2481,25 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend.min.js"
-        id="elementor-frontend-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js"
-        id="preloaded-modules-js"></script>
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/js/frontend.min.js"
+        id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js"
+        id="preloaded-modules-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+
+
+
+
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/inputmask.min.js?ver=1.29.2"
+        async="" defer=""></script>
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js?ver=1.29.2"
+        async="" defer=""></script>
+    <script type="text/javascript"
+        src="https://multibank.cmsmasters.net/alternative/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js?ver=1.29.2"
+        async="" defer=""></script>
 </body>
 
 </html>
