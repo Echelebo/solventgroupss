@@ -836,7 +836,7 @@
                                                     rel="nofollow"><img
                                                         src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/logo-1.svg"
                                                         alt="Alternative" title="Alternative"
-                                                        class="cmsmasters-lazyload-disabled-x elementor-widget-cmsmasters-site-logo__img-x elementor-widget-cmsmasters-site-logo-main-x" /></a>
+                                                        class="cmsmasters-lazyload-disabled elementor-widget-cmsmasters-site-logo__img elementor-widget-cmsmasters-site-logo-main" /></a>
                                             </div>
                                         </div>
                                     </div>
