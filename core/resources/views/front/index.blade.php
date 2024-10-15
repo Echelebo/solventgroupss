@@ -41,7 +41,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <h2
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Stay In Control Your Finances With Our Bank</h2>
+                                                                        Stay In Control Of Your Finances With Our Bank</h2>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-079a59b cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -50,7 +50,8 @@
                                                                 <div class="elementor-widget-container">
                                                                     <p
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        The advantage of online banking is that you can pay
+                                                                        The advantage of {{ $set->site_name }} is that you
+                                                                        can pay
                                                                         bills superfast, and your account is automatically
                                                                         credited or debited</p>
                                                                 </div>
@@ -63,7 +64,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="contacts/index.html"
+                                                                            <a href="{{ route('about') }}"
                                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                 role="button"><span
                                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -71,7 +72,7 @@
                                                                                             aria-hidden="true"
                                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
                                                                                         class="elementor-widget-cmsmasters-button__text">More
-                                                                                        About App</span></span></a>
+                                                                                        About Us</span></span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -124,7 +125,7 @@
                                                                     <p
                                                                         class="elementor-heading-title elementor-size-default">
                                                                         Check out some of the things you can do with our
-                                                                        mobile banking app.</p>
+                                                                        internet banking.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-c513947 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
@@ -135,15 +136,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="services/index.html"
-                                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
-                                                                                role="button"><span
-                                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
-                                                                                        class="elementor-widget-cmsmasters-button__icon"><i
-                                                                                            aria-hidden="true"
-                                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
-                                                                                        class="elementor-widget-cmsmasters-button__text">More
-                                                                                        About App</span></span></a>
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -187,7 +180,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="blog/index.html"
+                                                                            <a href="{{ route('about') }}"
                                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                 role="button"><span
                                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -195,7 +188,7 @@
                                                                                             aria-hidden="true"
                                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
                                                                                         class="elementor-widget-cmsmasters-button__text">Show
-                                                                                        Blog</span></span></a>
+                                                                                        now</span></span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -211,7 +204,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="contacts/index.html"
+                                                            <a href="{{ route('contacts') }}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -259,7 +252,7 @@
                                                                 data-id="984a0bf" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="cmsms_service/mortgages/index.html"
+                                                                    <a href="{{ route('mortgages') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -297,7 +290,7 @@
                                                                 data-id="3c9f7f7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="cmsms_service/manage-your-account/index.html"
+                                                                    <a href="{{ route('bussines') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">

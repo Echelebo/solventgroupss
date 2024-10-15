@@ -10,8 +10,8 @@
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <title>{{ $title }} | {{ $set->site_name }}</title>
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="Credit Union, Banking" href="#" />
-    <link rel="alternate" type="application/rss+xml" title="Credit Union, Banking" href="#" />
+    <link rel="alternate" type="application/rss+xml" title="Solvent Group, Banking" href="#" />
+    <link rel="alternate" type="application/rss+xml" title="Solvent Group, Banking" href="#" />
     <link rel='stylesheet' id='cmsmasters-default-vars-css'
         href='{{ url('/') }}/wp-content/themes/multibank/assets/css/default-vars.min.css' type='text/css'
         media='all' />
@@ -1694,6 +1694,77 @@
                                     </div>
                                 </div>
                             </div>
+                            <div>
+                                <select onchange="doGTranslate(this);"
+                                    class="border-none outline-none text-white p-2 caption2">
+                                    <option value="">Language</option>
+                                    <option value="en|af">Afrikaans</option>
+                                    <option value="en|sq">Albanian</option>
+                                    <option value="en|ar">Arabic</option>
+                                    <option value="en|hy">Armenian</option>
+                                    <option value="en|az">Azerbaijani</option>
+                                    <option value="en|eu">Basque</option>
+                                    <option value="en|be">Belarusian</option>
+                                    <option value="en|bg">Bulgarian</option>
+                                    <option value="en|ca">Catalan</option>
+                                    <option value="en|zh-CN">Chinese (Simplified)</option>
+                                    <option value="en|zh-TW">Chinese (Traditional)</option>
+                                    <option value="en|hr">Croatian</option>
+                                    <option value="en|cs">Czech</option>
+                                    <option value="en|da">Danish</option>
+                                    <option value="en|nl">Dutch</option>
+                                    <option value="en|en">English</option>
+                                    <option value="en|et">Estonian</option>
+                                    <option value="en|tl">Filipino</option>
+                                    <option value="en|fi">Finnish</option>
+                                    <option value="en|fr">French</option>
+                                    <option value="en|gl">Galician</option>
+                                    <option value="en|ka">Georgian</option>
+                                    <option value="en|de">German</option>
+                                    <option value="en|el">Greek</option>
+                                    <option value="en|ht">Haitian Creole</option>
+                                    <option value="en|iw">Hebrew</option>
+                                    <option value="en|hi">Hindi</option>
+                                    <option value="en|hu">Hungarian</option>
+                                    <option value="en|is">Icelandic</option>
+                                    <option value="en|id">Indonesian</option>
+                                    <option value="en|ga">Irish</option>
+                                    <option value="en|it">Italian</option>
+                                    <option value="en|ja">Japanese</option>
+                                    <option value="en|ko">Korean</option>
+                                    <option value="en|lv">Latvian</option>
+                                    <option value="en|lt">Lithuanian</option>
+                                    <option value="en|mk">Macedonian</option>
+                                    <option value="en|ms">Malay</option>
+                                    <option value="en|mt">Maltese</option>
+                                    <option value="en|no">Norwegian</option>
+                                    <option value="en|fa">Persian</option>
+                                    <option value="en|pl">Polish</option>
+                                    <option value="en|pt">Portuguese</option>
+                                    <option value="en|ro">Romanian</option>
+                                    <option value="en|ru">Russian</option>
+                                    <option value="en|sr">Serbian</option>
+                                    <option value="en|sk">Slovak</option>
+                                    <option value="en|sl">Slovenian</option>
+                                    <option value="en|es">Spanish</option>
+                                    <option value="en|sw">Swahili</option>
+                                    <option value="en|sv">Swedish</option>
+                                    <option value="en|th">Thai</option>
+                                    <option value="en|tr">Turkish</option>
+                                    <option value="en|uk">Ukrainian</option>
+                                    <option value="en|ur">Urdu</option>
+                                    <option value="en|vi">Vietnamese</option>
+                                    <option value="en|cy">Welsh</option>
+                                    <option value="en|yi">Yiddish</option>
+                                </select><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    fill="currentColor" viewBox="0 0 256 256"
+                                    class="text-xs text-white icon -right-2">
+                                    <path
+                                        d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z">
+                                    </path>
+                                </svg>
+                                <div id="google_translate_element2"></div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -1710,7 +1781,7 @@
                                     data-widget_type="cmsmasters-title.default">
                                     <div class="elementor-widget-container">
                                         <div class="cmsmasters-widget-title__heading"><a href="{{ route('home') }}"
-                                                class="">solvent groups</a></div>
+                                                class="">{{ $set->site_name }}</a></div>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-467506ee elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -1871,7 +1942,8 @@
                                             Functional </a>
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-functional"
-                                                class="cli-user-preference-checkbox" data-id="checkbox-functional" />
+                                                class="cli-user-preference-checkbox"
+                                                data-id="checkbox-functional" />
                                             <label for="wt-cli-checkbox-functional" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Functional</span></label>
@@ -2006,6 +2078,19 @@
     <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
     <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
     <!--googleon: all-->
+
+    <script type="text/javascript">
+        function googleTranslateElementInit2() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                autoDisplay: false
+            }, 'google_translate_element2');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
+    </script>
+
+
     <script type='text/javascript'>
         (function() {
             var c = document.body.className;
