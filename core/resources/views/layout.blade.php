@@ -1585,7 +1585,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('insurancesupport') }}">Mobile
+                                                            <a href="{{ route('mobilepayments') }}">Mobile
                                                                 Banking</a> </span>
                                                     </span>
                                                 </span>
@@ -1596,7 +1596,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('security') }}">Money
+                                                            <a href="{{ route('moneytransfers') }}">Money
                                                                 Transfers</a> </span>
                                                     </span>
                                                 </span>
@@ -1629,7 +1629,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('financialaction') }}">Investments</a>
+                                                            <a href="{{ route('investments') }}">Investments</a>
                                                         </span>
                                                     </span>
                                                 </span>
