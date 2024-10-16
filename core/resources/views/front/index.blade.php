@@ -50,9 +50,9 @@
                                                                 <div class="elementor-widget-container">
                                                                     <p
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        The advantage of online banking is that you can pay
-                                                                        bills superfast, and your account is automatically
-                                                                        credited or debited</p>
+                                                                        The advantage of online banking is that you can
+                                                                        pay bills superfast, and your account is
+                                                                        automatically credited or debited</p>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-44ce5d6 cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
@@ -63,7 +63,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="https://multibank.cmsmasters.net/alternative/contacts/"
+                                                                            <a href="{{ url('/') }}/contacts/"
                                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                 role="button"><span
                                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -71,7 +71,8 @@
                                                                                             aria-hidden="true"
                                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
                                                                                         class="elementor-widget-cmsmasters-button__text">More
-                                                                                        About App</span></span></a></div>
+                                                                                        About App</span></span></a>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -134,7 +135,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="https://multibank.cmsmasters.net/alternative/services/"
+                                                                            <a href="{{ url('/') }}/services/"
                                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                 role="button"><span
                                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -142,7 +143,8 @@
                                                                                             aria-hidden="true"
                                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
                                                                                         class="elementor-widget-cmsmasters-button__text">More
-                                                                                        About App</span></span></a></div>
+                                                                                        About App</span></span></a>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -173,8 +175,8 @@
                                                                 <div class="elementor-widget-container">
                                                                     <p
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        Check more information &amp; stories about our bank
-                                                                        in latests posts.</p>
+                                                                        Check more information &amp; stories about our
+                                                                        bank in latests posts.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-91c98eb cmsmasters-icon-arrangement-together cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
@@ -185,7 +187,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="https://multibank.cmsmasters.net/alternative/blog/"
+                                                                            <a href="{{ url('/') }}/blog/"
                                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                 role="button"><span
                                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -193,7 +195,8 @@
                                                                                             aria-hidden="true"
                                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
                                                                                         class="elementor-widget-cmsmasters-button__text">Show
-                                                                                        Blog</span></span></a></div>
+                                                                                        Blog</span></span></a>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -208,12 +211,13 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="https://multibank.cmsmasters.net/alternative/contacts/"
+                                                            <a href="{{ url('/') }}/contacts/"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
                                                                         class="elementor-widget-cmsmasters-button__text">Need
-                                                                        Help?</span></span></a></div>
+                                                                        Help?</span></span></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -232,16 +236,16 @@
                                                 data-id="a1f73ad" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Great offer
-                                                        for great experience</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">Great
+                                                        offer for great experience</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-c72bc39 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                                 data-id="c72bc39" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Choose What
-                                                        Right for You</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">Choose
+                                                        What Right for You</h2>
                                                 </div>
                                             </div>
                                             <section
@@ -255,7 +259,7 @@
                                                                 data-id="984a0bf" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/mortgages/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/mortgages/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -293,7 +297,7 @@
                                                                 data-id="3c9f7f7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -331,7 +335,7 @@
                                                                 data-id="c8fdba5" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -370,7 +374,7 @@
                                                                 data-id="7f0d2b2" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/easy-access-savings-account/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -521,20 +525,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             fetchpriority="high"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7068 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -564,7 +568,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/">Manage
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/manage-your-account/">Manage
                                                                                                                                                         your
                                                                                                                                                         account
                                                                                                                                                         anytime</a>
@@ -643,7 +647,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -723,19 +727,19 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7076 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -765,7 +769,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/">Your
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/your-financial-action-plan/">Your
                                                                                                                                                         financial
                                                                                                                                                         action
                                                                                                                                                         plan
@@ -851,7 +855,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -931,19 +935,19 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7075 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -973,7 +977,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/">Credit
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/">Credit
                                                                                                                                                         card
                                                                                                                                                         eligibility
                                                                                                                                                         checker</a>
@@ -1055,7 +1059,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1135,20 +1139,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7074 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1178,7 +1182,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/">Home
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-improvement-loan/">Home
                                                                                                                                                         improvement
                                                                                                                                                         and
                                                                                                                                                         car
@@ -1254,7 +1258,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1334,20 +1338,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7073 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1377,7 +1381,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/">Staying
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/">Staying
                                                                                                                                                         safe
                                                                                                                                                         and
                                                                                                                                                         growing
@@ -1451,7 +1455,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1531,20 +1535,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7072 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1574,7 +1578,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/">Home
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-insurance-support/">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -1657,7 +1661,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1737,20 +1741,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             fetchpriority="high"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7068 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1780,7 +1784,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/">Manage
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/manage-your-account/">Manage
                                                                                                                                                         your
                                                                                                                                                         account
                                                                                                                                                         anytime</a>
@@ -1859,7 +1863,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1939,19 +1943,19 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7076 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1981,7 +1985,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/">Your
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/your-financial-action-plan/">Your
                                                                                                                                                         financial
                                                                                                                                                         action
                                                                                                                                                         plan
@@ -2067,7 +2071,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2147,19 +2151,19 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7075 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2189,7 +2193,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/">Credit
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/">Credit
                                                                                                                                                         card
                                                                                                                                                         eligibility
                                                                                                                                                         checker</a>
@@ -2271,7 +2275,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2351,20 +2355,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7074 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2394,7 +2398,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/">Home
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-improvement-loan/">Home
                                                                                                                                                         improvement
                                                                                                                                                         and
                                                                                                                                                         car
@@ -2470,7 +2474,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2550,20 +2554,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7073 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2593,7 +2597,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/">Staying
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/">Staying
                                                                                                                                                         safe
                                                                                                                                                         and
                                                                                                                                                         growing
@@ -2667,7 +2671,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2747,20 +2751,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7072 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2790,7 +2794,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/">Home
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-insurance-support/">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -2873,7 +2877,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2953,20 +2957,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             fetchpriority="high"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7068 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2996,7 +3000,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/">Manage
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/manage-your-account/">Manage
                                                                                                                                                         your
                                                                                                                                                         account
                                                                                                                                                         anytime</a>
@@ -3075,7 +3079,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/manage-your-account/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/manage-your-account/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3155,19 +3159,19 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7076 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3197,7 +3201,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/">Your
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/your-financial-action-plan/">Your
                                                                                                                                                         financial
                                                                                                                                                         action
                                                                                                                                                         plan
@@ -3283,7 +3287,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3363,19 +3367,19 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7075 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3405,7 +3409,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/">Credit
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/">Credit
                                                                                                                                                         card
                                                                                                                                                         eligibility
                                                                                                                                                         checker</a>
@@ -3487,7 +3491,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3567,20 +3571,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7074 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3610,7 +3614,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/">Home
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-improvement-loan/">Home
                                                                                                                                                         improvement
                                                                                                                                                         and
                                                                                                                                                         car
@@ -3686,7 +3690,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3766,20 +3770,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7073 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3809,7 +3813,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/">Staying
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/">Staying
                                                                                                                                                         safe
                                                                                                                                                         and
                                                                                                                                                         growing
@@ -3883,7 +3887,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3963,20 +3967,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/"
+                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="770"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-7072 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, {{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
                                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -4006,7 +4010,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/">Home
+                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-insurance-support/">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -4089,7 +4093,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-insurance-support/"
+                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -4126,7 +4130,8 @@
                                                                                     tabindex="0" role="button"
                                                                                     aria-label="Previous slide"
                                                                                     aria-controls="swiper-wrapper-c8f1022a10d1311108c">
-                                                                                    <div class="swiper-button-inner"><span
+                                                                                    <div class="swiper-button-inner">
+                                                                                        <span
                                                                                             class="cmsmasters-wrap-icon"><i
                                                                                                 class="fas fa-chevron-left"></i></span>
                                                                                     </div>
@@ -4135,7 +4140,8 @@
                                                                                     tabindex="0" role="button"
                                                                                     aria-label="Next slide"
                                                                                     aria-controls="swiper-wrapper-c8f1022a10d1311108c">
-                                                                                    <div class="swiper-button-inner"><span
+                                                                                    <div class="swiper-button-inner">
+                                                                                        <span
                                                                                             class="cmsmasters-wrap-icon"><i
                                                                                                 class="fas fa-chevron-right"></i></span>
                                                                                     </div>
@@ -4185,25 +4191,25 @@
                                                 data-id="88b7f36" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Investments
-                                                    </h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        Investments</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-d281f6e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                                 data-id="d281f6e" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Invest with
-                                                        $0 Commission</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">Invest
+                                                        with $0 Commission</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-f5202cc cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                                 data-id="f5202cc" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">When you're
-                                                        ready, we're ready with a MultiBank High-Yield Savings Account. Save
-                                                        more with no limit on earnings.</p>
+                                                    <p class="elementor-heading-title elementor-size-default">When
+                                                        you're ready, we're ready with a MultiBank High-Yield Savings
+                                                        Account. Save more with no limit on earnings.</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-ba53d93 cmsmasters-widget-layout-row cmsmasters-widget-align-stretch cmsmasters-widget-direction-default cmsmasters-widget-marker-element-icon cmsmasters-widget-marker-view-default cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-icon-list cmsmasters-widget-icon-list"
@@ -4265,12 +4271,13 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/easy-access-savings-account/"
+                                                            <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
                                                                         class="elementor-widget-cmsmasters-button__text">Learn
-                                                                        More</span></span></a></div>
+                                                                        More</span></span></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -4308,9 +4315,9 @@
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">The UK’s
                                                         largest banking groups are required to comply with ring-fencing
-                                                        requirements from 1 January 2019. From shares to shopping centres
-                                                        and term deposits to toll roads, there’s a huge range of investments
-                                                    </p>
+                                                        requirements from 1 January 2019. From shares to shopping
+                                                        centres and term deposits to toll roads, there’s a huge range of
+                                                        investments</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-65b730a elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
@@ -4320,12 +4327,13 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="https://multibank.cmsmasters.net/alternative/shop/"
+                                                            <a href="{{ url('/') }}/shop/"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
                                                                         class="elementor-widget-cmsmasters-button__text">Download
-                                                                        App</span></span></a></div>
+                                                                        App</span></span></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -4336,7 +4344,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="https://multibank.cmsmasters.net/alternative/contacts/"
+                                                            <a href="{{ url('/') }}/contacts/"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -4344,7 +4352,8 @@
                                                                             aria-hidden="true"
                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
                                                                         class="elementor-widget-cmsmasters-button__text">Learn
-                                                                        More</span></span></a></div>
+                                                                        More</span></span></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -4386,8 +4395,8 @@
                                                 data-id="f7a1ca6" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Our Banking
-                                                        Services for You</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">Our
+                                                        Banking Services for You</h2>
                                                 </div>
                                             </div>
                                             <section
@@ -4401,7 +4410,7 @@
                                                                 data-id="b6a67e7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/mortgages/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/mortgages/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4450,7 +4459,7 @@
                                                                 data-id="ca6a7a1" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4499,7 +4508,7 @@
                                                                 data-id="b969cee" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4554,7 +4563,7 @@
                                                                 data-id="afe97bc" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/home-improvement-loan/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4603,7 +4612,7 @@
                                                                 data-id="92bc7e6" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/your-financial-action-plan/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4652,7 +4661,7 @@
                                                                 data-id="cdefb94" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/easy-access-savings-account/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4707,7 +4716,7 @@
                                                                 data-id="bff80b1" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4756,7 +4765,7 @@
                                                                 data-id="e2dfa32" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="https://multibank.cmsmasters.net/alternative/cmsms_service/easy-access-savings-account/"
+                                                                    <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4824,8 +4833,8 @@
                                                 data-id="ec4d44e" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">Depostis are
-                                                        now easier than ever</p>
+                                                    <p class="elementor-heading-title elementor-size-default">Depostis
+                                                        are now easier than ever</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2ce79c8 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-forminator"
@@ -4895,7 +4904,8 @@
                                                                             <label for="calculation-1-field_670f73cbe068a"
                                                                                 id="calculation-1-field_670f73cbe068a-label"
                                                                                 class="forminator-label">During this
-                                                                                period you will accumulate:</label><input
+                                                                                period you will
+                                                                                accumulate:</label><input
                                                                                 name="calculation-1" value=""
                                                                                 id="calculation-1-field_670f73cbe068a"
                                                                                 class="forminator-calculation forminator-input"
@@ -4904,7 +4914,8 @@
                                                                                 data-precision="0" data-is-hidden=""
                                                                                 disabled="disabled" data-decimals="0"
                                                                                 data-inputmask="'groupSeparator': ' ', 'radixPoint': '', 'digits': '0'"
-                                                                                inputmode="decimal"></div>
+                                                                                inputmode="decimal">
+                                                                        </div>
                                                                     </div>
                                                                 </div><input type="hidden" name="referer_url"
                                                                     value="">
@@ -4924,10 +4935,9 @@
                                                                     type="hidden" name="form_type"
                                                                     value="default"><input type="hidden"
                                                                     name="current_url"
-                                                                    value="https://multibank.cmsmasters.net/alternative/"><input
-                                                                    type="hidden" name="render_id"
-                                                                    value="0"><input type="hidden"
-                                                                    name="action"
+                                                                    value="{{ url('/') }}/"><input type="hidden"
+                                                                    name="render_id" value="0"><input
+                                                                    type="hidden" name="action"
                                                                     value="forminator_submit_form_custom-forms">
                                                             </form>
                                                         </div>
@@ -5026,20 +5036,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/"
+                                                                                                                                                    <a href="{{ url('/') }}/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="1280"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-30x15.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-30x15.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-1367 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-20x10.jpg 20w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-9.jpg 1280w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9.jpg 1280w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-20x10.jpg 20w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9-20x10.jpg 20w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9.jpg 1280w"
                                                                                                                                                             sizes="(max-width: 1280px) 100vw, 1280px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -5083,7 +5093,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="https://multibank.cmsmasters.net/alternative/category/new-digital/"><span>New
+                                                                                                                                                                                    href="{{ url('/') }}/category/new-digital/"><span>New
                                                                                                                                                                                         Digital</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
@@ -5141,7 +5151,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/">In
+                                                                                                                                                        href="{{ url('/') }}/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/">In
                                                                                                                                                         Banking,
                                                                                                                                                         Sustainability
                                                                                                                                                         is
@@ -5202,7 +5212,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/"
+                                                                                                                                                        <a href="{{ url('/') }}/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -5272,20 +5282,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/2024/01/21/the-magic-of-mobile-payments/"
+                                                                                                                                                    <a href="{{ url('/') }}/2024/01/21/the-magic-of-mobile-payments/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="1280"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-30x15.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-30x15.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-1366 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-20x10.jpg 20w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-8.jpg 1280w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8.jpg 1280w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-20x10.jpg 20w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8-20x10.jpg 20w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-8.jpg 1280w"
                                                                                                                                                             sizes="(max-width: 1280px) 100vw, 1280px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -5329,7 +5339,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="https://multibank.cmsmasters.net/alternative/category/core-banking/"><span>Core
+                                                                                                                                                                                    href="{{ url('/') }}/category/core-banking/"><span>Core
                                                                                                                                                                                         Banking</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
@@ -5387,7 +5397,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/2024/01/21/the-magic-of-mobile-payments/">The
+                                                                                                                                                        href="{{ url('/') }}/2024/01/21/the-magic-of-mobile-payments/">The
                                                                                                                                                         Magic
                                                                                                                                                         of
                                                                                                                                                         Mobile
@@ -5452,7 +5462,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/2024/01/21/the-magic-of-mobile-payments/"
+                                                                                                                                                        <a href="{{ url('/') }}/2024/01/21/the-magic-of-mobile-payments/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -5522,20 +5532,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/2024/01/18/request-to-paya-growing-global-trend-in-payments/"
+                                                                                                                                                    <a href="{{ url('/') }}/2024/01/18/request-to-paya-growing-global-trend-in-payments/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="1280"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-30x15.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-30x15.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-1365 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-20x10.jpg 20w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-7.jpg 1280w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7.jpg 1280w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-20x10.jpg 20w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7-20x10.jpg 20w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-7.jpg 1280w"
                                                                                                                                                             sizes="(max-width: 1280px) 100vw, 1280px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -5579,7 +5589,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="https://multibank.cmsmasters.net/alternative/category/payments/"><span>Payments</span></a></span></span></span></span>
+                                                                                                                                                                                    href="{{ url('/') }}/category/payments/"><span>Payments</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -5636,7 +5646,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/2024/01/18/request-to-paya-growing-global-trend-in-payments/">Request
+                                                                                                                                                        href="{{ url('/') }}/2024/01/18/request-to-paya-growing-global-trend-in-payments/">Request
                                                                                                                                                         to
                                                                                                                                                         Pay
                                                                                                                                                         –
@@ -5705,7 +5715,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/2024/01/18/request-to-paya-growing-global-trend-in-payments/"
+                                                                                                                                                        <a href="{{ url('/') }}/2024/01/18/request-to-paya-growing-global-trend-in-payments/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -5775,20 +5785,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/2024/01/16/open-bankingwhere-partnerships-are-required/"
+                                                                                                                                                    <a href="{{ url('/') }}/2024/01/16/open-bankingwhere-partnerships-are-required/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="1280"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-30x15.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-30x15.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-1364 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-20x10.jpg 20w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-6.jpg 1280w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg 1280w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-20x10.jpg 20w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6-20x10.jpg 20w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg 1280w"
                                                                                                                                                             sizes="(max-width: 1280px) 100vw, 1280px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -5832,7 +5842,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="https://multibank.cmsmasters.net/alternative/category/payments/"><span>Payments</span></a></span></span></span></span>
+                                                                                                                                                                                    href="{{ url('/') }}/category/payments/"><span>Payments</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -5889,7 +5899,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/2024/01/16/open-bankingwhere-partnerships-are-required/">Open
+                                                                                                                                                        href="{{ url('/') }}/2024/01/16/open-bankingwhere-partnerships-are-required/">Open
                                                                                                                                                         Banking
                                                                                                                                                         –
                                                                                                                                                         Where
@@ -5947,7 +5957,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/2024/01/16/open-bankingwhere-partnerships-are-required/"
+                                                                                                                                                        <a href="{{ url('/') }}/2024/01/16/open-bankingwhere-partnerships-are-required/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -6017,20 +6027,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/"
+                                                                                                                                                    <a href="{{ url('/') }}/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="1280"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-30x15.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-30x15.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-1363 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-20x10.jpg 20w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-5.jpg 1280w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5.jpg 1280w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-20x10.jpg 20w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5-20x10.jpg 20w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-5.jpg 1280w"
                                                                                                                                                             sizes="(max-width: 1280px) 100vw, 1280px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -6074,7 +6084,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="https://multibank.cmsmasters.net/alternative/category/core-banking/"><span>Core
+                                                                                                                                                                                    href="{{ url('/') }}/category/core-banking/"><span>Core
                                                                                                                                                                                         Banking</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
@@ -6132,7 +6142,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/">Digital
+                                                                                                                                                        href="{{ url('/') }}/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/">Digital
                                                                                                                                                         Decoupling:
                                                                                                                                                         A
                                                                                                                                                         Maturing
@@ -6185,7 +6195,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/"
+                                                                                                                                                        <a href="{{ url('/') }}/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -6255,20 +6265,20 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="https://multibank.cmsmasters.net/alternative/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/"
+                                                                                                                                                    <a href="{{ url('/') }}/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
                                                                                                                                                             decoding="async"
                                                                                                                                                             width="1280"
                                                                                                                                                             height="640"
-                                                                                                                                                            src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-30x15.jpg"
+                                                                                                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-30x15.jpg"
                                                                                                                                                             class="attachment-full size-full wp-image-1362 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                                             alt=""
                                                                                                                                                             data-sizes="(max-width: 1280px) 100vw, 1280px"
-                                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4.jpg"
-                                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4.jpg 1280w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-20x10.jpg 20w"
-                                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-30x16.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-300x150.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-1024x512.jpg 1024w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-768x384.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-600x300.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4-20x10.jpg 20w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/04/blog-4.jpg 1280w"
+                                                                                                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4.jpg"
+                                                                                                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4.jpg 1280w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-20x10.jpg 20w"
+                                                                                                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-30x16.jpg 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-300x150.jpg 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-1024x512.jpg 1024w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-768x384.jpg 768w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-600x300.jpg 600w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4-20x10.jpg 20w, {{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-4.jpg 1280w"
                                                                                                                                                             sizes="(max-width: 1280px) 100vw, 1280px"></a>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -6312,7 +6322,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="https://multibank.cmsmasters.net/alternative/category/credit/"><span>Credit</span></a></span></span></span></span>
+                                                                                                                                                                                    href="{{ url('/') }}/category/credit/"><span>Credit</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -6369,7 +6379,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="https://multibank.cmsmasters.net/alternative/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/">Adopting
+                                                                                                                                                        href="{{ url('/') }}/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/">Adopting
                                                                                                                                                         Digital
                                                                                                                                                         Innovation
                                                                                                                                                         Throughout
@@ -6432,7 +6442,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="https://multibank.cmsmasters.net/alternative/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/"
+                                                                                                                                                        <a href="{{ url('/') }}/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -6465,14 +6475,16 @@
                                                                             <div class="swiper-buttons-wrap-inner">
                                                                                 <div
                                                                                     class="swiper-button swiper-button-prev">
-                                                                                    <div class="swiper-button-inner"><span
+                                                                                    <div class="swiper-button-inner">
+                                                                                        <span
                                                                                             class="cmsmasters-wrap-icon"><i
                                                                                                 class="fas fa-chevron-left"></i></span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div
                                                                                     class="swiper-button swiper-button-next">
-                                                                                    <div class="swiper-button-inner"><span
+                                                                                    <div class="swiper-button-inner">
+                                                                                        <span
                                                                                             class="cmsmasters-wrap-icon"><i
                                                                                                 class="fas fa-chevron-right"></i></span>
                                                                                     </div>
@@ -6517,8 +6529,8 @@
                                                 data-id="03fe165" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Got a question about how we’re organised, applying to work for us, or
-                                                        looking for financial or shareholder information? <a
+                                                    <p>Got a question about how we’re organised, applying to work for
+                                                        us, or looking for financial or shareholder information? <a
                                                             href="#">View more Q&amp;A here</a></p>
                                                 </div>
                                             </div>
@@ -6550,10 +6562,10 @@
                                                                 data-tab="1" role="tabpanel"
                                                                 aria-labelledby="elementor-tab-title-1141">APR is the
                                                                 annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account the
-                                                                interest rate, when it is charged (daily, weekly, monthly or
-                                                                annually), any fees charged when setting up the loan and any
-                                                                other costs applicable.</div>
+                                                                overall cost of money borrowed. It takes into account
+                                                                the interest rate, when it is charged (daily, weekly,
+                                                                monthly or annually), any fees charged when setting up
+                                                                the loan and any other costs applicable.</div>
                                                         </div>
                                                         <div class="elementor-widget-cmsmasters-toggles__item">
                                                             <h4 id="elementor-tab-title-1142"
@@ -6576,10 +6588,10 @@
                                                                 data-tab="2" role="tabpanel"
                                                                 aria-labelledby="elementor-tab-title-1142">APR is the
                                                                 annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account the
-                                                                interest rate, when it is charged (daily, weekly, monthly or
-                                                                annually), any fees charged when setting up the loan and any
-                                                                other costs applicable.</div>
+                                                                overall cost of money borrowed. It takes into account
+                                                                the interest rate, when it is charged (daily, weekly,
+                                                                monthly or annually), any fees charged when setting up
+                                                                the loan and any other costs applicable.</div>
                                                         </div>
                                                         <div class="elementor-widget-cmsmasters-toggles__item">
                                                             <h4 id="elementor-tab-title-1143"
@@ -6590,7 +6602,8 @@
                                                                     class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
                                                                     href="#"><span
                                                                         class="elementor-widget-cmsmasters-toggles__title-text">Can
-                                                                        you tell me how to apply for a loan?</span></a><span
+                                                                        you tell me how to apply for a
+                                                                        loan?</span></a><span
                                                                     class="elementor-widget-cmsmasters-toggles__trigger"
                                                                     aria-hidden="true"><span
                                                                         class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
@@ -6602,10 +6615,10 @@
                                                                 data-tab="3" role="tabpanel"
                                                                 aria-labelledby="elementor-tab-title-1143">APR is the
                                                                 annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account the
-                                                                interest rate, when it is charged (daily, weekly, monthly or
-                                                                annually), any fees charged when setting up the loan and any
-                                                                other costs applicable.</div>
+                                                                overall cost of money borrowed. It takes into account
+                                                                the interest rate, when it is charged (daily, weekly,
+                                                                monthly or annually), any fees charged when setting up
+                                                                the loan and any other costs applicable.</div>
                                                         </div>
                                                         <div class="elementor-widget-cmsmasters-toggles__item">
                                                             <h4 id="elementor-tab-title-1144"
@@ -6628,10 +6641,10 @@
                                                                 data-tab="4" role="tabpanel"
                                                                 aria-labelledby="elementor-tab-title-1144">APR is the
                                                                 annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account the
-                                                                interest rate, when it is charged (daily, weekly, monthly or
-                                                                annually), any fees charged when setting up the loan and any
-                                                                other costs applicable.</div>
+                                                                overall cost of money borrowed. It takes into account
+                                                                the interest rate, when it is charged (daily, weekly,
+                                                                monthly or annually), any fees charged when setting up
+                                                                the loan and any other costs applicable.</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -6651,12 +6664,13 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="https://multibank.cmsmasters.net/alternative/contacts/"
+                                                            <a href="{{ url('/') }}/contacts/"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
                                                                         class="elementor-widget-cmsmasters-button__text">Read
-                                                                        FAQs</span></span></a></div>
+                                                                        FAQs</span></span></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
