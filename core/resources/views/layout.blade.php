@@ -1,21 +1,17 @@
-<!doctype html>
-<html lang="en-US">
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<!-- /Added by HTTrack -->
+<!DOCTYPE html>
+<html lang="en-US" class="elementor-widget-cmsmasters-offcanvas__container">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="profile" href="https://gmpg.org/xfn/11" />
-    <title>{{ $title }} | {{ $set->site_name }}</title>
-    <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="Solvent Group, Banking" href="#" />
-    <link rel="alternate" type="application/rss+xml" title="Solvent Group, Banking" href="#" />
-    <link rel='stylesheet' id='cmsmasters-default-vars-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/assets/css/default-vars.min.css' type='text/css'
-        media='all' />
-    <style id='classic-theme-styles-inline-css' type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <title>Alternative – Multibank – Business and Finance WordPress Theme</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="alternate" type="application/rss+xml" title="Alternative » Feed" href="/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Alternative » Comments Feed" href="/comments/feed/">
+    <link rel="stylesheet" id="cmsmasters-default-vars-css"
+        href="/wp-content/themes/multibank/assets/css/default-vars.min.css" type="text/css" media="all">
+    <style id="classic-theme-styles-inline-css" type="text/css">
         /*! This file is auto-generated */
         .wp-block-button__link {
             color: #fff;
@@ -33,7 +29,7 @@
             text-decoration: none
         }
     </style>
-    <style id='global-styles-inline-css' type='text/css'>
+    <style id="global-styles-inline-css" type="text/css">
         body {
             --wp--preset--color--black: #000000;
             --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -406,38 +402,35 @@
             line-height: 1.6;
         }
     </style>
-    <link rel='stylesheet' id='cookie-law-info-css'
-        href='{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='cookie-law-info-gdpr-css'
-        href='{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-layout-css'
-        href='{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='woocommerce-smallscreen-css'
-        href='{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css'
-        media='only screen and (max-width: 768px)' />
-    <link rel='stylesheet' id='woocommerce-general-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/woocommerce.min.css'
-        type='text/css' media='all' />
-    <style id='woocommerce-inline-inline-css' type='text/css'>
+    <link rel="stylesheet" id="cookie-law-info-css"
+        href="/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="cookie-law-info-gdpr-css"
+        href="/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="woocommerce-layout-css"
+        href="/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css" type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-smallscreen-css"
+        href="/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css" type="text/css"
+        media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" id="woocommerce-general-css"
+        href="/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/woocommerce.min.css"
+        type="text/css" media="all">
+    <style id="woocommerce-inline-inline-css" type="text/css">
         .woocommerce form .form-row .required {
             visibility: visible;
         }
     </style>
-    <link rel='stylesheet' id='multibank-root-style-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='multibank-frontend-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/assets/css/frontend.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='multibank-gutenberg-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/assets/css/gutenberg-wp-frontend.min.css' type='text/css'
-        media='all' />
-    <style id='multibank-gutenberg-inline-css' type='text/css'>
+    <link rel="stylesheet" id="multibank-root-style-css" href="/wp-content/themes/multibank/style.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+        href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="multibank-frontend-css" href="/wp-content/themes/multibank/assets/css/frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="multibank-gutenberg-css"
+        href="/wp-content/themes/multibank/assets/css/gutenberg-wp-frontend.min.css" type="text/css" media="all">
+    <style id="multibank-gutenberg-inline-css" type="text/css">
         .has-cmsmasters-colors-text-color {
             color: var(--cmsmasters-colors-text) !important;
         }
@@ -494,51 +487,43 @@
             background-color: var(--cmsmasters-colors-bd) !important;
         }
     </style>
-    <link rel='stylesheet' id='elementor-frontend-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/css/frontend.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='swiper-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-25-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-25.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='cmsmasters-icons-css'
-        href='{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/cmsicons/css/cmsmasters-icons.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='cmsmasters-frontend-css'
-        href='{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/css/frontend.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-7199-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-7199.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='wc-frontend-css'
-        href='{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/wc-frontend.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-104-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-104.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-59-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-59.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='multibank-child-style-css'
-        href='{{ url('/') }}/wp-content/themes/multibank-child/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-shared-0-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-Local-Icons-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/cmsmasters-local-icons/Local-Icons/style.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css'
-        type='text/css' media='all' />
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js">
-    </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/jquery-migrate.min.js"
-        id="jquery-migrate-js"></script>
+    <link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/plugins/elementor/assets/css/frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="swiper-css" href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-25-css" href="/wp-content/uploads/sites/3/elementor/css/post-25.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="cmsmasters-icons-css"
+        href="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/cmsicons/css/cmsmasters-icons.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="cmsmasters-frontend-css"
+        href="/wp-content/plugins/cmsmasters-elementor-addon/assets/css/frontend.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-7199-css"
+        href="/wp-content/uploads/sites/3/elementor/css/post-7199.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wc-frontend-css"
+        href="/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/wc-frontend.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-104-css" href="/wp-content/uploads/sites/3/elementor/css/post-104.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-59-css" href="/wp-content/uploads/sites/3/elementor/css/post-59.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="multibank-child-style-css" href="/wp-content/themes/multibank-child/style.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css"
+        href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+        href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-Local-Icons-css"
+        href="/wp-content/uploads/sites/3/elementor/cmsmasters-local-icons/Local-Icons/style.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
+        href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css" type="text/css"
+        media="all">
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
     <script type="text/javascript" id="cookie-law-info-js-extra">
         /* <![CDATA[ */
         var Cli_Data = {
@@ -613,56 +598,51 @@
             "widget_position": "left"
         };
         var log_object = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php"
+            "ajax_url": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php"
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js"
+    <script type="text/javascript" src="/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js"
         id="cookie-law-info-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
         id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
         var wc_add_to_cart_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php",
             "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%",
             "i18n_view_cart": "View cart",
-            "cart_url": "\/cart\/",
+            "cart_url": "https:\/\/multibank.cmsmasters.net\/alternative\/cart\/",
             "is_cart": "",
             "cart_redirect_after_add": "no"
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
         id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js"
-        defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+        id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="woocommerce-js-extra">
         /* <![CDATA[ */
         var woocommerce_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
-            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+            "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%"
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"
-        defer="defer" data-wp-strategy="defer"></script>
-    <link rel="alternate" type="application/json" href="{{ url('/') }}/wp-json/wp/v2/pages/7199.json" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
-    <meta name="generator" content="WordPress 6.4.5" />
-    <meta name="generator" content="WooCommerce 8.7.0" />
-    <link rel="canonical" href="\" />
-    <link rel='shortlink' href='\' />
-    <link rel="alternate"
-        type="application/json+oembed"
-        href="{{ url('/') }}/wp-json/oembed/1.0/embed2ff5.json?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F" />
+    <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+        id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+    <link rel="https://api.w.org/" href="/wp-json/">
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/7199">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+    <meta name="generator" content="WordPress 6.4.5">
+    <meta name="generator" content="WooCommerce 8.7.0">
+    <link rel="canonical" href="/">
+    <link rel="shortlink" href="/">
+    <link rel="alternate" type="application/json+oembed"
+        href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="{{ url('/') }}/wp-json/oembed/1.0/embeddfea?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F&amp;format=xml" />
+        href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmultibank.cmsmasters.net%2Falternative%2F&amp;format=xml">
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -672,15 +652,157 @@
     </noscript>
     <meta name="generator"
         content="Elementor 3.20.3; features: additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
-    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" sizes="32x32" />
-    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" />
-    <meta name="msapplication-TileImage" content="{{ url('/') }}/asset/{{ $logo->image_link2 }}" />
+    <link rel="icon" href="/wp-content/uploads/sites/3/2021/11/favicon-100x100.png" sizes="32x32">
+    <link rel="icon" href="/wp-content/uploads/sites/3/2021/11/favicon-260x260.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/wp-content/uploads/sites/3/2021/11/favicon-260x260.png">
+    <meta name="msapplication-TileImage" content="/wp-content/uploads/sites/3/2021/11/favicon-300x300.png">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/8/common.js">
+    </script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/8/util.js">
+    </script>
 </head>
 
 <body id="cmsmasters_body"
-    class="home page-template-default page page-id-7199 wp-embed-responsive theme-multibank woocommerce-no-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-7199">
-
+    class="home page-template-default page page-id-7199 wp-embed-responsive theme-multibank woocommerce-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-7199 e--ua-isTouchDevice e--ua-blink e--ua-chrome e--ua-webkit"
+    data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" data-gr-ext-installed="">
+    <div class="cmsmasters-demos-preview">
+        <div class="cmsmasters-demos-preview__buttons">
+            <span class="cmsmasters-demos-preview__toggle">
+                <span class="cmsmasters-demos-preview__toggle-big">
+                    <svg width="26" height="22" viewBox="0 0 26 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.2383 7.82439H22.3828V4.96873C22.3828 4.548 22.0416 4.20702 21.6211 4.20702H18.7655V1.35156C18.7655 0.930832 18.4245 0.589844 18.0037 0.589844H0.761719C0.340988 0.589844 0 0.930832 0 1.35156V13.4089C0 13.8297 0.340988 14.1707 0.761719 14.1707H3.61717V17.0261C3.61717 17.4468 3.95816 17.7878 4.37889 17.7878H7.23454V20.6435C7.23454 21.064 7.57553 21.4052 7.99626 21.4052H25.2383C25.659 21.4052 26 21.064 26 20.6435V8.58611C26 8.16537 25.659 7.82439 25.2383 7.82439ZM1.52344 2.11328H17.242V12.6472H1.52344V2.11328ZM5.14061 14.1707H18.0037C18.4245 14.1707 18.7655 13.8297 18.7655 13.4089V5.73045H20.8594V16.2646H5.14061V14.1707ZM24.4766 19.8818H8.75798V17.788H21.6211C22.0418 17.788 22.3828 17.4468 22.3828 17.0263V9.34782H24.4766V19.8818Z"
+                            fill="white"></path>
+                    </svg>
+                    <span>Demos</span>
+                </span>
+                <span class="cmsmasters-demos-preview__toggle-small">
+                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 12L6.5 6.5L1 1" stroke="white" stroke-width="2"></path>
+                    </svg>
+                </span>
+            </span>
+            <a href="https://themeforest.net/item/multibank-business-and-finance-wordpress-theme/35167346?s_rank=1"
+                class="cmsmasters-demos-preview__buy-link" target="_blank">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.37692 16.8088H8.37811C8.3791 16.8088 8.3801 16.8086 8.38109 16.8086H22.1914C22.5314 16.8086 22.8303 16.5831 22.9238 16.2561L25.9706 5.59209C26.0363 5.36218 25.9903 5.11502 25.8465 4.92419C25.7025 4.73337 25.4773 4.62109 25.2383 4.62109H6.62021L6.0757 2.1707C5.99814 1.82217 5.68909 1.57422 5.33203 1.57422H0.761719C0.340988 1.57422 0 1.91521 0 2.33594C0 2.75667 0.340988 3.09766 0.761719 3.09766H4.72107C4.81747 3.53188 7.32678 14.824 7.47119 15.4736C6.66167 15.8255 6.09375 16.6326 6.09375 17.5703C6.09375 18.8303 7.1189 19.8555 8.37891 19.8555H22.1914C22.6121 19.8555 22.9531 19.5145 22.9531 19.0938C22.9531 18.673 22.6121 18.332 22.1914 18.332H8.37891C7.95897 18.332 7.61719 17.9902 7.61719 17.5703C7.61719 17.151 7.95778 16.8098 8.37692 16.8088ZM24.2284 6.14453L21.6167 15.2852H8.98987L6.95862 6.14453H24.2284Z"
+                        fill="white"></path>
+                    <path
+                        d="M7.61719 22.1406C7.61719 23.4006 8.64233 24.4258 9.90234 24.4258C11.1624 24.4258 12.1875 23.4006 12.1875 22.1406C12.1875 20.8806 11.1624 19.8555 9.90234 19.8555C8.64233 19.8555 7.61719 20.8806 7.61719 22.1406ZM9.90234 21.3789C10.3223 21.3789 10.6641 21.7207 10.6641 22.1406C10.6641 22.5606 10.3223 22.9023 9.90234 22.9023C9.48241 22.9023 9.14062 22.5606 9.14062 22.1406C9.14062 21.7207 9.48241 21.3789 9.90234 21.3789Z"
+                        fill="white"></path>
+                    <path
+                        d="M18.3828 22.1406C18.3828 23.4006 19.408 24.4258 20.668 24.4258C21.928 24.4258 22.9531 23.4006 22.9531 22.1406C22.9531 20.8806 21.928 19.8555 20.668 19.8555C19.408 19.8555 18.3828 20.8806 18.3828 22.1406ZM20.668 21.3789C21.0879 21.3789 21.4297 21.7207 21.4297 22.1406C21.4297 22.5606 21.0879 22.9023 20.668 22.9023C20.248 22.9023 19.9062 22.5606 19.9062 22.1406C19.9062 21.7207 20.248 21.3789 20.668 21.3789Z"
+                        fill="white"></path>
+                </svg>
+                <span>Buy Now</span>
+            </a>
+        </div>
+        <div class="cmsmasters-demos-preview__container">
+            <span class="cmsmasters-demos-preview__close">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16 14.56L14.48 16L8 9.44L1.52 16L0.08 14.56L6.56 8L0 1.44L1.52 0L8 6.56L14.48 0L16 1.44L9.44 8L16 14.56Z"
+                        fill="#151515"></path>
+                </svg>
+            </span>
+            <div class="cmsmasters-demos-preview__heading">
+                <div class="cmsmasters-demos-preview__heading-img">
+                    <svg width="90" height="131" viewBox="0 0 90 131" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M23.402 125.709L23.3815 125.699C16.5176 122.635 10.9761 117.956 6.80825 111.704C2.56962 105.346 0.423022 97.5058 0.185414 88.3579L0.105469 85.28H27.5462L27.6038 88.2211C27.7037 93.3153 29.3219 97.4622 32.398 100.842C35.4397 103.958 39.7881 105.68 45.8544 105.68C51.6423 105.68 55.6389 104.093 58.3186 101.324C61.1262 98.4225 62.5744 94.7744 62.5744 90.15C62.5744 84.7519 60.6744 81.032 57.054 78.4977L57.0188 78.473L56.9843 78.4473C53.2091 75.6401 48.1653 74.11 41.6044 74.11H29.7644V50.26H41.7744C47.0765 50.26 51.2518 49.0179 54.4944 46.7291C57.4391 44.6504 59.0044 41.6079 59.0044 37.11C59.0044 33.4311 57.8161 30.7803 55.5967 28.8169L55.5509 28.7764L55.5068 28.7341C53.3839 26.6961 50.2495 25.49 45.6844 25.49C40.7692 25.49 37.2597 26.9182 34.7713 29.4845C32.2203 32.2333 30.7805 35.591 30.4868 39.7037L30.2878 42.49H3.11814L3.24695 39.3664C3.72827 27.6943 7.79922 18.2085 15.6413 11.2377L15.6501 11.2299L15.6589 11.2222C23.5583 4.31029 33.6546 0.959961 45.6844 0.959961C54.1781 0.959961 61.5384 2.48978 67.6284 5.71286C73.7086 8.75936 78.4072 12.9119 81.5689 18.2131C84.8099 23.4576 86.4244 29.27 86.4244 35.58C86.4244 42.8618 84.3732 49.2142 80.1539 54.4579C77.9099 57.2621 75.3355 59.5688 72.4407 61.365C76.4561 63.3074 79.94 66.098 82.8619 69.7271C87.5678 75.4569 89.8244 82.6249 89.8244 91C89.8244 98.0802 88.1087 104.612 84.6557 110.532C81.1772 116.495 76.105 121.227 69.5544 124.747C62.998 128.332 55.0505 130.04 45.8544 130.04C37.6818 130.04 30.1891 128.617 23.4226 125.717L23.402 125.709Z"
+                            fill="url(#paint0_linear)"></path>
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="45" y1="-10" x2="44.999"
+                                y2="130" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7D7DF4"></stop>
+                                <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="cmsmasters-demos-preview__heading-title">
+                    <span>Amazing Ready-to-use Demo Websites</span>
+                </div>
+                <div class="cmsmasters-demos-preview__heading-subtitle">
+                    <span>Quick &amp; easy one-click install</span>
+                </div>
+            </div>
+            <div class="cmsmasters-demos-preview__content">
+                <div class="cmsmasters-demos-preview__content-inner">
+                    <div class="cmsmasters-demos-preview__demo">
+                        <div class="cmsmasters-demos-preview__demo-img">
+                            <img src="/wp-content/themes/multibank-child/assets/images/classic.jpg" alt="Classic"
+                                title="Classic">
+                            <a href="https://multibank.cmsmasters.net/classic/" target="_blank"></a>
+                        </div>
+                        <div class="cmsmasters-demos-preview__demo-heading">
+                            <span class="cmsmasters-demos-preview__demo-title">Classic</span>
+                            <a href="https://multibank.cmsmasters.net/classic/"
+                                class="cmsmasters-demos-preview__demo-link" target="_blank">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="cmsmasters-demos-preview__demo">
+                        <div class="cmsmasters-demos-preview__demo-img">
+                            <img src="/wp-content/themes/multibank-child/assets/images/alternative.jpg"
+                                alt="Alternative" title="Alternative">
+                            <a href="/" target="_blank"></a>
+                        </div>
+                        <div class="cmsmasters-demos-preview__demo-heading">
+                            <span class="cmsmasters-demos-preview__demo-title">Alternative</span>
+                            <a href="/" class="cmsmasters-demos-preview__demo-link" target="_blank">View
+                                Demo</a>
+                        </div>
+                    </div>
+                    <div class="cmsmasters-demos-preview__demo">
+                        <div class="cmsmasters-demos-preview__demo-img">
+                            <img src="/wp-content/themes/multibank-child/assets/images/modern.jpg" alt="Modern"
+                                title="Modern">
+                            <a href="https://multibank.cmsmasters.net/modern/" target="_blank"></a>
+                        </div>
+                        <div class="cmsmasters-demos-preview__demo-heading">
+                            <span class="cmsmasters-demos-preview__demo-title">Modern</span>
+                            <a href="https://multibank.cmsmasters.net/modern/"
+                                class="cmsmasters-demos-preview__demo-link" target="_blank">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cmsmasters-demos-preview__footer">
+                <a href="https://multibank.cmsmasters.net/"
+                    class="cmsmasters-demos-preview__footer-link cmsmasters-demos-preview__back-to-landing">
+                    <svg width="20" height="15" viewBox="0 0 20 15" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.6601 0.278946L19.7211 6.33986C20.093 6.71179 20.093 7.3148 19.7211 7.68673L13.6601 13.7476C13.2882 14.1196 12.6852 14.1196 12.3133 13.7476C11.9413 13.3757 11.9413 12.7727 12.3133 12.4008L16.7484 7.96568H0V6.06092H16.7484L12.3133 1.62582C11.9413 1.25389 11.9413 0.650874 12.3133 0.278946C12.6852 -0.092982 13.2882 -0.092982 13.6601 0.278946Z"
+                            fill="white"></path>
+                    </svg>
+                    <span>Back to Landing Page</span>
+                </a>
+                <a href="https://themeforest.net/item/multibank-business-and-finance-wordpress-theme/35167346?s_rank=1"
+                    class="cmsmasters-demos-preview__footer-link cmsmasters-demos-preview__footer-buy">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.44379 12.9298H6.4447C6.44546 12.9298 6.44623 12.9297 6.44699 12.9297H17.0703C17.3318 12.9297 17.5618 12.7562 17.6337 12.5047L19.9774 4.30161C20.0279 4.12476 19.9925 3.93463 19.8819 3.78784C19.7711 3.64105 19.5979 3.55469 19.4141 3.55469H5.09247L4.67361 1.66977C4.61395 1.40167 4.37622 1.21094 4.10156 1.21094H0.585937C0.262299 1.21094 0 1.47324 0 1.79688C0 2.12051 0.262299 2.38281 0.585937 2.38281H3.63159C3.70575 2.71683 5.63599 11.403 5.74707 11.9028C5.12436 12.1735 4.6875 12.7943 4.6875 13.5156C4.6875 14.4849 5.47607 15.2734 6.44531 15.2734H17.0703C17.3939 15.2734 17.6562 15.0111 17.6562 14.6875C17.6562 14.3639 17.3939 14.1016 17.0703 14.1016H6.44531C6.12228 14.1016 5.85937 13.8387 5.85937 13.5156C5.85937 13.1931 6.12137 12.9306 6.44379 12.9298ZM18.6372 4.72656L16.6283 11.7578H6.91528L5.35278 4.72656H18.6372Z"
+                            fill="white"></path>
+                        <path
+                            d="M5.85938 17.0312C5.85938 18.0005 6.64795 18.7891 7.61719 18.7891C8.58643 18.7891 9.375 18.0005 9.375 17.0312C9.375 16.062 8.58643 15.2734 7.61719 15.2734C6.64795 15.2734 5.85938 16.062 5.85938 17.0312ZM7.61719 16.4453C7.94022 16.4453 8.20312 16.7082 8.20312 17.0312C8.20312 17.3543 7.94022 17.6172 7.61719 17.6172C7.29416 17.6172 7.03125 17.3543 7.03125 17.0312C7.03125 16.7082 7.29416 16.4453 7.61719 16.4453Z"
+                            fill="white"></path>
+                        <path
+                            d="M14.1406 17.0312C14.1406 18.0005 14.9292 18.7891 15.8984 18.7891C16.8677 18.7891 17.6562 18.0005 17.6562 17.0312C17.6562 16.062 16.8677 15.2734 15.8984 15.2734C14.9292 15.2734 14.1406 16.062 14.1406 17.0312ZM15.8984 16.4453C16.2215 16.4453 16.4844 16.7082 16.4844 17.0312C16.4844 17.3543 16.2215 17.6172 15.8984 17.6172C15.5754 17.6172 15.3125 17.3543 15.3125 17.0312C15.3125 16.7082 15.5754 16.4453 15.8984 16.4453Z"
+                            fill="white"></path>
+                    </svg>
+                    <span>Buy Now</span>
+                </a>
+            </div>
+        </div>
+    </div>
     <div data-elementor-type="cmsmasters_header" data-elementor-id="104"
         class="elementor elementor-104 cmsmasters-location-cmsmasters_header cmsmasters-header-position-absolute-">
         <div class="elementor-inner">
@@ -699,7 +821,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-button__button-container">
                                             <div class="elementor-widget-cmsmasters-button__button-container-inner"><a
-                                                    href="{{ route('personal') }}"
+                                                    href="/cmsms_service/easy-access-savings-account/"
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -714,7 +836,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-button__button-container">
                                             <div class="elementor-widget-cmsmasters-button__button-container-inner"><a
-                                                    href="{{ route('bussines') }}"
+                                                    href="/cmsms_service/everyday-spending-cards/"
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -729,7 +851,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-button__button-container">
                                             <div class="elementor-widget-cmsmasters-button__button-container-inner"><a
-                                                    href="{{ route('commercial') }}"
+                                                    href="/cmsms_service/manage-your-account/"
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -758,7 +880,7 @@
                                                     </span>
                                                     <span class="cmsmasters-widget-icon-list-item-text-inner">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            {{ $set->address }} </span>
+                                                            Brooklyn Heights Promenade, Brooklyn, NY, USA </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -781,8 +903,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="mailto:{{ $set->email }}">{{ $set->email }}</a>
+                                                            <a href="mailto:example@exaple.com">example@exaple.com</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -806,7 +927,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a>{{ $set->mobile }}</a>
+                                                            <a href="tel:+1%20452%20123%201235">+1 452 123 1235</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -831,12 +952,11 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-site-logo__container">
                                             <div class="elementor-widget-cmsmasters-site-logo__image-container"><a
-                                                    href="{{ route('home') }}"
-                                                    class="elementor-widget-cmsmasters-site-logo__link"
+                                                    href="" class="elementor-widget-cmsmasters-site-logo__link"
                                                     rel="nofollow"><img
-                                                        src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/logo-1.svg"
+                                                        src="/wp-content/uploads/sites/3/2021/11/logo-1.svg"
                                                         alt="Alternative" title="Alternative"
-                                                        class="cmsmasters-lazyload-disabled elementor-widget-cmsmasters-site-logo__img elementor-widget-cmsmasters-site-logo-main" /></a>
+                                                        class="cmsmasters-lazyload-disabled elementor-widget-cmsmasters-site-logo__img elementor-widget-cmsmasters-site-logo-main"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -857,7 +977,7 @@
                                                 class="elementor-widget-cmsmasters-nav-menu__container-inner">
                                                 <li id="menu-item-9556"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7199 current_page_item menu-item-9556">
-                                                    <a href="{{ route('home') }}" aria-current="page"
+                                                    <a href="/" aria-current="page"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item elementor-widget-cmsmasters-nav-menu__item-active elementor-widget-cmsmasters-nav-menu__item-link-top"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
@@ -865,8 +985,7 @@
                                                                 class="elementor-widget-cmsmasters-nav-menu__arrow"><span
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
-                                                            class="cmsmasters-animation"></span></a>
-                                                </li>
+                                                            class="cmsmasters-animation"></span></a></li>
                                                 <li id="menu-item-8990"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8990">
                                                     <a class="elementor-widget-cmsmasters-nav-menu__dropdown-item elementor-widget-cmsmasters-nav-menu__item-link-top"
@@ -877,80 +996,73 @@
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
                                                             class="cmsmasters-animation"></span></a>
-                                                    <ul
-                                                        class="sub-menu elementor-widget-cmsmasters-nav-menu__dropdown-submenu">
+                                                    <ul class="sub-menu elementor-widget-cmsmasters-nav-menu__dropdown-submenu"
+                                                        dropdown-align-right="">
                                                         <li id="menu-item-8988"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8988">
-                                                            <a href="{{ route('services') }}"
+                                                            <a href="/services/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub elementor-widget-cmsmasters-nav-menu__item-link-sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">View
                                                                         All</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a>
-                                                        </li>
+                                                                    class="cmsmasters-animation"></span></a></li>
                                                         <li id="menu-item-8991"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8991">
-                                                            <a href="{{ route('personal') }}"
+                                                            <a href="/cmsms_service/easy-access-savings-account/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub elementor-widget-cmsmasters-nav-menu__item-link-sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Savings
                                                                         Account</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a>
-                                                        </li>
+                                                                    class="cmsmasters-animation"></span></a></li>
                                                         <li id="menu-item-8992"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8992">
-                                                            <a href="{{ route('bussines') }}"
+                                                            <a href="/cmsms_service/everyday-spending-cards/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub elementor-widget-cmsmasters-nav-menu__item-link-sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Credit
                                                                         Cards</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a>
-                                                        </li>
+                                                                    class="cmsmasters-animation"></span></a></li>
                                                         <li id="menu-item-8993"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8993">
-                                                            <a href="{{ route('commercial') }}"
+                                                            <a href="/cmsms_service/manage-your-account/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub elementor-widget-cmsmasters-nav-menu__item-link-sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Managing
                                                                         account</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a>
-                                                        </li>
+                                                                    class="cmsmasters-animation"></span></a></li>
                                                         <li id="menu-item-8994"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8994">
-                                                            <a href="{{ route('mortgages') }}"
+                                                            <a href="/cmsms_service/mortgages/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub elementor-widget-cmsmasters-nav-menu__item-link-sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Mortgage</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a>
-                                                        </li>
+                                                                    class="cmsmasters-animation"></span></a></li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-8986"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8986">
-                                                    <a href="{{ route('about') }}"
+                                                    <a href="/blog/"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item elementor-widget-cmsmasters-nav-menu__item-link-top"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
-                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">About
-                                                                Us</span><span
+                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">Blog</span><span
                                                                 class="elementor-widget-cmsmasters-nav-menu__arrow"><span
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
-                                                            class="cmsmasters-animation"></span></a>
-                                                </li>
+                                                            class="cmsmasters-animation"></span></a></li>
                                                 <li id="menu-item-8987"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
-                                                    <a href="{{ route('contacts') }}"
+                                                    <a href="/contacts/"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item elementor-widget-cmsmasters-nav-menu__item-link-top"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
@@ -958,8 +1070,7 @@
                                                                 class="elementor-widget-cmsmasters-nav-menu__arrow"><span
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
-                                                            class="cmsmasters-animation"></span></a>
-                                                </li>
+                                                            class="cmsmasters-animation"></span></a></li>
                                             </ul>
                                         </nav>
                                         <div
@@ -969,16 +1080,15 @@
                                                 <span class="cmsmasters-toggle-icon"><i
                                                         class="fas fa-bars"></i></span><span
                                                     class="cmsmasters-toggle-icon-active"><i
-                                                        class="fas fa-times"></i></span>
-                                            </div>
+                                                        class="fas fa-times"></i></span></div>
                                         </div>
                                         <nav
                                             class="elementor-widget-cmsmasters-nav-menu__dropdown elementor-widget-cmsmasters-nav-menu__container cmsmasters-layout-horizontal cmsmasters-menu-dropdown-type- cmsmasters-arrow-animation-">
                                             <ul id="cmsmasters_menu-4-792ce6d7"
-                                                class="elementor-widget-cmsmasters-nav-menu__container-inner cmsmasters-nav-menu-dropdown">
+                                                class="elementor-widget-cmsmasters-nav-menu__container-inner cmsmasters-nav-menu-dropdown ps">
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7199 current_page_item menu-item-9556">
-                                                    <a href="{{ route('home') }}" aria-current="page"
+                                                    <a href="/" aria-current="page"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
@@ -990,47 +1100,43 @@
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                 class="elementor-widget-cmsmasters-nav-menu__item-text">Services</span></span></a>
-                                                    <ul
-                                                        class="sub-menu elementor-widget-cmsmasters-nav-menu__dropdown-submenu">
+                                                    <ul class="sub-menu elementor-widget-cmsmasters-nav-menu__dropdown-submenu"
+                                                        style="" dropdown-align-right="">
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8988">
-                                                            <a href="{{ route('services') }}"
+                                                            <a href="/services/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">View
-                                                                        All</span></span></a>
-                                                        </li>
+                                                                        All</span></span></a></li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8991">
-                                                            <a href="{{ route('personal') }}"
+                                                            <a href="/cmsms_service/easy-access-savings-account/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Savings
-                                                                        Account</span></span></a>
-                                                        </li>
+                                                                        Account</span></span></a></li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8992">
-                                                            <a href="{{ route('bussines') }}"
+                                                            <a href="/cmsms_service/everyday-spending-cards/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Credit
-                                                                        Cards</span></span></a>
-                                                        </li>
+                                                                        Cards</span></span></a></li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8993">
-                                                            <a href="{{ route('commercial') }}"
+                                                            <a href="/cmsms_service/manage-your-account/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Managing
-                                                                        account</span></span></a>
-                                                        </li>
+                                                                        account</span></span></a></li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8994">
-                                                            <a href="{{ route('mortgages') }}"
+                                                            <a href="/cmsms_service/mortgages/"
                                                                 class="elementor-widget-cmsmasters-nav-menu__dropdown-item sub"
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
@@ -1040,21 +1146,28 @@
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8986">
-                                                    <a href="{{ route('about') }}"
+                                                    <a href="/blog/"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
-                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">About
-                                                                Us</span></span></a>
+                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">Blog</span></span></a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
-                                                    <a href="{{ route('contacts') }}"
+                                                    <a href="/contacts/"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                 class="elementor-widget-cmsmasters-nav-menu__item-text">Contacts</span></span></a>
                                                 </li>
+                                                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                    <div class="ps__thumb-x" tabindex="0"
+                                                        style="left: 0px; width: 0px;"></div>
+                                                </div>
+                                                <div class="ps__rail-y" style="top: 0px; right: 0px;">
+                                                    <div class="ps__thumb-y" tabindex="0"
+                                                        style="top: 0px; height: 0px;"></div>
+                                                </div>
                                             </ul>
                                         </nav>
                                     </div>
@@ -1065,12 +1178,12 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-button__button-container">
                                             <div class="elementor-widget-cmsmasters-button__button-container-inner"><a
-                                                    href="{{ route('openaccount') }}"
+                                                    href="/contacts/"
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
-                                                            class="elementor-widget-cmsmasters-button__text">Open
-                                                            Account</span></span></a></div>
+                                                            class="elementor-widget-cmsmasters-button__text">Help me
+                                                            Decide</span></span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1085,13 +1198,13 @@
                                                 <div class="elementor-widget-cmsmasters-search__popup-content">
                                                     <form role="search" method="get"
                                                         class="elementor-widget-cmsmasters-search__form "
-                                                        action="#">
+                                                        action="/">
                                                         <div
                                                             class="elementor-widget-cmsmasters-search__form-container cmsmasters-submit-button-view-button cmsmasters-buttons-type-icon">
                                                             <input type="search"
                                                                 class="elementor-widget-cmsmasters-search__field "
                                                                 value="" name="s"
-                                                                placeholder="Search..." /><button type="submit"
+                                                                placeholder="Search..."><button type="submit"
                                                                 class="elementor-widget-cmsmasters-search__submit"><span
                                                                     class="elementor-widget-cmsmasters-search__submit-icon"><i
                                                                         class="cmsmsdemo-icon- cmsms-demo-icon-search"></i></span></button>
@@ -1112,8 +1225,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div class="elementor-element elementor-element-18c54900 cmsmasters-trigger-view-default elementor-widget__width-initial elementor-hidden-desktop cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-offcanvas"
                                     data-id="18c54900" data-element_type="widget"
                                     data-settings="{&quot;content_block&quot;:[{&quot;_id&quot;:&quot;9ca7cd4&quot;,&quot;nav_menu&quot;:null,&quot;title&quot;:&quot;&quot;,&quot;content_type&quot;:&quot;logo&quot;,&quot;logo_image_source&quot;:&quot;default&quot;,&quot;logo_type&quot;:null,&quot;logo_image&quot;:null,&quot;logo_image_retina&quot;:null,&quot;logo_image_2x&quot;:null,&quot;logo_image_second_toggle&quot;:null,&quot;logo_image_second&quot;:null,&quot;logo_image_2x_second&quot;:null,&quot;logo_title&quot;:null,&quot;logo_link&quot;:&quot;home&quot;,&quot;logo_custom_url&quot;:null,&quot;description&quot;:null,&quot;sidebar&quot;:null,&quot;saved_section&quot;:null,&quot;offcanvas_item_style&quot;:&quot;&quot;,&quot;offcanvas_alignment&quot;:null,&quot;offcanvas_padding&quot;:null,&quot;content_margin_bottom&quot;:null,&quot;content_title_color&quot;:null,&quot;content_text_color&quot;:null,&quot;content_custom_bg&quot;:null,&quot;box_to_down&quot;:&quot;false&quot;},{&quot;_id&quot;:&quot;4204a51&quot;,&quot;content_type&quot;:&quot;navigation&quot;,&quot;nav_menu&quot;:&quot;64&quot;,&quot;title&quot;:&quot;&quot;,&quot;logo_image_source&quot;:null,&quot;logo_type&quot;:null,&quot;logo_image&quot;:null,&quot;logo_image_retina&quot;:null,&quot;logo_image_2x&quot;:null,&quot;logo_image_second_toggle&quot;:null,&quot;logo_image_second&quot;:null,&quot;logo_image_2x_second&quot;:null,&quot;logo_title&quot;:null,&quot;logo_link&quot;:null,&quot;logo_custom_url&quot;:null,&quot;description&quot;:null,&quot;sidebar&quot;:null,&quot;saved_section&quot;:null,&quot;offcanvas_item_style&quot;:&quot;&quot;,&quot;offcanvas_alignment&quot;:null,&quot;offcanvas_padding&quot;:null,&quot;content_margin_bottom&quot;:null,&quot;content_title_color&quot;:null,&quot;content_text_color&quot;:null,&quot;content_custom_bg&quot;:null,&quot;box_to_down&quot;:&quot;false&quot;},{&quot;_id&quot;:&quot;caf699a&quot;,&quot;content_type&quot;:&quot;section&quot;,&quot;nav_menu&quot;:null,&quot;box_to_down&quot;:&quot;true&quot;,&quot;saved_section&quot;:&quot;52&quot;,&quot;title&quot;:&quot;&quot;,&quot;logo_image_source&quot;:null,&quot;logo_type&quot;:null,&quot;logo_image&quot;:null,&quot;logo_image_retina&quot;:null,&quot;logo_image_2x&quot;:null,&quot;logo_image_second_toggle&quot;:null,&quot;logo_image_second&quot;:null,&quot;logo_image_2x_second&quot;:null,&quot;logo_title&quot;:null,&quot;logo_link&quot;:null,&quot;logo_custom_url&quot;:null,&quot;description&quot;:null,&quot;sidebar&quot;:null,&quot;offcanvas_item_style&quot;:&quot;&quot;,&quot;offcanvas_alignment&quot;:null,&quot;offcanvas_padding&quot;:null,&quot;content_margin_bottom&quot;:null,&quot;content_title_color&quot;:null,&quot;content_text_color&quot;:null,&quot;content_custom_bg&quot;:null}],&quot;canvas_position&quot;:&quot;left&quot;,&quot;animation_type&quot;:&quot;slide&quot;,&quot;overlay_close&quot;:&quot;yes&quot;,&quot;esc_close&quot;:&quot;yes&quot;}"
@@ -1136,7 +1247,7 @@
                                                                 class="cmsmsdemo-icon- cmsms-demo-icon-close"></i></span>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-widget-cmsmasters-offcanvas__body">
+                                                <div class="elementor-widget-cmsmasters-offcanvas__body ps">
                                                     <div
                                                         class="elementor-widget-cmsmasters-offcanvas__body-container cmsmasters-block-all-down">
                                                         <div
@@ -1147,9 +1258,9 @@
                                                                     class="elementor-widget-cmsmasters-offcanvas__custom-container-cont-inner">
                                                                     <div
                                                                         class="elementor-widget-cmsmasters-offcanvas__site-logo">
-                                                                        <a href="{{ route('home') }}"
+                                                                        <a href=""
                                                                             class="elementor-widget-cmsmasters-offcanvas__site-logo-link"><img
-                                                                                src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/logo-1.svg"
+                                                                                src="/wp-content/uploads/sites/3/2021/11/logo-1.svg"
                                                                                 alt="Alternative" title="Alternative"
                                                                                 class="elementor-widget-cmsmasters-offcanvas__site-logo-img elementor-widget-cmsmasters-offcanvas__site-logo-main"></a>
                                                                     </div>
@@ -1168,8 +1279,7 @@
                                                                             class="elementor-widget-cmsmasters-offcanvas__menu-inner">
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7199 current_page_item menu-item-9556">
-                                                                                <a href="{{ route('home') }}"
-                                                                                    aria-current="page"
+                                                                                <a href="/" aria-current="page"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item-active elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
                                                                                         class="elementor-widget-cmsmasters-offcanvas__item-text">Home</span></a>
@@ -1182,39 +1292,35 @@
                                                                                 <ul class="sub-menu">
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8988">
-                                                                                        <a href="{{ route('services') }}"
+                                                                                        <a href="/services/"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">View
-                                                                                                All</span></a>
-                                                                                    </li>
+                                                                                                All</span></a></li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8991">
-                                                                                        <a href="{{ route('personal') }}"
+                                                                                        <a href="/cmsms_service/easy-access-savings-account/"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Savings
-                                                                                                Account</span></a>
-                                                                                    </li>
+                                                                                                Account</span></a></li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8992">
-                                                                                        <a href="{{ route('bussines') }}"
+                                                                                        <a href="/cmsms_service/everyday-spending-cards/"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Credit
-                                                                                                Cards</span></a>
-                                                                                    </li>
+                                                                                                Cards</span></a></li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8993">
-                                                                                        <a href="{{ route('commercial') }}"
+                                                                                        <a href="/cmsms_service/manage-your-account/"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Managing
-                                                                                                account</span></a>
-                                                                                    </li>
+                                                                                                account</span></a></li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8994">
-                                                                                        <a href="{{ route('mortgages') }}"
+                                                                                        <a href="/cmsms_service/mortgages/"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Mortgage</span></a>
@@ -1223,15 +1329,14 @@
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8986">
-                                                                                <a href="{{ route('about') }}"
+                                                                                <a href="/blog/"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
-                                                                                        class="elementor-widget-cmsmasters-offcanvas__item-text">About
-                                                                                        Us</span></a>
+                                                                                        class="elementor-widget-cmsmasters-offcanvas__item-text">Blog</span></a>
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
-                                                                                <a href="{{ route('contacts') }}"
+                                                                                <a href="/contacts/"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
                                                                                         class="elementor-widget-cmsmasters-offcanvas__item-text">Contacts</span></a>
@@ -1284,7 +1389,7 @@
                                                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                             <div
                                                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                <a href="{{ route('login') }}"
+                                                                                                                                <a href="/contacts/"
                                                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                                                     role="button"><span
                                                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1311,7 +1416,7 @@
                                                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                             <div
                                                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                <a href="{{ route('openaccount') }}"
+                                                                                                                                <a href="/contacts/"
                                                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                                                     role="button"><span
                                                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1337,7 +1442,7 @@
                                                                                                                 role="search"
                                                                                                                 method="get"
                                                                                                                 class="elementor-widget-cmsmasters-search__form "
-                                                                                                                action="#">
+                                                                                                                action="/">
                                                                                                                 <div
                                                                                                                     class="elementor-widget-cmsmasters-search__form-container cmsmasters-submit-button-view-button cmsmasters-buttons-type-icon">
                                                                                                                     <input
@@ -1345,7 +1450,7 @@
                                                                                                                         class="elementor-widget-cmsmasters-search__field "
                                                                                                                         value=""
                                                                                                                         name="s"
-                                                                                                                        placeholder="Search..." /><button
+                                                                                                                        placeholder="Search..."><button
                                                                                                                         type="submit"
                                                                                                                         class="elementor-widget-cmsmasters-search__submit"><span
                                                                                                                             class="elementor-widget-cmsmasters-search__submit-icon"><i
@@ -1366,6 +1471,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                                        <div class="ps__thumb-x" tabindex="0"
+                                                            style="left: 0px; width: 0px;"></div>
+                                                    </div>
+                                                    <div class="ps__rail-y" style="top: 0px; right: 0px;">
+                                                        <div class="ps__thumb-y" tabindex="0"
+                                                            style="top: 0px; height: 0px;"></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-widget-cmsmasters-offcanvas__container__overlay">
@@ -1380,11 +1493,9 @@
             </div>
         </div>
     </div>
-    <!-- Header Side End -->
 
     @yield('content')
 
-    <!-- Footer Side Start -->
     <div data-elementor-type="cmsmasters_footer" data-elementor-id="59"
         class="elementor elementor-59 cmsmasters-location-cmsmasters_footer cmsmasters-header-position-absolute-">
         <div class="elementor-inner">
@@ -1403,12 +1514,11 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-widget-cmsmasters-site-logo__container">
                                             <div class="elementor-widget-cmsmasters-site-logo__image-container"><a
-                                                    href="{{ route('home') }}"
-                                                    class="elementor-widget-cmsmasters-site-logo__link"
+                                                    href="" class="elementor-widget-cmsmasters-site-logo__link"
                                                     rel="nofollow"><img
-                                                        src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/logo_footer-1.svg"
+                                                        src="/wp-content/uploads/sites/3/2021/11/logo_footer-1.svg"
                                                         alt="Alternative" title="Alternative"
-                                                        class="cmsmasters-lazyload-disabled elementor-widget-cmsmasters-site-logo__img elementor-widget-cmsmasters-site-logo-main" /></a>
+                                                        class="cmsmasters-lazyload-disabled elementor-widget-cmsmasters-site-logo__img elementor-widget-cmsmasters-site-logo-main"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1428,25 +1538,27 @@
                                         <div class="elementor-social-icons-wrapper elementor-grid">
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-32ac3f6"
-                                                    href="https://www.facebook.com/" target="_blank">
+                                                    href="https://www.facebook.com/cmsmasters-133637440033420"
+                                                    target="_blank">
                                                     <span class="elementor-screen-only">Facebook-f</span>
                                                     <i class="fab fa-facebook-f"></i> </a>
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-3d083c5"
-                                                    href="https://www.instagram.com/" target="_blank">
+                                                    href="https://www.instagram.com/cmsmasters/" target="_blank">
                                                     <span class="elementor-screen-only">Instagram</span>
                                                     <i class="fab fa-instagram"></i> </a>
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-5cd3d72"
-                                                    href="https://www.youtube.com/" target="_blank">
+                                                    href="https://www.youtube.com/user/cmsmasters" target="_blank">
                                                     <span class="elementor-screen-only">Youtube</span>
                                                     <i class="fab fa-youtube"></i> </a>
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-repeater-item-fa8f919"
-                                                    href="https://twitter.com/" target="_blank">
+                                                    href="https://twitter.com/i/flow/login?redirect_after_login=%2Fdev_cmsmasters"
+                                                    target="_blank">
                                                     <span class="elementor-screen-only">X-twitter</span>
                                                     <i class="fab fa-x-twitter"></i> </a>
                                             </span>
@@ -1474,7 +1586,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('services') }}">Our Services</a> </span>
+                                                            <a href="/services/">Our Services</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -1484,7 +1596,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('contacts') }}">Contacts</a> </span>
+                                                            <a href="/contacts/">Contacts</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -1494,11 +1606,20 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('about') }}">About Us</a> </span>
+                                                            <a href="/blog/">Blog</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
-
+                                            <li class="cmsmasters-widget-icon-list-item">
+                                                <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                    <span
+                                                        class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
+                                                        <span
+                                                            class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                            <a href="/shop/">Shop</a> </span>
+                                                    </span>
+                                                </span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1523,7 +1644,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('commercial') }}">Wealth
+                                                            <a href="/cmsms_service/manage-your-account/">Wealth
                                                                 Management</a> </span>
                                                     </span>
                                                 </span>
@@ -1534,7 +1655,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('personal') }}">Checking
+                                                            <a href="/cmsms_service/easy-access-savings-account/">Checking
                                                                 Accounts</a> </span>
                                                     </span>
                                                 </span>
@@ -1545,7 +1666,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('bussines') }}">Credit
+                                                            <a href="/cmsms_service/everyday-spending-cards/">Credit
                                                                 Cards</a> </span>
                                                     </span>
                                                 </span>
@@ -1556,8 +1677,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('mortgages') }}">Mortgages</a>
-                                                        </span>
+                                                            <a href="/cmsms_service/mortgages/">Mortgages</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -1567,7 +1687,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('mobilepayments') }}">Mobile
+                                                            <a href="/cmsms_service/home-insurance-support/">Mobile
                                                                 Banking</a> </span>
                                                     </span>
                                                 </span>
@@ -1578,7 +1698,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('moneytransfers') }}">Money
+                                                            <a href="/cmsms_service/staying-safe-and-secure/">Money
                                                                 Transfers</a> </span>
                                                     </span>
                                                 </span>
@@ -1589,7 +1709,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('loans') }}">Personal
+                                                            <a href="/cmsms_service/home-improvement-loan/">Personal
                                                                 Loans</a> </span>
                                                     </span>
                                                 </span>
@@ -1600,7 +1720,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('personal') }}">Savings
+                                                            <a href="/cmsms_service/credit-card-eligibility-checker/">Savings
                                                                 Accounts</a> </span>
                                                     </span>
                                                 </span>
@@ -1611,7 +1731,8 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('financialaction') }}">Investments</a>
+                                                            <a
+                                                                href="/cmsms_service/your-financial-action-plan/">Investments</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1640,7 +1761,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('contacts') }}">Support</a> </span>
+                                                            <a href="/contacts/">Support</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -1650,7 +1771,8 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('security') }}">Security</a>
+                                                            <a
+                                                                href="/cmsms_service/staying-safe-and-secure/">Security</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1661,20 +1783,28 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('services') }}">Service status</a>
-                                                        </span>
+                                                            <a href="/services/">Service status</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
-
+                                            <li class="cmsmasters-widget-icon-list-item">
+                                                <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                    <span
+                                                        class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
+                                                        <span
+                                                            class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                            <a href="/cmsms_service/home-insurance-support/">Mobile
+                                                                app</a> </span>
+                                                    </span>
+                                                </span>
+                                            </li>
                                             <li class="cmsmasters-widget-icon-list-item">
                                                 <span class="cmsmasters-widget-icon-list-item-text-wrap">
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('mobilepayments') }}">Digital
-                                                                Banking</a> </span>
+                                                            <a href="/blog/">Digital Banking</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
@@ -1684,86 +1814,23 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('contacts') }}">Ways to bank</a>
-                                                        </span>
+                                                            <a href="/contacts/">Ways to bank</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
-
+                                            <li class="cmsmasters-widget-icon-list-item">
+                                                <span class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                    <span
+                                                        class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
+                                                        <span
+                                                            class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                            <a href="/image-credits/">Image Credits</a> </span>
+                                                    </span>
+                                                </span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
-                                <select onchange="doGTranslate(this);"
-                                    class="border-none outline-none text-white p-2 caption2">
-                                    <option value="">Language</option>
-                                    <option value="en|af">Afrikaans</option>
-                                    <option value="en|sq">Albanian</option>
-                                    <option value="en|ar">Arabic</option>
-                                    <option value="en|hy">Armenian</option>
-                                    <option value="en|az">Azerbaijani</option>
-                                    <option value="en|eu">Basque</option>
-                                    <option value="en|be">Belarusian</option>
-                                    <option value="en|bg">Bulgarian</option>
-                                    <option value="en|ca">Catalan</option>
-                                    <option value="en|zh-CN">Chinese (Simplified)</option>
-                                    <option value="en|zh-TW">Chinese (Traditional)</option>
-                                    <option value="en|hr">Croatian</option>
-                                    <option value="en|cs">Czech</option>
-                                    <option value="en|da">Danish</option>
-                                    <option value="en|nl">Dutch</option>
-                                    <option value="en|en">English</option>
-                                    <option value="en|et">Estonian</option>
-                                    <option value="en|tl">Filipino</option>
-                                    <option value="en|fi">Finnish</option>
-                                    <option value="en|fr">French</option>
-                                    <option value="en|gl">Galician</option>
-                                    <option value="en|ka">Georgian</option>
-                                    <option value="en|de">German</option>
-                                    <option value="en|el">Greek</option>
-                                    <option value="en|ht">Haitian Creole</option>
-                                    <option value="en|iw">Hebrew</option>
-                                    <option value="en|hi">Hindi</option>
-                                    <option value="en|hu">Hungarian</option>
-                                    <option value="en|is">Icelandic</option>
-                                    <option value="en|id">Indonesian</option>
-                                    <option value="en|ga">Irish</option>
-                                    <option value="en|it">Italian</option>
-                                    <option value="en|ja">Japanese</option>
-                                    <option value="en|ko">Korean</option>
-                                    <option value="en|lv">Latvian</option>
-                                    <option value="en|lt">Lithuanian</option>
-                                    <option value="en|mk">Macedonian</option>
-                                    <option value="en|ms">Malay</option>
-                                    <option value="en|mt">Maltese</option>
-                                    <option value="en|no">Norwegian</option>
-                                    <option value="en|fa">Persian</option>
-                                    <option value="en|pl">Polish</option>
-                                    <option value="en|pt">Portuguese</option>
-                                    <option value="en|ro">Romanian</option>
-                                    <option value="en|ru">Russian</option>
-                                    <option value="en|sr">Serbian</option>
-                                    <option value="en|sk">Slovak</option>
-                                    <option value="en|sl">Slovenian</option>
-                                    <option value="en|es">Spanish</option>
-                                    <option value="en|sw">Swahili</option>
-                                    <option value="en|sv">Swedish</option>
-                                    <option value="en|th">Thai</option>
-                                    <option value="en|tr">Turkish</option>
-                                    <option value="en|uk">Ukrainian</option>
-                                    <option value="en|ur">Urdu</option>
-                                    <option value="en|vi">Vietnamese</option>
-                                    <option value="en|cy">Welsh</option>
-                                    <option value="en|yi">Yiddish</option>
-                                </select><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                    fill="currentColor" viewBox="0 0 256 256"
-                                    class="text-xs text-white icon -right-2">
-                                    <path
-                                        d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z">
-                                    </path>
-                                </svg>
-                                <div id="google_translate_element2"></div>
                             </div>
                         </div>
                     </div>
@@ -1780,15 +1847,16 @@
                                     data-id="52c23ae8" data-element_type="widget"
                                     data-widget_type="cmsmasters-title.default">
                                     <div class="elementor-widget-container">
-                                        <div class="cmsmasters-widget-title__heading"><a href="{{ route('home') }}"
-                                                class="">{{ $set->site_name }}</a></div>
+                                        <div class="cmsmasters-widget-title__heading"><a
+                                                href="https://cmsmasters.net/" class="">cmsmasters</a></div>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-467506ee elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                    data-id="467506ee" data-element_type="widget" data-widget_type="heading.default">
+                                    data-id="467506ee" data-element_type="widget"
+                                    data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
                                         <p class="elementor-heading-title elementor-size-default">©2024 - All Rights
-                                            Reserved.</p>
+                                            Reserved - This is a sample website.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1798,21 +1866,24 @@
             </div>
         </div>
     </div><span class="cmsmasters-responsive-width"></span><!--googleoff: all-->
-    <div id="cookie-law-info-bar" data-nosnippet="true"><span>
+    <div id="cookie-law-info-bar" data-nosnippet="true" data-cli-style="cli-style-v2"
+        style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: inherit; bottom: 0px; position: fixed; display: none;">
+        <span>
             <div class="cli-bar-container cli-style-v2">
                 <div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by
                     remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of
                     ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.</div>
-                <div class="cli-bar-btn_container"><a role='button'
+                <div class="cli-bar-btn_container"><a role="button"
                         class="medium cli-plugin-button cli-plugin-main-button cli_settings_button"
-                        style="margin:0px 5px 0px 0px">Cookie Settings</a><a id="wt-cli-accept-all-btn"
-                        role='button' data-cli_action="accept_all"
-                        class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept
-                        All</a></div>
+                        style="margin: 0px 5px 0px 0px; color: rgb(51, 51, 51); background-color: rgb(222, 223, 224);">Cookie
+                        Settings</a><a id="wt-cli-accept-all-btn" role="button" data-cli_action="accept_all"
+                        class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button"
+                        style="color: rgb(255, 255, 255); background-color: rgb(97, 162, 41);">Accept All</a></div>
             </div>
         </span></div>
-    <div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span>
-    </div>
+    <div id="cookie-law-info-again" data-nosnippet="true"
+        style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); position: fixed; font-family: inherit; width: auto; bottom: 0px; right: 100px; display: none;">
+        <span id="cookie_hdr_showagain">Manage consent</span></div>
     <div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog"
         aria-labelledby="cliSettingsPopup" aria-hidden="true">
         <div class="cli-modal-dialog" role="document">
@@ -1836,11 +1907,7 @@
                                         <div class="cli-privacy-content-text">This website uses cookies to improve
                                             your experience while you navigate through the website. Out of these, the
                                             cookies that are categorized as necessary are stored on your browser as they
-                                            are essential for the working of basic functionalities of the website. We
-                                            also use third-party cookies that help us analyze and understand how you use
-                                            this website. These cookies will be stored in your browser only with your
-                                            consent. You also have the option to opt-out of these cookies. But opting
-                                            out of some of these cookies may affect your browsing experience.</div>
+                                            are essential for the working of basic functionalities of the ...</div>
                                     </div>
                                     <a class="cli-privacy-readmore" aria-label="Show more" role="button"
                                         data-readmore-text="Show more" data-readless-text="Show less"></a>
@@ -1855,7 +1922,7 @@
                                         <div class="wt-cli-necessary-checkbox">
                                             <input type="checkbox" class="cli-user-preference-checkbox"
                                                 id="wt-cli-checkbox-necessary" data-id="checkbox-necessary"
-                                                checked="checked" />
+                                                checked="checked">
                                             <label class="form-check-label"
                                                 for="wt-cli-checkbox-necessary">Necessary</label>
                                         </div>
@@ -1942,8 +2009,7 @@
                                             Functional </a>
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-functional"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-functional" />
+                                                class="cli-user-preference-checkbox" data-id="checkbox-functional">
                                             <label for="wt-cli-checkbox-functional" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Functional</span></label>
@@ -1966,8 +2032,7 @@
                                             Performance </a>
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-performance"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-performance" />
+                                                class="cli-user-preference-checkbox" data-id="checkbox-performance">
                                             <label for="wt-cli-checkbox-performance" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Performance</span></label>
@@ -1990,7 +2055,7 @@
                                             Analytics </a>
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-analytics"
-                                                class="cli-user-preference-checkbox" data-id="checkbox-analytics" />
+                                                class="cli-user-preference-checkbox" data-id="checkbox-analytics">
                                             <label for="wt-cli-checkbox-analytics" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Analytics</span></label>
@@ -2014,7 +2079,7 @@
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-advertisement"
                                                 class="cli-user-preference-checkbox"
-                                                data-id="checkbox-advertisement" />
+                                                data-id="checkbox-advertisement">
                                             <label for="wt-cli-checkbox-advertisement" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Advertisement</span></label>
@@ -2037,7 +2102,7 @@
                                             Others </a>
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-others"
-                                                class="cli-user-preference-checkbox" data-id="checkbox-others" />
+                                                class="cli-user-preference-checkbox" data-id="checkbox-others">
                                             <label for="wt-cli-checkbox-others" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Others</span></label>
@@ -2078,63 +2143,46 @@
     <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
     <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
     <!--googleon: all-->
-
     <script type="text/javascript">
-        function googleTranslateElementInit2() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                autoDisplay: false
-            }, 'google_translate_element2');
-        }
-    </script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
-    </script>
-
-
-    <script type='text/javascript'>
         (function() {
             var c = document.body.className;
             c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
             document.body.className = c;
         })();
     </script>
-    <link rel='stylesheet' id='elementor-icons-fa-regular-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-52-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-52.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-55-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-55.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='forminator-module-css-22-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/forminator/22_afdf0d603f1b4c7a522aa90ebb5e027f/css/style-22.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-icons-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/forminator-icons.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-utilities-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/forminator-utilities.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-forms-default-base-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.base.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='forminator-forms-default-full-css'
-        href='{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.full.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='buttons-css' href='wp-includes/css/buttons.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-118-css'
-        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-118.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='cookie-law-info-table-css'
-        href='{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='e-animations-css'
-        href='{{ url('/') }}/wp-content/plugins/elementor/assets/lib/animations/animations.min.css'
-        type='text/css' media='all' />
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+        href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-52-css" href="/wp-content/uploads/sites/3/elementor/css/post-52.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-55-css" href="/wp-content/uploads/sites/3/elementor/css/post-55.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-module-css-22-css"
+        href="/wp-content/uploads/sites/3/forminator/22_afdf0d603f1b4c7a522aa90ebb5e027f/css/style-22.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-icons-css"
+        href="/wp-content/plugins/forminator/assets/forminator-ui/css/forminator-icons.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="forminator-utilities-css"
+        href="/wp-content/plugins/forminator/assets/forminator-ui/css/src/forminator-utilities.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-forms-default-base-css"
+        href="/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.base.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="forminator-forms-default-full-css"
+        href="/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.full.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="buttons-css" href="/wp-includes/css/buttons.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-118-css"
+        href="/wp-content/uploads/sites/3/elementor/css/post-118.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cookie-law-info-table-css"
+        href="/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="e-animations-css"
+        href="/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css"
+        media="all">
+    <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
         id="sourcebuster-js-js"></script>
     <script type="text/javascript" id="wc-order-attribution-js-extra">
         /* <![CDATA[ */
@@ -2164,14 +2212,12 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
         id="wc-order-attribution-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/lazysizes/lazysizes.min.js"
-        id="lazysizes-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js">
+        src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/lazysizes/lazysizes.min.js" id="lazysizes-js">
     </script>
+    <script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js"></script>
     <script type="text/javascript" id="multibank-frontend-js-extra">
         /* <![CDATA[ */
         var cmsmasters_localize_vars = {
@@ -2182,30 +2228,28 @@
             "assets_data": {
                 "script": {
                     "swiper": {
-                        "src": "\/wp-content\/themes\/multibank\/assets\/lib\/swiper\/js\/swiper.min.js"
+                        "src": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/themes\/multibank\/assets\/lib\/swiper\/js\/swiper.min.js"
                     }
                 }
             }
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/themes/multibank/assets/js/frontend.min.js"
-        id="multibank-frontend-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/themes/multibank-child/assets/js/script.js"
+    <script type="text/javascript" src="/wp-content/themes/multibank/assets/js/frontend.min.js" id="multibank-frontend-js">
+    </script>
+    <script type="text/javascript" src="/wp-content/themes/multibank-child/assets/js/script.js"
         id="multibank-child-script-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"
+        src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"
         id="perfect-scrollbar-js-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/jquery.validate.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/jquery.validate.min.js"
         id="forminator-jquery-validate-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/js/forminator-form.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/forminator-ui/js/forminator-form.min.js"
         id="forminator-form-js"></script>
     <script type="text/javascript" id="forminator-front-scripts-js-extra">
         /* <![CDATA[ */
         var ForminatorFront = {
-            "ajaxUrl": "\/wp-admin\/admin-ajax.php",
+            "ajaxUrl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
             "cform": {
                 "processing": "Submitting form, please wait",
                 "error": "An error occurred while processing the form. Please try again",
@@ -2220,7 +2264,7 @@
                 },
                 "captcha_error": "Invalid CAPTCHA",
                 "no_file_chosen": "No file chosen",
-                "intlTelInput_utils_script": "\/wp-content\/plugins\/forminator\/assets\/js\/library\/intlTelInputUtils.js",
+                "intlTelInput_utils_script": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/forminator\/assets\/js\/library\/intlTelInputUtils.js",
                 "process_error": "Please try again"
             },
             "poll": {
@@ -2239,7 +2283,7 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/forminator/build/front/front.multi.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/forminator/build/front/front.multi.min.js"
         id="forminator-front-scripts-js"></script>
     <script type="text/javascript" id="forminator-front-scripts-js-after">
         /* <![CDATA[ */
@@ -2261,7 +2305,7 @@
                                             "is_preview": false,
                                             "preview_data": [],
                                             "last_submit_data": [],
-                                            "nonce": "3e2b496a73",
+                                            "nonce": "2e95f26b79",
                                             "extra": {
                                                 "_wp_http_referer": "",
                                                 "page_id": 7199,
@@ -2283,7 +2327,7 @@
                                     "is_preview": false,
                                     "preview_data": [],
                                     "last_submit_data": [],
-                                    "nonce": "3e2b496a73",
+                                    "nonce": "2e95f26b79",
                                     "extra": {
                                         "_wp_http_referer": "",
                                         "page_id": 7199,
@@ -2305,7 +2349,7 @@
                             "is_preview": false,
                             "preview_data": [],
                             "last_submit_data": [],
-                            "nonce": "3e2b496a73",
+                            "nonce": "2e95f26b79",
                             "extra": {
                                 "_wp_http_referer": "",
                                 "page_id": 7199,
@@ -2325,40 +2369,33 @@
         }(jQuery, document, window));
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/inputmask.min.js"
         id="forminator-inputmask-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js"
         id="forminator-jquery-inputmask-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js"
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js"
         id="forminator-inputmask-binding-js"></script>
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGKYF0r2-jl1P0aUeqiD5kBWdJt5nwWac&amp;ver=1.0.0"
         id="google-maps-api-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/js/webpack.runtime.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/cmsmasters-elementor-addon/assets/js/webpack.runtime.min.js"
         id="cmsmasters-webpack-runtime-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
         id="elementor-webpack-runtime-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
         id="elementor-frontend-modules-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/basicScroll/basicScroll.min.js"
-        id="basicScroll-js"></script>
+        src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/basicScroll/basicScroll.min.js" id="basicScroll-js">
+    </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/vanilla-tilt/vanilla-tilt.min.js"
+        src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/vanilla-tilt/vanilla-tilt.min.js"
         id="vanilla-tilt-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/anime/anime.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/anime/anime.min.js"
         id="anime-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/hc-sticky/hc-sticky.min.js"
-        id="hc-sticky-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/headroom/headroom.min.js"
+        src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/hc-sticky/hc-sticky.min.js" id="hc-sticky-js">
+    </script>
+    <script type="text/javascript" src="/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/headroom/headroom.min.js"
         id="headroom-js"></script>
     <script type="text/javascript" id="cmsmasters-frontend-js-before">
         /* <![CDATA[ */
@@ -2387,16 +2424,16 @@
             "instagram_user_id": "",
             "instagram_account_type": "personal",
             "nonces": {
-                "social_counter": "c83f978f2c",
-                "meta_data": "cca55569cc",
-                "ajax_widget": "628979789c"
+                "social_counter": "db5cb40ca8",
+                "meta_data": "91e6154f01",
+                "ajax_widget": "723189fba1"
             },
             "version": "1.11.9",
-            "ajaxurl": "\/wp-admin\/admin-ajax.php",
+            "ajaxurl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
             "urls": {
-                "assets": "\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/",
-                "modules": "\/wp-content\/plugins\/cmsmasters-elementor-addon\/modules\/",
-                "cmsmasters_assets": "\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/"
+                "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/",
+                "modules": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/modules\/",
+                "cmsmasters_assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/"
             },
             "multisite_current_blog_id": 3,
             "cmsmasters_version": "1.11.9",
@@ -2407,20 +2444,16 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/js/frontend.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/cmsmasters-elementor-addon/assets/js/frontend.min.js"
         id="cmsmasters-frontend-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
         id="elementor-waypoints-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js">
+    <script type="text/javascript" src="/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js" id="swiper-js">
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js" id="swiper-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" id="share-link-js">
-    </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js"
+        id="share-link-js"></script>
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
         id="elementor-dialog-js"></script>
     <script type="text/javascript" id="elementor-frontend-js-before">
         /* <![CDATA[ */
@@ -2516,7 +2549,7 @@
                 "e_image_loading_optimization": true
             },
             "urls": {
-                "assets": "\/wp-content\/plugins\/elementor\/assets\/"
+                "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/elementor\/assets\/"
             },
             "swiperClass": "swiper",
             "settings": {
@@ -2542,11 +2575,22 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend.min.js"
-        id="elementor-frontend-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js"
-        id="preloaded-modules-js"></script>
-</body>
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js">
+    </script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js"
+        id="preloaded-modules-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+
+
+
+
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/inputmask.min.js?ver=1.29.2"
+        async="" defer=""></script>
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js?ver=1.29.2"
+        async="" defer=""></script>
+    <script type="text/javascript" src="/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js?ver=1.29.2"
+        async="" defer=""></script>
+</body><chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar><grammarly-desktop-integration
+    data-grammarly-shadow-root="true"></grammarly-desktop-integration><chatgpt-sidebar-popups
+    data-gpts-theme="light"></chatgpt-sidebar-popups>
 
 </html>
