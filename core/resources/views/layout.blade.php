@@ -1585,7 +1585,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('mobilepayments') }}">Mobile
+                                                            <a href="{{ route('insurancesupport') }}">Mobile
                                                                 Banking</a> </span>
                                                     </span>
                                                 </span>
@@ -1596,7 +1596,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('moneytransfers') }}">Money
+                                                            <a href="{{ route('security') }}">Money
                                                                 Transfers</a> </span>
                                                     </span>
                                                 </span>
@@ -1692,7 +1692,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a href="{{ route('mobilepayments') }}">Digital
+                                                            <a href="{{ route('insurancesupport') }}">Digital
                                                                 Banking</a> </span>
                                                     </span>
                                                 </span>
