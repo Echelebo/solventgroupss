@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Local-Icons';
-  src:  url('fonts/Local-Icons91a9.eot?m25dkh');
-  src:  url('fonts/Local-Icons91a9.eot?m25dkh#iefix') format('embedded-opentype'),
-    url('fonts/Local-Icons91a9.ttf?m25dkh') format('truetype'),
-    url('fonts/Local-Icons91a9.woff?m25dkh') format('woff'),
-    url('fonts/Local-Icons91a9.svg?m25dkh#Local-Icons') format('svg');
+  src:  url('fonts/Local-Icons.eot?m25dkh');
+  src:  url('fonts/Local-Icons.eot?m25dkh#iefix') format('embedded-opentype'),
+    url('fonts/Local-Icons.ttf?m25dkh') format('truetype'),
+    url('fonts/Local-Icons.woff?m25dkh') format('woff'),
+    url('fonts/Local-Icons.svg?m25dkh#Local-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

@@ -3,24 +3,24 @@
 	font-family: 'Yantramanav Local';
 	font-weight: 500;
 	font-style: normal;
-	src: url('../cmsmasters-local-fonts/yantramanav_local/Yantramanav-Medium.woff2') format('woff2'),
-		url('../cmsmasters-local-fonts/yantramanav_local/Yantramanav-Medium.woff') format('woff');
+	src: url('https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-fonts/yantramanav_local/Yantramanav-Medium.woff2') format('woff2'),
+		url('https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-fonts/yantramanav_local/Yantramanav-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Yantramanav Local';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../cmsmasters-local-fonts/yantramanav_local/Yantramanav-Regular.woff2') format('woff2'),
-		url('../cmsmasters-local-fonts/yantramanav_local/Yantramanav-Regular.woff') format('woff');
+	src: url('https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-fonts/yantramanav_local/Yantramanav-Regular.woff2') format('woff2'),
+		url('https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-fonts/yantramanav_local/Yantramanav-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Yantramanav Local';
 	font-weight: bold;
 	font-style: normal;
-	src: url('../cmsmasters-local-fonts/yantramanav_local/Yantramanav-Bold.woff2') format('woff2'),
-		url('../cmsmasters-local-fonts/yantramanav_local/Yantramanav-Bold.woff') format('woff');
+	src: url('https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-fonts/yantramanav_local/Yantramanav-Bold.woff2') format('woff2'),
+		url('https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/elementor/cmsmasters-local-fonts/yantramanav_local/Yantramanav-Bold.woff') format('woff');
 }
 
 /* End local fonts styles */
