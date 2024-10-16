@@ -7,13 +7,12 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <title>{{ $title }} | {{ $set->site_name }}</title>
     <meta name="robots" content="max-image-preview:large">
-    <link rel="alternate" type="application/rss+xml" title="Alternative » Feed"
-        href="{{ url('/') }}/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Alternative » Feed" href="{{ url('/') }}/feed/">
     <link rel="alternate" type="application/rss+xml" title="Alternative » Comments Feed"
         href="{{ url('/') }}/comments/feed/">
     <link rel="stylesheet" id="cmsmasters-default-vars-css"
-        href="{{ url('/') }}/wp-content/themes/multibank/assets/css/default-vars.min.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/themes/multibank/assets/css/default-vars.min.css" type="text/css"
+        media="all">
     <style id="classic-theme-styles-inline-css" type="text/css">
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -412,11 +411,11 @@
         href="{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css"
         type="text/css" media="all">
     <link rel="stylesheet" id="woocommerce-layout-css"
-        href="{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="woocommerce-smallscreen-css"
-        href="{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css"
-        type="text/css" media="only screen and (max-width: 768px)">
+        href="{{ url('/') }}/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css" type="text/css"
+        media="only screen and (max-width: 768px)">
     <link rel="stylesheet" id="woocommerce-general-css"
         href="{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/woocommerce.min.css"
         type="text/css" media="all">
@@ -426,17 +425,16 @@
         }
     </style>
     <link rel="stylesheet" id="multibank-root-style-css"
-        href="{{ url('/') }}/wp-content/themes/multibank/style.css" type="text/css"
-        media="all">
+        href="{{ url('/') }}/wp-content/themes/multibank/style.css" type="text/css" media="all">
     <link rel="stylesheet" id="elementor-icons-css"
         href="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css"
         type="text/css" media="all">
     <link rel="stylesheet" id="multibank-frontend-css"
-        href="{{ url('/') }}/wp-content/themes/multibank/assets/css/frontend.min.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/themes/multibank/assets/css/frontend.min.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="multibank-gutenberg-css"
-        href="{{ url('/') }}/wp-content/themes/multibank/assets/css/gutenberg-wp-frontend.min.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/themes/multibank/assets/css/gutenberg-wp-frontend.min.css" type="text/css"
+        media="all">
     <style id="multibank-gutenberg-inline-css" type="text/css">
         .has-cmsmasters-colors-text-color {
             color: var(--cmsmasters-colors-text) !important;
@@ -495,14 +493,13 @@
         }
     </style>
     <link rel="stylesheet" id="elementor-frontend-css"
-        href="{{ url('/') }}/wp-content/plugins/elementor/assets/css/frontend.min.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="swiper-css"
-        href="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="elementor-post-25-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-25.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-25.css" type="text/css" media="all">
     <link rel="stylesheet" id="cmsmasters-icons-css"
         href="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/cmsicons/css/cmsmasters-icons.min.css"
         type="text/css" media="all">
@@ -510,20 +507,19 @@
         href="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/css/frontend.min.css"
         type="text/css" media="all">
     <link rel="stylesheet" id="elementor-post-7199-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-7199.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-7199.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="wc-frontend-css"
         href="{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/wc-frontend.min.css"
         type="text/css" media="all">
     <link rel="stylesheet" id="elementor-post-104-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-104.css"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-post-59-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-59.css"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="multibank-child-style-css"
-        href="{{ url('/') }}/wp-content/themes/multibank-child/style.css" type="text/css"
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-104.css" type="text/css"
         media="all">
+    <link rel="stylesheet" id="elementor-post-59-css"
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-59.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="multibank-child-style-css"
+        href="{{ url('/') }}/wp-content/themes/multibank-child/style.css" type="text/css" media="all">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
         href="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css"
         type="text/css" media="all">
@@ -536,17 +532,86 @@
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
         href="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css"
         type="text/css" media="all">
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-includes/js/jquery/jquery.min.js"
-        id="jquery-core-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-includes/js/jquery/jquery-migrate.min.js"
+    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js">
+    </script>
+    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/jquery-migrate.min.js"
         id="jquery-migrate-js"></script>
     <script type="text/javascript" id="cookie-law-info-js-extra">
         /* <![CDATA[ */
-        var Cli_Data = { "nn_cookie_ids": [], "cookielist": [], "non_necessary_cookies": [], "ccpaEnabled": "", "ccpaRegionBased": "", "ccpaBarEnabled": "", "strictlyEnabled": ["necessary", "obligatoire"], "ccpaType": "gdpr", "js_blocking": "1", "custom_integration": "", "triggerDomRefresh": "", "secure_cookies": "" };
-        var cli_cookiebar_settings = { "animate_speed_hide": "500", "animate_speed_show": "500", "background": "#FFF", "border": "#b1a6a6c2", "border_on": "", "button_1_button_colour": "#61a229", "button_1_button_hover": "#4e8221", "button_1_link_colour": "#fff", "button_1_as_button": "1", "button_1_new_win": "", "button_2_button_colour": "#333", "button_2_button_hover": "#292929", "button_2_link_colour": "#444", "button_2_as_button": "", "button_2_hidebar": "", "button_3_button_colour": "#dedfe0", "button_3_button_hover": "#b2b2b3", "button_3_link_colour": "#333333", "button_3_as_button": "1", "button_3_new_win": "", "button_4_button_colour": "#dedfe0", "button_4_button_hover": "#b2b2b3", "button_4_link_colour": "#333333", "button_4_as_button": "1", "button_7_button_colour": "#61a229", "button_7_button_hover": "#4e8221", "button_7_link_colour": "#fff", "button_7_as_button": "1", "button_7_new_win": "", "font_family": "inherit", "header_fix": "", "notify_animate_hide": "1", "notify_animate_show": "", "notify_div_id": "#cookie-law-info-bar", "notify_position_horizontal": "right", "notify_position_vertical": "bottom", "scroll_close": "", "scroll_close_reload": "", "accept_close_reload": "", "reject_close_reload": "", "showagain_tab": "", "showagain_background": "#fff", "showagain_border": "#000", "showagain_div_id": "#cookie-law-info-again", "showagain_x_position": "100px", "text": "#333333", "show_once_yn": "", "show_once": "10000", "logging_on": "", "as_popup": "", "popup_overlay": "1", "bar_heading_text": "", "cookie_bar_as": "banner", "popup_showagain_position": "bottom-right", "widget_position": "left" };
-        var log_object = { "ajax_url": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php" };
+        var Cli_Data = {
+            "nn_cookie_ids": [],
+            "cookielist": [],
+            "non_necessary_cookies": [],
+            "ccpaEnabled": "",
+            "ccpaRegionBased": "",
+            "ccpaBarEnabled": "",
+            "strictlyEnabled": ["necessary", "obligatoire"],
+            "ccpaType": "gdpr",
+            "js_blocking": "1",
+            "custom_integration": "",
+            "triggerDomRefresh": "",
+            "secure_cookies": ""
+        };
+        var cli_cookiebar_settings = {
+            "animate_speed_hide": "500",
+            "animate_speed_show": "500",
+            "background": "#FFF",
+            "border": "#b1a6a6c2",
+            "border_on": "",
+            "button_1_button_colour": "#61a229",
+            "button_1_button_hover": "#4e8221",
+            "button_1_link_colour": "#fff",
+            "button_1_as_button": "1",
+            "button_1_new_win": "",
+            "button_2_button_colour": "#333",
+            "button_2_button_hover": "#292929",
+            "button_2_link_colour": "#444",
+            "button_2_as_button": "",
+            "button_2_hidebar": "",
+            "button_3_button_colour": "#dedfe0",
+            "button_3_button_hover": "#b2b2b3",
+            "button_3_link_colour": "#333333",
+            "button_3_as_button": "1",
+            "button_3_new_win": "",
+            "button_4_button_colour": "#dedfe0",
+            "button_4_button_hover": "#b2b2b3",
+            "button_4_link_colour": "#333333",
+            "button_4_as_button": "1",
+            "button_7_button_colour": "#61a229",
+            "button_7_button_hover": "#4e8221",
+            "button_7_link_colour": "#fff",
+            "button_7_as_button": "1",
+            "button_7_new_win": "",
+            "font_family": "inherit",
+            "header_fix": "",
+            "notify_animate_hide": "1",
+            "notify_animate_show": "",
+            "notify_div_id": "#cookie-law-info-bar",
+            "notify_position_horizontal": "right",
+            "notify_position_vertical": "bottom",
+            "scroll_close": "",
+            "scroll_close_reload": "",
+            "accept_close_reload": "",
+            "reject_close_reload": "",
+            "showagain_tab": "",
+            "showagain_background": "#fff",
+            "showagain_border": "#000",
+            "showagain_div_id": "#cookie-law-info-again",
+            "showagain_x_position": "100px",
+            "text": "#333333",
+            "show_once_yn": "",
+            "show_once": "10000",
+            "logging_on": "",
+            "as_popup": "",
+            "popup_overlay": "1",
+            "bar_heading_text": "",
+            "cookie_bar_as": "banner",
+            "popup_showagain_position": "bottom-right",
+            "widget_position": "left"
+        };
+        var log_object = {
+            "ajax_url": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php"
+        };
         /* ]]> */
     </script>
     <script type="text/javascript"
@@ -557,28 +622,36 @@
         id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
-        var wc_add_to_cart_params = { "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/multibank.cmsmasters.net\/alternative\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/multibank.cmsmasters.net\/alternative\/cart\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
         /* ]]> */
     </script>
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
         id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
-        id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js"
+        defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="woocommerce-js-extra">
         /* <![CDATA[ */
-        var woocommerce_params = { "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%" };
+        var woocommerce_params = {
+            "ajax_url": "\/alternative\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/alternative\/?wc-ajax=%%endpoint%%"
+        };
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
-        id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+        src="{{ url('/') }}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"
+        defer="defer" data-wp-strategy="defer"></script>
     <link rel="https://api.w.org/" href="{{ url('/') }}/wp-json/">
-    <link rel="alternate" type="application/json"
-        href="{{ url('/') }}/wp-json/wp/v2/pages/7199">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD"
-        href="{{ url('/') }}/xmlrpc.php?rsd">
+    <link rel="alternate" type="application/json" href="{{ url('/') }}/wp-json/wp/v2/pages/7199">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ url('/') }}/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.5">
     <meta name="generator" content="WooCommerce 8.7.0">
     <link rel="canonical" href="{{ url('/') }}/">
@@ -596,20 +669,14 @@
     </noscript>
     <meta name="generator"
         content="Elementor 3.20.3; features: additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
-    <link rel="icon"
-        href="{{ url('/') }}/asset/{{ $logo->image_link2 }}"
-        sizes="32x32">
-    <link rel="icon"
-        href="{{ url('/') }}/asset/{{ $logo->image_link2 }}"
-        sizes="192x192">
-    <link rel="apple-touch-icon"
-        href="{{ url('/') }}/asset/{{ $logo->image_link2 }}">
-    <meta name="msapplication-TileImage"
-        content="{{ url('/') }}/asset/{{ $logo->image_link2 }}">
-    <script type="text/javascript" charset="UTF-8"
-        src="https://maps.googleapis.com/maps-api-v3/api/js/58/8/common.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-        src="https://maps.googleapis.com/maps-api-v3/api/js/58/8/util.js"></script>
+    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" sizes="32x32">
+    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}">
+    <meta name="msapplication-TileImage" content="{{ url('/') }}/asset/{{ $logo->image_link2 }}">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/8/common.js">
+    </script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/8/util.js">
+    </script>
 </head>
 
 <body id="cmsmasters_body"
@@ -716,7 +783,8 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="mailto:{{ $set->email }}">{{ $set->email }}</a>
+                                                            <a
+                                                                href="mailto:{{ $set->email }}">{{ $set->email }}</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -740,7 +808,8 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a href="tel:+1%20452%20123%201235">{{ $set->mobile }}</a>
+                                                            <a
+                                                                href="tel:+1%20452%20123%201235">{{ $set->mobile }}</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -791,8 +860,7 @@
                                                 class="elementor-widget-cmsmasters-nav-menu__container-inner">
                                                 <li id="menu-item-9556"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7199 current_page_item menu-item-9556">
-                                                    <a href="{{ url('/') }}/"
-                                                        aria-current="page"
+                                                    <a href="{{ url('/') }}/" aria-current="page"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item elementor-widget-cmsmasters-nav-menu__item-active elementor-widget-cmsmasters-nav-menu__item-link-top"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
@@ -800,7 +868,8 @@
                                                                 class="elementor-widget-cmsmasters-nav-menu__arrow"><span
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
-                                                            class="cmsmasters-animation"></span></a></li>
+                                                            class="cmsmasters-animation"></span></a>
+                                                </li>
                                                 <li id="menu-item-8990"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8990">
                                                     <a class="elementor-widget-cmsmasters-nav-menu__dropdown-item elementor-widget-cmsmasters-nav-menu__item-link-top"
@@ -822,7 +891,8 @@
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">View
                                                                         All</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a></li>
+                                                                    class="cmsmasters-animation"></span></a>
+                                                        </li>
                                                         <li id="menu-item-8991"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8991">
                                                             <a href="{{ route('personal') }}"
@@ -832,7 +902,8 @@
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Savings
                                                                         Account</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a></li>
+                                                                    class="cmsmasters-animation"></span></a>
+                                                        </li>
                                                         <li id="menu-item-8992"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8992">
                                                             <a href="{{ route('bussines') }}"
@@ -842,7 +913,8 @@
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Credit
                                                                         Cards</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a></li>
+                                                                    class="cmsmasters-animation"></span></a>
+                                                        </li>
                                                         <li id="menu-item-8993"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8993">
                                                             <a href="{{ route('commercial') }}"
@@ -852,7 +924,8 @@
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Managing
                                                                         account</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a></li>
+                                                                    class="cmsmasters-animation"></span></a>
+                                                        </li>
                                                         <li id="menu-item-8994"
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8994">
                                                             <a href="{{ route('mortgages') }}"
@@ -861,7 +934,8 @@
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Mortgage</span><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__arrow"></span></span><span
-                                                                    class="cmsmasters-animation"></span></a></li>
+                                                                    class="cmsmasters-animation"></span></a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-8986"
@@ -874,7 +948,8 @@
                                                                 class="elementor-widget-cmsmasters-nav-menu__arrow"><span
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
-                                                            class="cmsmasters-animation"></span></a></li>
+                                                            class="cmsmasters-animation"></span></a>
+                                                </li>
                                                 <li id="menu-item-8987"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
                                                     <a href="{{ route('contacts') }}"
@@ -885,7 +960,8 @@
                                                                 class="elementor-widget-cmsmasters-nav-menu__arrow"><span
                                                                     class="cmsmasters-wrap-icon"><i
                                                                         class="fas fa-chevron-down"></i></span></span></span><span
-                                                            class="cmsmasters-animation"></span></a></li>
+                                                            class="cmsmasters-animation"></span></a>
+                                                </li>
                                             </ul>
                                         </nav>
                                         <div
@@ -895,7 +971,8 @@
                                                 <span class="cmsmasters-toggle-icon"><i
                                                         class="fas fa-bars"></i></span><span
                                                     class="cmsmasters-toggle-icon-active"><i
-                                                        class="fas fa-times"></i></span></div>
+                                                        class="fas fa-times"></i></span>
+                                            </div>
                                         </div>
                                         <nav
                                             class="elementor-widget-cmsmasters-nav-menu__dropdown elementor-widget-cmsmasters-nav-menu__container cmsmasters-layout-horizontal cmsmasters-menu-dropdown-type- cmsmasters-arrow-animation-">
@@ -903,8 +980,7 @@
                                                 class="elementor-widget-cmsmasters-nav-menu__container-inner cmsmasters-nav-menu-dropdown ps">
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7199 current_page_item menu-item-9556">
-                                                    <a href="{{ url('/') }}/"
-                                                        aria-current="page"
+                                                    <a href="{{ url('/') }}/" aria-current="page"
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
@@ -925,7 +1001,8 @@
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">View
-                                                                        All</span></span></a></li>
+                                                                        All</span></span></a>
+                                                        </li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8991">
                                                             <a href="{{ route('personal') }}"
@@ -933,7 +1010,8 @@
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Savings
-                                                                        Account</span></span></a></li>
+                                                                        Account</span></span></a>
+                                                        </li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8992">
                                                             <a href="{{ route('bussines') }}"
@@ -941,7 +1019,8 @@
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Credit
-                                                                        Cards</span></span></a></li>
+                                                                        Cards</span></span></a>
+                                                        </li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8993">
                                                             <a href="{{ route('commercial') }}"
@@ -949,7 +1028,8 @@
                                                                 aria-label="Menu item"><span
                                                                     class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
                                                                         class="elementor-widget-cmsmasters-nav-menu__item-text">Managing
-                                                                        account</span></span></a></li>
+                                                                        account</span></span></a>
+                                                        </li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8994">
                                                             <a href="{{ route('mortgages') }}"
@@ -998,7 +1078,8 @@
                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                     role="button"><span
                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
-                                                            class="elementor-widget-cmsmasters-button__text">Internet Banking</span></span></a></div>
+                                                            class="elementor-widget-cmsmasters-button__text">Internet
+                                                            Banking</span></span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1018,8 +1099,8 @@
                                                             class="elementor-widget-cmsmasters-search__form-container cmsmasters-submit-button-view-button cmsmasters-buttons-type-icon">
                                                             <input type="search"
                                                                 class="elementor-widget-cmsmasters-search__field "
-                                                                value="" name="s" placeholder="Search..."><button
-                                                                type="submit"
+                                                                value="" name="s"
+                                                                placeholder="Search..."><button type="submit"
                                                                 class="elementor-widget-cmsmasters-search__submit"><span
                                                                     class="elementor-widget-cmsmasters-search__submit-icon"><i
                                                                         class="cmsmsdemo-icon- cmsms-demo-icon-search"></i></span></button>
@@ -1112,28 +1193,32 @@
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">View
-                                                                                                All</span></a></li>
+                                                                                                All</span></a>
+                                                                                    </li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8991">
                                                                                         <a href="{{ route('personal') }}"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Savings
-                                                                                                Account</span></a></li>
+                                                                                                Account</span></a>
+                                                                                    </li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8992">
                                                                                         <a href="{{ route('bussines') }}"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Credit
-                                                                                                Cards</span></a></li>
+                                                                                                Cards</span></a>
+                                                                                    </li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8993">
                                                                                         <a href="{{ route('commercial') }}"
                                                                                             class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__submenu-item"
                                                                                             aria-label="Menu item"><span
                                                                                                 class="elementor-widget-cmsmasters-offcanvas__item-text">Managing
-                                                                                                account</span></a></li>
+                                                                                                account</span></a>
+                                                                                    </li>
                                                                                     <li
                                                                                         class="menu-item menu-item-type-post_type menu-item-object-cmsms_service menu-item-8994">
                                                                                         <a href="{{ route('mortgages') }}"
@@ -1145,14 +1230,14 @@
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8986">
-                                                                                <a href="{{ route('about')}}"
+                                                                                <a href="{{ route('about') }}"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
                                                                                         class="elementor-widget-cmsmasters-offcanvas__item-text">Blog</span></a>
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
-                                                                                <a href="{{ route('contacts')}}"
+                                                                                <a href="{{ route('contacts') }}"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
                                                                                         class="elementor-widget-cmsmasters-offcanvas__item-text">Contacts</span></a>
@@ -1205,7 +1290,7 @@
                                                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                             <div
                                                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                <a href="{{ route('openaccount')}}"
+                                                                                                                                <a href="{{ route('openaccount') }}"
                                                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                                                     role="button"><span
                                                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1232,7 +1317,7 @@
                                                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                             <div
                                                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                <a href="{{route('openaccount')}}"
+                                                                                                                                <a href="{{ route('openaccount') }}"
                                                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                                                     role="button"><span
                                                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1404,8 +1489,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{route('services')}}">Our
+                                                            <a href="{{ route('services') }}">Our
                                                                 Services</a> </span>
                                                     </span>
                                                 </span>
@@ -1416,8 +1500,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('contacts') }}">Contacts</a>
+                                                            <a href="{{ route('contacts') }}">Contacts</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1428,8 +1511,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('about') }}">About</a>
+                                                            <a href="{{ route('about') }}">About</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1459,8 +1541,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('commercial') }}">Wealth
+                                                            <a href="{{ route('commercial') }}">Wealth
                                                                 Management</a> </span>
                                                     </span>
                                                 </span>
@@ -1471,8 +1552,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('personal') }}">Checking
+                                                            <a href="{{ route('personal') }}">Checking
                                                                 Accounts</a> </span>
                                                     </span>
                                                 </span>
@@ -1483,8 +1563,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('bussines') }}">Credit
+                                                            <a href="{{ route('bussines') }}">Credit
                                                                 Cards</a> </span>
                                                     </span>
                                                 </span>
@@ -1495,8 +1574,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('mortgages') }}">Mortgages</a>
+                                                            <a href="{{ route('mortgages') }}">Mortgages</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1507,8 +1585,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('mobilepayments') }}">Mobile
+                                                            <a href="{{ route('mobilepayments') }}">Mobile
                                                                 Banking</a> </span>
                                                     </span>
                                                 </span>
@@ -1519,8 +1596,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('moneytransfers') }}">Money
+                                                            <a href="{{ route('moneytransfers') }}">Money
                                                                 Transfers</a> </span>
                                                     </span>
                                                 </span>
@@ -1531,8 +1607,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('loans') }}">Personal
+                                                            <a href="{{ route('loans') }}">Personal
                                                                 Loans</a> </span>
                                                     </span>
                                                 </span>
@@ -1543,8 +1618,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('personal') }}">Savings
+                                                            <a href="{{ route('personal') }}">Savings
                                                                 Accounts</a> </span>
                                                     </span>
                                                 </span>
@@ -1555,8 +1629,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('financialaction') }}">Investments</a>
+                                                            <a href="{{ route('financialaction') }}">Investments</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1585,8 +1658,7 @@
                                                     <span
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span class="cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('contacts') }}">Support</a>
+                                                            <a href="{{ route('contacts') }}">Support</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1597,8 +1669,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('security') }}">Security</a>
+                                                            <a href="{{ route('security') }}">Security</a>
                                                         </span>
                                                     </span>
                                                 </span>
@@ -1609,8 +1680,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('services') }}">Service
+                                                            <a href="{{ route('services') }}">Service
                                                                 status</a> </span>
                                                     </span>
                                                 </span>
@@ -1622,8 +1692,7 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('mobilepayments') }}">Digital
+                                                            <a href="{{ route('mobilepayments') }}">Digital
                                                                 Banking</a> </span>
                                                     </span>
                                                 </span>
@@ -1634,82 +1703,21 @@
                                                         class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                         <span
                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                            <a
-                                                                href="{{ route('contacts') }}">Ways
+                                                            <a href="{{ route('contacts') }}">Ways
                                                                 to bank</a> </span>
                                                     </span>
                                                 </span>
                                             </li>
 
                                             <li class="cmsmasters-widget-icon-list-item">
-                                                <select onchange="doGTranslate(this);"
-                                class="border-none outline-none text-white p-2 caption2">
-                                <option value="">Language</option>
-                                <option value="en|af">Afrikaans</option>
-                                <option value="en|sq">Albanian</option>
-                                <option value="en|ar">Arabic</option>
-                                <option value="en|hy">Armenian</option>
-                                <option value="en|az">Azerbaijani</option>
-                                <option value="en|eu">Basque</option>
-                                <option value="en|be">Belarusian</option>
-                                <option value="en|bg">Bulgarian</option>
-                                <option value="en|ca">Catalan</option>
-                                <option value="en|zh-CN">Chinese (Simplified)</option>
-                                <option value="en|zh-TW">Chinese (Traditional)</option>
-                                <option value="en|hr">Croatian</option>
-                                <option value="en|cs">Czech</option>
-                                <option value="en|da">Danish</option>
-                                <option value="en|nl">Dutch</option>
-                                <option value="en|en">English</option>
-                                <option value="en|et">Estonian</option>
-                                <option value="en|tl">Filipino</option>
-                                <option value="en|fi">Finnish</option>
-                                <option value="en|fr">French</option>
-                                <option value="en|gl">Galician</option>
-                                <option value="en|ka">Georgian</option>
-                                <option value="en|de">German</option>
-                                <option value="en|el">Greek</option>
-                                <option value="en|ht">Haitian Creole</option>
-                                <option value="en|iw">Hebrew</option>
-                                <option value="en|hi">Hindi</option>
-                                <option value="en|hu">Hungarian</option>
-                                <option value="en|is">Icelandic</option>
-                                <option value="en|id">Indonesian</option>
-                                <option value="en|ga">Irish</option>
-                                <option value="en|it">Italian</option>
-                                <option value="en|ja">Japanese</option>
-                                <option value="en|ko">Korean</option>
-                                <option value="en|lv">Latvian</option>
-                                <option value="en|lt">Lithuanian</option>
-                                <option value="en|mk">Macedonian</option>
-                                <option value="en|ms">Malay</option>
-                                <option value="en|mt">Maltese</option>
-                                <option value="en|no">Norwegian</option>
-                                <option value="en|fa">Persian</option>
-                                <option value="en|pl">Polish</option>
-                                <option value="en|pt">Portuguese</option>
-                                <option value="en|ro">Romanian</option>
-                                <option value="en|ru">Russian</option>
-                                <option value="en|sr">Serbian</option>
-                                <option value="en|sk">Slovak</option>
-                                <option value="en|sl">Slovenian</option>
-                                <option value="en|es">Spanish</option>
-                                <option value="en|sw">Swahili</option>
-                                <option value="en|sv">Swedish</option>
-                                <option value="en|th">Thai</option>
-                                <option value="en|tr">Turkish</option>
-                                <option value="en|uk">Ukrainian</option>
-                                <option value="en|ur">Urdu</option>
-                                <option value="en|vi">Vietnamese</option>
-                                <option value="en|cy">Welsh</option>
-                                <option value="en|yi">Yiddish</option>
-                            </select><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                fill="currentColor" viewBox="0 0 256 256" class="text-xs text-white icon -right-2">
-                                <path
-                                    d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z">
-                                </path>
-                            </svg>
-                            <div id="google_translate_element2"></div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                                    fill="currentColor" viewBox="0 0 256 256"
+                                                    class="text-xs text-white icon -right-2">
+                                                    <path
+                                                        d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z">
+                                                    </path>
+                                                </svg>
+                                                <div id="google_translate_element2"></div>
                                             </li>
 
                                         </ul>
@@ -1763,10 +1771,12 @@
                         class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button"
                         style="color: rgb(255, 255, 255); background-color: rgb(97, 162, 41);">Accept All</a></div>
             </div>
-        </span></div>
+        </span>
+    </div>
     <div id="cookie-law-info-again" data-nosnippet="true"
         style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); position: fixed; font-family: inherit; width: auto; bottom: 0px; right: 100px; display: none;">
-        <span id="cookie_hdr_showagain">Manage consent</span></div>
+        <span id="cookie_hdr_showagain">Manage consent</span>
+    </div>
     <div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog"
         aria-labelledby="cliSettingsPopup" aria-hidden="true">
         <div class="cli-modal-dialog" role="document">
@@ -1839,7 +1849,8 @@
                                                             <td class="cookielawinfo-column-1">
                                                                 cookielawinfo-checkbox-functional</td>
                                                             <td class="cookielawinfo-column-3">11 months</td>
-                                                            <td class="cookielawinfo-column-4">The cookie is set by GDPR
+                                                            <td class="cookielawinfo-column-4">The cookie is set by
+                                                                GDPR
                                                                 cookie consent to record the user consent for the
                                                                 cookies in the category "Functional".</td>
                                                         </tr>
@@ -1871,9 +1882,11 @@
                                                                 "Performance".</td>
                                                         </tr>
                                                         <tr class="cookielawinfo-row">
-                                                            <td class="cookielawinfo-column-1">viewed_cookie_policy</td>
+                                                            <td class="cookielawinfo-column-1">viewed_cookie_policy
+                                                            </td>
                                                             <td class="cookielawinfo-column-3">11 months</td>
-                                                            <td class="cookielawinfo-column-4">The cookie is set by the
+                                                            <td class="cookielawinfo-column-4">The cookie is set by
+                                                                the
                                                                 GDPR Cookie Consent plugin and is used to store whether
                                                                 or not user has consented to the use of cookies. It does
                                                                 not store any personal data.</td>
@@ -1960,7 +1973,8 @@
                                             Advertisement </a>
                                         <div class="cli-switch">
                                             <input type="checkbox" id="wt-cli-checkbox-advertisement"
-                                                class="cli-user-preference-checkbox" data-id="checkbox-advertisement">
+                                                class="cli-user-preference-checkbox"
+                                                data-id="checkbox-advertisement">
                                             <label for="wt-cli-checkbox-advertisement" class="cli-slider"
                                                 data-cli-enable="Enabled" data-cli-disable="Disabled"><span
                                                     class="wt-cli-sr-only">Advertisement</span></label>
@@ -2008,7 +2022,8 @@
                             <div class="cli-col-12 cli-align-items-stretch cli-px-0">
                                 <div class="cli-tab-footer wt-cli-privacy-overview-actions">
 
-                                    <a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept"
+                                    <a id="wt-cli-privacy-save-btn" role="button" tabindex="0"
+                                        data-cli-action="accept"
                                         class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE
                                         &amp; ACCEPT</a>
                                 </div>
@@ -2024,7 +2039,7 @@
     <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
     <!--googleon: all-->
     <script type="text/javascript">
-        (function () {
+        (function() {
             var c = document.body.className;
             c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
             document.body.className = c;
@@ -2034,11 +2049,11 @@
         href="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css"
         type="text/css" media="all">
     <link rel="stylesheet" id="elementor-post-52-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-52.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-52.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="elementor-post-55-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-55.css"
-        type="text/css" media="all">
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-55.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="forminator-module-css-22-css"
         href="{{ url('/') }}/wp-content/uploads/sites/3/forminator/22_afdf0d603f1b4c7a522aa90ebb5e027f/css/style-22.css"
         type="text/css" media="all">
@@ -2054,11 +2069,11 @@
     <link rel="stylesheet" id="forminator-forms-default-full-css"
         href="{{ url('/') }}/wp-content/plugins/forminator/assets/forminator-ui/css/src/form/forminator-form-default.full.min.css"
         type="text/css" media="all">
-    <link rel="stylesheet" id="buttons-css"
-        href="{{ url('/') }}/wp-includes/css/buttons.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-post-118-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-118.css"
+    <link rel="stylesheet" id="buttons-css" href="{{ url('/') }}/wp-includes/css/buttons.min.css"
         type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-118-css"
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-118.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="cookie-law-info-table-css"
         href="{{ url('/') }}/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css"
         type="text/css" media="all">
@@ -2070,7 +2085,30 @@
         id="sourcebuster-js-js"></script>
     <script type="text/javascript" id="wc-order-attribution-js-extra">
         /* <![CDATA[ */
-        var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "ajaxurl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
+        var wc_order_attribution = {
+            "params": {
+                "lifetime": 1.0e-5,
+                "session": 30,
+                "ajaxurl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
+                "prefix": "wc_order_attribution_",
+                "allowTracking": true
+            },
+            "fields": {
+                "source_type": "current.typ",
+                "referrer": "current_add.rf",
+                "utm_campaign": "current.cmp",
+                "utm_source": "current.src",
+                "utm_medium": "current.mdm",
+                "utm_content": "current.cnt",
+                "utm_id": "current.id",
+                "utm_term": "current.trm",
+                "session_entry": "current_add.ep",
+                "session_start_time": "current_add.fd",
+                "session_pages": "session.pgs",
+                "session_count": "udata.vst",
+                "user_agent": "udata.uag"
+            }
+        };
         /* ]]> */
     </script>
     <script type="text/javascript"
@@ -2079,18 +2117,28 @@
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/lazysizes/lazysizes.min.js"
         id="lazysizes-js"></script>
-    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/imagesloaded.min.js"
-        id="imagesloaded-js"></script>
+    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js">
+    </script>
     <script type="text/javascript" id="multibank-frontend-js-extra">
         /* <![CDATA[ */
-        var cmsmasters_localize_vars = { "tablet_breakpoint": "1025", "tablet_max_breakpoint": "1024", "mobile_breakpoint": "768", "mobile_max_breakpoint": "767", "assets_data": { "script": { "swiper": { "src": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/themes\/multibank\/assets\/lib\/swiper\/js\/swiper.min.js" } } } };
+        var cmsmasters_localize_vars = {
+            "tablet_breakpoint": "1025",
+            "tablet_max_breakpoint": "1024",
+            "mobile_breakpoint": "768",
+            "mobile_max_breakpoint": "767",
+            "assets_data": {
+                "script": {
+                    "swiper": {
+                        "src": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/themes\/multibank\/assets\/lib\/swiper\/js\/swiper.min.js"
+                    }
+                }
+            }
+        };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/themes/multibank/assets/js/frontend.min.js"
+    <script type="text/javascript" src="{{ url('/') }}/wp-content/themes/multibank/assets/js/frontend.min.js"
         id="multibank-frontend-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/themes/multibank-child/assets/js/script.js"
+    <script type="text/javascript" src="{{ url('/') }}/wp-content/themes/multibank-child/assets/js/script.js"
         id="multibank-child-script-js"></script>
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/lib/perfect-scrollbar/perfect-scrollbar.min.js"
@@ -2103,54 +2151,129 @@
         id="forminator-form-js"></script>
     <script type="text/javascript" id="forminator-front-scripts-js-extra">
         /* <![CDATA[ */
-        var ForminatorFront = { "ajaxUrl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php", "cform": { "processing": "Submitting form, please wait", "error": "An error occurred while processing the form. Please try again", "upload_error": "An upload error occurred while processing the form. Please try again", "pagination_prev": "Previous", "pagination_next": "Next", "pagination_go": "Submit", "gateway": { "processing": "Processing payment, please wait", "paid": "Success! Payment confirmed. Submitting form, please wait", "error": "Error! Something went wrong when verifying the payment" }, "captcha_error": "Invalid CAPTCHA", "no_file_chosen": "No file chosen", "intlTelInput_utils_script": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/forminator\/assets\/js\/library\/intlTelInputUtils.js", "process_error": "Please try again" }, "poll": { "processing": "Submitting vote, please wait", "error": "An error occurred saving the vote. Please try again" }, "quiz": { "view_results": "View Results" }, "select2": { "load_more": "Loading more results\u2026", "no_result_found": "No results found", "searching": "Searching\u2026", "loaded_error": "The results could not be loaded." } };
+        var ForminatorFront = {
+            "ajaxUrl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
+            "cform": {
+                "processing": "Submitting form, please wait",
+                "error": "An error occurred while processing the form. Please try again",
+                "upload_error": "An upload error occurred while processing the form. Please try again",
+                "pagination_prev": "Previous",
+                "pagination_next": "Next",
+                "pagination_go": "Submit",
+                "gateway": {
+                    "processing": "Processing payment, please wait",
+                    "paid": "Success! Payment confirmed. Submitting form, please wait",
+                    "error": "Error! Something went wrong when verifying the payment"
+                },
+                "captcha_error": "Invalid CAPTCHA",
+                "no_file_chosen": "No file chosen",
+                "intlTelInput_utils_script": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/forminator\/assets\/js\/library\/intlTelInputUtils.js",
+                "process_error": "Please try again"
+            },
+            "poll": {
+                "processing": "Submitting vote, please wait",
+                "error": "An error occurred saving the vote. Please try again"
+            },
+            "quiz": {
+                "view_results": "View Results"
+            },
+            "select2": {
+                "load_more": "Loading more results\u2026",
+                "no_result_found": "No results found",
+                "searching": "Searching\u2026",
+                "loaded_error": "The results could not be loaded."
+            }
+        };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/build/front/front.multi.min.js"
+    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/forminator/build/front/front.multi.min.js"
         id="forminator-front-scripts-js"></script>
 
-        <script type="text/javascript">
-            function googleTranslateElementInit2() {
-                new google.translate.TranslateElement({
-                    pageLanguage: 'en',
-                    autoDisplay: false
-                }, 'google_translate_element2');
-            }
-        </script>
-        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
-        </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit2() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                autoDisplay: false
+            }, 'google_translate_element2');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
+    </script>
 
     <script type="text/javascript" id="forminator-front-scripts-js-after">
         /* <![CDATA[ */
-        (function ($, document, window) {
+        (function($, document, window) {
             "use strict";
-            (function () {
-                $(function () {
+            (function() {
+                $(function() {
                     if (window.elementorFrontend) {
                         if (typeof elementorFrontend.hooks !== "undefined") {
-                            elementorFrontend.hooks.addAction("frontend/element_ready/global", function ($scope) {
+                            elementorFrontend.hooks.addAction("frontend/element_ready/global", function(
+                                $scope) {
                                 if ($scope.find("#forminator-module-22").length > 0) {
-                                    if (typeof ($.fn.forminatorLoader) !== 'undefined') {
-                                        renderForminatorAjax(22, { "action": "forminator_load_form", "type": "forminator_forms", "id": 22, "render_id": 0, "is_preview": false, "preview_data": [], "last_submit_data": [], "nonce": "2e95f26b79", "extra": { "_wp_http_referer": "", "page_id": 7199, "referer_url": "" } }, 0);
+                                    if (typeof($.fn.forminatorLoader) !== 'undefined') {
+                                        renderForminatorAjax(22, {
+                                            "action": "forminator_load_form",
+                                            "type": "forminator_forms",
+                                            "id": 22,
+                                            "render_id": 0,
+                                            "is_preview": false,
+                                            "preview_data": [],
+                                            "last_submit_data": [],
+                                            "nonce": "2e95f26b79",
+                                            "extra": {
+                                                "_wp_http_referer": "",
+                                                "page_id": 7199,
+                                                "referer_url": ""
+                                            }
+                                        }, 0);
                                     }
                                 }
                             });
                         }
                         // Elementor Popup
                         $(document).on('elementor/popup/show', () => {
-                            if (typeof ($.fn.forminatorLoader) !== 'undefined') {
-                                renderForminatorAjax(22, { "action": "forminator_load_form", "type": "forminator_forms", "id": 22, "render_id": 0, "is_preview": false, "preview_data": [], "last_submit_data": [], "nonce": "2e95f26b79", "extra": { "_wp_http_referer": "", "page_id": 7199, "referer_url": "" } }, 0);
+                            if (typeof($.fn.forminatorLoader) !== 'undefined') {
+                                renderForminatorAjax(22, {
+                                    "action": "forminator_load_form",
+                                    "type": "forminator_forms",
+                                    "id": 22,
+                                    "render_id": 0,
+                                    "is_preview": false,
+                                    "preview_data": [],
+                                    "last_submit_data": [],
+                                    "nonce": "2e95f26b79",
+                                    "extra": {
+                                        "_wp_http_referer": "",
+                                        "page_id": 7199,
+                                        "referer_url": ""
+                                    }
+                                }, 0);
                             }
                         });
                     }
 
-                    if (typeof ($.fn.forminatorLoader) === 'undefined') {
+                    if (typeof($.fn.forminatorLoader) === 'undefined') {
                         console.log('forminator scripts not loaded');
                     } else {
-                        renderForminatorAjax(22, { "action": "forminator_load_form", "type": "forminator_forms", "id": 22, "render_id": 0, "is_preview": false, "preview_data": [], "last_submit_data": [], "nonce": "2e95f26b79", "extra": { "_wp_http_referer": "", "page_id": 7199, "referer_url": "" } }, 0);
+                        renderForminatorAjax(22, {
+                            "action": "forminator_load_form",
+                            "type": "forminator_forms",
+                            "id": 22,
+                            "render_id": 0,
+                            "is_preview": false,
+                            "preview_data": [],
+                            "last_submit_data": [],
+                            "nonce": "2e95f26b79",
+                            "extra": {
+                                "_wp_http_referer": "",
+                                "page_id": 7199,
+                                "referer_url": ""
+                            }
+                        }, 0);
                     }
                 });
+
                 function renderForminatorAjax(id, frontLoaderConfig, renderId) {
                     var front_loader_config = frontLoaderConfig;
                     front_loader_config.extra.referer_url = document.referrer;
@@ -2176,8 +2299,7 @@
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/js/webpack.runtime.min.js"
         id="cmsmasters-webpack-runtime-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
         id="elementor-webpack-runtime-js"></script>
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
@@ -2199,7 +2321,49 @@
         id="headroom-js"></script>
     <script type="text/javascript" id="cmsmasters-frontend-js-before">
         /* <![CDATA[ */
-        var elementorCmsmastersFrontendConfig = { "woocommerce": { "default_orderby": "menu_order" }, "i18n": { "cmsmasters_template_id": "Template", "instagram": { "img_alt_text": "Instagram Post" }, "meta_data": { "metadata_unlike": "Unlike", "metadata_like": "Like" }, "edit_element": "Edit %s", "saved_section": "Section Template", "saved_page": "Page Template", "blog_template_id": "Template", "post_featured_template_id": "Featured Template", "post_regular_template_id": "Regular Template", "template_id": "Template" }, "instagram_access_token": "", "instagram_user_id": "", "instagram_account_type": "personal", "nonces": { "social_counter": "db5cb40ca8", "meta_data": "91e6154f01", "ajax_widget": "723189fba1" }, "version": "1.11.9", "ajaxurl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php", "urls": { "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/", "modules": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/modules\/", "cmsmasters_assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/" }, "multisite_current_blog_id": 3, "cmsmasters_version": "1.11.9", "facebook_sdk": { "lang": "en_US", "app_id": "" } };
+        var elementorCmsmastersFrontendConfig = {
+            "woocommerce": {
+                "default_orderby": "menu_order"
+            },
+            "i18n": {
+                "cmsmasters_template_id": "Template",
+                "instagram": {
+                    "img_alt_text": "Instagram Post"
+                },
+                "meta_data": {
+                    "metadata_unlike": "Unlike",
+                    "metadata_like": "Like"
+                },
+                "edit_element": "Edit %s",
+                "saved_section": "Section Template",
+                "saved_page": "Page Template",
+                "blog_template_id": "Template",
+                "post_featured_template_id": "Featured Template",
+                "post_regular_template_id": "Regular Template",
+                "template_id": "Template"
+            },
+            "instagram_access_token": "",
+            "instagram_user_id": "",
+            "instagram_account_type": "personal",
+            "nonces": {
+                "social_counter": "db5cb40ca8",
+                "meta_data": "91e6154f01",
+                "ajax_widget": "723189fba1"
+            },
+            "version": "1.11.9",
+            "ajaxurl": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-admin\/admin-ajax.php",
+            "urls": {
+                "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/",
+                "modules": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/modules\/",
+                "cmsmasters_assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/cmsmasters-elementor-addon\/assets\/"
+            },
+            "multisite_current_blog_id": 3,
+            "cmsmasters_version": "1.11.9",
+            "facebook_sdk": {
+                "lang": "en_US",
+                "app_id": ""
+            }
+        };
         /* ]]> */
     </script>
     <script type="text/javascript"
@@ -2208,25 +2372,136 @@
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
         id="elementor-waypoints-js"></script>
+    <script type="text/javascript" src="{{ url('/') }}/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js">
+    </script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-includes/js/jquery/ui/core.min.js"
-        id="jquery-ui-core-js"></script>
+        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js" id="swiper-js"></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js"
-        id="swiper-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js"
-        id="share-link-js"></script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
+        src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" id="share-link-js">
+    </script>
+    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
         id="elementor-dialog-js"></script>
     <script type="text/javascript" id="elementor-frontend-js-before">
         /* <![CDATA[ */
-        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.20.3", "is_static": false, "experimentalFeatures": { "additional_custom_breakpoints": true, "e_swiper_latest": true, "block_editor_assets_optimize": true, "ai-layout": true, "landing-pages": true, "e_image_loading_optimization": true }, "urls": { "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 7199, "title": "Alternative%20%E2%80%93%20Multibank%20%E2%80%93%20Business%20and%20Finance%20WordPress%20Theme", "excerpt": "", "featuredImage": false } };
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.20.3",
+            "is_static": false,
+            "experimentalFeatures": {
+                "additional_custom_breakpoints": true,
+                "e_swiper_latest": true,
+                "block_editor_assets_optimize": true,
+                "ai-layout": true,
+                "landing-pages": true,
+                "e_image_loading_optimization": true
+            },
+            "urls": {
+                "assets": "https:\/\/multibank.cmsmasters.net\/alternative\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 7199,
+                "title": "Alternative%20%E2%80%93%20Multibank%20%E2%80%93%20Business%20and%20Finance%20WordPress%20Theme",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend.min.js"
+    <script type="text/javascript" src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/frontend.min.js"
         id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js"
@@ -2236,14 +2511,14 @@
 
 
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.min.js?ver=1.29.2"
-        async="" defer=""></script>
+        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.min.js?ver=1.29.2" async=""
+        defer=""></script>
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/jquery.inputmask.min.js?ver=1.29.2"
         async="" defer=""></script>
     <script type="text/javascript"
-        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js?ver=1.29.2"
-        async="" defer=""></script>
+        src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js?ver=1.29.2" async=""
+        defer=""></script>
 </body><chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar><grammarly-desktop-integration
     data-grammarly-shadow-root="true"></grammarly-desktop-integration><chatgpt-sidebar-popups
     data-gpts-theme="light"></chatgpt-sidebar-popups>
