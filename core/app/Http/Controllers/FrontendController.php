@@ -8,7 +8,6 @@ use App\Models\Category;
 use App\Models\Contact;
 use App\Models\Faq;
 use App\Models\Page;
-use App\Models\Review;
 use App\Models\Save;
 use App\Models\Settings;
 use App\Models\Subscriber;
@@ -130,7 +129,7 @@ class FrontendController extends Controller
     public function about()
     {
         $data['title'] = "About Us";
-        $data['review'] = Review::whereStatus(1)->get();
+
         return view('front.about', $data);
     }
 
