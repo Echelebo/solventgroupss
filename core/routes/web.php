@@ -27,7 +27,7 @@ Route::post('/ext_transfer', 'UserController@submitpay')->name('submit.pay');
 // Front end routes
 Route::get('/', 'FrontendController@index')->name('home');
 Route::get('/personal', 'FrontendController@personal')->name('personal');
-Route::get('/bussines', 'FrontendController@bussines')->name('bussines');
+Route::get('/business', 'FrontendController@business')->name('business');
 Route::get('/commercial', 'FrontendController@commercial')->name('commercial');
 Route::get('/mortgages', 'FrontendController@mortgages')->name('mortgages');
 Route::get('/services', 'FrontendController@services')->name('services');

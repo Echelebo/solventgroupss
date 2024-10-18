@@ -48,10 +48,10 @@ class FrontendController extends Controller
         return view('front.personal', $data);
     }
 
-    public function bussines()
+    public function business()
     {
-        $data['title'] = "bussines";
-        return view('front.bussines', $data);
+        $data['title'] = "business";
+        return view('front.business', $data);
     }
 
     public function commercial()

@@ -295,7 +295,7 @@
                                                                 data-id="3c9f7f7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('bussines')}}"
+                                                                    <a href="{{route('business')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
