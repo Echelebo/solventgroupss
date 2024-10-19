@@ -209,7 +209,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{ url('contacts') }}"
+                                                            <a href="{{ route('contacts') }}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -676,7 +676,7 @@
                                                                                                                             data-id="db17099"
                                                                                                                             data-element_type="section">
                                                                                                                             <div
-                                                                                                                                class="elementor-container elementor-column-gap-no">
+                                                                                                                                class="elementor-container 1`elementor-column-gap-no">
                                                                                                                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22c5382"
                                                                                                                                     data-id="22c5382"
                                                                                                                                     data-element_type="column">
@@ -2423,7 +2423,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('route')}}">Home
+                                                                                                                                                        href="{{route('insurancesupport')}}">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -2718,7 +2718,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                    <a href="{{route('financialaction')}}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
@@ -2760,7 +2760,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/cmsms_service/your-financial-action-plan/">Your
+                                                                                                                                                        href="{{route('financialaction')}}">Your
                                                                                                                                                         financial
                                                                                                                                                         action
                                                                                                                                                         plan
@@ -2794,44 +2794,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>The
-                                                                                                                                                        copy
-                                                                                                                                                        warned
-                                                                                                                                                        the
-                                                                                                                                                        Little
-                                                                                                                                                        Blind
-                                                                                                                                                        Text,
-                                                                                                                                                        that
-                                                                                                                                                        where
-                                                                                                                                                        it
-                                                                                                                                                        came
-                                                                                                                                                        from
-                                                                                                                                                        it
-                                                                                                                                                        would
-                                                                                                                                                        have
-                                                                                                                                                        been
-                                                                                                                                                        rewritten
-                                                                                                                                                        a
-                                                                                                                                                        thousand
-                                                                                                                                                        times
-                                                                                                                                                        and
-                                                                                                                                                        everything
-                                                                                                                                                        that
-                                                                                                                                                        was
-                                                                                                                                                        left
-                                                                                                                                                        from
-                                                                                                                                                        its
-                                                                                                                                                        origin
-                                                                                                                                                        would
-                                                                                                                                                        be
-                                                                                                                                                        the
-                                                                                                                                                        word
-                                                                                                                                                        “and”
-                                                                                                                                                        and
-                                                                                                                                                        the
-                                                                                                                                                        Little
-                                                                                                                                                        Blind
-                                                                                                                                                        Text.
+                                                                                                                                                    <p>Establishing a solid financial action plan and investment strategy requires time and effort, but it can significantly enhance your financial wellbeing. Start small, stay consistent, and adjust as needed to meet your evolving financial goals.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2846,7 +2809,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
+                                                                                                                                                        <a href="{{route('financialaction')}}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2926,7 +2889,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                    <a href="{{route('cardeligibility')}}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
@@ -2968,7 +2931,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/">Credit
+                                                                                                                                                        href="{{route('cardeligibility')}}">Credit
                                                                                                                                                         card
                                                                                                                                                         eligibility
                                                                                                                                                         checker</a>
@@ -2998,44 +2961,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>When
-                                                                                                                                                        she
-                                                                                                                                                        reached
-                                                                                                                                                        the
-                                                                                                                                                        first
-                                                                                                                                                        hills
-                                                                                                                                                        of
-                                                                                                                                                        the
-                                                                                                                                                        Italic
-                                                                                                                                                        Mountains,
-                                                                                                                                                        she
-                                                                                                                                                        had
-                                                                                                                                                        a
-                                                                                                                                                        last
-                                                                                                                                                        view
-                                                                                                                                                        back
-                                                                                                                                                        on
-                                                                                                                                                        the
-                                                                                                                                                        skyline
-                                                                                                                                                        of
-                                                                                                                                                        her
-                                                                                                                                                        hometown
-                                                                                                                                                        Bookmarksgrove,
-                                                                                                                                                        the
-                                                                                                                                                        headline
-                                                                                                                                                        of
-                                                                                                                                                        Alphabet
-                                                                                                                                                        Village
-                                                                                                                                                        and
-                                                                                                                                                        the
-                                                                                                                                                        subline
-                                                                                                                                                        of
-                                                                                                                                                        her
-                                                                                                                                                        own
-                                                                                                                                                        road,
-                                                                                                                                                        the
-                                                                                                                                                        Line
-                                                                                                                                                        Lane.
+                                                                                                                                                    <p>Using a credit card eligibility checker can help you strategically choose a card that suits your financial situation without negatively impacting your credit score.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3050,7 +2976,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/credit-card-eligibility-checker/"
+                                                                                                                                                        <a href="{{route('cardeligibility')}}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3130,7 +3056,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
+                                                                                                                                                    <a href="{{route('loans')}}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -3173,7 +3099,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-improvement-loan/">Home
+                                                                                                                                                        href="{{route('loans')}}">Home
                                                                                                                                                         improvement
                                                                                                                                                         and
                                                                                                                                                         car
@@ -3204,37 +3130,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>It
-                                                                                                                                                        is
-                                                                                                                                                        a
-                                                                                                                                                        paradisematic
-                                                                                                                                                        country,
-                                                                                                                                                        in
-                                                                                                                                                        which
-                                                                                                                                                        roasted
-                                                                                                                                                        parts
-                                                                                                                                                        of
-                                                                                                                                                        sentences
-                                                                                                                                                        fly
-                                                                                                                                                        into
-                                                                                                                                                        your
-                                                                                                                                                        mouth.
-                                                                                                                                                        A
-                                                                                                                                                        small
-                                                                                                                                                        river
-                                                                                                                                                        named
-                                                                                                                                                        Duden
-                                                                                                                                                        flows
-                                                                                                                                                        by
-                                                                                                                                                        their
-                                                                                                                                                        place
-                                                                                                                                                        and
-                                                                                                                                                        supplies
-                                                                                                                                                        it
-                                                                                                                                                        with
-                                                                                                                                                        the
-                                                                                                                                                        necessary
-                                                                                                                                                        regelialia.
+                                                                                                                                                    <p>Managing home improvement and car loans can be a significant financial decision. Evaluate your options carefully, assess your needs, and ensure that you choose financing solutions that fit within your overall financial strategy.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3249,7 +3145,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
+                                                                                                                                                        <a href="{{route('loans')}}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3329,7 +3225,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                    <a href="{{route('security')}}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -3372,7 +3268,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/">Staying
+                                                                                                                                                        href="{{route('security')}}">Staying
                                                                                                                                                         safe
                                                                                                                                                         and
                                                                                                                                                         growing
@@ -3403,35 +3299,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>The
-                                                                                                                                                        Big
-                                                                                                                                                        Oxmox
-                                                                                                                                                        advised
-                                                                                                                                                        her
-                                                                                                                                                        not
-                                                                                                                                                        to
-                                                                                                                                                        do
-                                                                                                                                                        so,
-                                                                                                                                                        because
-                                                                                                                                                        there
-                                                                                                                                                        were
-                                                                                                                                                        thousands
-                                                                                                                                                        of
-                                                                                                                                                        bad
-                                                                                                                                                        Commas,
-                                                                                                                                                        wild
-                                                                                                                                                        Question
-                                                                                                                                                        Marks
-                                                                                                                                                        and
-                                                                                                                                                        devious
-                                                                                                                                                        Semikoli,
-                                                                                                                                                        but
-                                                                                                                                                        the
-                                                                                                                                                        Little
-                                                                                                                                                        Blind
-                                                                                                                                                        Text
-                                                                                                                                                        didn’t
-                                                                                                                                                        listen.
+                                                                                                                                                    <p>Staying safe while growing your money is about striking a balance between taking calculated risks and protecting your assets. By establishing a solid financial foundation, diversifying your investments, and remaining vigilant against potential threats, you can work towards achieving your financial goals while minimizing risk.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3446,7 +3314,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/staying-safe-and-secure/"
+                                                                                                                                                        <a href="{{route('security')}}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3526,7 +3394,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
+                                                                                                                                                    <a href="{{route('insurancesupport')}}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -3569,7 +3437,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/cmsms_service/home-insurance-support/">Home
+                                                                                                                                                        href="{{route('insurancesupport')}}">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -3600,44 +3468,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>The
-                                                                                                                                                        copy
-                                                                                                                                                        warned
-                                                                                                                                                        the
-                                                                                                                                                        Little
-                                                                                                                                                        Blind
-                                                                                                                                                        Text,
-                                                                                                                                                        that
-                                                                                                                                                        where
-                                                                                                                                                        it
-                                                                                                                                                        came
-                                                                                                                                                        from
-                                                                                                                                                        it
-                                                                                                                                                        would
-                                                                                                                                                        have
-                                                                                                                                                        been
-                                                                                                                                                        rewritten
-                                                                                                                                                        a
-                                                                                                                                                        thousand
-                                                                                                                                                        times
-                                                                                                                                                        and
-                                                                                                                                                        everything
-                                                                                                                                                        that
-                                                                                                                                                        was
-                                                                                                                                                        left
-                                                                                                                                                        from
-                                                                                                                                                        its
-                                                                                                                                                        origin
-                                                                                                                                                        would
-                                                                                                                                                        be
-                                                                                                                                                        the
-                                                                                                                                                        word
-                                                                                                                                                        “and”
-                                                                                                                                                        and
-                                                                                                                                                        the
-                                                                                                                                                        Little
-                                                                                                                                                        Blind
-                                                                                                                                                        Text.
+                                                                                                                                                    <p>Both home and travel insurance are essential for protecting you against financial losses and unforeseen events. By understanding the types of coverage available and thoroughly researching your options, you can choose the best insurance policies that meet your needs.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3652,7 +3483,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/cmsms_service/home-insurance-support/"
+                                                                                                                                                        <a href="{{route('insurancesupport')}}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3767,7 +3598,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">When
-                                                        you're ready, we're ready with a MultiBank High-Yield Savings
+                                                        you're ready, we're ready with a {{ $set->site_name }} High-Yield Savings
                                                         Account. Save more with no limit on earnings.</p>
                                                 </div>
                                             </div>
@@ -3830,7 +3661,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
+                                                            <a href="{{route('personal')}}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -3872,9 +3703,9 @@
                                                 data-id="128ab33" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">The UK’s
+                                                    <p class="elementor-heading-title elementor-size-default">The Europeans
                                                         largest banking groups are required to comply with ring-fencing
-                                                        requirements from 1 January 2019. From shares to shopping
+                                                        requirements. From shares to shopping
                                                         centres and term deposits to toll roads, there’s a huge range of
                                                         investments</p>
                                                 </div>
@@ -3886,7 +3717,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{ url('/') }}/shop/"
+                                                            <a href="{{route('contacts')}}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -3903,7 +3734,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{ url('/') }}/contacts/"
+                                                            <a href="{{route('contacts')}}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3969,7 +3800,7 @@
                                                                 data-id="b6a67e7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/mortgages/"
+                                                                    <a href="{{route('mortgages')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4018,7 +3849,7 @@
                                                                 data-id="ca6a7a1" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{route('business')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4067,7 +3898,7 @@
                                                                 data-id="b969cee" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{route('business')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4122,7 +3953,7 @@
                                                                 data-id="afe97bc" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/home-improvement-loan/"
+                                                                    <a href="{{route('loans')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4171,7 +4002,7 @@
                                                                 data-id="92bc7e6" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/your-financial-action-plan/"
+                                                                    <a href="{{route('financialaction')}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4220,7 +4051,7 @@
                                                                 data-id="cdefb94" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
+                                                                    <a href="{{route('personal')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4275,7 +4106,7 @@
                                                                 data-id="bff80b1" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/everyday-spending-cards/"
+                                                                    <a href="{{route('business')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4324,7 +4155,7 @@
                                                                 data-id="e2dfa32" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ url('/') }}/cmsms_service/easy-access-savings-account/"
+                                                                    <a href="{{route('personal')}}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4595,7 +4426,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/"
+                                                                                                                                                    <a href="{{route('bankingsustainability')}}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -4652,7 +4483,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="{{ url('/') }}/category/new-digital/"><span>New
+                                                                                                                                                                                    href="{{ route('mobilepayments') }}"><span>New
                                                                                                                                                                                         Digital</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
@@ -4710,7 +4541,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/">In
+                                                                                                                                                        href="{{ route('bankingsustainability') }}">In
                                                                                                                                                         Banking,
                                                                                                                                                         Sustainability
                                                                                                                                                         is
@@ -4771,7 +4602,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/2024/01/23/in-banking-sustainability-is-the-new-digital-now-what/"
+                                                                                                                                                        <a href="{{ route('bankingsustainability') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -4841,7 +4672,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/2024/01/21/the-magic-of-mobile-payments/"
+                                                                                                                                                    <a href="{{ route('mobilepayments') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -4898,7 +4729,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="{{ url('/') }}/category/core-banking/"><span>Core
+                                                                                                                                                                                    href="{{ route('openaccount') }}"><span>Internet
                                                                                                                                                                                         Banking</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
@@ -4956,7 +4787,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/2024/01/21/the-magic-of-mobile-payments/">The
+                                                                                                                                                        href="{{ route('mobilepayments') }}">The
                                                                                                                                                         Magic
                                                                                                                                                         of
                                                                                                                                                         Mobile
@@ -5021,7 +4852,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/2024/01/21/the-magic-of-mobile-payments/"
+                                                                                                                                                        <a href="{{ route('mobilepayments') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -5091,7 +4922,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/2024/01/18/request-to-paya-growing-global-trend-in-payments/"
+                                                                                                                                                    <a href="{{ route('payaglobal') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -5148,7 +4979,7 @@
                                                                                                                                                                                 class="term-wrap"><a
                                                                                                                                                                                     class="term"
                                                                                                                                                                                     rel="category tag"
-                                                                                                                                                                                    href="{{ url('/') }}/category/payments/"><span>Payments</span></a></span></span></span></span>
+                                                                                                                                                                                    href="#"><span>Payments</span></a></span></span></span></span>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
                                                                                                                                                     </div>
