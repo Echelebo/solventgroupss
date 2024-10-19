@@ -70,7 +70,8 @@
                                                                                         class="elementor-widget-cmsmasters-button__icon"><i
                                                                                             aria-hidden="true"
                                                                                             class="cmsmsdemo-icon- cmsms-demo-icon-chevron-1"></i></span><span
-                                                                                        class="elementor-widget-cmsmasters-button__text">Contact Us</span></span></a>
+                                                                                        class="elementor-widget-cmsmasters-button__text">Contact
+                                                                                        Us</span></span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -185,7 +186,7 @@
                                                                         class="elementor-widget-cmsmasters-button__button-container">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                            <a href="{{route('about')}}"
+                                                                            <a href="{{ route('about') }}"
                                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                 role="button"><span
                                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -295,7 +296,7 @@
                                                                 data-id="3c9f7f7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('business')}}"
+                                                                    <a href="{{ route('business') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -596,7 +597,41 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>To manage your Account anytime, you can tap your profile picture and follow the link to “Manage your Banking Account.” This allows you to access various settings, including personal information, privacy controls, and activity management.
+                                                                                                                                                    <p>To
+                                                                                                                                                        manage
+                                                                                                                                                        your
+                                                                                                                                                        Account
+                                                                                                                                                        anytime,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        tap
+                                                                                                                                                        your
+                                                                                                                                                        profile
+                                                                                                                                                        picture
+                                                                                                                                                        and
+                                                                                                                                                        follow
+                                                                                                                                                        the
+                                                                                                                                                        link
+                                                                                                                                                        to
+                                                                                                                                                        “Manage
+                                                                                                                                                        your
+                                                                                                                                                        Banking
+                                                                                                                                                        Account.”
+                                                                                                                                                        This
+                                                                                                                                                        allows
+                                                                                                                                                        you
+                                                                                                                                                        to
+                                                                                                                                                        access
+                                                                                                                                                        various
+                                                                                                                                                        settings,
+                                                                                                                                                        including
+                                                                                                                                                        personal
+                                                                                                                                                        information,
+                                                                                                                                                        privacy
+                                                                                                                                                        controls,
+                                                                                                                                                        and
+                                                                                                                                                        activity
+                                                                                                                                                        management.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -767,7 +802,41 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Establishing a solid financial action plan and investment strategy requires time and effort, but it can significantly enhance your financial wellbeing. Start small, stay consistent, and adjust as needed to meet your evolving financial goals.
+                                                                                                                                                    <p>Establishing
+                                                                                                                                                        a
+                                                                                                                                                        solid
+                                                                                                                                                        financial
+                                                                                                                                                        action
+                                                                                                                                                        plan
+                                                                                                                                                        and
+                                                                                                                                                        investment
+                                                                                                                                                        strategy
+                                                                                                                                                        requires
+                                                                                                                                                        time
+                                                                                                                                                        and
+                                                                                                                                                        effort,
+                                                                                                                                                        but
+                                                                                                                                                        it
+                                                                                                                                                        can
+                                                                                                                                                        significantly
+                                                                                                                                                        enhance
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        wellbeing.
+                                                                                                                                                        Start
+                                                                                                                                                        small,
+                                                                                                                                                        stay
+                                                                                                                                                        consistent,
+                                                                                                                                                        and
+                                                                                                                                                        adjust
+                                                                                                                                                        as
+                                                                                                                                                        needed
+                                                                                                                                                        to
+                                                                                                                                                        meet
+                                                                                                                                                        your
+                                                                                                                                                        evolving
+                                                                                                                                                        financial
+                                                                                                                                                        goals.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -934,7 +1003,41 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Using a credit card eligibility checker can help you strategically choose a card that suits your financial situation without negatively impacting your credit score. Always review the terms and conditions of any card before applying.
+                                                                                                                                                    <p>Using
+                                                                                                                                                        a
+                                                                                                                                                        credit
+                                                                                                                                                        card
+                                                                                                                                                        eligibility
+                                                                                                                                                        checker
+                                                                                                                                                        can
+                                                                                                                                                        help
+                                                                                                                                                        you
+                                                                                                                                                        strategically
+                                                                                                                                                        choose
+                                                                                                                                                        a
+                                                                                                                                                        card
+                                                                                                                                                        that
+                                                                                                                                                        suits
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        situation
+                                                                                                                                                        without
+                                                                                                                                                        negatively
+                                                                                                                                                        impacting
+                                                                                                                                                        your
+                                                                                                                                                        credit
+                                                                                                                                                        score.
+                                                                                                                                                        Always
+                                                                                                                                                        review
+                                                                                                                                                        the
+                                                                                                                                                        terms
+                                                                                                                                                        and
+                                                                                                                                                        conditions
+                                                                                                                                                        of
+                                                                                                                                                        any
+                                                                                                                                                        card
+                                                                                                                                                        before
+                                                                                                                                                        applying.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1103,7 +1206,39 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Managing home improvement and car loans can be a significant financial decision. Evaluate your options carefully, assess your needs, and ensure that you choose financing solutions that fit within your overall financial strategy.
+                                                                                                                                                    <p>Managing
+                                                                                                                                                        home
+                                                                                                                                                        improvement
+                                                                                                                                                        and
+                                                                                                                                                        car
+                                                                                                                                                        loans
+                                                                                                                                                        can
+                                                                                                                                                        be
+                                                                                                                                                        a
+                                                                                                                                                        significant
+                                                                                                                                                        financial
+                                                                                                                                                        decision.
+                                                                                                                                                        Evaluate
+                                                                                                                                                        your
+                                                                                                                                                        options
+                                                                                                                                                        carefully,
+                                                                                                                                                        assess
+                                                                                                                                                        your
+                                                                                                                                                        needs,
+                                                                                                                                                        and
+                                                                                                                                                        ensure
+                                                                                                                                                        that
+                                                                                                                                                        you
+                                                                                                                                                        choose
+                                                                                                                                                        financing
+                                                                                                                                                        solutions
+                                                                                                                                                        that
+                                                                                                                                                        fit
+                                                                                                                                                        within
+                                                                                                                                                        your
+                                                                                                                                                        overall
+                                                                                                                                                        financial
+                                                                                                                                                        strategy.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1272,7 +1407,51 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Staying safe while growing your money is about striking a balance between taking calculated risks and protecting your assets. By establishing a solid financial foundation, diversifying your investments, and remaining vigilant against potential threats, you can work towards achieving your financial goals while minimizing risk.
+                                                                                                                                                    <p>Staying
+                                                                                                                                                        safe
+                                                                                                                                                        while
+                                                                                                                                                        growing
+                                                                                                                                                        your
+                                                                                                                                                        money
+                                                                                                                                                        is
+                                                                                                                                                        about
+                                                                                                                                                        striking
+                                                                                                                                                        a
+                                                                                                                                                        balance
+                                                                                                                                                        between
+                                                                                                                                                        taking
+                                                                                                                                                        calculated
+                                                                                                                                                        risks
+                                                                                                                                                        and
+                                                                                                                                                        protecting
+                                                                                                                                                        your
+                                                                                                                                                        assets.
+                                                                                                                                                        By
+                                                                                                                                                        establishing
+                                                                                                                                                        a
+                                                                                                                                                        solid
+                                                                                                                                                        financial
+                                                                                                                                                        foundation,
+                                                                                                                                                        diversifying
+                                                                                                                                                        your
+                                                                                                                                                        investments,
+                                                                                                                                                        and
+                                                                                                                                                        remaining
+                                                                                                                                                        vigilant
+                                                                                                                                                        against
+                                                                                                                                                        potential
+                                                                                                                                                        threats,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        work
+                                                                                                                                                        towards
+                                                                                                                                                        achieving
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        goals
+                                                                                                                                                        while
+                                                                                                                                                        minimizing
+                                                                                                                                                        risk.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1441,7 +1620,45 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Both home and travel insurance are essential for protecting you against financial losses and unforeseen events. By understanding the types of coverage available and thoroughly researching your options, you can choose the best insurance policies that meet your needs.
+                                                                                                                                                    <p>Both
+                                                                                                                                                        home
+                                                                                                                                                        and
+                                                                                                                                                        travel
+                                                                                                                                                        insurance
+                                                                                                                                                        are
+                                                                                                                                                        essential
+                                                                                                                                                        for
+                                                                                                                                                        protecting
+                                                                                                                                                        you
+                                                                                                                                                        against
+                                                                                                                                                        financial
+                                                                                                                                                        losses
+                                                                                                                                                        and
+                                                                                                                                                        unforeseen
+                                                                                                                                                        events.
+                                                                                                                                                        By
+                                                                                                                                                        understanding
+                                                                                                                                                        the
+                                                                                                                                                        types
+                                                                                                                                                        of
+                                                                                                                                                        coverage
+                                                                                                                                                        available
+                                                                                                                                                        and
+                                                                                                                                                        thoroughly
+                                                                                                                                                        researching
+                                                                                                                                                        your
+                                                                                                                                                        options,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        choose
+                                                                                                                                                        the
+                                                                                                                                                        best
+                                                                                                                                                        insurance
+                                                                                                                                                        policies
+                                                                                                                                                        that
+                                                                                                                                                        meet
+                                                                                                                                                        your
+                                                                                                                                                        needs.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1609,7 +1826,41 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>To manage your Account anytime, you can tap your profile picture and follow the link to “Manage your Banking Account.” This allows you to access various settings, including personal information, privacy controls, and activity management.
+                                                                                                                                                    <p>To
+                                                                                                                                                        manage
+                                                                                                                                                        your
+                                                                                                                                                        Account
+                                                                                                                                                        anytime,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        tap
+                                                                                                                                                        your
+                                                                                                                                                        profile
+                                                                                                                                                        picture
+                                                                                                                                                        and
+                                                                                                                                                        follow
+                                                                                                                                                        the
+                                                                                                                                                        link
+                                                                                                                                                        to
+                                                                                                                                                        “Manage
+                                                                                                                                                        your
+                                                                                                                                                        Banking
+                                                                                                                                                        Account.”
+                                                                                                                                                        This
+                                                                                                                                                        allows
+                                                                                                                                                        you
+                                                                                                                                                        to
+                                                                                                                                                        access
+                                                                                                                                                        various
+                                                                                                                                                        settings,
+                                                                                                                                                        including
+                                                                                                                                                        personal
+                                                                                                                                                        information,
+                                                                                                                                                        privacy
+                                                                                                                                                        controls,
+                                                                                                                                                        and
+                                                                                                                                                        activity
+                                                                                                                                                        management.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1780,7 +2031,41 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Establishing a solid financial action plan and investment strategy requires time and effort, but it can significantly enhance your financial wellbeing. Start small, stay consistent, and adjust as needed to meet your evolving financial goals.
+                                                                                                                                                    <p>Establishing
+                                                                                                                                                        a
+                                                                                                                                                        solid
+                                                                                                                                                        financial
+                                                                                                                                                        action
+                                                                                                                                                        plan
+                                                                                                                                                        and
+                                                                                                                                                        investment
+                                                                                                                                                        strategy
+                                                                                                                                                        requires
+                                                                                                                                                        time
+                                                                                                                                                        and
+                                                                                                                                                        effort,
+                                                                                                                                                        but
+                                                                                                                                                        it
+                                                                                                                                                        can
+                                                                                                                                                        significantly
+                                                                                                                                                        enhance
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        wellbeing.
+                                                                                                                                                        Start
+                                                                                                                                                        small,
+                                                                                                                                                        stay
+                                                                                                                                                        consistent,
+                                                                                                                                                        and
+                                                                                                                                                        adjust
+                                                                                                                                                        as
+                                                                                                                                                        needed
+                                                                                                                                                        to
+                                                                                                                                                        meet
+                                                                                                                                                        your
+                                                                                                                                                        evolving
+                                                                                                                                                        financial
+                                                                                                                                                        goals.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -1947,7 +2232,30 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Using a credit card eligibility checker can help you strategically choose a card that suits your financial situation without negatively impacting your credit score.
+                                                                                                                                                    <p>Using
+                                                                                                                                                        a
+                                                                                                                                                        credit
+                                                                                                                                                        card
+                                                                                                                                                        eligibility
+                                                                                                                                                        checker
+                                                                                                                                                        can
+                                                                                                                                                        help
+                                                                                                                                                        you
+                                                                                                                                                        strategically
+                                                                                                                                                        choose
+                                                                                                                                                        a
+                                                                                                                                                        card
+                                                                                                                                                        that
+                                                                                                                                                        suits
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        situation
+                                                                                                                                                        without
+                                                                                                                                                        negatively
+                                                                                                                                                        impacting
+                                                                                                                                                        your
+                                                                                                                                                        credit
+                                                                                                                                                        score.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2116,7 +2424,39 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Managing home improvement and car loans can be a significant financial decision. Evaluate your options carefully, assess your needs, and ensure that you choose financing solutions that fit within your overall financial strategy.
+                                                                                                                                                    <p>Managing
+                                                                                                                                                        home
+                                                                                                                                                        improvement
+                                                                                                                                                        and
+                                                                                                                                                        car
+                                                                                                                                                        loans
+                                                                                                                                                        can
+                                                                                                                                                        be
+                                                                                                                                                        a
+                                                                                                                                                        significant
+                                                                                                                                                        financial
+                                                                                                                                                        decision.
+                                                                                                                                                        Evaluate
+                                                                                                                                                        your
+                                                                                                                                                        options
+                                                                                                                                                        carefully,
+                                                                                                                                                        assess
+                                                                                                                                                        your
+                                                                                                                                                        needs,
+                                                                                                                                                        and
+                                                                                                                                                        ensure
+                                                                                                                                                        that
+                                                                                                                                                        you
+                                                                                                                                                        choose
+                                                                                                                                                        financing
+                                                                                                                                                        solutions
+                                                                                                                                                        that
+                                                                                                                                                        fit
+                                                                                                                                                        within
+                                                                                                                                                        your
+                                                                                                                                                        overall
+                                                                                                                                                        financial
+                                                                                                                                                        strategy.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2285,7 +2625,51 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Staying safe while growing your money is about striking a balance between taking calculated risks and protecting your assets. By establishing a solid financial foundation, diversifying your investments, and remaining vigilant against potential threats, you can work towards achieving your financial goals while minimizing risk.
+                                                                                                                                                    <p>Staying
+                                                                                                                                                        safe
+                                                                                                                                                        while
+                                                                                                                                                        growing
+                                                                                                                                                        your
+                                                                                                                                                        money
+                                                                                                                                                        is
+                                                                                                                                                        about
+                                                                                                                                                        striking
+                                                                                                                                                        a
+                                                                                                                                                        balance
+                                                                                                                                                        between
+                                                                                                                                                        taking
+                                                                                                                                                        calculated
+                                                                                                                                                        risks
+                                                                                                                                                        and
+                                                                                                                                                        protecting
+                                                                                                                                                        your
+                                                                                                                                                        assets.
+                                                                                                                                                        By
+                                                                                                                                                        establishing
+                                                                                                                                                        a
+                                                                                                                                                        solid
+                                                                                                                                                        financial
+                                                                                                                                                        foundation,
+                                                                                                                                                        diversifying
+                                                                                                                                                        your
+                                                                                                                                                        investments,
+                                                                                                                                                        and
+                                                                                                                                                        remaining
+                                                                                                                                                        vigilant
+                                                                                                                                                        against
+                                                                                                                                                        potential
+                                                                                                                                                        threats,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        work
+                                                                                                                                                        towards
+                                                                                                                                                        achieving
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        goals
+                                                                                                                                                        while
+                                                                                                                                                        minimizing
+                                                                                                                                                        risk.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2300,7 +2684,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('security')}}"
+                                                                                                                                                        <a href="{{ route('security') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2380,7 +2764,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('insurancesupport')}}"
+                                                                                                                                                    <a href="{{ route('insurancesupport') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -2423,7 +2807,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('insurancesupport')}}">Home
+                                                                                                                                                        href="{{ route('insurancesupport') }}">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -2454,7 +2838,45 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Both home and travel insurance are essential for protecting you against financial losses and unforeseen events. By understanding the types of coverage available and thoroughly researching your options, you can choose the best insurance policies that meet your needs.
+                                                                                                                                                    <p>Both
+                                                                                                                                                        home
+                                                                                                                                                        and
+                                                                                                                                                        travel
+                                                                                                                                                        insurance
+                                                                                                                                                        are
+                                                                                                                                                        essential
+                                                                                                                                                        for
+                                                                                                                                                        protecting
+                                                                                                                                                        you
+                                                                                                                                                        against
+                                                                                                                                                        financial
+                                                                                                                                                        losses
+                                                                                                                                                        and
+                                                                                                                                                        unforeseen
+                                                                                                                                                        events.
+                                                                                                                                                        By
+                                                                                                                                                        understanding
+                                                                                                                                                        the
+                                                                                                                                                        types
+                                                                                                                                                        of
+                                                                                                                                                        coverage
+                                                                                                                                                        available
+                                                                                                                                                        and
+                                                                                                                                                        thoroughly
+                                                                                                                                                        researching
+                                                                                                                                                        your
+                                                                                                                                                        options,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        choose
+                                                                                                                                                        the
+                                                                                                                                                        best
+                                                                                                                                                        insurance
+                                                                                                                                                        policies
+                                                                                                                                                        that
+                                                                                                                                                        meet
+                                                                                                                                                        your
+                                                                                                                                                        needs.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2469,7 +2891,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('insurancesupport')}}"
+                                                                                                                                                        <a href="{{ route('insurancesupport') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2549,7 +2971,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('commercial')}}"
+                                                                                                                                                    <a href="{{ route('commercial') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             fetchpriority="high"
@@ -2592,7 +3014,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('commercial')}}">Manage
+                                                                                                                                                        href="{{ route('commercial') }}">Manage
                                                                                                                                                         your
                                                                                                                                                         account
                                                                                                                                                         anytime</a>
@@ -2622,8 +3044,34 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Keep your finances stable throughout the application process, avoiding large purchases or changes in employment.
-                                                                                                                                                        By following these steps, you can navigate the mortgage application process more effectively.
+                                                                                                                                                    <p>Keep
+                                                                                                                                                        your
+                                                                                                                                                        finances
+                                                                                                                                                        stable
+                                                                                                                                                        throughout
+                                                                                                                                                        the
+                                                                                                                                                        application
+                                                                                                                                                        process,
+                                                                                                                                                        avoiding
+                                                                                                                                                        large
+                                                                                                                                                        purchases
+                                                                                                                                                        or
+                                                                                                                                                        changes
+                                                                                                                                                        in
+                                                                                                                                                        employment.
+                                                                                                                                                        By
+                                                                                                                                                        following
+                                                                                                                                                        these
+                                                                                                                                                        steps,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        navigate
+                                                                                                                                                        the
+                                                                                                                                                        mortgage
+                                                                                                                                                        application
+                                                                                                                                                        process
+                                                                                                                                                        more
+                                                                                                                                                        effectively.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2718,7 +3166,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('financialaction')}}"
+                                                                                                                                                    <a href="{{ route('financialaction') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
@@ -2760,7 +3208,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('financialaction')}}">Your
+                                                                                                                                                        href="{{ route('financialaction') }}">Your
                                                                                                                                                         financial
                                                                                                                                                         action
                                                                                                                                                         plan
@@ -2794,7 +3242,41 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Establishing a solid financial action plan and investment strategy requires time and effort, but it can significantly enhance your financial wellbeing. Start small, stay consistent, and adjust as needed to meet your evolving financial goals.
+                                                                                                                                                    <p>Establishing
+                                                                                                                                                        a
+                                                                                                                                                        solid
+                                                                                                                                                        financial
+                                                                                                                                                        action
+                                                                                                                                                        plan
+                                                                                                                                                        and
+                                                                                                                                                        investment
+                                                                                                                                                        strategy
+                                                                                                                                                        requires
+                                                                                                                                                        time
+                                                                                                                                                        and
+                                                                                                                                                        effort,
+                                                                                                                                                        but
+                                                                                                                                                        it
+                                                                                                                                                        can
+                                                                                                                                                        significantly
+                                                                                                                                                        enhance
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        wellbeing.
+                                                                                                                                                        Start
+                                                                                                                                                        small,
+                                                                                                                                                        stay
+                                                                                                                                                        consistent,
+                                                                                                                                                        and
+                                                                                                                                                        adjust
+                                                                                                                                                        as
+                                                                                                                                                        needed
+                                                                                                                                                        to
+                                                                                                                                                        meet
+                                                                                                                                                        your
+                                                                                                                                                        evolving
+                                                                                                                                                        financial
+                                                                                                                                                        goals.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2809,7 +3291,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('financialaction')}}"
+                                                                                                                                                        <a href="{{ route('financialaction') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -2889,7 +3371,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('cardeligibility')}}"
+                                                                                                                                                    <a href="{{ route('cardeligibility') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             decoding="async"
@@ -2931,7 +3413,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('cardeligibility')}}">Credit
+                                                                                                                                                        href="{{ route('cardeligibility') }}">Credit
                                                                                                                                                         card
                                                                                                                                                         eligibility
                                                                                                                                                         checker</a>
@@ -2961,7 +3443,30 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Using a credit card eligibility checker can help you strategically choose a card that suits your financial situation without negatively impacting your credit score.
+                                                                                                                                                    <p>Using
+                                                                                                                                                        a
+                                                                                                                                                        credit
+                                                                                                                                                        card
+                                                                                                                                                        eligibility
+                                                                                                                                                        checker
+                                                                                                                                                        can
+                                                                                                                                                        help
+                                                                                                                                                        you
+                                                                                                                                                        strategically
+                                                                                                                                                        choose
+                                                                                                                                                        a
+                                                                                                                                                        card
+                                                                                                                                                        that
+                                                                                                                                                        suits
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        situation
+                                                                                                                                                        without
+                                                                                                                                                        negatively
+                                                                                                                                                        impacting
+                                                                                                                                                        your
+                                                                                                                                                        credit
+                                                                                                                                                        score.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2976,7 +3481,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('cardeligibility')}}"
+                                                                                                                                                        <a href="{{ route('cardeligibility') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3056,7 +3561,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('loans')}}"
+                                                                                                                                                    <a href="{{ route('loans') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -3099,7 +3604,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('loans')}}">Home
+                                                                                                                                                        href="{{ route('loans') }}">Home
                                                                                                                                                         improvement
                                                                                                                                                         and
                                                                                                                                                         car
@@ -3130,7 +3635,39 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Managing home improvement and car loans can be a significant financial decision. Evaluate your options carefully, assess your needs, and ensure that you choose financing solutions that fit within your overall financial strategy.
+                                                                                                                                                    <p>Managing
+                                                                                                                                                        home
+                                                                                                                                                        improvement
+                                                                                                                                                        and
+                                                                                                                                                        car
+                                                                                                                                                        loans
+                                                                                                                                                        can
+                                                                                                                                                        be
+                                                                                                                                                        a
+                                                                                                                                                        significant
+                                                                                                                                                        financial
+                                                                                                                                                        decision.
+                                                                                                                                                        Evaluate
+                                                                                                                                                        your
+                                                                                                                                                        options
+                                                                                                                                                        carefully,
+                                                                                                                                                        assess
+                                                                                                                                                        your
+                                                                                                                                                        needs,
+                                                                                                                                                        and
+                                                                                                                                                        ensure
+                                                                                                                                                        that
+                                                                                                                                                        you
+                                                                                                                                                        choose
+                                                                                                                                                        financing
+                                                                                                                                                        solutions
+                                                                                                                                                        that
+                                                                                                                                                        fit
+                                                                                                                                                        within
+                                                                                                                                                        your
+                                                                                                                                                        overall
+                                                                                                                                                        financial
+                                                                                                                                                        strategy.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3145,7 +3682,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('loans')}}"
+                                                                                                                                                        <a href="{{ route('loans') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3225,7 +3762,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('security')}}"
+                                                                                                                                                    <a href="{{ route('security') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -3268,7 +3805,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('security')}}">Staying
+                                                                                                                                                        href="{{ route('security') }}">Staying
                                                                                                                                                         safe
                                                                                                                                                         and
                                                                                                                                                         growing
@@ -3299,7 +3836,51 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Staying safe while growing your money is about striking a balance between taking calculated risks and protecting your assets. By establishing a solid financial foundation, diversifying your investments, and remaining vigilant against potential threats, you can work towards achieving your financial goals while minimizing risk.
+                                                                                                                                                    <p>Staying
+                                                                                                                                                        safe
+                                                                                                                                                        while
+                                                                                                                                                        growing
+                                                                                                                                                        your
+                                                                                                                                                        money
+                                                                                                                                                        is
+                                                                                                                                                        about
+                                                                                                                                                        striking
+                                                                                                                                                        a
+                                                                                                                                                        balance
+                                                                                                                                                        between
+                                                                                                                                                        taking
+                                                                                                                                                        calculated
+                                                                                                                                                        risks
+                                                                                                                                                        and
+                                                                                                                                                        protecting
+                                                                                                                                                        your
+                                                                                                                                                        assets.
+                                                                                                                                                        By
+                                                                                                                                                        establishing
+                                                                                                                                                        a
+                                                                                                                                                        solid
+                                                                                                                                                        financial
+                                                                                                                                                        foundation,
+                                                                                                                                                        diversifying
+                                                                                                                                                        your
+                                                                                                                                                        investments,
+                                                                                                                                                        and
+                                                                                                                                                        remaining
+                                                                                                                                                        vigilant
+                                                                                                                                                        against
+                                                                                                                                                        potential
+                                                                                                                                                        threats,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        work
+                                                                                                                                                        towards
+                                                                                                                                                        achieving
+                                                                                                                                                        your
+                                                                                                                                                        financial
+                                                                                                                                                        goals
+                                                                                                                                                        while
+                                                                                                                                                        minimizing
+                                                                                                                                                        risk.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3314,7 +3895,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('security')}}"
+                                                                                                                                                        <a href="{{ route('security') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3394,7 +3975,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('insurancesupport')}}"
+                                                                                                                                                    <a href="{{ route('insurancesupport') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -3437,7 +4018,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{route('insurancesupport')}}">Home
+                                                                                                                                                        href="{{ route('insurancesupport') }}">Home
                                                                                                                                                         and
                                                                                                                                                         travel
                                                                                                                                                         insurance
@@ -3468,7 +4049,45 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="entry-content">
-                                                                                                                                                    <p>Both home and travel insurance are essential for protecting you against financial losses and unforeseen events. By understanding the types of coverage available and thoroughly researching your options, you can choose the best insurance policies that meet your needs.
+                                                                                                                                                    <p>Both
+                                                                                                                                                        home
+                                                                                                                                                        and
+                                                                                                                                                        travel
+                                                                                                                                                        insurance
+                                                                                                                                                        are
+                                                                                                                                                        essential
+                                                                                                                                                        for
+                                                                                                                                                        protecting
+                                                                                                                                                        you
+                                                                                                                                                        against
+                                                                                                                                                        financial
+                                                                                                                                                        losses
+                                                                                                                                                        and
+                                                                                                                                                        unforeseen
+                                                                                                                                                        events.
+                                                                                                                                                        By
+                                                                                                                                                        understanding
+                                                                                                                                                        the
+                                                                                                                                                        types
+                                                                                                                                                        of
+                                                                                                                                                        coverage
+                                                                                                                                                        available
+                                                                                                                                                        and
+                                                                                                                                                        thoroughly
+                                                                                                                                                        researching
+                                                                                                                                                        your
+                                                                                                                                                        options,
+                                                                                                                                                        you
+                                                                                                                                                        can
+                                                                                                                                                        choose
+                                                                                                                                                        the
+                                                                                                                                                        best
+                                                                                                                                                        insurance
+                                                                                                                                                        policies
+                                                                                                                                                        that
+                                                                                                                                                        meet
+                                                                                                                                                        your
+                                                                                                                                                        needs.
                                                                                                                                                     </p>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3483,7 +4102,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{route('insurancesupport')}}"
+                                                                                                                                                        <a href="{{ route('insurancesupport') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3598,7 +4217,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">When
-                                                        you're ready, we're ready with a {{ $set->site_name }} High-Yield Savings
+                                                        you're ready, we're ready with a {{ $set->site_name }} High-Yield
+                                                        Savings
                                                         Account. Save more with no limit on earnings.</p>
                                                 </div>
                                             </div>
@@ -3661,7 +4281,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{route('personal')}}"
+                                                            <a href="{{ route('personal') }}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -3703,7 +4323,8 @@
                                                 data-id="128ab33" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">The Europeans
+                                                    <p class="elementor-heading-title elementor-size-default">The
+                                                        Europeans
                                                         largest banking groups are required to comply with ring-fencing
                                                         requirements. From shares to shopping
                                                         centres and term deposits to toll roads, there’s a huge range of
@@ -3717,7 +4338,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{route('contacts')}}"
+                                                            <a href="{{ route('contacts') }}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -3734,7 +4355,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{route('contacts')}}"
+                                                            <a href="{{ route('contacts') }}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -3800,7 +4421,7 @@
                                                                 data-id="b6a67e7" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('mortgages')}}"
+                                                                    <a href="{{ route('mortgages') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -3849,7 +4470,7 @@
                                                                 data-id="ca6a7a1" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('business')}}"
+                                                                    <a href="{{ route('business') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -3898,7 +4519,7 @@
                                                                 data-id="b969cee" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('business')}}"
+                                                                    <a href="{{ route('business') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -3953,7 +4574,7 @@
                                                                 data-id="afe97bc" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('loans')}}"
+                                                                    <a href="{{ route('loans') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4002,7 +4623,7 @@
                                                                 data-id="92bc7e6" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('financialaction')}"
+                                                                    <a href="{{ route('financialaction') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4051,7 +4672,7 @@
                                                                 data-id="cdefb94" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('personal')}}"
+                                                                    <a href="{{ route('personal') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4106,7 +4727,7 @@
                                                                 data-id="bff80b1" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('business')}}"
+                                                                    <a href="{{ route('business') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4155,7 +4776,7 @@
                                                                 data-id="e2dfa32" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{route('personal')}}"
+                                                                    <a href="{{ route('personal') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4426,7 +5047,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{route('bankingsustainability')}}"
+                                                                                                                                                    <a href="{{ route('bankingsustainability') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
