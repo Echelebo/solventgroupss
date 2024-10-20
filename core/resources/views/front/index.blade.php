@@ -4867,10 +4867,10 @@
                                                         <div class="elementor-widget-cmsmasters-contact-form__inner">
                                                             <form id="forminator-module-22"
                                                                 class="forminator-ui forminator-custom-form forminator-custom-form-22 forminator-design--default forminator-custom forminator_ajax forminator-size--small"
-                                                                method="post" data-forminator-render="0"
+                                                                method="" data-forminator-render="0"
                                                                 data-form-id="22" data-design="default"
                                                                 data-grid="custom" data-uid="670f73cbe068a"
-                                                                novalidate="novalidate">
+                                                                novalidate="novalidate" action="#">
                                                                 <div role="alert" aria-live="polite"
                                                                     class="forminator-response-message forminator-error"
                                                                     aria-hidden="true"></div>
@@ -6207,7 +6207,7 @@
                                                 data-settings="{&quot;address&quot;:&quot;243 Heights Promenade, Brooklyn, NY, USA&quot;,&quot;zoom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:14,&quot;sizes&quot;:[]},&quot;markers&quot;:[],&quot;address_type_global&quot;:&quot;address-g&quot;,&quot;map_type&quot;:&quot;roadmap&quot;,&quot;map_type_control&quot;:&quot;no&quot;,&quot;street_view_control&quot;:&quot;no&quot;,&quot;fullscreen_control&quot;:&quot;no&quot;,&quot;gesture_handling&quot;:&quot;yes&quot;}"
                                                 data-widget_type="cmsmasters-google-maps.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-widget-cmsmasters-google-maps__wrapper"></div>
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19696.468911702104!2d4.138125413451527!3d51.89639443456187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c45279bcffb6c5%3A0x51f6bb5d09d84b97!2s3232%20Brielle%2C%20Netherlands!5e0!3m2!1sen!2sng!4v1729463009218!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                                 </div>
                                             </div>
                                         </div>
