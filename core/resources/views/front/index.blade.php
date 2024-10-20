@@ -4281,7 +4281,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{ route('personal') }}"
+                                                            <a href="{{ route('investments') }}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -4315,7 +4315,8 @@
                                                 data-id="a5d577d" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">MultiBank
+                                                    <h2 class="elementor-heading-title elementor-size-default">
+                                                        {{ $set->site_name }}
                                                         Mobile</h2>
                                                 </div>
                                             </div>
@@ -4445,8 +4446,9 @@
                                                                                         Mortgage</h3>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                        Explore the power of simpler and
-                                                                                        smarter banking online </div>
+                                                                                        Explore different types of mortgages
+                                                                                        (fixed-rate, adjustable-rate, FHA,
+                                                                                        VA, etc.) </div>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                                         <span
@@ -4494,8 +4496,9 @@
                                                                                         Business</h3>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                        Explore the power of simpler and
-                                                                                        smarter banking online </div>
+                                                                                        It's advisable to compare different
+                                                                                        banks to find the best fit for your
+                                                                                        business needs </div>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                                         <span
@@ -4543,8 +4546,9 @@
                                                                                         Credit Cards</h3>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                        Explore the power of simpler and
-                                                                                        smarter banking online </div>
+                                                                                        Credit cards can be used for
+                                                                                        everyday purchases such as groceries
+                                                                                        and dining out </div>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                                         <span
@@ -4598,8 +4602,9 @@
                                                                                         Loans</h3>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                        Explore the power of simpler and
-                                                                                        smarter banking online </div>
+                                                                                        If you’re considering home
+                                                                                        improvement and car loans, here’s a
+                                                                                        structured guide </div>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                                         <span
@@ -4623,7 +4628,7 @@
                                                                 data-id="92bc7e6" data-element_type="widget"
                                                                 data-widget_type="cmsmasters-featured-box.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <a href="{{ route('financialaction') }}"
+                                                                    <a href="{{ route('investments') }}"
                                                                         class="elementor-widget-cmsmasters-featured-box__wrapper">
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__content">
@@ -4647,8 +4652,9 @@
                                                                                         Investments</h3>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                        Explore the power of simpler and
-                                                                                        smarter banking online </div>
+                                                                                        We offer a wide range of options
+                                                                                        suitable for different investment
+                                                                                        goals and risk tolerances </div>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                                         <span
@@ -4751,8 +4757,11 @@
                                                                                         Credit Cards</h3>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                        Explore the power of simpler and
-                                                                                        smarter banking online </div>
+                                                                                        For businesses, credit cards can be
+                                                                                        used to manage operational expenses,
+                                                                                        simplify accounting, and separate
+                                                                                        personal and business finances
+                                                                                    </div>
                                                                                     <div
                                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                                         <span
@@ -5085,60 +5094,9 @@
                                                                                                                                             data-id="47c62048"
                                                                                                                                             data-element_type="widget"
                                                                                                                                             data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    data-taxonomy="category"
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="taxonomy"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
-                                                                                                                                                                                class="term-wrap"><a
-                                                                                                                                                                                    class="term"
-                                                                                                                                                                                    rel="category tag"
-                                                                                                                                                                                    href="{{ route('mobilepayments') }}"><span>New
-                                                                                                                                                                                        Digital</span></a></span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
+
                                                                                                                                         </div>
-                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="61f14f89"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="date"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
-                                                                                                                                                                                23,
-                                                                                                                                                                                2024</span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
+
                                                                                                                                         <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
                                                                                                                                             data-id="229e62e"
                                                                                                                                             data-element_type="widget"
@@ -5327,64 +5285,8 @@
                                                                                                                                     data-element_type="column">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="47c62048"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    data-taxonomy="category"
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="taxonomy"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
-                                                                                                                                                                                class="term-wrap"><a
-                                                                                                                                                                                    class="term"
-                                                                                                                                                                                    rel="category tag"
-                                                                                                                                                                                    href="{{ route('openaccount') }}"><span>Internet
-                                                                                                                                                                                        Banking</span></a></span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="61f14f89"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="date"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
-                                                                                                                                                                                21,
-                                                                                                                                                                                2024</span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
+
+
                                                                                                                                         <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
                                                                                                                                             data-id="229e62e"
                                                                                                                                             data-element_type="widget"
@@ -5577,63 +5479,8 @@
                                                                                                                                     data-element_type="column">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="47c62048"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    data-taxonomy="category"
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="taxonomy"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
-                                                                                                                                                                                class="term-wrap"><a
-                                                                                                                                                                                    class="term"
-                                                                                                                                                                                    rel="category tag"
-                                                                                                                                                                                    href="#"><span>Payments</span></a></span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="61f14f89"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="date"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
-                                                                                                                                                                                18,
-                                                                                                                                                                                2024</span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
+
+
                                                                                                                                         <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
                                                                                                                                             data-id="229e62e"
                                                                                                                                             data-element_type="widget"
@@ -5657,7 +5504,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/2024/01/18/request-to-paya-growing-global-trend-in-payments/">Request
+                                                                                                                                                        href="{{ route('payaglobal') }}">Request
                                                                                                                                                         to
                                                                                                                                                         Pay
                                                                                                                                                         –
@@ -5726,7 +5573,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/2024/01/18/request-to-paya-growing-global-trend-in-payments/"
+                                                                                                                                                        <a href="{{ route('payaglobal') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -5796,7 +5643,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/2024/01/16/open-bankingwhere-partnerships-are-required/"
+                                                                                                                                                    <a href="{{ route('openaccount') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -5830,63 +5677,8 @@
                                                                                                                                     data-element_type="column">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="47c62048"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    data-taxonomy="category"
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="taxonomy"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
-                                                                                                                                                                                class="term-wrap"><a
-                                                                                                                                                                                    class="term"
-                                                                                                                                                                                    rel="category tag"
-                                                                                                                                                                                    href="{{ url('/') }}/category/payments/"><span>Payments</span></a></span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="61f14f89"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="date"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
-                                                                                                                                                                                16,
-                                                                                                                                                                                2024</span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
+
+
                                                                                                                                         <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
                                                                                                                                             data-id="229e62e"
                                                                                                                                             data-element_type="widget"
@@ -5910,7 +5702,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/2024/01/16/open-bankingwhere-partnerships-are-required/">Open
+                                                                                                                                                        href="{{ route('openaccount') }}">Open
                                                                                                                                                         Banking
                                                                                                                                                         –
                                                                                                                                                         Where
@@ -5968,7 +5760,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/2024/01/16/open-bankingwhere-partnerships-are-required/"
+                                                                                                                                                        <a href="{{ route('openaccount') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -6038,7 +5830,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/"
+                                                                                                                                                    <a href="{{ route('mobilepayments') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -6072,64 +5864,8 @@
                                                                                                                                     data-element_type="column">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="47c62048"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    data-taxonomy="category"
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="taxonomy"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
-                                                                                                                                                                                class="term-wrap"><a
-                                                                                                                                                                                    class="term"
-                                                                                                                                                                                    rel="category tag"
-                                                                                                                                                                                    href="{{ url('/') }}/category/core-banking/"><span>Core
-                                                                                                                                                                                        Banking</span></a></span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="61f14f89"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="date"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
-                                                                                                                                                                                14,
-                                                                                                                                                                                2024</span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
+
+
                                                                                                                                         <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
                                                                                                                                             data-id="229e62e"
                                                                                                                                             data-element_type="widget"
@@ -6153,7 +5889,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/">Digital
+                                                                                                                                                        href="{{ route('mobilepayments') }}">Digital
                                                                                                                                                         Decoupling:
                                                                                                                                                         A
                                                                                                                                                         Maturing
@@ -6206,7 +5942,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/2024/01/14/digital-decoupling-a-maturing-concept-in-digital-disruption/"
+                                                                                                                                                        <a href="{{ route('mobilepayments') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -6276,7 +6012,7 @@
                                                                                                                                                 class="elementor-widget-container">
                                                                                                                                                 <div
                                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                                    <a href="{{ url('/') }}/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/"
+                                                                                                                                                    <a href="{{ route('investments') }}"
                                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                                             loading="lazy"
@@ -6310,63 +6046,8 @@
                                                                                                                                     data-element_type="column">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-wrap elementor-element-populated">
-                                                                                                                                        <div class="elementor-element elementor-element-47c62048 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="47c62048"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-e3cc756">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    data-taxonomy="category"
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="taxonomy"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span
-                                                                                                                                                                                class="term-wrap"><a
-                                                                                                                                                                                    class="term"
-                                                                                                                                                                                    rel="category tag"
-                                                                                                                                                                                    href="{{ url('/') }}/category/credit/"><span>Credit</span></a></span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                        <div class="elementor-element elementor-element-61f14f89 elementor-widget__width-initial cmsmasters-count--dir-row cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-meta-data"
-                                                                                                                                            data-id="61f14f89"
-                                                                                                                                            data-element_type="widget"
-                                                                                                                                            data-widget_type="cmsmasters-meta-data.default">
-                                                                                                                                            <div
-                                                                                                                                                class="elementor-widget-container">
-                                                                                                                                                <div
-                                                                                                                                                    class="cmsmasters-meta-data">
-                                                                                                                                                    <div
-                                                                                                                                                        class="cmsmasters-meta-data__inner">
-                                                                                                                                                        <div
-                                                                                                                                                            class="cmsmasters-meta-data__item elementor-repeater-item-556ee5b">
-                                                                                                                                                            <div
-                                                                                                                                                                class="cmsmasters-meta-data__item__inner">
-                                                                                                                                                                <span
-                                                                                                                                                                    class="cmsmasters-postmeta"
-                                                                                                                                                                    data-name="date"><span
-                                                                                                                                                                        class="cmsmasters-postmeta__inner"><span
-                                                                                                                                                                            class="cmsmasters-postmeta__content"><span>January
-                                                                                                                                                                                12,
-                                                                                                                                                                                2024</span></span></span></span>
-                                                                                                                                                            </div>
-                                                                                                                                                        </div>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
+
+
                                                                                                                                         <div class="elementor-element elementor-element-229e62e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
                                                                                                                                             data-id="229e62e"
                                                                                                                                             data-element_type="widget"
@@ -6390,7 +6071,7 @@
                                                                                                                                                 <h3
                                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                                     <a
-                                                                                                                                                        href="{{ url('/') }}/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/">Adopting
+                                                                                                                                                        href="{{ route('investments') }}">Adopting
                                                                                                                                                         Digital
                                                                                                                                                         Innovation
                                                                                                                                                         Throughout
@@ -6453,7 +6134,7 @@
                                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                                     <div
                                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                                        <a href="{{ url('/') }}/2024/01/12/adopting-digital-innovation-throughout-the-credit-value-chain/"
+                                                                                                                                                        <a href="{{ route('investments') }}"
                                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                                             role="button"><span
                                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -6513,182 +6194,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <section
-                                class="elementor-section elementor-top-section elementor-element elementor-element-3e49ea9 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                                data-id="3e49ea9" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-wide">
-                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c37abce"
-                                        data-id="c37abce" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-be2bc97 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                data-id="be2bc97" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Have Any
-                                                        Quastions?</h5>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-89b2ae6 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                data-id="89b2ae6" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Top
-                                                        Questions People Ask Us</h2>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-03fe165 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                data-id="03fe165" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p>Got a question about how we’re organised, applying to work for
-                                                        us, or looking for financial or shareholder information? <a
-                                                            href="#">View more Q&amp;A here</a></p>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-6d5644f cmsmasters-trigger-icon-view-stacked cmsmasters-title-alignment-left cmsmasters-item-icon-position-left cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-toggles cmsmasters-widget-toggles"
-                                                data-id="6d5644f" data-element_type="widget"
-                                                data-settings="{&quot;toggles&quot;:[{&quot;toggle_title&quot;:&quot;What is an APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;54a4bf4&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Will I receive my quoted APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;832afa9&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Can you tell me how to apply for a loan?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;10c5781&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;When will I receive my money?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;800bd62&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;}],&quot;type&quot;:&quot;toggles&quot;}"
-                                                data-widget_type="cmsmasters-toggles.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-widget-cmsmasters-toggles__list"
-                                                        role="tablist">
-                                                        <div class="elementor-widget-cmsmasters-toggles__item">
-                                                            <h4 id="elementor-tab-title-1141"
-                                                                class="elementor-widget-cmsmasters-toggles__title"
-                                                                data-tab="1" role="tab"
-                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1141"
-                                                                aria-expanded="false"><a
-                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                    href="#"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__title-text">What
-                                                                        is an APR?</span></a><span
-                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                    aria-hidden="true"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                            class="fas fa-minus"></i></span></span></h4>
-                                                            <div id="elementor-widget-cmsmasters-toggles__content-1141"
-                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                data-tab="1" role="tabpanel"
-                                                                aria-labelledby="elementor-tab-title-1141">APR is the
-                                                                annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account
-                                                                the interest rate, when it is charged (daily, weekly,
-                                                                monthly or annually), any fees charged when setting up
-                                                                the loan and any other costs applicable.</div>
-                                                        </div>
-                                                        <div class="elementor-widget-cmsmasters-toggles__item">
-                                                            <h4 id="elementor-tab-title-1142"
-                                                                class="elementor-widget-cmsmasters-toggles__title"
-                                                                data-tab="2" role="tab"
-                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1142"
-                                                                aria-expanded="false"><a
-                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                    href="#"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__title-text">Will
-                                                                        I receive my quoted APR?</span></a><span
-                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                    aria-hidden="true"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                            class="fas fa-minus"></i></span></span></h4>
-                                                            <div id="elementor-widget-cmsmasters-toggles__content-1142"
-                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                data-tab="2" role="tabpanel"
-                                                                aria-labelledby="elementor-tab-title-1142">APR is the
-                                                                annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account
-                                                                the interest rate, when it is charged (daily, weekly,
-                                                                monthly or annually), any fees charged when setting up
-                                                                the loan and any other costs applicable.</div>
-                                                        </div>
-                                                        <div class="elementor-widget-cmsmasters-toggles__item">
-                                                            <h4 id="elementor-tab-title-1143"
-                                                                class="elementor-widget-cmsmasters-toggles__title"
-                                                                data-tab="3" role="tab"
-                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1143"
-                                                                aria-expanded="false"><a
-                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                    href="#"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__title-text">Can
-                                                                        you tell me how to apply for a
-                                                                        loan?</span></a><span
-                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                    aria-hidden="true"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                            class="fas fa-minus"></i></span></span></h4>
-                                                            <div id="elementor-widget-cmsmasters-toggles__content-1143"
-                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                data-tab="3" role="tabpanel"
-                                                                aria-labelledby="elementor-tab-title-1143">APR is the
-                                                                annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account
-                                                                the interest rate, when it is charged (daily, weekly,
-                                                                monthly or annually), any fees charged when setting up
-                                                                the loan and any other costs applicable.</div>
-                                                        </div>
-                                                        <div class="elementor-widget-cmsmasters-toggles__item">
-                                                            <h4 id="elementor-tab-title-1144"
-                                                                class="elementor-widget-cmsmasters-toggles__title"
-                                                                data-tab="4" role="tab"
-                                                                aria-controls="elementor-widget-cmsmasters-toggles__content-1144"
-                                                                aria-expanded="false"><a
-                                                                    class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                    href="#"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__title-text">When
-                                                                        will I receive my money?</span></a><span
-                                                                    class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                    aria-hidden="true"><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                            class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                        class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                            class="fas fa-minus"></i></span></span></h4>
-                                                            <div id="elementor-widget-cmsmasters-toggles__content-1144"
-                                                                class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                data-tab="4" role="tabpanel"
-                                                                aria-labelledby="elementor-tab-title-1144">APR is the
-                                                                annual percentage rate (APR) and is used to describe the
-                                                                overall cost of money borrowed. It takes into account
-                                                                the interest rate, when it is charged (daily, weekly,
-                                                                monthly or annually), any fees charged when setting up
-                                                                the loan and any other costs applicable.</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-971176d cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                data-id="971176d" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">Still have
-                                                        questions about services?</p>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-a0cabea cmsmasters-button-align-center cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
-                                                data-id="a0cabea" data-element_type="widget"
-                                                data-widget_type="cmsmasters-button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-widget-cmsmasters-button__button-container">
-                                                        <div
-                                                            class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="{{ url('/') }}/contacts/"
-                                                                class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
-                                                                role="button"><span
-                                                                    class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
-                                                                        class="elementor-widget-cmsmasters-button__text">Read
-                                                                        FAQs</span></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+
                             <section
                                 class="elementor-section elementor-top-section elementor-element elementor-element-9d68c71 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
                                 data-id="9d68c71" data-element_type="section">
@@ -6733,10 +6239,10 @@
                                                                 </span>
                                                                 <span class="cmsmasters-widget-icon-list-item-text-inner">
                                                                     <span class="cmsmasters-widget-icon-list-item-text">
-                                                                        243 Heights Promenade, </span>
+                                                                        Address </span>
                                                                     <span
-                                                                        class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Brooklyn,
-                                                                        NY, USA</span> </span>
+                                                                        class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">{{ $set->address }}</span>
+                                                                </span>
                                                             </span>
                                                         </li>
                                                         <li class="cmsmasters-widget-icon-list-item active-icon-item">
@@ -6752,7 +6258,7 @@
                                                                     <span
                                                                         class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
                                                                         <a
-                                                                            href="mailto:example@example.com">example@example.com</a>
+                                                                            href="mailto:{{ $set->email }}">{{ $set->email }}</a>
                                                                     </span>
                                                                     <span
                                                                         class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Support
@@ -6771,8 +6277,9 @@
                                                                     class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                                     <span
                                                                         class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                        <a href="tel:+1%20452%20123%201235">+1 452 123
-                                                                            1235</a> </span>
+                                                                        <a
+                                                                            href="tel:{{ $set->mobile }}">{{ $set->mobile }}</a>
+                                                                    </span>
                                                                     <span
                                                                         class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Free
                                                                         Consultation</span> </span>
