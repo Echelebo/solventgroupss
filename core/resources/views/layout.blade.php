@@ -1046,7 +1046,7 @@
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
-                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">Blog</span></span></a>
+                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">About Us</span></span></a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
@@ -1233,7 +1233,7 @@
                                                                                 <a href="{{ route('about') }}"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
-                                                                                        class="elementor-widget-cmsmasters-offcanvas__item-text">Blog</span></a>
+                                                                                        class="elementor-widget-cmsmasters-offcanvas__item-text">About Us</span></a>
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
