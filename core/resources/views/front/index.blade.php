@@ -1,5 +1,4 @@
 @php
- $page_title = 'Home';
 
  $bodyid = 'cmsmasters_body';
  $bodyclass = 'home page-template-default page page-id-7199 wp-embed-responsive theme-multibank woocommerce-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-7199 e--ua-isTouchDevice e--ua-blink e--ua-chrome e--ua-webkit';
