@@ -679,7 +679,9 @@
     </script>
 </head>
 
-<body>
+<body id="{{ $bodyid }}"
+class="{{ $bodyclass }}"
+data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" data-gr-ext-installed="">
 
     <div data-elementor-type="cmsmasters_header" data-elementor-id="104"
         class="elementor elementor-104 cmsmasters-location-cmsmasters_header cmsmasters-header-position-absolute-">
