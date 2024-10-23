@@ -506,9 +506,9 @@
     <link rel="stylesheet" id="cmsmasters-frontend-css"
         href="{{ url('/') }}/wp-content/plugins/cmsmasters-elementor-addon/assets/css/frontend.min.css"
         type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-post-7199-css"
-        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-7199.css" type="text/css"
-        media="all">
+
+
+
     <link rel="stylesheet" id="wc-frontend-css"
         href="{{ url('/') }}/wp-content/themes/multibank/woocommerce/cmsmasters-framework/assets/css/wc-frontend.min.css"
         type="text/css" media="all">
@@ -679,9 +679,7 @@
     </script>
 </head>
 
-<body id="cmsmasters_body"
-    class="home page-template-default page page-id-7199 wp-embed-responsive theme-multibank woocommerce-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-7199 e--ua-isTouchDevice e--ua-blink e--ua-chrome e--ua-webkit"
-    data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" data-gr-ext-installed="">
+<body>
 
     <div data-elementor-type="cmsmasters_header" data-elementor-id="104"
         class="elementor elementor-104 cmsmasters-location-cmsmasters_header cmsmasters-header-position-absolute-">
