@@ -1,5 +1,26 @@
+@php
+
+ $bodyid = 'cmsmasters_body';
+ $bodyclass = 'post-template-default single single-post postid-728 single-format-standard wp-embed-responsive theme-multibank woocommerce-no-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-728 elementor-page-121';
+
+@endphp
+
+<link rel="stylesheet" id="elementor-post-728-css"
+        href="{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-728.css" type="text/css"
+        media="all">
+
+        <link rel='stylesheet' id='elementor-post-121-css'
+        href='{{ url('/') }}/wp-content/uploads/sites/3/elementor/css/post-121.css' type='text/css' media='all' />
+
 @extends('layout')
 @section('css')
+
+
+<style id='elementor-frontend-inline-css' type='text/css'>
+    .elementor-121 .elementor-element.elementor-element-4a44c162>.elementor-element-populated>.elementor-background-overlay {
+        background-image: url("url('/') }}/wp-content/uploads/sites/3/2021/04/blog-9.jpg");
+    }
+</style>
 
 @stop
 @section('content')
