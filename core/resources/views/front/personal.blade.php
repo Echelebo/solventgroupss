@@ -947,7 +947,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="{{route('contact')}}"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1187,7 +1187,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="{{route('contact')}}"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1434,7 +1434,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="{{route('contact')}}"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1532,7 +1532,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="{{route('contact')}}">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
@@ -1573,7 +1573,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="{{route('contact')}}">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
