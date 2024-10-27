@@ -58,9 +58,7 @@
                                     data-widget_type="cmsmasters-post-excerpt.default">
                                     <div class="elementor-widget-container">
                                         <div class="entry-content">
-                                            <p>When she reached the first hills of the Italic Mountains, she had a last view
-                                                back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-                                                Village.</p>
+                                            <p>{{$set->site_name}} will assess your financial situation and provide a pre-approval letter, which can strengthen your position when making an offer on a property.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -225,10 +223,7 @@
                                                                 <div class="elementor-element elementor-element-df7ee82 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="df7ee82" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p>Watch how it works with this helpful how-to <a
-                                                                                href="#">video</a>.</p>
-                                                                    </div>
+
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-c822d41 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-menu-anchor"
                                                                     data-id="c822d41" data-element_type="widget"
@@ -496,7 +491,7 @@
                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                             <div
                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                <a href="../../contacts/index.html"
+                                                                                <a href="{{route('contacts')}}"
                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                     role="button"><span
                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -635,12 +630,7 @@
                                                                                             Mobile Deposits</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
-                                                                                            credits fraudulent transactions
-                                                                                            made with your debit card back
-                                                                                            to your account as soon as the
-                                                                                            next business day if your card
-                                                                                            is lost or stolen.</div>
+                                                                                            Allows you to deposit paper checks into your bank account using your smartphone or tablet by simply taking a picture of the check.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -680,12 +670,7 @@
                                                                                             Better Budgeting</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
-                                                                                            credits fraudulent transactions
-                                                                                            made with your debit card back
-                                                                                            to your account as soon as the
-                                                                                            next business day if your card
-                                                                                            is lost or stolen.</div>
+                                                                                            Creating a financial plan that helps you allocate your income effectively, track your spending, and achieve your financial goals.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -873,12 +858,7 @@
                                                                                             Better Budgeting</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
-                                                                                            credits fraudulent transactions
-                                                                                            made with your debit card back
-                                                                                            to your account as soon as the
-                                                                                            next business day if your card
-                                                                                            is lost or stolen.</div>
+                                                                                            Creating a financial plan that helps you allocate your income effectively, track your spending, and achieve your financial goals.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -1141,7 +1121,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../../../theme-dev.cmsmasters.net/bank-18/cmsms_service/wealth-management/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1164,7 +1144,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../services/index.html"
+                                                                                                <a href="{{route('openaccount')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1381,7 +1361,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../../../theme-dev.cmsmasters.net/bank-18/cmsms_service/wealth-management/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1404,7 +1384,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../contacts/index.html"
+                                                                                                <a href="{{route('openaccount')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1628,7 +1608,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../../../theme-dev.cmsmasters.net/bank-18/cmsms_service/wealth-management/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1651,7 +1631,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../easy-access-savings-account/index.html"
+                                                                                                <a href="{{route('openaccount')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1669,191 +1649,7 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <section
-                                                    class="elementor-section elementor-top-section elementor-element elementor-element-28d11cd elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                                                    data-id="28d11cd" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-no">
-                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5dbcd89"
-                                                            data-id="5dbcd89" data-element_type="column">
-                                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-88fcd8d cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                    data-id="88fcd8d" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h5
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            Useful Information</h5>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-b473e01 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                    data-id="b473e01" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h2
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            Frequently Asked Questions</h2>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-baa12d1 elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                    data-id="baa12d1" data-element_type="widget"
-                                                                    data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p>Got a question about how we’re organised,
-                                                                            applying to work for us, or looking for
-                                                                            financial or shareholder information? <a
-                                                                                href="../../contacts/index.html">View more
-                                                                                Q&amp;A here</a></p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-4d5094e cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-menu-anchor"
-                                                                    data-id="4d5094e" data-element_type="widget"
-                                                                    data-widget_type="menu-anchor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div id="FAQ" class="elementor-menu-anchor">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-f5d6053 cmsmasters-trigger-icon-view-stacked cmsmasters-title-alignment-left cmsmasters-item-icon-position-left cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-toggles cmsmasters-widget-toggles"
-                                                                    data-id="f5d6053" data-element_type="widget"
-                                                                    data-settings="{&quot;toggles&quot;:[{&quot;toggle_title&quot;:&quot;What is an APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;54a4bf4&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Will I receive my quoted APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;832afa9&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Can you tell me how to apply for a loan?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;10c5781&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;When will I receive my money?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;800bd62&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;}],&quot;type&quot;:&quot;toggles&quot;}"
-                                                                    data-widget_type="cmsmasters-toggles.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-widget-cmsmasters-toggles__list"
-                                                                            role="tablist">
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-2571"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="1" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-2571"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">What
-                                                                                            is an APR?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-2571"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="1" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-2571">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-2572"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="2" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-2572"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">Will
-                                                                                            I receive my quoted
-                                                                                            APR?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-2572"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="2" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-2572">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-2573"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="3" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-2573"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">Can
-                                                                                            you tell me how to apply for a
-                                                                                            loan?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-2573"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="3" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-2573">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-2574"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="4" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-2574"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">When
-                                                                                            will I receive my
-                                                                                            money?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-2574"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="4" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-2574">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
+
                                             </div>
                                         </div>
                                     </div>
@@ -1911,7 +1707,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="../../contacts/index.html">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
@@ -1953,7 +1749,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="../../contacts/index.html">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
