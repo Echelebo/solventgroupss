@@ -1,7 +1,7 @@
 @php
 
  $bodyid = 'cmsmasters_body';
- $bodyclass = 'cmsms_service-template-default single single-cmsms_service postid-2495 wp-embed-responsive theme-multibank woocommerce-no-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-2495 elementor-page-159';
+ $bodyclass = 'cmsms_service-template-default single single-cmsms_service postid-2495 wp-embed-responsive theme-SolventGroups woocommerce-no-js cmsmasters-content-layout-fullwidth elementor-default elementor-kit-25 elementor-page elementor-page-2495 elementor-page-159';
 
 @endphp
 
@@ -58,9 +58,7 @@
                                     data-widget_type="cmsmasters-post-excerpt.default">
                                     <div class="elementor-widget-container">
                                         <div class="entry-content">
-                                            <p>It is a paradisematic country, in which roasted parts of sentences fly into
-                                                your mouth. A small river named Duden flows by their place and supplies it
-                                                with the necessary regelialia.</p>
+                                            <p>Credit cards can be a valuable financial tool when used responsibly. They provide convenience, flexibility, and a range of benefits, but it's essential to manage them carefully to avoid accumulating debt and damaging credit scores.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +72,7 @@
                                     data-id="47fe356f" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
+                                            <div class="elementor-spacer-inner"><img src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-3.jpg" width="100%" height="100%"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -220,13 +218,13 @@
                                                                         <img fetchpriority="high" fetchpriority="high"
                                                                             decoding="async" width="473"
                                                                             height="297"
-                                                                            src="../../wp-content/uploads/sites/3/2021/10/card-1-1-30x30.png"
+                                                                            src="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-30x30.png"
                                                                             class="attachment-large size-large wp-image-9177 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
-                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1.png"
-                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1.png 473w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1-16x10.png 16w"
-                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1-16x10.png 16w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-1-1.png 473w"
+                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1.png"
+                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1.png 473w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-16x10.png 16w"
+                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1-16x10.png 16w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-1-1.png 473w"
                                                                             sizes="(max-width: 473px) 100vw, 473px" />
                                                                     </div>
                                                                 </div>
@@ -363,7 +361,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h2
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            MultiBank Basic Card</h2>
+                                                                                            SolventGroups Basic Card</h2>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-30be209 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -628,9 +626,9 @@
                                                                             class="attachment-large size-large wp-image-9178 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
-                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1.png"
-                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1.png 473w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1-16x10.png 16w"
-                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1-16x10.png 16w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-2-1.png 473w"
+                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1.png"
+                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1.png 473w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1-16x10.png 16w"
+                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1-16x10.png 16w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-2-1.png 473w"
                                                                             sizes="(max-width: 473px) 100vw, 473px" />
                                                                     </div>
                                                                 </div>
@@ -767,7 +765,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h2
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            MultiBank Rewards Card</h2>
+                                                                                            SolventGroups Rewards Card</h2>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-874a735 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -1032,9 +1030,9 @@
                                                                             class="attachment-large size-large wp-image-9179 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
-                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1.png"
-                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1.png 473w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1-16x10.png 16w"
-                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1-16x10.png 16w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-3-1.png 473w"
+                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1.png"
+                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1.png 473w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1-16x10.png 16w"
+                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1-16x10.png 16w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-3-1.png 473w"
                                                                             sizes="(max-width: 473px) 100vw, 473px" />
                                                                     </div>
                                                                 </div>
@@ -1171,7 +1169,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h2
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            MultiBank Travel Rewards</h2>
+                                                                                            SolventGroups Travel Rewards</h2>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-e65e88b cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -1437,9 +1435,9 @@
                                                                             class="attachment-large size-large wp-image-9180 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
-                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1.png"
-                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1.png 473w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1-16x10.png 16w"
-                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1-300x188.png 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1-30x19.png 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1-16x10.png 16w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/10/card-4-1.png 473w"
+                                                                            data-src="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1.png"
+                                                                            data-srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1.png 473w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1-16x10.png 16w"
+                                                                            srcset="{{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1-300x188.png 300w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1-30x19.png 30w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1-16x10.png 16w, {{ url('/') }}/wp-content/uploads/sites/3/2021/10/card-4-1.png 473w"
                                                                             sizes="(max-width: 473px) 100vw, 473px" />
                                                                     </div>
                                                                 </div>
@@ -1576,7 +1574,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h2
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            MultiBank Platinum Card</h2>
+                                                                                            SolventGroups Platinum Card</h2>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-a86dff0 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
