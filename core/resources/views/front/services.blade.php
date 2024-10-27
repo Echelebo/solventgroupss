@@ -1263,7 +1263,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="{{route('bussines')}}"
+                                                                                                                                    <a href="{{route('business')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
@@ -1306,7 +1306,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="{{route('bussines')}}">Everyday
+                                                                                                                                        href="{{route('business')}}">Everyday
                                                                                                                                         spending
                                                                                                                                         and
                                                                                                                                         credit
@@ -1353,7 +1353,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="{{route('bussines')}}"
+                                                                                                                                        <a href="{{route('business')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
