@@ -41,8 +41,8 @@
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">Readiness and
                                                         collaborations for future pandemics, not just in neurological.
-                                                        Work with us, and you’ll quickly learn that Ativo Team has a true
-                                                        passion for quality programs and long-lasting.</p>
+                                                        Work with us, and you’ll quickly learn that {{$set->site_name}} has a true
+                                                        passion for quality banking and long-lasting savings.</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-92d9fb0 cmsmasters-widget-marker-view-stacked cmsmasters-widget-layout-row cmsmasters-widget-align-stretch cmsmasters-widget-direction-default cmsmasters-widget-marker-element-icon cmsmasters-widget-marker-shape-circle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-icon-list cmsmasters-widget-icon-list"
@@ -61,8 +61,7 @@
                                                                 <span
                                                                     class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
                                                                     <span class="cmsmasters-widget-icon-list-item-text">
-                                                                        <a href="tel:+%20(123)%201800-567-8990">+ (123)
-                                                                            1800-567-8990</a> </span>
+                                                                        <a href="tel:{{$set->mobile}}">{{$set->mobile}}</a> </span>
                                                                 </span>
                                                             </span>
                                                         </li>
@@ -111,7 +110,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <h3
                                                                         class="elementor-heading-title elementor-size-default">
-                                                                        100 Franklin Ave, Nutley, NJ 07110, United States
+                                                                        {{$set->address}}
                                                                     </h3>
                                                                 </div>
                                                             </div>
@@ -130,8 +129,7 @@
                                                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                                                             href="tel:+%20(123)%201800-567-8990">
                                                                             <span class="elementor-button-content-wrapper">
-                                                                                <span class="elementor-button-text">+ (123)
-                                                                                    1800-567-8990</span>
+                                                                                <span class="elementor-button-text">{{$set->mobile}}</span>
                                                                             </span>
                                                                         </a>
                                                                     </div>
@@ -143,106 +141,8 @@
                                             </section>
                                         </div>
                                     </div>
-                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d5f73b7"
-                                        data-id="d5f73b7" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <section
-                                                class="elementor-section elementor-inner-section elementor-element elementor-element-daa88c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                                                data-id="daa88c3" data-element_type="section"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3617758"
-                                                        data-id="3617758" data-element_type="column"
-                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                                            <div class="elementor-element elementor-element-b913d0a cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                data-id="b913d0a" data-element_type="widget"
-                                                                data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <h3
-                                                                        class="elementor-heading-title elementor-size-default">
-                                                                        471 Cortlandt St, Belleville, NJ 07109, United
-                                                                        States</h3>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-element elementor-element-5cc223a cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                data-id="5cc223a" data-element_type="widget"
-                                                                data-widget_type="text-editor.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <p>Mon – Fri: 9:00am – 7pm<br />Sat: 11am – 4pm</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-element elementor-element-760b672 elementor-align-justify cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-button"
-                                                                data-id="760b672" data-element_type="widget"
-                                                                data-widget_type="button.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="elementor-button-wrapper">
-                                                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                            href="tel:+%20(123)%201800-567-8990">
-                                                                            <span class="elementor-button-content-wrapper">
-                                                                                <span class="elementor-button-text">+ (123)
-                                                                                    1800-567-9092</span>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2b104f2"
-                                        data-id="2b104f2" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <section
-                                                class="elementor-section elementor-inner-section elementor-element elementor-element-58d57e9 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                                                data-id="58d57e9" data-element_type="section"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-b52ab50"
-                                                        data-id="b52ab50" data-element_type="column"
-                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                                            <div class="elementor-element elementor-element-e27f381 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                data-id="e27f381" data-element_type="widget"
-                                                                data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <h3
-                                                                        class="elementor-heading-title elementor-size-default">
-                                                                        100 Franklin Ave, Nutley, NJ 07110, United States
-                                                                    </h3>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-element elementor-element-7dc3f45 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                data-id="7dc3f45" data-element_type="widget"
-                                                                data-widget_type="text-editor.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <p>Mon – Fri: 8:00am – 5pm<br />Sat: 10am – 2pm</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-element elementor-element-b924c84 elementor-align-justify cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-button"
-                                                                data-id="b924c84" data-element_type="widget"
-                                                                data-widget_type="button.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="elementor-button-wrapper">
-                                                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                            href="tel:+%20(123)%201800-567-8990">
-                                                                            <span class="elementor-button-content-wrapper">
-                                                                                <span class="elementor-button-text">+ (123)
-                                                                                    1800-567-8994</span>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
+
+
                                 </div>
                             </section>
                             <section
@@ -298,7 +198,7 @@
                                                                                     class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                     <span
                                                                                         class="cmsmasters-widget-icon-list-item-text">
-                                                                                        27 NW New Vexmont, </span>
+                                                                                        {{$set->site_name}} </span>
                                                                                 </span>
                                                                             </span>
                                                                         </li>
@@ -309,7 +209,7 @@
                                                                                     class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                     <span
                                                                                         class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                                        Portland, Oregon 97209 </span>
+                                                                                        {{$set->address}} </span>
                                                                                 </span>
                                                                             </span>
                                                                         </li>
@@ -321,8 +221,8 @@
                                                                                     <span
                                                                                         class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
                                                                                         <a
-                                                                                            href="tel:+%20(123)%201800-567-8990">+
-                                                                                            (123) 1800-567-8990</a> </span>
+                                                                                            href="tel:{{$set->mobile}}">
+                                                                                            {{$set->mobile}}</a> </span>
                                                                                 </span>
                                                                             </span>
                                                                         </li>
@@ -387,7 +287,7 @@
                                                 data-settings="{&quot;address&quot;:&quot;27 NW New Vermont, Portland, Oregon 97209&quot;,&quot;markers&quot;:[],&quot;address_type_global&quot;:&quot;address-g&quot;,&quot;map_type&quot;:&quot;roadmap&quot;,&quot;zoom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;fullscreen_control&quot;:&quot;no&quot;}"
                                                 data-widget_type="cmsmasters-google-maps.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-widget-cmsmasters-google-maps__wrapper"></div>
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19696.468911702104!2d4.138125413451527!3d51.89639443456187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c45279bcffb6c5%3A0x51f6bb5d09d84b97!2s3232%20Brielle%2C%20Netherlands!5e0!3m2!1sen!2sng!4v1729463009218!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                                 </div>
                                             </div>
                                         </div>
