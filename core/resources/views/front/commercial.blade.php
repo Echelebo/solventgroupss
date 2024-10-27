@@ -276,12 +276,7 @@
                                                                                         <h3
                                                                                             class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Fast</h3>
-                                                                                        <div
-                                                                                            class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Get the right mortgage to buy
-                                                                                            your new home — or refinance to
-                                                                                            take advantage of low rates or
-                                                                                            convert </div>
+
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -308,12 +303,7 @@
                                                                                         <h3
                                                                                             class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Convenient</h3>
-                                                                                        <div
-                                                                                            class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Get the right mortgage to buy
-                                                                                            your new home — or refinance to
-                                                                                            take advantage of low rates or
-                                                                                            convert </div>
+
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -340,12 +330,7 @@
                                                                                         <h3
                                                                                             class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Secure</h3>
-                                                                                        <div
-                                                                                            class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Get the right mortgage to buy
-                                                                                            your new home — or refinance to
-                                                                                            take advantage of low rates or
-                                                                                            convert </div>
+
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -482,12 +467,7 @@
                                                                                             Mobile Deposits</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
-                                                                                            credits fraudulent transactions
-                                                                                            made with your debit card back
-                                                                                            to your account as soon as the
-                                                                                            next business day if your card
-                                                                                            is lost or stolen.</div>
+                                                                                            Allows you to deposit paper checks into your bank account using your smartphone or tablet by simply taking a picture of the check.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -527,12 +507,7 @@
                                                                                             Better Budgeting</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
-                                                                                            credits fraudulent transactions
-                                                                                            made with your debit card back
-                                                                                            to your account as soon as the
-                                                                                            next business day if your card
-                                                                                            is lost or stolen.</div>
+                                                                                            Creating a financial plan that helps you allocate your income effectively, track your spending, and achieve your financial goals.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -720,12 +695,7 @@
                                                                                             Better Budgeting</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
-                                                                                            credits fraudulent transactions
-                                                                                            made with your debit card back
-                                                                                            to your account as soon as the
-                                                                                            next business day if your card
-                                                                                            is lost or stolen.</div>
+                                                                                            Creating a financial plan that helps you allocate your income effectively, track your spending, and achieve your financial goals.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -811,7 +781,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h2
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            Download the Mobile Application</h2>
+                                                                            Open the internet banking</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-85a6f93 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -820,9 +790,8 @@
                                                                     <div class="elementor-widget-container">
                                                                         <p
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            The UK’s largest banking groups are required to
-                                                                            comply with ring-fencing requirements from 1
-                                                                            January 2019. From shares to shopping centres
+                                                                            The Europeans largest banking groups are required to
+                                                                            comply with ring-fencing requirements. From shares to shopping centres
                                                                             and term deposits to toll roads, there’s a huge
                                                                             range of investments</p>
                                                                     </div>
@@ -835,12 +804,11 @@
                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                             <div
                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                <a href="../../shop/index.html"
+                                                                                <a href="{{route('contacts')}}"
                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                     role="button"><span
                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
-                                                                                            class="elementor-widget-cmsmasters-button__text">Download
-                                                                                            App</span></span></a></div>
+                                                                                            class="elementor-widget-cmsmasters-button__text">Contact Us</span></span></a></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -852,7 +820,7 @@
                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                             <div
                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                <a href="../../contacts/index.html"
+                                                                                <a href="{{route('contacts')}}"
                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                     role="button"><span
                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -884,191 +852,7 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <section
-                                                    class="elementor-section elementor-top-section elementor-element elementor-element-e93348c elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                                                    data-id="e93348c" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-no">
-                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0b450b5"
-                                                            data-id="0b450b5" data-element_type="column">
-                                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-d9542bb cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-menu-anchor"
-                                                                    data-id="d9542bb" data-element_type="widget"
-                                                                    data-widget_type="menu-anchor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div id="FAQ" class="elementor-menu-anchor">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-cb74fd7 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                    data-id="cb74fd7" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h5
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            Have Any Quastions?</h5>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-1298ef4 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                    data-id="1298ef4" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h2
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            Top Questions People Ask Us</h2>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-08eb2f2 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                    data-id="08eb2f2" data-element_type="widget"
-                                                                    data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p>Got a question about how we’re organised,
-                                                                            applying to work for us, or looking for
-                                                                            financial or shareholder information? <a
-                                                                                href="../../contacts/index.html">View more
-                                                                                Q&amp;A here</a></p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-a27720b cmsmasters-trigger-icon-view-stacked cmsmasters-title-alignment-left cmsmasters-item-icon-position-left cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-toggles cmsmasters-widget-toggles"
-                                                                    data-id="a27720b" data-element_type="widget"
-                                                                    data-settings="{&quot;toggles&quot;:[{&quot;toggle_title&quot;:&quot;What is an APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;54a4bf4&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Will I receive my quoted APR?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;832afa9&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;Can you tell me how to apply for a loan?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;10c5781&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;},{&quot;toggle_title&quot;:&quot;When will I receive my money?&quot;,&quot;toggle_content&quot;:&quot;APR is the annual percentage rate (APR) and is used to describe the overall cost of money borrowed. It takes into account the interest rate, when it is charged (daily, weekly, monthly or annually), any fees charged when setting up the loan and any other costs applicable.&quot;,&quot;_id&quot;:&quot;800bd62&quot;,&quot;content_type&quot;:&quot;toggle-content&quot;,&quot;saved_section&quot;:null,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_custom_id&quot;:&quot;&quot;}],&quot;type&quot;:&quot;toggles&quot;}"
-                                                                    data-widget_type="cmsmasters-toggles.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-widget-cmsmasters-toggles__list"
-                                                                            role="tablist">
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-1701"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="1" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-1701"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">What
-                                                                                            is an APR?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-1701"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="1" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-1701">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-1702"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="2" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-1702"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">Will
-                                                                                            I receive my quoted
-                                                                                            APR?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-1702"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="2" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-1702">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-1703"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="3" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-1703"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">Can
-                                                                                            you tell me how to apply for a
-                                                                                            loan?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-1703"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="3" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-1703">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-toggles__item">
-                                                                                <h4 id="elementor-tab-title-1704"
-                                                                                    class="elementor-widget-cmsmasters-toggles__title"
-                                                                                    data-tab="4" role="tab"
-                                                                                    aria-controls="elementor-widget-cmsmasters-toggles__content-1704"
-                                                                                    aria-expanded="false"><a
-                                                                                        class="elementor-widget-cmsmasters-toggles__title-link cmsmasters_enable_trigger_icon"
-                                                                                        href="#"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__title-text">When
-                                                                                            will I receive my
-                                                                                            money?</span></a><span
-                                                                                        class="elementor-widget-cmsmasters-toggles__trigger"
-                                                                                        aria-hidden="true"><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-closed"><i
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-plus"></i></span><span
-                                                                                            class="elementor-widget-cmsmasters-toggles__trigger-opened"><i
-                                                                                                class="fas fa-minus"></i></span></span>
-                                                                                </h4>
-                                                                                <div id="elementor-widget-cmsmasters-toggles__content-1704"
-                                                                                    class="elementor-widget-cmsmasters-toggles__content elementor-clearfix"
-                                                                                    data-tab="4" role="tabpanel"
-                                                                                    aria-labelledby="elementor-tab-title-1704">
-                                                                                    APR is the annual percentage rate (APR)
-                                                                                    and is used to describe the overall cost
-                                                                                    of money borrowed. It takes into account
-                                                                                    the interest rate, when it is charged
-                                                                                    (daily, weekly, monthly or annually),
-                                                                                    any fees charged when setting up the
-                                                                                    loan and any other costs applicable.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
+
                                             </div>
                                         </div>
                                     </div>
@@ -1125,7 +909,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="../../contacts/index.html">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
@@ -1166,7 +950,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="../../contacts/index.html">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
