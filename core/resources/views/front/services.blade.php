@@ -45,8 +45,8 @@
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">Readiness and
                                                         collaborations for future pandemics, not just in neurological.
-                                                        Work with us, and you’ll quickly learn that Ativo Team has a true
-                                                        passion for quality programs and long-lasting.</p>
+                                                        Work with us, and you’ll quickly learn that {{ $set->site_name }} has a true
+                                                        passion for quality banking and long-lasting savings.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,20 +138,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/manage-your-account/index.html"
+                                                                                                                                    <a href="{{route('commercial')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             fetchpriority="high"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7068 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-1.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -181,7 +181,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/manage-your-account/index.html">Manage
+                                                                                                                                        href="{{route('commercial')}}">Manage
                                                                                                                                         your
                                                                                                                                         account
                                                                                                                                         anytime</a>
@@ -211,41 +211,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>Far
-                                                                                                                                        far
-                                                                                                                                        away,
-                                                                                                                                        behind
-                                                                                                                                        the
-                                                                                                                                        word
-                                                                                                                                        mountains,
-                                                                                                                                        far
-                                                                                                                                        from
-                                                                                                                                        the
-                                                                                                                                        countries
-                                                                                                                                        Vokalia
-                                                                                                                                        and
-                                                                                                                                        Consonantia,
-                                                                                                                                        there
-                                                                                                                                        live
-                                                                                                                                        the
-                                                                                                                                        blind
-                                                                                                                                        texts.
-                                                                                                                                        Separated
-                                                                                                                                        they
-                                                                                                                                        live
-                                                                                                                                        in
-                                                                                                                                        Bookmarksgrove
-                                                                                                                                        right
-                                                                                                                                        at
-                                                                                                                                        the
-                                                                                                                                        coast
-                                                                                                                                        of
-                                                                                                                                        the
-                                                                                                                                        Semantics,
-                                                                                                                                        a
-                                                                                                                                        large
-                                                                                                                                        language
-                                                                                                                                        ocean.
+                                                                                                                                    <p>To manage your Account anytime, you can tap your profile picture and follow the link to “Manage your Banking Account.” This allows you to access various settings, including personal information, privacy controls, and activity management.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -260,7 +226,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/manage-your-account/index.html"
+                                                                                                                                        <a href="{{route('commercial')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -332,19 +298,19 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/your-financial-action-plan/index.html"
+                                                                                                                                    <a href="{{route('financialaction')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7076 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-9.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -374,7 +340,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/your-financial-action-plan/index.html">Your
+                                                                                                                                        href="{{route('financialaction')}}">Your
                                                                                                                                         financial
                                                                                                                                         action
                                                                                                                                         plan
@@ -408,44 +374,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>The
-                                                                                                                                        copy
-                                                                                                                                        warned
-                                                                                                                                        the
-                                                                                                                                        Little
-                                                                                                                                        Blind
-                                                                                                                                        Text,
-                                                                                                                                        that
-                                                                                                                                        where
-                                                                                                                                        it
-                                                                                                                                        came
-                                                                                                                                        from
-                                                                                                                                        it
-                                                                                                                                        would
-                                                                                                                                        have
-                                                                                                                                        been
-                                                                                                                                        rewritten
-                                                                                                                                        a
-                                                                                                                                        thousand
-                                                                                                                                        times
-                                                                                                                                        and
-                                                                                                                                        everything
-                                                                                                                                        that
-                                                                                                                                        was
-                                                                                                                                        left
-                                                                                                                                        from
-                                                                                                                                        its
-                                                                                                                                        origin
-                                                                                                                                        would
-                                                                                                                                        be
-                                                                                                                                        the
-                                                                                                                                        word
-                                                                                                                                        &#8220;and&#8221;
-                                                                                                                                        and
-                                                                                                                                        the
-                                                                                                                                        Little
-                                                                                                                                        Blind
-                                                                                                                                        Text.
+                                                                                                                                    <p>Establishing a solid financial action plan and investment strategy requires time and effort, but it can significantly enhance your financial wellbeing. Start small, stay consistent, and adjust as needed to meet your evolving financial goals.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -460,7 +389,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/your-financial-action-plan/index.html"
+                                                                                                                                        <a href="{{route('financialaction')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -532,19 +461,19 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/credit-card-eligibility-checker/index.html"
+                                                                                                                                    <a href="{{route('cardeligibility')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7075 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-8.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -574,7 +503,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/credit-card-eligibility-checker/index.html">Credit
+                                                                                                                                        href="{{route('cardeligibility')}}">Credit
                                                                                                                                         card
                                                                                                                                         eligibility
                                                                                                                                         checker</a>
@@ -604,44 +533,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>When
-                                                                                                                                        she
-                                                                                                                                        reached
-                                                                                                                                        the
-                                                                                                                                        first
-                                                                                                                                        hills
-                                                                                                                                        of
-                                                                                                                                        the
-                                                                                                                                        Italic
-                                                                                                                                        Mountains,
-                                                                                                                                        she
-                                                                                                                                        had
-                                                                                                                                        a
-                                                                                                                                        last
-                                                                                                                                        view
-                                                                                                                                        back
-                                                                                                                                        on
-                                                                                                                                        the
-                                                                                                                                        skyline
-                                                                                                                                        of
-                                                                                                                                        her
-                                                                                                                                        hometown
-                                                                                                                                        Bookmarksgrove,
-                                                                                                                                        the
-                                                                                                                                        headline
-                                                                                                                                        of
-                                                                                                                                        Alphabet
-                                                                                                                                        Village
-                                                                                                                                        and
-                                                                                                                                        the
-                                                                                                                                        subline
-                                                                                                                                        of
-                                                                                                                                        her
-                                                                                                                                        own
-                                                                                                                                        road,
-                                                                                                                                        the
-                                                                                                                                        Line
-                                                                                                                                        Lane.
+                                                                                                                                    <p>Using a credit card eligibility checker can help you strategically choose a card that suits your financial situation without negatively impacting your credit score.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -656,7 +548,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/credit-card-eligibility-checker/index.html"
+                                                                                                                                        <a href="{{route('cardeligibility')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -728,20 +620,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/home-improvement-loan/index.html"
+                                                                                                                                    <a href="{{route('loans')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7074 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-7.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -771,7 +663,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/home-improvement-loan/index.html">Home
+                                                                                                                                        href="{{route('loans')}}">Home
                                                                                                                                         improvement
                                                                                                                                         and
                                                                                                                                         car
@@ -802,37 +694,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>It
-                                                                                                                                        is
-                                                                                                                                        a
-                                                                                                                                        paradisematic
-                                                                                                                                        country,
-                                                                                                                                        in
-                                                                                                                                        which
-                                                                                                                                        roasted
-                                                                                                                                        parts
-                                                                                                                                        of
-                                                                                                                                        sentences
-                                                                                                                                        fly
-                                                                                                                                        into
-                                                                                                                                        your
-                                                                                                                                        mouth.
-                                                                                                                                        A
-                                                                                                                                        small
-                                                                                                                                        river
-                                                                                                                                        named
-                                                                                                                                        Duden
-                                                                                                                                        flows
-                                                                                                                                        by
-                                                                                                                                        their
-                                                                                                                                        place
-                                                                                                                                        and
-                                                                                                                                        supplies
-                                                                                                                                        it
-                                                                                                                                        with
-                                                                                                                                        the
-                                                                                                                                        necessary
-                                                                                                                                        regelialia.
+                                                                                                                                    <p>Managing home improvement and car loans can be a significant financial decision. Evaluate your options carefully, assess your needs, and ensure that you choose financing solutions that fit within your overall financial strategy.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -847,7 +709,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/home-improvement-loan/index.html"
+                                                                                                                                        <a href="{{route('loans')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -919,20 +781,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/staying-safe-and-secure/index.html"
+                                                                                                                                    <a href="{{route('security')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7073 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-6.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -962,7 +824,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/staying-safe-and-secure/index.html">Staying
+                                                                                                                                        href="{{route('security')}}">Staying
                                                                                                                                         safe
                                                                                                                                         and
                                                                                                                                         growing
@@ -993,35 +855,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>The
-                                                                                                                                        Big
-                                                                                                                                        Oxmox
-                                                                                                                                        advised
-                                                                                                                                        her
-                                                                                                                                        not
-                                                                                                                                        to
-                                                                                                                                        do
-                                                                                                                                        so,
-                                                                                                                                        because
-                                                                                                                                        there
-                                                                                                                                        were
-                                                                                                                                        thousands
-                                                                                                                                        of
-                                                                                                                                        bad
-                                                                                                                                        Commas,
-                                                                                                                                        wild
-                                                                                                                                        Question
-                                                                                                                                        Marks
-                                                                                                                                        and
-                                                                                                                                        devious
-                                                                                                                                        Semikoli,
-                                                                                                                                        but
-                                                                                                                                        the
-                                                                                                                                        Little
-                                                                                                                                        Blind
-                                                                                                                                        Text
-                                                                                                                                        didn’t
-                                                                                                                                        listen.
+                                                                                                                                    <p>Staying safe while growing your money is about striking a balance between taking calculated risks and protecting your assets. By establishing a solid financial foundation, diversifying your investments, and remaining vigilant against potential threats, you can work towards achieving your financial goals while minimizing risk.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1036,7 +870,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/staying-safe-and-secure/index.html"
+                                                                                                                                        <a href="{{route('security')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1108,20 +942,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/home-insurance-support/index.html"
+                                                                                                                                    <a href="{{route('insurancesupport')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7072 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-5.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1151,7 +985,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/home-insurance-support/index.html">Home
+                                                                                                                                        href="{{route('insurancesupport')}}">Home
                                                                                                                                         and
                                                                                                                                         travel
                                                                                                                                         insurance
@@ -1182,44 +1016,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>The
-                                                                                                                                        copy
-                                                                                                                                        warned
-                                                                                                                                        the
-                                                                                                                                        Little
-                                                                                                                                        Blind
-                                                                                                                                        Text,
-                                                                                                                                        that
-                                                                                                                                        where
-                                                                                                                                        it
-                                                                                                                                        came
-                                                                                                                                        from
-                                                                                                                                        it
-                                                                                                                                        would
-                                                                                                                                        have
-                                                                                                                                        been
-                                                                                                                                        rewritten
-                                                                                                                                        a
-                                                                                                                                        thousand
-                                                                                                                                        times
-                                                                                                                                        and
-                                                                                                                                        everything
-                                                                                                                                        that
-                                                                                                                                        was
-                                                                                                                                        left
-                                                                                                                                        from
-                                                                                                                                        its
-                                                                                                                                        origin
-                                                                                                                                        would
-                                                                                                                                        be
-                                                                                                                                        the
-                                                                                                                                        word
-                                                                                                                                        &#8220;and&#8221;
-                                                                                                                                        and
-                                                                                                                                        the
-                                                                                                                                        Little
-                                                                                                                                        Blind
-                                                                                                                                        Text.
+                                                                                                                                    <p>Both home and travel insurance are essential for protecting you against financial losses and unforeseen events. By understanding the types of coverage available and thoroughly researching your options, you can choose the best insurance policies that meet your needs.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1234,7 +1031,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/home-insurance-support/index.html"
+                                                                                                                                        <a href="{{route('insurancesupport')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1306,20 +1103,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/mortgages/index.html"
+                                                                                                                                    <a href="{{route('mortgages')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-4-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7071 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-4.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-4.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1349,7 +1146,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/mortgages/index.html">Manage
+                                                                                                                                        href="{{route('mortgages')}}">Manage
                                                                                                                                         your
                                                                                                                                         existing
                                                                                                                                         mortgage</a>
@@ -1379,34 +1176,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>When
-                                                                                                                                        she
-                                                                                                                                        reached
-                                                                                                                                        the
-                                                                                                                                        first
-                                                                                                                                        hills
-                                                                                                                                        of
-                                                                                                                                        the
-                                                                                                                                        Italic
-                                                                                                                                        Mountains,
-                                                                                                                                        she
-                                                                                                                                        had
-                                                                                                                                        a
-                                                                                                                                        last
-                                                                                                                                        view
-                                                                                                                                        back
-                                                                                                                                        on
-                                                                                                                                        the
-                                                                                                                                        skyline
-                                                                                                                                        of
-                                                                                                                                        her
-                                                                                                                                        hometown
-                                                                                                                                        Bookmarksgrove,
-                                                                                                                                        the
-                                                                                                                                        headline
-                                                                                                                                        of
-                                                                                                                                        Alphabet
-                                                                                                                                        Village.
+                                                                                                                                    <p>To manage your Account anytime, you can tap your profile picture and follow the link to “Manage your Banking Account.” This allows you to access various settings, including personal information, privacy controls, and activity management.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1421,7 +1191,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/mortgages/index.html"
+                                                                                                                                        <a href="{{route('mortages')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1493,20 +1263,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/everyday-spending-cards/index.html"
+                                                                                                                                    <a href="{{route('bussines')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-3-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7070 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-3.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-3.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1536,7 +1306,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/everyday-spending-cards/index.html">Everyday
+                                                                                                                                        href="{{route('bussines')}}">Everyday
                                                                                                                                         spending
                                                                                                                                         and
                                                                                                                                         credit
@@ -1568,37 +1338,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>It
-                                                                                                                                        is
-                                                                                                                                        a
-                                                                                                                                        paradisematic
-                                                                                                                                        country,
-                                                                                                                                        in
-                                                                                                                                        which
-                                                                                                                                        roasted
-                                                                                                                                        parts
-                                                                                                                                        of
-                                                                                                                                        sentences
-                                                                                                                                        fly
-                                                                                                                                        into
-                                                                                                                                        your
-                                                                                                                                        mouth.
-                                                                                                                                        A
-                                                                                                                                        small
-                                                                                                                                        river
-                                                                                                                                        named
-                                                                                                                                        Duden
-                                                                                                                                        flows
-                                                                                                                                        by
-                                                                                                                                        their
-                                                                                                                                        place
-                                                                                                                                        and
-                                                                                                                                        supplies
-                                                                                                                                        it
-                                                                                                                                        with
-                                                                                                                                        the
-                                                                                                                                        necessary
-                                                                                                                                        regelialia.
+                                                                                                                                    <p>Credit cards can be a valuable financial tool when used responsibly. They provide convenience, flexibility, and a range of benefits, but it's essential to manage them carefully to avoid accumulating debt and damaging credit scores.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1613,7 +1353,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/everyday-spending-cards/index.html"
+                                                                                                                                        <a href="{{route('bussines')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1685,20 +1425,20 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="cmsmasters-widget-image__wrap">
-                                                                                                                                    <a href="../cmsms_service/easy-access-savings-account/index.html"
+                                                                                                                                    <a href="{{route('personal')}}"
                                                                                                                                         data-elementor-open-lightbox=""
                                                                                                                                         aria-label="Featured Image"><img
                                                                                                                                             loading="lazy"
                                                                                                                                             decoding="async"
                                                                                                                                             width="770"
                                                                                                                                             height="640"
-                                                                                                                                            src="../wp-content/uploads/sites/3/2021/11/service-2-30x25.jpg"
+                                                                                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-30x25.jpg"
                                                                                                                                             class="attachment-full size-full wp-image-7069 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                                                                                             alt=""
                                                                                                                                             data-sizes="(max-width: 770px) 100vw, 770px"
-                                                                                                                                            data-src="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2.jpg"
-                                                                                                                                            data-srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2.jpg 770w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-12x10.jpg 12w"
-                                                                                                                                            srcset="https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-30x25.jpg 30w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-300x249.jpg 300w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-768x638.jpg 768w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-361x300.jpg 361w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-600x499.jpg 600w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2-12x10.jpg 12w, https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/service-2.jpg 770w"
+                                                                                                                                            data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2.jpg"
+                                                                                                                                            data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2.jpg 770w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-12x10.jpg 12w"
+                                                                                                                                            srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-30x25.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-300x249.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-768x638.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-361x300.jpg 361w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-600x499.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2-12x10.jpg 12w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/service-2.jpg 770w"
                                                                                                                                             sizes="(max-width: 770px) 100vw, 770px" /></a>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1728,7 +1468,7 @@
                                                                                                                                 <h3
                                                                                                                                     class="entry-title cmsmasters-widget-title__heading">
                                                                                                                                     <a
-                                                                                                                                        href="../cmsms_service/easy-access-savings-account/index.html">Easy
+                                                                                                                                        href="{{route('personal')}}">Easy
                                                                                                                                         access
                                                                                                                                         savings
                                                                                                                                         account</a>
@@ -1758,35 +1498,7 @@
                                                                                                                                 class="elementor-widget-container">
                                                                                                                                 <div
                                                                                                                                     class="entry-content">
-                                                                                                                                    <p>The
-                                                                                                                                        Big
-                                                                                                                                        Oxmox
-                                                                                                                                        advised
-                                                                                                                                        her
-                                                                                                                                        not
-                                                                                                                                        to
-                                                                                                                                        do
-                                                                                                                                        so,
-                                                                                                                                        because
-                                                                                                                                        there
-                                                                                                                                        were
-                                                                                                                                        thousands
-                                                                                                                                        of
-                                                                                                                                        bad
-                                                                                                                                        Commas,
-                                                                                                                                        wild
-                                                                                                                                        Question
-                                                                                                                                        Marks
-                                                                                                                                        and
-                                                                                                                                        devious
-                                                                                                                                        Semikoli,
-                                                                                                                                        but
-                                                                                                                                        the
-                                                                                                                                        Little
-                                                                                                                                        Blind
-                                                                                                                                        Text
-                                                                                                                                        didn’t
-                                                                                                                                        listen.
+                                                                                                                                    <p>An easy access savings account is a great choice for individuals looking for liquidity while still earning some interest on their savings. Always compare different options to find the best deal for your needs.
                                                                                                                                     </p>
                                                                                                                                 </div>
                                                                                                                             </div>
@@ -1801,7 +1513,7 @@
                                                                                                                                     class="elementor-widget-cmsmasters-button__button-container">
                                                                                                                                     <div
                                                                                                                                         class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                                                        <a href="../cmsms_service/easy-access-savings-account/index.html"
+                                                                                                                                        <a href="{{route('personal')}}"
                                                                                                                                             class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-stacked cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                                                             role="button"><span
                                                                                                                                                 class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1885,7 +1597,7 @@
                                                     <div class="elementor-widget-cmsmasters-button__button-container">
                                                         <div
                                                             class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                            <a href="../blog/index.html"
+                                                            <a href="{{route('loans')}}"
                                                                 class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                 role="button"><span
                                                                     class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1938,7 +1650,7 @@
                                                                     <div
                                                                         class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                         <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                            href="../contacts/index.html">Help Me
+                                                                            href="{{route('contacts')}}">Help Me
                                                                             Decide</a>
                                                                     </div>
                                                                 </div>
