@@ -72,7 +72,7 @@
                                     data-id="47fe356f" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"><img src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-3.jpg" width="100%" height="100%"></div>
+                                            <div class="elementor-spacer-inner"><img src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-3.jpg" ></div>
                                         </div>
                                     </div>
                                 </div>
