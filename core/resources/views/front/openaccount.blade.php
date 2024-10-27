@@ -49,7 +49,7 @@
                                                     data-widget_type="spacer.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-spacer">
-                                                            <div class="elementor-spacer-inner"></div>
+                                                            <div class="elementor-spacer-inner"><img src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg"></div>
                                                         </div>
                                                     </div>
                                                 </div>
