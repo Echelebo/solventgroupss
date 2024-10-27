@@ -58,9 +58,7 @@
                                     data-widget_type="cmsmasters-post-excerpt.default">
                                     <div class="elementor-widget-container">
                                         <div class="entry-content">
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                                Consonantia, there live the blind texts. Separated they live in
-                                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                            <p>You can manage your Banking Account anytime by accessing it through any device or our banking service. This allows you to manage your account, view and manage your information, activity, security options, and privacy preferences.
                                             </p>
                                         </div>
                                     </div>
@@ -75,7 +73,7 @@
                                     data-id="47fe356f" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-spacer">
-                                            <div class="elementor-spacer-inner"></div>
+                                            <div class="elementor-spacer-inner"><img src="{{ url('/') }}/wp-content/uploads/sites/3/2021/11/service-1.jpg"></div>
                                         </div>
                                     </div>
                                 </div>
