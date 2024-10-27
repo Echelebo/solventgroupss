@@ -547,7 +547,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../contacts/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -567,7 +567,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../manage-your-account/index.html"
+                                                                                                <a href="{{route('about')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -622,7 +622,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <img decoding="async" width="473"
                                                                             height="297"
-                                                                            src="../../wp-content/uploads/sites/3/2021/10/card-2-1-30x30.png"
+                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/10/card-2-1-30x30.png"
                                                                             class="attachment-large size-large wp-image-9178 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
@@ -951,7 +951,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../contacts/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -971,7 +971,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../your-financial-action-plan/index.html"
+                                                                                                <a href="{{route('about')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1026,7 +1026,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <img decoding="async" width="473"
                                                                             height="297"
-                                                                            src="../../wp-content/uploads/sites/3/2021/10/card-3-1-30x30.png"
+                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/10/card-3-1-30x30.png"
                                                                             class="attachment-large size-large wp-image-9179 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
@@ -1355,7 +1355,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../contacts/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1375,7 +1375,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../staying-safe-and-secure/index.html"
+                                                                                                <a href="{{route('about')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1431,7 +1431,7 @@
                                                                         <img loading="lazy" loading="lazy"
                                                                             decoding="async" width="473"
                                                                             height="297"
-                                                                            src="../../wp-content/uploads/sites/3/2021/10/card-4-1-30x30.png"
+                                                                            src="{{url('/')}}/wp-content/uploads/sites/3/2021/10/card-4-1-30x30.png"
                                                                             class="attachment-large size-large wp-image-9180 cmsmasters_img cmsmasters-lazyload lazyload"
                                                                             alt=""
                                                                             data-sizes="(max-width: 473px) 100vw, 473px"
@@ -1760,7 +1760,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="../../contacts/index.html"
+                                                                                                <a href="{{route('contacts')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
@@ -1780,7 +1780,7 @@
                                                                                             class="elementor-widget-cmsmasters-button__button-container">
                                                                                             <div
                                                                                                 class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                                <a href="index.html"
+                                                                                                <a href="{{route('about')}}"
                                                                                                     class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view-framed cmsmasters-icon-shape-circle cmsmasters-button-size-sm"
                                                                                                     role="button"><span
                                                                                                         class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-right"><span
@@ -1857,7 +1857,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="../../contacts/index.html">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
@@ -1898,7 +1898,7 @@
                                                                         <div
                                                                             class="elementor-widget-cmsmasters-featured-box__button-wrapper elementor-widget-cmsmasters-featured-box__content-item">
                                                                             <a class="elementor-widget-cmsmasters-featured-box__button elementor-widget-cmsmasters-featured-box__content-item cmsmasters-theme-button"
-                                                                                href="../../contacts/index.html">Find a
+                                                                                href="{{route('contacts')}}">Find a
                                                                                 Location</a>
                                                                         </div>
                                                                     </div>
