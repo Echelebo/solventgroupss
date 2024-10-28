@@ -831,7 +831,7 @@
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-61beb178 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                     data-id="61beb178" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
+                                    <div class="elementor-widget-container" style="margin-left: 100px;">
                                         <h2 class="elementor-heading-title elementor-size-default">Ready to get started?
                                         </h2>
                                     </div>
