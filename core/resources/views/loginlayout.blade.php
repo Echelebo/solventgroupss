@@ -192,7 +192,7 @@
                                         width="150px" /> </a>
                             </div>
 
-                            <div class="text-center mb-4">
+                            <div class="text-center" style="margin-bottom: 80px;">
 
                                 @if (Session::has('message'))
                                     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -206,7 +206,7 @@
 
 @yield('content')
 
-<div style="margin-top: 50px;">
+<div style="margin-top: 80px;">
 <select onchange="doGTranslate(this);"
                                 class="border-none outline-none text-white p-2 caption2" style="background-color: #333333;">
                                 <option value="">Language</option>
