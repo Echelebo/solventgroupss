@@ -75,7 +75,7 @@ class FrontendController extends Controller
     public function investments()
     {
         $data['title'] = "Investments";
-        return view('front.Investments', $data);
+        return view('front.investments', $data);
     }
 
     public function bankingsustainability()
