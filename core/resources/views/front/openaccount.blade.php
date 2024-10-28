@@ -242,18 +242,8 @@
                                                                     data-id="4bb5351" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <p>To achieve this, it would be necessary to
-                                                                            have uniform banking, features and more
-                                                                            common functions. If several banking system,
-                                                                            the product of the resulting savings is
-                                                                            more simple and regular than that of the
-                                                                            government. The internet banking will be more simple. {{$set->site_name}} will be more simple.</p>
-                                                                        <p>It will be as simple as Occidental; in fact,
-                                                                            it will be Occidental. To an English person,
-                                                                            it will seem like simplified English, as a
-                                                                            skeptical Cambridge friend of mine told me
-                                                                            what Occidental is. The European languages
-                                                                            are members of the same family. </p>
+                                                                        <p>This involves integrating various functions and stakeholders to enhance efficiency, create new business lines, and improve overall service offerings. This approach allows banks to leverage resources and expertise from different areas of the value chain, from customer service to risk assessment, to meet the needs of their clients better and maintain a competitive edge.</p>
+                                                                        <p>By fostering collaboration, businesses can effectively transition to a digital supply chain and optimize operations throughout the entire value chain.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-f1e35c7 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-image"
@@ -289,7 +279,7 @@
                                                                     data-id="6489693" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <p>One of the top reasons why individuals apply for payday loans is that they cannot pay their rent on time or are way behind. An easy access savings account is a great choice for individuals looking for liquidity while still earning some interest on their savings.</p>
+                                                                       <p>{{$set->site_name}} banking portals are designed to provide services related to banking, enhancing customer experience and facilitating seamless transactions. It supports various functions like account management, financial services, and secure communication between us and our customers, thereby contributing to the digital transformation strategy of financial institutions.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-4888aa7 cmsmasters-tabs-responsive-tablet cmsmasters-list-ver-align-center cmsmasters-tabs-type-horizontal cmsmasters-tab-list-mode-inline cmsmasters-list-item-alignment-left cmsmasters-icon-position-left cmsmasters-tabs-position-start cmsmasters-icon-view-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-tabs cmsmasters-widget-tabs"
