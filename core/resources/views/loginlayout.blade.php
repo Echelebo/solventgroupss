@@ -14,10 +14,7 @@
         <link rel="apple-touch-icon" href="{{url('/')}}/asset/{{ $logo->image_link2 }}" />
         <link rel="apple-touch-icon" sizes="72x72" href="{{url('/')}}/asset/{{ $logo->image_link2 }}" />
         <link rel="apple-touch-icon" sizes="114x114" href="{{url('/')}}/asset/{{ $logo->image_link2 }}" />
-
-
-
-        <link rel="stylesheet" href="{{url('/')}}/scriptu/unicons.iconscout.com/release/v2.1.11/css/unicons.css">
+    <link rel="stylesheet" href="{{url('/')}}/scriptu/unicons.iconscout.com/release/v2.1.11/css/unicons.css">
     <link rel="stylesheet" href="{{url('/')}}/scriptu/maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{url('/')}}/scriptu/cdn.jsdelivr.net/npm/sweetalert2%407.12.15/dist/sweetalert2.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -209,7 +206,7 @@
 
 @yield('content')
 
-
+<div class="mt-4">
 <select onchange="doGTranslate(this);"
                                 class="border-none outline-none text-white p-2 caption2" style="background-color: #333333;">
                                 <option value="">Language</option>
@@ -278,6 +275,7 @@
                                 </path>
                             </svg>
                             <div id="google_translate_element2"></div>
+                        </div>
                     </div>
                 </div>
             </div>

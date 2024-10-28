@@ -1746,7 +1746,7 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                 <div class="elementor-element elementor-element-467506ee elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                     data-id="467506ee" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <p class="elementor-heading-title elementor-size-default">©2024 - All Rights
+                                        <p class="elementor-heading-title elementor-size-default">©{{ date('Y') }} - All Rights
                                             Reserved.</p>
                                     </div>
                                 </div>
