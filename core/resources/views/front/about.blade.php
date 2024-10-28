@@ -41,16 +41,13 @@
                                 <div class="elementor-element elementor-element-54afa850 cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-title cmsmasters-widget-title"
                                     data-id="54afa850" data-element_type="widget"
                                     data-widget_type="cmsmasters-title.default">
-                                    <div class="elementor-widget-container">
-                                        <h6 class="cmsmasters-widget-title__heading ">Accounts</h6>
-                                    </div>
+
                                 </div>
                                 <div class="elementor-element elementor-element-4e0de67d cmsmasters-line-clamp-no cmsmasters-color-variation-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-title cmsmasters-widget-title"
                                     data-id="4e0de67d" data-element_type="widget"
                                     data-widget_type="cmsmasters-post-title.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="entry-title cmsmasters-widget-title__heading ">Easy access savings
-                                            account</h2>
+                                        <h2 class="entry-title cmsmasters-widget-title__heading ">About {{$set->site_name}}</h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-bde5be cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
@@ -58,7 +55,7 @@
                                     data-widget_type="cmsmasters-post-excerpt.default">
                                     <div class="elementor-widget-container">
                                         <div class="entry-content">
-                                            <p>An easy access savings account is a great choice for individuals looking for liquidity while still earning some interest on their savings. You can deposit and withdraw money without penalties, making it accessible for your cash needs.</p>
+                                            <p>Founded in 1997, we have dedicated ourselves to providing exceptional banking services and building long-lasting relationships with our customers.</p>
                                         </div>
                                     </div>
                                 </div>
