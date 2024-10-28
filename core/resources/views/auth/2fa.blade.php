@@ -12,7 +12,7 @@
     <title>Two Factor Authentication</title>
     <meta name="title" content="">
     <meta name="description" content="">
-    <link rel="icon" href="/img/favicon.png" />
+    <link rel="icon" href="{{url('/')}}/scriptu/img/favicon.png" />
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
@@ -20,23 +20,23 @@
     <meta property="og:description" content="">
     <meta property="og:image" itemprop="image" content="">
     <!-- Stylesheet Libraries -->
-    <link rel="stylesheet" href="/unicons.iconscout.com/release/v2.1.11/css/unicons.css">
-    <link rel="stylesheet" href="/maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/cdn.jsdelivr.net/npm/sweetalert2%407.12.15/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="{{url('/')}}/scriptu/unicons.iconscout.com/release/v2.1.11/css/unicons.css">
+    <link rel="stylesheet" href="{{url('/')}}/scriptu/maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{url('/')}}/scriptu/cdn.jsdelivr.net/npm/sweetalert2%407.12.15/dist/sweetalert2.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600;700&amp;family=Space+Mono&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.html">
-    <script src="/ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="/maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="/cdn.jsdelivr.net/npm/sweetalert2%4010.10.1/dist/sweetalert2.all.min.js"></script>
+    <script src="{{url('/')}}/scriptu/ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{url('/')}}/scriptu/cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="{{url('/')}}/scriptu/maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="{{url('/')}}/scriptu/cdn.jsdelivr.net/npm/sweetalert2%4010.10.1/dist/sweetalert2.all.min.js"></script>
 
 
-    <link rel="stylesheet" href="/banking/asset/css/sweetalert.css" type="text/css">
-    <script type="text/javascript" src="/banking/city_state.js"></script>
+    <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
+    <script type="text/javascript" src="{{url('/')}}/city_state.js"></script>
 
 
     <style>
@@ -194,7 +194,7 @@
                 <div class="">
                     <div class="inner">
                         <div class="">
-                            <a href="/"><img src="/img/logo-light.png" class="img-fluid mx-auto d-block"
+                            <a href="/"><img src="{{url('/')}}/scriptu/img/logo-light.png" class="img-fluid mx-auto d-block"
                                     width="150px" /> </a>
                         </div>
                         <br>
@@ -250,7 +250,7 @@
 
                         </div>
                     </div>
-                    
+
                      <br />
                     <br />
                     <br />
@@ -323,7 +323,7 @@
                                 </path>
                             </svg>
                             <div id="google_translate_element2"></div>
-                            
+
                 </div>
             </div>
             <div class="col-md-4"></div>
@@ -339,26 +339,26 @@
     </footer>
     </div>
 
-    <script src="/code.jquery.com/jquery-3.5.1.min.js"
+    <script src="{{url('/')}}/scriptu/code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous">
     </script>
-    <script src="/cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    <script src="{{url('/')}}/scriptu/cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha384-l/y5WJTphApmSlx76Ev6k4G3zxu/+19CVvn9OTKI7gs4Yu5Hm8mjpdtdr5oyhnNo" crossorigin="anonymous">
     </script>
-    <script src="/cdnjs.cloudflare.com/ajax/libs/headhesive/1.2.4/headhesive.min.js"
+    <script src="{{url('/')}}/scriptu/cdnjs.cloudflare.com/ajax/libs/headhesive/1.2.4/headhesive.min.js"
         integrity="sha384-ZPk55pojr6majCEcb7ja8IztHb2+0rNX3jHHmjUIMBDgjdap9Jjw3RjoKUo1BGnb" crossorigin="anonymous">
     </script>
-    <script src="/cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+    <script src="{{url('/')}}/scriptu/cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
         integrity="sha384-fexNtx3nPE3sjIQuGk8G2X8X/aSEBVMC58R839hkgsY/Xjhvkm7m2otGhwrdESWj" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="/static.lobstr.co/static/lobstr/js/lottie-web.min.js"></script>
-    <script type="text/javascript" src="/static.lobstr.co/static/landing/js/sliderInitializer.js"></script>
-    <script type="text/javascript" src="/static.lobstr.co/static/landing/js/map_animation.js"></script>
-    <script type="text/javascript" src="/static.lobstr.co/static/landing/js/main.js"></script>
-    <script type="text/javascript" src="/static.lobstr.co/static/landing/js/stickedHeader.js"></script>
-    <script src="/static.lobstr.co/static/cache/js/output.0d86849d05fe.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/scriptu/static.lobstr.co/static/lobstr/js/lottie-web.min.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/scriptu/static.lobstr.co/static/landing/js/sliderInitializer.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/scriptu/static.lobstr.co/static/landing/js/map_animation.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/scriptu/static.lobstr.co/static/landing/js/main.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/scriptu/static.lobstr.co/static/landing/js/stickedHeader.js"></script>
+    <script src="{{url('/')}}/scriptu/static.lobstr.co/static/cache/js/output.0d86849d05fe.js"></script>
 
-    <script src="/banking/asset/js/sweetalert.js"></script>
+    <script src="{{url('/')}}/asset/js/sweetalert.js"></script>
     @include('sweetalert::alert')
     @yield('script')
     @if (session('success'))
@@ -497,7 +497,7 @@
             });
         });
     </script>
-    
+
     <script type="text/javascript">
         function googleTranslateElementInit2() {
             new google.translate.TranslateElement({
@@ -536,8 +536,8 @@
             .split('|'), 0, {}))
         /* ]]> */
     </script>
-    
-    <script src="//code.tidio.co/pp5hcvmtm6bpvi9khbhcqhzubxahbajo.js" async></script>
+
+
 </body>
 
 <!-- Mirrored from qfsledgers.org/app/create/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Feb 2024 17:34:36 GMT -->

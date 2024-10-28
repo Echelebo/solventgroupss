@@ -17,8 +17,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <link rel="stylesheet" href="/new/css/vendor.min.css">
-  <link rel="stylesheet" href="/new/css/commo.css">
+  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/vendor.min.css">
+  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/commo.css">
 
 
   <link rel="shortcut icon" href="{{url('/')}}/asset/{{ $logo->image_link2 }}" />
@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
     <link rel="stylesheet" type="text/css" href="/css/currency-flags.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-select.min.css" />-->
-    <link rel="stylesheet" type="text/css" href="/scss/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.css" />
 
   <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
@@ -835,7 +835,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     </aside>
 
 
-    <link href="/new/css/dashh.css" rel="stylesheet" type="text/css">
+    <link href="{{url('/')}}/newe/new/css/dashh.css" rel="stylesheet" type="text/css">
     <style>
       @media screen and (max-width:768px) {
         .title-name {
@@ -892,8 +892,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
   <script src="/new/js/gsap/gsap.min.js"></script>
   <script src="/new/js/gsap/ScrollToPlugin.min.js"></script>
   <script src="/new/js/gsap/ScrollTrigger.min.js"></script>-->
-<script src="/new/js/vendor.min.js"></script>
- <script src="/new/js/common.js"></script>
+<script src="{{url('/')}}/newe/new/js/vendor.min.js"></script>
+ <script src="{{url('/')}}/newe/new/js/common.js"></script>
 
   <script>
     $(document).ready(function () {
@@ -910,14 +910,14 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
   </div>
 
- <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/moment.min.js"></script>
-    <script src="/js/daterangepicker.js"></script>
-    <script src="/js/bootstrap-select.min.js"></script>
-    <script src="/js/custom.js"></script>
+ <script src="{{url('/')}}/newe/js/bootstrap.bundle.min.js"></script>
+    <script src="{{url('/')}}/newe/js/moment.min.js"></script>
+    <script src="{{url('/')}}/newe/js/daterangepicker.js"></script>
+    <script src="{{url('/')}}/newe/js/bootstrap-select.min.js"></script>
+    <script src="{{url('/')}}/newe/js/custom.js"></script>
     <script src="{{url('/')}}/asset/js/sweetalert.js"></script>
 
-    <script src="//code.tidio.co/lnwbuvxxrcgoqsgepiwxapq0dek685zy.js" async></script>
+
 
 </body>
 
