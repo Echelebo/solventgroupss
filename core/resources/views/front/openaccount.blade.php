@@ -163,7 +163,7 @@
                                     data-widget_type="cmsmasters-post-excerpt.default">
                                     <div class="elementor-widget-container">
                                         <div class="entry-content">
-                                            <p>Internet Banking requires and depends on partnerships &#8211; from suppliers
+                                            <p>Banking requires and depends on partnerships &#8211; from suppliers
                                                 to business collaborators and from vendors to customers. Banks have to
                                                 build an ecosystem of alliances.</p>
                                         </div>
@@ -191,8 +191,8 @@
                                                                         <p>The European bankings are members of the
                                                                             same family. Their separate existence is a
                                                                             myth. For science, investment, banking, etc, Europe
-                                                                            uses the same system. <a href="#">The
-                                                                                banks</a> only differ in their
+                                                                            uses the same system. The
+                                                                                banks only differ in their
                                                                             services, their features and their most
                                                                             common functions to the society. Everyone realizes why internet banking would be desirable.  </p>
                                                                     </div>
