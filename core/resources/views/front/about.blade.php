@@ -824,16 +824,16 @@
                         </section>
                         <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-d15b811 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                    data-id="d15b811" data-element_type="section" style="width: 50%; margin: auto;">
+                    data-id="d15b811" data-element_type="section" style="width: 70%; margin: auto;">
                     <div class="elementor-container elementor-column-gap-wide">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a972f9b"
                             data-id="3a972f9b" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-61beb178 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                     data-id="61beb178" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container" style="margin-left: 100px;">
-                                        <h2 class="elementor-heading-title elementor-size-default">Ready to get started?
-                                        </h2>
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default"><p align="center">Ready to get started?
+                                        </p></h2>
                                     </div>
                                 </div>
                                 <section
