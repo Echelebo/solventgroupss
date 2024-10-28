@@ -98,22 +98,7 @@
                                                     class="elementor-section elementor-top-section elementor-element elementor-element-f679187 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
                                                     data-id="f679187" data-element_type="section">
                                                     <div class="elementor-container elementor-column-gap-no">
-                                                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8a63050 cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
-                                                            data-id="8a63050" data-element_type="column"
-                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-background-overlay"></div>
-                                                                <div class="elementor-element elementor-element-5f1f82d cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
-                                                                    data-id="5f1f82d" data-element_type="widget"
-                                                                    data-widget_type="spacer.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-spacer">
-                                                                            <div class="elementor-spacer-inner"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+
                                                         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8c6da01 elementor-hidden-tablet elementor-hidden-mobile"
                                                             data-id="8c6da01" data-element_type="column">
                                                             <div class="elementor-widget-wrap">
