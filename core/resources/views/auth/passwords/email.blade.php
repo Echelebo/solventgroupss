@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+
 
 <link rel="stylesheet" href="https://central-ab.com/temp/plugins/themefisher-font.v-2/style.css">
 <!-- bootstrap.min css -->
@@ -747,4 +747,4 @@ Welcome Slider
     </section>
     <br>
 
-    <?php include '../footer.php'; ?>
+
