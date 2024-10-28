@@ -230,7 +230,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h5
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            It's Quick and Easy to Apply Online</h5>
+                                                                            Thank you for choosing {{$set->site_name}}.</h5>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-3eb2ebb cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -239,106 +239,18 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h2
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            Convenient Everyday Banking. Open An Account
-                                                                            Today!</h2>
+                                                                            We look forward to serving you!</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-86a3fd8 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="86a3fd8" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <p>If you&#8217;re an existing customer with an
-                                                                            overdraft, you can log on to online banking and
-                                                                            manage your current
-                                                                                arranged limit. Our phone, online and
-                                                                            mobile banking services are there for you 24
-                                                                            hours a day, every day of the year.</p>
+                                                                        <p>We invite you to explore all that {{$set->site_name}} has to offer. Whether you're looking to open an account, apply for a loan, or simply have questions, our team is here to help. Together, let's build a brighter financial future.</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="elementor-element elementor-element-b9f2516 cmsmasters-widget-layout-row cmsmasters-widget-align-stretch cmsmasters-widget-direction-default cmsmasters-widget-marker-element-icon cmsmasters-widget-marker-view-default cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-icon-list cmsmasters-widget-icon-list"
-                                                                    data-id="b9f2516" data-element_type="widget"
-                                                                    data-widget_type="cmsmasters-icon-list.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <ul class="cmsmasters-widget-icon-list-items">
-                                                                            <li
-                                                                                class="cmsmasters-widget-icon-list-item active-icon-item">
-                                                                                <span
-                                                                                    class="cmsmasters-widget-icon-list-item-text-wrap">
-                                                                                    <span
-                                                                                        class="cmsmasters-widget-icon-list-item-icon">
-                                                                                        <span>
-                                                                                            <i aria-hidden="true"
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-check-circle"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="cmsmasters-widget-icon-list-item-text-inner">
-                                                                                        <span
-                                                                                            class="cmsmasters-widget-icon-list-item-text">
-                                                                                            Manage your money when you want
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </span>
-                                                                            </li>
-                                                                            <li
-                                                                                class="cmsmasters-widget-icon-list-item active-icon-item">
-                                                                                <span
-                                                                                    class="cmsmasters-widget-icon-list-item-text-wrap">
-                                                                                    <span
-                                                                                        class="cmsmasters-widget-icon-list-item-icon">
-                                                                                        <span>
-                                                                                            <i aria-hidden="true"
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-check-circle"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="cmsmasters-widget-icon-list-item-text-inner">
-                                                                                        <span
-                                                                                            class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                                            Withdraw up to £300 a day
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </span>
-                                                                            </li>
-                                                                            <li
-                                                                                class="cmsmasters-widget-icon-list-item active-icon-item">
-                                                                                <span
-                                                                                    class="cmsmasters-widget-icon-list-item-text-wrap">
-                                                                                    <span
-                                                                                        class="cmsmasters-widget-icon-list-item-icon">
-                                                                                        <span>
-                                                                                            <i aria-hidden="true"
-                                                                                                class="cmsmsdemo-icon- cmsms-demo-icon-check-circle"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="cmsmasters-widget-icon-list-item-text-inner">
-                                                                                        <span
-                                                                                            class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                                            Get help day or night </span>
-                                                                                    </span>
-                                                                                </span>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-bd35965 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-button"
-                                                                    data-id="bd35965" data-element_type="widget"
-                                                                    data-widget_type="cmsmasters-button.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div
-                                                                            class="elementor-widget-cmsmasters-button__button-container">
-                                                                            <div
-                                                                                class="elementor-widget-cmsmasters-button__button-container-inner">
-                                                                                <a href="{{route('about')}}"
-                                                                                    class="cmsmasters-button-link elementor-widget-cmsmasters-button__button cmsmasters-icon-view- cmsmasters-icon-shape- cmsmasters-button-size-sm"
-                                                                                    role="button"><span
-                                                                                        class="elementor-widget-cmsmasters-button__content-wrapper cmsmasters-align-icon-"><span
-                                                                                            class="elementor-widget-cmsmasters-button__text">Learn
-                                                                                            More</span></span></a></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -357,7 +269,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h5
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            Explore Select and Cover</h5>
+                                                                            Join Us</h5>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-1fdf2ac cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -366,7 +278,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h2
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            Take a Closer Look</h2>
+                                                                            Our Values</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-28eaeaf cmsmasters-widget-layout-column cmsmasters-widget-marker-element-numeric cmsmasters-widget-marker-view-stacked cmsmasters-widget-align-column-left cmsmasters-widget-direction-default cmsmasters-value-position-bottom cmsmasters-widget-marker-shape-circle cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-icon-list cmsmasters-widget-icon-list"
@@ -387,16 +299,11 @@
                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                         <span
                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                            Enjoy peace of mind with an
-                                                                                            arranged overdraft </span>
+                                                                                            Integrity </span>
                                                                                     </span>
                                                                                 </span>
                                                                                 <span
-                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">You
-                                                                                    can apply for one when you open your
-                                                                                    account, giving you a handy safety net
-                                                                                    in case you ever need it. Overdrafts are
-                                                                                    subject to status.</span>
+                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">We believe in doing the right thing for our customers and our community, always adhering to the highest ethical standards.</span>
                                                                             </li>
                                                                             <li
                                                                                 class="cmsmasters-widget-icon-list-item active-icon-item">
@@ -411,14 +318,11 @@
                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                         <span
                                                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                                            Get help day or night </span>
+                                                                                            Customer Focus </span>
                                                                                     </span>
                                                                                 </span>
                                                                                 <span
-                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">If
-                                                                                    you need a hand we're always here to
-                                                                                    help. Online, on our app, by phone and
-                                                                                    in branch.</span>
+                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Your satisfaction is at the heart of everything we do. We listen, understand, and respond to your unique needs.</span>
                                                                             </li>
                                                                             <li
                                                                                 class="cmsmasters-widget-icon-list-item active-icon-item">
@@ -433,15 +337,12 @@
                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                         <span
                                                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                                            Pay bills and friends with ease
+                                                                                            Innovation
                                                                                         </span>
                                                                                     </span>
                                                                                 </span>
                                                                                 <span
-                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Set
-                                                                                    up new payees, standing orders and
-                                                                                    direct debits in moments with our
-                                                                                    app.</span>
+                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">We are committed to embracing technology to provide you with cutting-edge banking solutions that enhance your experience.</span>
                                                                             </li>
                                                                             <li
                                                                                 class="cmsmasters-widget-icon-list-item active-icon-item">
@@ -456,16 +357,12 @@
                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                         <span
                                                                                             class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
-                                                                                            Earn 1.00% on your savings
+                                                                                            Community Commitment
                                                                                         </span>
                                                                                     </span>
                                                                                 </span>
                                                                                 <span
-                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">Build
-                                                                                    up your savings pot with our Regular
-                                                                                    Saver33 View footnote 3. You can save
-                                                                                    between £25-£250 each month and earn
-                                                                                    1.00%</span>
+                                                                                    class="cmsmasters-widget-icon-list-item-value cmsmasters-widget-icon-list-item-value">We understand the importance of giving back. We actively participates in community development initiatives and supports local projects.</span>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -489,47 +386,7 @@
                                                         </div>
                                                     </div>
                                                 </section>
-                                                <section
-                                                    class="elementor-section elementor-top-section elementor-element elementor-element-775ec21 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                                                    data-id="775ec21" data-element_type="section"
-                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                    <div class="elementor-container elementor-column-gap-wide">
-                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2aa3c75"
-                                                            data-id="2aa3c75" data-element_type="column">
-                                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-bcaa417 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-menu-anchor"
-                                                                    data-id="bcaa417" data-element_type="widget"
-                                                                    data-widget_type="menu-anchor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div id="accounts" class="elementor-menu-anchor">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-afc7eea cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                    data-id="afc7eea" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h2
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            Compare Accounts</h2>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-372a8d7 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                    data-id="372a8d7" data-element_type="widget"
-                                                                    data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p>Credit is subject to status, affordability and
-                                                                            terms and conditions. At the end of any
-                                                                            promotional period, balance transfers and
-                                                                            purchases will revert to the standard variable
-                                                                            rate. Earn Reward points on eligible purchases
-                                                                            you make.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
+
                                                 <section
                                                     class="elementor-section elementor-top-section elementor-element elementor-element-3992a83 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
                                                     data-id="3992a83" data-element_type="section"
@@ -564,14 +421,10 @@
                                                                                                         class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
                                                                                                         <h3
                                                                                                             class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                                            Smart Checking
-                                                                                                            Account</h3>
+                                                                                                            Our Mission</h3>
                                                                                                         <div
                                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                                            Simple checking
-                                                                                                            account with no
-                                                                                                            monthly
-                                                                                                            maintenance fee
+                                                                                                            At {{$set->site_name}}, our mission is to empower individuals and businesses to achieve their financial goals. We strive to deliver innovative solutions that cater to the evolving needs of our customers while ensuring the highest standards of security and trust.
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -619,15 +472,11 @@
                                                                                                         class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
                                                                                                         <h3
                                                                                                             class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                                            Advantage
-                                                                                                            Checking Account
+                                                                                                            Our History
                                                                                                         </h3>
                                                                                                         <div
                                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                                            A bank account
-                                                                                                            minus the checks
-                                                                                                            with no
-                                                                                                            overdraft fees
+                                                                                                            Since our inception in 1997, {{$set->site_name}} has grown from a small community bank into a trusted financial institution with branches throughout Europe. Over the years, we have adapted to meet the changing needs of our customers while maintaining our core values.
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
@@ -671,16 +520,11 @@
                                                                                                         class="elementor-widget-cmsmasters-featured-box__type-wrap elementor-widget-cmsmasters-featured-box__content-item">
                                                                                                         <h3
                                                                                                             class="elementor-widget-cmsmasters-featured-box__title elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                                            Privilege
-                                                                                                            Checking Account
+                                                                                                            Our Services
                                                                                                         </h3>
                                                                                                         <div
                                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                                            Top-tier
-                                                                                                            checking with
-                                                                                                            competitive
-                                                                                                            rates and all
-                                                                                                            the perks</div>
+                                                                                                            We offer a comprehensive range of banking services, including personal and business accounts, loans, mortgages, credit cards, and investment solutions. Our dedicated team of professionals is here to provide personalized service and expert guidance every step of the way.</div>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
