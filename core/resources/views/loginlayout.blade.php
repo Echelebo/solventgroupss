@@ -191,7 +191,7 @@
                     <div class="">
                         <div class="inner">
                             <div class="">
-                                <a href="/"><img src="{{url('/')}}/asset/{{ $logo->image_link2 }}" class="img-fluid mx-auto d-block"
+                                <a href="/"><img src="{{url('/')}}/asset/{{ $logo->image_link }}" class="img-fluid mx-auto d-block"
                                         width="150px" /> </a>
                             </div>
 
@@ -286,7 +286,7 @@
         <footer class="">
             <div class="inner">
                 <div class="copy-right">
-                    <span>©2024 {{$set->site_name}}.</span>
+                    <span>© date('y') {{$set->site_name}}.</span>
                 </div>
             </div>
         </footer>
