@@ -286,7 +286,7 @@
         <footer class="">
             <div class="inner">
                 <div class="copy-right">
-                    <span>© date('y') {{$set->site_name}}.</span>
+                    <span>© {{date('y')}} {{$set->site_name}}.</span>
                 </div>
             </div>
         </footer>
