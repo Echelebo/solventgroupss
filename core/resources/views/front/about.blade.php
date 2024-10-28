@@ -47,7 +47,7 @@
                                     data-id="4e0de67d" data-element_type="widget"
                                     data-widget_type="cmsmasters-post-title.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="entry-title cmsmasters-widget-title__heading ">About {{$set->site_name}}</h2>
+                                        <h2 class="entry-title cmsmasters-widget-title__heading ">About Us</h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-bde5be cmsmasters-line-clamp-no cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-post-excerpt cmsmasters-widget-short-text"
