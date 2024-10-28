@@ -1,4 +1,8 @@
+@extends('loginlayout')
+@section('css')
 
+@stop
+@section('content')
                         <div class="text">
                             <h4>Create a new Account.</h4>
                         </div>
@@ -69,4 +73,4 @@
                         </div>
                     </div>
 
-
+@stop

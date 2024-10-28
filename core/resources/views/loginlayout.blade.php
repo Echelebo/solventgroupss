@@ -286,7 +286,7 @@
         <footer class="">
             <div class="inner">
                 <div class="copy-right">
-                    <span>©2024 Finatex Commercial Bank.</span>
+                    <span>©2024 {{$set->site_name}}.</span>
                 </div>
             </div>
         </footer>
