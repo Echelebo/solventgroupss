@@ -824,7 +824,7 @@
                         </section>
                         <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-d15b811 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
-                    data-id="d15b811" data-element_type="section" style="width: 70%; margin: auto;">
+                    data-id="d15b811" data-element_type="section" style="width: 50%; margin: auto;">
                     <div class="elementor-container elementor-column-gap-wide">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a972f9b"
                             data-id="3a972f9b" data-element_type="column">
