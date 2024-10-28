@@ -206,7 +206,7 @@
 
 @yield('content')
 
-<div class="mt-4">
+<div class="mt-8">
 <select onchange="doGTranslate(this);"
                                 class="border-none outline-none text-white p-2 caption2" style="background-color: #333333;">
                                 <option value="">Language</option>
