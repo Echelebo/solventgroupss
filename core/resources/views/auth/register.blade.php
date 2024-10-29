@@ -339,7 +339,7 @@
 
                                     <div class="form-group row" style="margin-top: 5%">
                                         <div class="col-md-12">
-                                            <button type="submit" class="btn btn-block w-btn" id="signup-btn" style="background-color: #17705a; ">Open
+                                            <button type="submit" class="btn btn-block w-btn" id="signup-btn" >Open
                                                 Account</button>
                                             <!-- <input type="submit" name="register" value="Enroll"> -->
                                         </div>

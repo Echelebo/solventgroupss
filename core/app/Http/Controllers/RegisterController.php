@@ -30,7 +30,7 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
-       
+
     }
 
     public function register()
@@ -52,9 +52,8 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users|regex:/^\S*$/u',
             'password' => 'required|string|min:2',
             'pin' => 'required|string|min:4',
-            'ssn' => 'required_with:ssn_confirmation|string|min:9',
-            'ssn_confirmation' => 'min:9|same:ssn',
-            
+
+
         ]);
         if ($validator->fails()) {
             // adding an extra field 'error'...
@@ -81,12 +80,12 @@ class RegisterController extends Controller
         $email_time = Carbon::parse()->addMinutes(5);
         $phone_time = Carbon::parse()->addMinutes(5);
         $acct='2'.rand(1, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
-        
+
         $image = $request->file('image');
         $filename = time() . '_' . $request->username . '.jpg';
         $location = 'asset/profile/' . $filename;
         Image::make($image)->resize(800, 800)->save($location);
-        
+
         $strr = $request->phonexx;
         $strr = strval($strr);
         $strr = ltrim($strr, "0");
@@ -108,7 +107,6 @@ class RegisterController extends Controller
         $user->verification_code = $verification_code;
         $user->sms_code = $sms_code;
         $user->pin = $request->pin;
-        $user->currency = $request->currency;
         $user->email_time = $email_time;
         $user->phone_verify = $phone_verify;
         $user->phone_time = $phone_time;
@@ -116,12 +114,11 @@ class RegisterController extends Controller
         $user->ip_address = user_ip();
         $user->zip_code = $request->zip_code;
         $user->acct_no = $acct;
-        $user->ssn = $request->ssn;
         $user->password = Hash::make($request->password);
         $user->image=$filename;
         $user->save();
-       
-       
+
+
 
         if ($basic->email_verification == 1) {
             $text = "Your Email Verification Code Is: <b>$user->verification_code</b>";

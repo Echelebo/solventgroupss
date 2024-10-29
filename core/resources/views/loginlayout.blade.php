@@ -133,7 +133,7 @@
 
         .w-btn {
             border-radius: 20px;
-            background: #DC1414;
+            background: #17705a;
             font-family: 'Space Mono', monospace;
             font-weight: 600;
             font-size: 14px;
@@ -183,8 +183,8 @@
     <body>
         <div class="">
             <div class="row">
-                <div class="col-md-10"></div>
-                <div class="col-md-10 px-5 ml-5">
+                <div class="col-md-12"></div>
+                <div class="col-md-12 px-5 ml-5">
                     <div class="">
                         <div class="inner">
                             <div class="">
