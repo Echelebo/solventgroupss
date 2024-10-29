@@ -9,7 +9,7 @@
 
                     <div class="widget1 widget1-account-invoice-three">
 
-                        <div class="widget1-heading-x">
+                        <div class="widget1-heading">
                             <div class="wallet-usr-info">
                                 <div class="usr-name">
                                     <span>

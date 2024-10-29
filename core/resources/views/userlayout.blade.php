@@ -883,7 +883,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 
 <div class="text-center" style="margin-top:; margin-bottom:10px">
-    <span class="text-center">© All Rights Finatex Commercial Bank.</span>
+    <span class="text-center">©{{date('Y')}} {{$set->site_name}}.</span>
 </div>
   </div>
 
