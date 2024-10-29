@@ -142,7 +142,7 @@
                             <div class="card__container ">
                                 <div class="card__header">
                                     <div class="card__header-left">
-                                        <h3 class="card__header-title text-danger">Recent Transactions</h3>
+                                        <h3 class="card__header-title text-success">Recent Transactions</h3>
                                     </div>
                                     <div class="card__tools-more">
                                         <button class="items-more__button">
