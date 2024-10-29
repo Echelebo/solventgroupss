@@ -17,7 +17,7 @@
                                 data-saasone="contact-froms" id="signup">
                                 @csrf
                                 <div class="row">
-                                    <div class="col-lg-12">
+                                    <div class="col-sm-12">
                                         @if ($errors->has('password'))
                                             <p style="color: #DC1414;">
                                                 {{ $errors->first('password') }}
