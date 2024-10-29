@@ -1,7 +1,7 @@
 @extends('userlayout')
 
 @section('content')
-    <main class="page-content" style="margin-top:-40px">
+    <main class="page-content" style="margin-top:-20px">
         <div class="container">
 
             <div class="row gutter-bottom-xl">
@@ -9,7 +9,7 @@
 
                     <div class="widget1 widget1-account-invoice-three">
 
-                        <div class="widget1-heading">
+                        <div class="widget1-heading-x">
                             <div class="wallet-usr-info">
                                 <div class="usr-name">
                                     <span>
