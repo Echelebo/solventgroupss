@@ -20,7 +20,7 @@
                                             </p>
                                         @endif
                                         <div class="form-group">
-
+<label>Account Number: </label>
                                             <input type="number" name="acct_no" placeholder="Account Number"
                                                 id="email_username" required>
                                         </div>
@@ -33,6 +33,7 @@
                                             </p>
                                         @endif
                                         <div class="form-group">
+                                            <label>Password: </label>
                                             <div class="input-wrapper">
                                                 <input type="password" name="password" placeholder="Password"
                                                     id="u_password" required>
