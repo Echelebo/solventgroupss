@@ -4,7 +4,7 @@
 @stop
 @section('content')
                         <div class="text">
-                            <h4>Create a new Account.</h4>
+                            <h4>Create a new Banking Account.</h4>
                         </div>
 
 
@@ -15,6 +15,10 @@
                                     method="POST" id="signup">
                                     @csrf
                                     <div class="form-group row">
+                                        <p class=""
+                                        style="font-family: 'Gothic A1', sans-serif; font-weight: lighter; color: #012169; clear: both;">
+                                        <big style="font-size: 22px; font-weight: 600">Personal Info</big>
+                                    </p>
                                         <div class="col-sm-3" style="height: 3.75rem;">
                                             @if ($errors->has('name'))
                                                 <p style="color: #DC1414">
@@ -209,7 +213,7 @@
                                     <hr style="border: 1px solid #d6d6d6; margin-top: 4%; margin-bottom: 3%">
                                     <p class=""
                                         style="font-family: 'Gothic A1', sans-serif; font-weight: lighter; color: #012169; clear: both;">
-                                        <big style="font-size: 22px; font-weight: 600">Account Info</big>
+                                        <big style="font-size: 22px; font-weight: 600">Security Info</big>
                                     </p>
 
                                     <div class="form-group row">
