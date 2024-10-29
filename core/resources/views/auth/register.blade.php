@@ -14,11 +14,12 @@
                                 <form action="{{ route('submitregister') }}" enctype="multipart/form-data"
                                     method="POST" id="signup">
                                     @csrf
-                                    <div class="form-group row">
-                                        <p class=""
+                                    <p class=""
                                         style="font-family: 'Gothic A1', sans-serif; font-weight: lighter; color: #012169; clear: both;">
                                         <big style="font-size: 22px; font-weight: 600">Personal Info</big>
                                     </p>
+                                    <div class="form-group row">
+
                                         <div class="col-sm-3" style="height: 3.75rem;">
                                             @if ($errors->has('name'))
                                                 <p style="color: #DC1414">
