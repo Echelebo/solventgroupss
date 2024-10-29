@@ -3,15 +3,15 @@
 
 @stop
 @section('content')
-                        <div class="text">
-                            <h4>2FA.</h4>
+                        <div class="text mb-4">
+                            <h4>Account 2FA Confirmation.</h4>
                         </div>
 
 
 
 
 
-                        <div class="form-holder">
+                        <div class="form-holder mt-4">
 
                             <form class="form-wrap" action="{{ route('submitfa') }}" method="post"
                                 data-saasone="contact-froms" id="signup">
@@ -32,7 +32,7 @@
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-6">
 
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 mt-4">
                                             <div class="form-group">
                                                 <button class="btn btn-block w-btn" id="login-btn">
                                                     Submit

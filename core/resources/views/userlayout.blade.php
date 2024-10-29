@@ -9,11 +9,11 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ $title }} | {{$set->site_name}}</title>
-  <meta name="description" content="Finatex Commercial Bank — The best internet banking platform">
+  <meta name="description" content="{{$set->site_name}}">
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="Finatex Commercial Bank — The best internet banking platform">
-  <meta name="apple-mobile-web-app-title" content="Secure and save your funds with Finatex Commercial Bank">
+  <meta name="application-name" content="{{$set->site_name}}">
+  <meta name="apple-mobile-web-app-title" content="Secure and save your funds with {{$set->site_name}}">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
