@@ -54,7 +54,7 @@
                                             <div class="form-group row" style="margin-top: 5%">
                                                 <div class="col-md-12">
                                                     <center>
-                                                        <button type="submit" class="btn btn-sm blue-button">SEND
+                                                        <button type="submit" class="btn btn-sm w-btn">SEND
                                                             LINK</button>
                                                     </center>
                                                 </div>

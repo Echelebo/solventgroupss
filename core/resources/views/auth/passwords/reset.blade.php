@@ -95,7 +95,7 @@
 
                        <div class="form-group row" style="margin-top: 5%">
                         <div class="col-md-12"><center>
-                          <button type="submit" class="btn btn-sm blue-button">RESET PASSWORD</button></center>
+                          <button type="submit" class="btn btn-sm w-btn">RESET PASSWORD</button></center>
                         </div>
                       </div>
 
