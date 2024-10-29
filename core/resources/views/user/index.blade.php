@@ -204,13 +204,9 @@
                                                                                 <td class="table__td">
                                                                                     <span>
                                                                                         @if ($hh->type == 1)
-                                                                                            <img src="/debit.png"
-                                                                                                width="50"
-                                                                                                height="50">
+                                                                                            <span style="color: #dc3546">Debit</span>
                                                                                         @elseif($hh->type == 2)
-                                                                                            <img src="/credit.png"
-                                                                                                width="50"
-                                                                                                height="50">
+                                                                                        <span style="color: #17705a">Credit</span>
                                                                                         @endif
                                                                                     </span>
                                                                                 </td>
