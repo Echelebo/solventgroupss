@@ -6,7 +6,7 @@
                         <div class="text mb-4">
                             <h4>Account 2FA Confirmation.</h4>
                         </div>
-                        <p>Please, check your email for the 2FA code...</p>
+                        <p align="center">Please, check your email for the 2FA code...</p>
 
 
 

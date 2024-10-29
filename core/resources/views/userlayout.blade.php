@@ -620,7 +620,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
               <div class="header__tools">
                 <div class="header__notes header__tools-item">
-                  <a class="header__tools-toggle" href="mailto:customercare@wexicocrunion.com.com"
+                  <a class="header__tools-toggle" href="mailto:{{$set->csemail}}"
                     data-tippy-content="Notifications" data-tippy-placement="bottom">
                     <svg class="icon-icon-message text-white">
                       <use xlink:href="#icon-message"></use>

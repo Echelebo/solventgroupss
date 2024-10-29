@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-<div class="content"> 
+<div class="content">
     <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -30,6 +30,12 @@
                             </div>
                         </div>
                         <div class="form-group row">
+                            <label class="col-form-label col-lg-2">Customer service email:</label>
+                            <div class="col-lg-10">
+                                <input type="email" name="csemail" value="{{$set->csemail}}" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
                             <label class="col-form-label col-lg-2">Mobile:</label>
                             <div class="col-lg-10">
                                 <div class="input-group">
@@ -42,13 +48,13 @@
                             <div class="col-lg-10">
                                 <input type="text" name="title" max-length="200" value="{{$set->title}}" class="form-control">
                             </div>
-                        </div> 
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2"><a href="https://free.currencyconverterapi.com">currconv api key</a>:</label>
                             <div class="col-lg-10">
                                 <input type="text" name="api" max-length="200" value="{{$set->api}}" class="form-control">
                             </div>
-                        </div> 
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Intra Bank transfer fee <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
@@ -76,7 +82,7 @@
                                     </span>
                                     <input type="number" name="bal" max-length="10" value="{{$set->balance_reg}}" class="form-control">
                                 </div>
-                            </div>                            
+                            </div>
                             <label class="col-form-label col-lg-2">Upgrade fee <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -85,7 +91,7 @@
                                     </span>
                                     <input type="number" name="upgrade_fee" max-length="10" value="{{$set->upgrade_fee}}" class="form-control">
                                 </div>
-                            </div>                            
+                            </div>
                             <label class="col-form-label col-lg-2">Loan interest <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -94,7 +100,7 @@
                                     </span>
                                     <input type="number" name="loan_interest" max-length="10" value="{{$set->loan_interest}}" class="form-control">
                                 </div>
-                            </div>                             
+                            </div>
                             <label class="col-form-label col-lg-2">Gradient 1 <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -103,7 +109,7 @@
                                     </span>
                                     <input type="text" name="gradient1" max-length="10" value="{{$set->gradient1}}" class="form-control">
                                 </div>
-                            </div>                            
+                            </div>
                             <label class="col-form-label col-lg-2">Gradient 2 <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -112,7 +118,7 @@
                                     </span>
                                     <input type="text" name="gradient2" max-length="10" value="{{$set->gradient2}}" class="form-control">
                                 </div>
-                            </div>                            
+                            </div>
                             <label class="col-form-label col-lg-2">Saving interest <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -121,7 +127,7 @@
                                     </span>
                                     <input type="number" name="saving_interest" max-length="10" value="{{$set->saving_interest}}" class="form-control">
                                 </div>
-                            </div>                              
+                            </div>
                             <label class="col-form-label col-lg-2">Saving charge <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -130,7 +136,7 @@
                                     </span>
                                     <input type="number" name="saving_charge" max-length="10" value="{{$set->saving_charge}}" class="form-control">
                                 </div>
-                            </div>                            
+                            </div>
                             <label class="col-form-label col-lg-2">Withdraw charge <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -139,7 +145,7 @@
                                     </span>
                                     <input type="number" name="withdraw_charge" max-length="10" value="{{$set->withdraw_charge}}" class="form-control">
                                 </div>
-                            </div>                             
+                            </div>
                             <label class="col-form-label col-lg-2">Merchant charge <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -148,7 +154,7 @@
                                     </span>
                                     <input type="number" name="merchant_charge" max-length="10" value="{{$set->merchant_charge}}" class="form-control">
                                 </div>
-                            </div>                            
+                            </div>
                             <label class="col-form-label col-lg-2">Collateral percent <span class="text-danger">*</span></label>
                             <div class="col-lg-2">
                                 <div class="input-group">
@@ -158,7 +164,7 @@
                                     <input type="number" name="collateral_percent" max-length="10" value="{{$set->collateral_percent}}" class="form-control">
                                 </div>
                             </div>
-                        </div>           
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Status <span class="text-danger">*</span></label>
                             <div class="col-lg-10">
@@ -169,9 +175,9 @@
                                     @else
                                         <input type="checkbox" name="kyc" class="form-check-input-switchery" value="1">
                                     @endif
-                                    KYC       
+                                    KYC
                                     </label>
-                                </div> 
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->email_verification==1)
@@ -179,9 +185,9 @@
                                     @else
                                         <input type="checkbox" name="email_activation" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Email verification       
+                                    Email verification
                                     </label>
-                                </div>   
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->sms_verification==1)
@@ -189,9 +195,9 @@
                                     @else
                                         <input type="checkbox" name="sms_activation" class="form-check-input-switchery" value="1">
                                     @endif
-                                    SMS Verification       
+                                    SMS Verification
                                     </label>
-                                </div>                                 
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->email_notify==1)
@@ -199,9 +205,9 @@
                                     @else
                                         <input type="checkbox" name="email_notify" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Email notify       
+                                    Email notify
                                     </label>
-                                </div>                                 
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->sms_notify==1)
@@ -209,9 +215,9 @@
                                     @else
                                         <input type="checkbox" name="sms_notify" class="form-check-input-switchery" value="1">
                                     @endif
-                                    SMS notify       
+                                    SMS notify
                                     </label>
-                                </div> 
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->registration==1)
@@ -219,9 +225,9 @@
                                     @else
                                         <input type="checkbox" name="registration" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Registration       
+                                    Registration
                                     </label>
-                                </div>                                                                  
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->loan==1)
@@ -229,9 +235,9 @@
                                     @else
                                         <input type="checkbox" name="loan" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Loan       
+                                    Loan
                                     </label>
-                                </div>                                 
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->save==1)
@@ -239,9 +245,9 @@
                                     @else
                                         <input type="checkbox" name="save" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Save 4 me       
+                                    Save 4 me
                                     </label>
-                                </div>                              
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->auto==1)
@@ -249,9 +255,9 @@
                                     @else
                                         <input type="checkbox" name="auto" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Automated exchange rate       
+                                    Automated exchange rate
                                     </label>
-                                </div>                                
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->asset==1)
@@ -259,9 +265,9 @@
                                     @else
                                         <input type="checkbox" name="asset" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Asset management       
+                                    Asset management
                                     </label>
-                                </div>                                 
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                     @if($set->merchant==1)
@@ -269,11 +275,11 @@
                                     @else
                                         <input type="checkbox" name="merchant" class="form-check-input-switchery" value="1">
                                     @endif
-                                    Merchant       
+                                    Merchant
                                     </label>
-                                </div> 
+                                </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Short description:</label>
                             <div class="col-lg-10">
@@ -285,13 +291,13 @@
                             <div class="col-lg-10">
                                 <textarea type="text" name="address" rows="4" class="form-control">{{$set->address}}</textarea>
                             </div>
-                        </div>            
+                        </div>
                     <div class="text-right">
                         <button type="submit" class="btn bg-dark">Submit<i class="icon-paperplane ml-2"></i></button>
                     </div>
                 </form>
             </div>
-        </div>    
+        </div>
     </div>
 </div>
 @stop

@@ -26,14 +26,14 @@ class SettingController extends Controller
     {
         $data['title']='General settings';
         return view('admin.settings.basic-setting', $data);
-    }     
-    
+    }
+
     public function Email()
     {
         $data['title']='Email settings';
         $data['val']=Etemplate::first();
         return view('admin.settings.email', $data);
-    } 
+    }
 
     public function EmailUpdate(Request $request)
     {
@@ -46,14 +46,14 @@ class SettingController extends Controller
         } else {
             return back()->with('alert', 'An error occured');
         }
-    }      
-    
+    }
+
     public function Account()
     {
         $data['title']='Change account details';
         $data['val']=Admin::first();
         return view('admin.settings.account', $data);
-    } 
+    }
 
     public function AccountUpdate(Request $request)
     {
@@ -66,14 +66,14 @@ class SettingController extends Controller
         } else {
             return back()->with('alert', 'An error occured');
         }
-    }  
-    
+    }
+
     public function Sms()
     {
         $data['title']='Sms settings';
         $data['val']=Etemplate::first();
         return view('admin.settings.sms', $data);
-    } 
+    }
 
     public function SmsUpdate(Request $request)
     {
@@ -87,14 +87,14 @@ class SettingController extends Controller
         } else {
             return back()->with('alert', 'An error occured');
         }
-    }      
-    
+    }
+
     public function createuser()
     {
         $data['title']='Create User';
         $data['val']='';
         return view('admin.settings.createuser', $data);
-    } 
+    }
 
     public function createuserupdate(Request $request)
     {
@@ -125,13 +125,13 @@ class SettingController extends Controller
         } else {
             $phone_verify = 1;
         }
-        
+
         $verification_code = strtoupper(Str::random(6));
         $sms_code = strtoupper(Str::random(6));
         $email_time = Carbon::parse()->addMinutes(5);
         $phone_time = Carbon::parse()->addMinutes(5);
         $acct='2'.rand(1, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9).rand(0, 9);
-        
+
         $image = $request->file('image');
         $filename = time() . '_' . $request->username . '.jpg';
         $location = 'asset/profile/' . $filename;
@@ -163,14 +163,14 @@ class SettingController extends Controller
         $user->password = Hash::make($request->password);
         $user->image=$filename;
         $res=$user->save();
-        
+
         if ($res) {
             return back()->with('success', 'User Created Successfully!');
         } else {
             return back()->with('alert', 'An error occured');
         }
-       
-       
+
+
 
         /* if ($basic->email_verification == 1) {
             $text = "Your Email Verification Code Is: <b>$user->verification_code</b>";
@@ -188,14 +188,15 @@ class SettingController extends Controller
             $message = "<b>Welcome to Arab Credit Union <b/> <br/><br/> We wish to inform you that your Online Banking Registration Profile has been created successfully. Check your email for more details";
             send_sms($user->phone, strip_tags($message));
         } */
-    }      
-    
+    }
+
     public function SettingsUpdate(Request $request)
     {
         $data = Settings::findOrFail(1);
         $data->site_name=$request->site_name;
         $data->tawk_id=$request->tawk_id;
         $data->email=$request->email;
+        $data->csemail=$request->csemail;
         $data->mobile=$request->mobile;
         $data->title=$request->title;
         $data->transfer_charge=$request->transfer_charge;
@@ -214,65 +215,65 @@ class SettingController extends Controller
         $data->gradient1=$request->gradient1;
         $data->gradient2=$request->gradient2;
         if(empty($request->kyc)){
-            $data->kyc=0;	
+            $data->kyc=0;
         }else{
             $data->kyc=$request->kyc;
-        }    
+        }
         if(empty($request->email_activation)){
-            $data->email_verification=0;	
+            $data->email_verification=0;
         }else{
             $data->email_verification=$request->email_activation;
-        }       
+        }
         if(empty($request->sms_activation)){
-            $data->sms_verification=0;	
+            $data->sms_verification=0;
         }else{
             $data->sms_verification=$request->sms_activation;
-        }        
+        }
         if(empty($request->email_notify)){
-            $data->email_notify=0;	
+            $data->email_notify=0;
         }else{
             $data->email_notify=$request->email_notify;
-        }  
+        }
         if(empty($request->sms_notify)){
-            $data->sms_notify=0;	
+            $data->sms_notify=0;
         }else{
             $data->sms_notify=$request->sms_notify;
-        }        
+        }
         if(empty($request->registration)){
-            $data->registration=0;	
+            $data->registration=0;
         }else{
             $data->registration=$request->registration;
-        }           
+        }
         if(empty($request->loan)){
-            $data->loan=0;	
+            $data->loan=0;
         }else{
             $data->loan=$request->loan;
-        }        
+        }
         if(empty($request->save)){
-            $data->save=0;	
+            $data->save=0;
         }else{
             $data->save=$request->save;
         }
         if(empty($request->auto)){
-            $data->auto=0;	
+            $data->auto=0;
         }else{
             $data->auto=$request->auto;
-        }           
+        }
         if(empty($request->asset)){
-            $data->asset=0;	
+            $data->asset=0;
         }else{
             $data->asset=$request->asset;
-        }           
+        }
         if(empty($request->merchant)){
-            $data->merchant=0;	
+            $data->merchant=0;
         }else{
             $data->merchant=$request->merchant;
-        }    
+        }
         $res=$data->save();
         if ($res) {
             return back()->with('success', 'Update was Successful!');
         } else {
             return back()->with('alert', 'An error occured');
         }
-    }  
+    }
 }
