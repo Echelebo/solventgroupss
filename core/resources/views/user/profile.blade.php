@@ -10,21 +10,17 @@
                         <!-- <div class="modal__wrap"> -->
                         <div class="modal__window">
                             <div class="modal__content">
-                                <!-- <a class="modal__close text-danger">
-                                  <svg class="icon-icon-help">
-                                      <use xlink:href="#icon-help"></use>
-                                  </svg>
-                              </a> -->
+
                                 <div class="modal__body">
 
                                     <form method="POST" action="{{ url('user/account') }}" enctype="multipart/form-data">
                                         @csrf
                                         <div class="modal-account__pane-header"
-                                            style="background-color:rgb(217, 0, 0); padding:10px;">
-                                            <h4 style="color: #ffffff; font-size:18px">User Profile</h4>
+                                            style="background-color:#17705a; padding:10px;">
+                                            <h4 style="color: #ffffff; font-size:18px">Account Profile</h4>
                                         </div>
 
-                                        <h6 class="ml-4 ">User information</h6>
+                                        <h6 class="ml-4 ">Account information</h6>
 
 
                                         <div class="modal-account__right tab-content">
@@ -196,7 +192,7 @@
 
 
                                                         <div class="card-order__footer-submit  col-12 col-sm">
-                                                            <button class="btn" style="background-color: #DC1414;"
+                                                            <button class="btn" style="background-color: #17705a;"
                                                                 type="submit"><span class="button__text-x">UPDATE PROFILE
                                                                 </span>
                                                             </button>
@@ -264,7 +260,7 @@
                                                 </span>
                                             </div>
                                             <div class="card-order__footer-submit  col-12 col-sm">
-                                                <button class="btn" style="background-color: #DC1414;"
+                                                <button class="btn" style="background-color: #17705a;"
                                                     type="submit"><span class="button__text">UPLOAD </span>
                                                 </button>
                                             </div>
@@ -297,7 +293,7 @@
                                     </span>
                                 </div>
                                 <div class="text-right card-order__footer-submit  col-12 col-sm">
-                                    <button type="submit" class="btn" style="background-color: #DC1414;">
+                                    <button type="submit" class="btn" style="background-color: #17705a;">
                                         <font size="2px">UPLOAD</font><i class="icon-paperplane ml-2"></i>
                                     </button>
                                 </div>

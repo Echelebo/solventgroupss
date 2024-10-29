@@ -23,7 +23,7 @@
                                             <div class="modal__body">
                                                 <form>
                                                     <div class="modal-account__pane-header"
-                                                        style="background-color:rgb(217, 0, 0); padding:10px;">
+                                                        style="background-color:#17705a; padding:10px;">
                                                         <h4 style="color: #ffffff; font-size:18px">My Bank Card</h4>
                                                     </div>
                                                     <div class="cardtypes">

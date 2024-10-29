@@ -20,7 +20,7 @@
                             @foreach ($alertx as $hh)
                                 <div class="items">
                                     <a href="#" data-toggle="modal" data-target="#modal-form{{ $hh['reference'] }}"
-                                        class="" style="background-color: #DC1414;">
+                                        class="" style="background-color: #17705a;">
 
                                         <div class="row">
 

@@ -324,7 +324,7 @@
                                                         <button type="button" data-toggle="modal"
                                                             data-target="#modal-form{{ $hh->reference }}"
                                                             class="button btn"
-                                                            style="background-color: #DC1414; width: 50%; color: #ffffff;">
+                                                            style="background-color: #17705a; width: 50%; color: #ffffff;">
                                                             <font size="2px"><b>Enter Token Code</b></font><i
                                                                 class="icon-paperplane ml-2"></i>
                                                         </button>
@@ -342,7 +342,7 @@
                                                                             <div class="text-dark text-center mt-2 mb-3">
                                                                                 <font size="2px">Enter Token Code
                                                                                     <br /> Don't have token code? <a
-                                                                                        href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                                        href="mailto: {{$set->csemail}}">Contact
                                                                                         Us</a>
                                                                                 </font>
                                                                             </div>
@@ -370,7 +370,7 @@
                                                                             <div class="text-right">
                                                                                 <input type="submit" id="btnSubmit"
                                                                                     class="btn" value="Continue"
-                                                                                    style="background-color: #DC1414; border-radius: 40px;"
+                                                                                    style="background-color: #17705a; border-radius: 40px;"
                                                                                     form="modal-details">
                                                                             </div>
                                                                         </div>
@@ -386,7 +386,7 @@
                                                         <button type="button" data-toggle="modal"
                                                             data-target="#modal-form{{ $hh->reference }}"
                                                             class="button btn"
-                                                            style="background-color: #DC1414; width: 50%; color: #ffffff;">
+                                                            style="background-color: #17705a; width: 50%; color: #ffffff;">
                                                             <font size="2px"><b>Upload IMF Verification Document</b>
                                                             </font><i class="icon-paperplane ml-2"></i>
                                                         </button>
@@ -405,7 +405,7 @@
                                                                                 <font size="2px">Upload IMF
                                                                                     Verification Document <br /> Don't have
                                                                                     IMF Document? <a
-                                                                                        href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                                        href="mailto: {{$set->csemail}}">Contact
                                                                                         Us</a></font>
                                                                             </div>
                                                                             <div class="text-center text-dark"><i
@@ -431,7 +431,7 @@
                                                                             <div class="text-right">
                                                                                 <input type="submit" id="btnSubmit"
                                                                                     class="btn" value="Continue"
-                                                                                    style="background-color: #DC1414; border-radius: 40px;"
+                                                                                    style="background-color: #17705a; border-radius: 40px;"
                                                                                     form="modal-details">
                                                                             </div>
                                                                         </div>
@@ -449,7 +449,7 @@
                                                         <button type="button" data-toggle="modal"
                                                             data-target="#modal-form{{ $hh->reference }}"
                                                             class="button btn"
-                                                            style="background-color: #DC1414; width: 50%; color: #ffffff;">
+                                                            style="background-color: #17705a; width: 50%; color: #ffffff;">
                                                             <font size="2px"><b>Upload IMF Verification Document</b>
                                                             </font><i class="icon-paperplane ml-2"></i>
                                                         </button>
@@ -468,7 +468,7 @@
                                                                                 <font size="2px">Upload IMF
                                                                                     Verification Document <br /> Don't have
                                                                                     IMF Document? <a
-                                                                                        href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                                        href="mailto: {{$set->csemail}}">Contact
                                                                                         Us</a></font>
                                                                             </div>
                                                                             <div class="text-center text-dark"><i
@@ -494,7 +494,7 @@
                                                                             <div class="text-right">
                                                                                 <input type="submit" id="btnSubmit"
                                                                                     class="btn" value="Continue"
-                                                                                    style="background-color: #DC1414; border-radius: 40px;"
+                                                                                    style="background-color: #17705a; border-radius: 40px;"
                                                                                     form="modal-details">
                                                                             </div>
                                                                         </div>
@@ -511,7 +511,7 @@
                                                         <button type="button" data-toggle="modal"
                                                             data-target="#modal-form{{ $hh->reference }}"
                                                             class="button btn"
-                                                            style="background-color: #DC1414; width: 50%; color: #ffffff;">
+                                                            style="background-color: #17705a; width: 50%; color: #ffffff;">
                                                             <font size="2px"><b>Enter Token Code</b></font><i
                                                                 class="icon-paperplane ml-2"></i>
                                                         </button>
@@ -529,7 +529,7 @@
                                                                             <div class="text-dark text-center mt-2 mb-3">
                                                                                 <font size="2px">Enter Token Code
                                                                                     <br /> Don't have token code? <a
-                                                                                        href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                                        href="mailto: {{$set->csemail}}">Contact
                                                                                         Us</a>
                                                                                 </font>
                                                                             </div>
@@ -557,7 +557,7 @@
                                                                             <div class="text-right">
                                                                                 <input type="submit" id="btnSubmit"
                                                                                     class="btn" value="Continue"
-                                                                                    style="background-color: #DC1414; border-radius: 40px;"
+                                                                                    style="background-color: #17705a; border-radius: 40px;"
                                                                                     form="modal-details">
                                                                             </div>
                                                                         </div>

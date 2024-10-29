@@ -55,7 +55,7 @@
                 @elseif(Auth::user()->phone_verify == 0)
                     <div class="card-x">
                         <div class="card-header-x header-elements-inline">
-                            <h3 class="mb-0"><a href="mailto:customerservice@wexicocrunion.com.com"><u>
+                            <h3 class="mb-0"><a href="mailto:{{$set->csemail}}"><u>
                                         <font color="blue" size="3">Contact Us </font>
                                     </u></a>
                                 <font size="3">To Complete Opening Of An Account</font>

@@ -29,12 +29,12 @@
             <div class="form-group row">
                   <div class="col-lg-10">
                     <div class="input-group">
-                     
+
                       <input type="text" name="otp" value="" placeholder="Insert OTP" class="form-control" required>
                     </div>
                   </div>
                 </div><br><br>
-            <button type="submit" class="btn btn-sm" style="background-color: #DC1414;">Send</button>
+            <button type="submit" class="btn btn-sm" style="background-color: #17705a;">Send</button>
           </form>
         </div>
       </div>

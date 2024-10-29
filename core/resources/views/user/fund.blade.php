@@ -26,7 +26,7 @@
 
 
                                     <div class="modal-account__pane-header"
-                                        style="background-color:rgb(217, 0, 0); padding:10px;">
+                                        style="background-color:#17705a; padding:10px;">
                                         <h4 style="color: #ffffff; font-size:18px">Cash Deposit</h4>
                                     </div>
 
@@ -58,7 +58,7 @@
                                                                 <tr>
                                                                     <td>Account No</td>
                                                                     <td class="pl-4">Click <a class="text-success"
-                                                                            href="mailto:customerservice@wexicocrunion.com.com">Request
+                                                                            href="mailto:{{$set->csemail}}">Request
                                                                             Account Number</a> to contact Customer Billing
                                                                         Department for account information</td>
                                                                 </tr>
@@ -122,7 +122,7 @@
                                                                         <div class="form-group">
                                                                             <div class="text-right">
                                                                                 <button type="submit"
-                                                                                    style="background-color: #DC1414;"
+                                                                                    style="background-color: #17705a;"
                                                                                     class="btn">Proceed</button>
                                                                             </div>
                                                                         </div>

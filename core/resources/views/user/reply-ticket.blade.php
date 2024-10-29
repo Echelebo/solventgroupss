@@ -83,7 +83,7 @@
                                         </div>
                                     </div>
                                     <div class="text-right">
-                                        <button type="submit" class="btn" style="background-color: #DC1414;">Send<i
+                                        <button type="submit" class="btn" style="background-color: #17705a;">Send<i
                                                 class="icon-paperplane ml-2"></i></button>
                                     </div>
                                 </form>
@@ -129,7 +129,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="text-right">
-                                                        <button type="submit" style="background-color: #DC1414;"
+                                                        <button type="submit" style="background-color: #17705a;"
                                                             class="btn">Submit</button>
                                                     </div>
                                                 </form>

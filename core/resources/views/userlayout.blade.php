@@ -714,7 +714,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
                           <div class="collapse show" id="E-Commerce">
                             <ul class="sidebar__collapse-menu">
                               <li class="sidebar__menu-item"><a class="sidebar__link" href="{{route('user.ownbank')}}"><span
-                                    class="sidebar__link-signal"></span><span class="sidebar__link-text">Finatex Transfer</span></a>
+                                    class="sidebar__link-signal"></span><span class="sidebar__link-text">Solvent Transfer</span></a>
                               </li>
                               <li class="sidebar__menu-item"><a class="sidebar__link" href="{{route('user.localtrans')}}"><span
                                     class="sidebar__link-signal"></span><span class="sidebar__link-text">Local Transfer</span></a>

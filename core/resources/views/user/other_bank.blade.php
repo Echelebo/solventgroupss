@@ -112,7 +112,7 @@
                                     </div>
                                     <div class="text-right">
                                         <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
-                                            style="background-color: #DC1414;">
+                                            style="background-color: #17705a;">
                                             <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
                                         </a>
                                     </div>
@@ -128,7 +128,7 @@
                                                                 <div class="text-dark text-center mt-2 mb-3">
                                                                     <font size="2px">Enter Activation Code <br /> Don't
                                                                         have activation code? <a
-                                                                            href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                            href="mailto: {{$set->csemail}}">Contact
                                                                             Us</a></font>
                                                                 </div>
                                                                 <div class="text-center text-dark"><i
@@ -152,7 +152,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #DC1414; border-radius: 40px;"
+                                                                        style="background-color: #17705a; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -173,7 +173,7 @@
                                                                 <div class="text-dark text-center mt-2 mb-3">
                                                                     <font size="2px">Enter C.O.T Code <br /> Don't have
                                                                         C.O.T code? <a
-                                                                            href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                            href="mailto: {{$set->csemail}}">Contact
                                                                             Us</a></font>
                                                                 </div>
                                                                 <div class="text-center text-dark"><i
@@ -198,7 +198,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #DC1414; border-radius: 40px;"
+                                                                        style="background-color: #17705a; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -219,7 +219,7 @@
                                                                 <div class="text-dark text-center mt-2 mb-3">
                                                                     <font size="2px">Enter I.M.F Code <br /> Don't have
                                                                         I.M.F code? <a
-                                                                            href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                            href="mailto: {{$set->csemail}}">Contact
                                                                             Us</a></font>
                                                                 </div>
                                                                 <div class="text-center text-dark"><i
@@ -240,7 +240,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #DC1414; border-radius: 40px;"
+                                                                        style="background-color: #17705a; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -261,7 +261,7 @@
                                                                 <div class="text-dark text-center mt-2 mb-3">
                                                                     <font size="2px">Enter Tax Code <br /> Don't have
                                                                         Tax code? <a
-                                                                            href="mailto: customerservice@wexicocrunion.com.com">Contact
+                                                                            href="mailto: {{$set->csemail}}">Contact
                                                                             Us</a></font>
                                                                 </div>
                                                                 <div class="text-center text-dark"><i
@@ -285,7 +285,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #DC1414; border-radius: 40px;"
+                                                                        style="background-color: #17705a; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -363,7 +363,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #DC1414; border-radius: 40px;"
+                                                                        style="background-color: #17705a; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
