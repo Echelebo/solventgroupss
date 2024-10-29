@@ -184,7 +184,7 @@
         <div class="">
             <div class="row">
                 <div class="col-md-12"></div>
-                <div class="col-md-12 px-5 ml-5">
+                <div class="col-md-12 px-5" style="margin: auto; width: 80%;">
                     <div class="">
                         <div class="inner">
                             <div class="">
