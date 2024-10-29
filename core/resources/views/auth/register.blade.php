@@ -132,7 +132,7 @@
 
                                     <div class="form-group row" id="u_password_err">
 
-                                        <div class="col-sm-" style="height: 3.75rem;">
+                                        <div class="col-sm-3" style="height: 3.75rem;">
                                             @if ($errors->has('password'))
                                                 <p style="color: #DC1414">
                                                     {{ $errors->first('password') }}
