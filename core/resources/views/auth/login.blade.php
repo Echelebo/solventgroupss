@@ -4,7 +4,7 @@
 @stop
 @section('content')
                         <div class="text">
-                            <h4>Create a new Account.</h4>
+                            <h4>Login internet banking portal.</h4>
                         </div>
 
                         <div class="form-holder">
@@ -13,7 +13,7 @@
                                 data-saasone="contact-froms" id="signup">
                                 @csrf
                                 <div class="row">
-                                    <div class="col-lg-12">
+                                    <div class="col-sm-4">
                                         @if ($errors->has('acct_no'))
                                             <p style="color: #DC1414;">
                                                 {{ $errors->first('acct_no') }}
@@ -25,7 +25,7 @@
                                                 id="email_username" required>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12">
+                                    <div class="col-sm-4">
                                         @if ($errors->has('password'))
                                             <p style="color: #DC1414;">
                                                 {{ $errors->first('password') }}
@@ -39,7 +39,7 @@
                                                     id="togglePassword"></span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <div class="col-sm-6 ">
                                             <div class="checkbox style3">
                                                 <input type="checkbox" id="test_1">
                                                 <label for="test_1">
@@ -47,11 +47,11 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-end mb-20">
+                                        <div class="col-sm-6 text-end mb-4">
                                             <a href="{{ route('user.password.request') }}" class="link style1">Forgot
                                                 Password?</a>
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 mt-4">
                                             <div class="form-group">
                                                 <button class="btn btn-block w-btn" id="login-btn">
                                                     Login Now
@@ -60,7 +60,7 @@
                                         </div>
                                         <div class="col-md-12 text-center">
                                             <p class="mb-0">Don’t Have an Account? <a class="link style1"
-                                                    href="{{route('register')}}">Create One</a></p>
+                                                    href="{{route('register')}}">Open New Bank Account</a></p>
                                         </div>
                                     </div>
                             </form>
