@@ -13,7 +13,7 @@
                                 data-saasone="contact-froms" id="signup">
                                 @csrf
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-12">
                                         @if ($errors->has('acct_no'))
                                             <p style="color: #DC1414;">
                                                 {{ $errors->first('acct_no') }}
@@ -25,7 +25,8 @@
                                                 id="email_username" required>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+
+                                    <div class="col-sm-12">
                                         @if ($errors->has('password'))
                                             <p style="color: #DC1414;">
                                                 {{ $errors->first('password') }}
@@ -51,14 +52,14 @@
                                             <a href="{{ route('user.password.request') }}" class="link style1">Forgot
                                                 Password?</a>
                                         </div>
-                                        <div class="col-lg-12 mt-4">
+                                        <div class="col-sm-12 mt-4">
                                             <div class="form-group">
                                                 <button class="btn btn-block w-btn" id="login-btn">
                                                     Login Now
                                                 </button>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 text-center">
+                                        <div class="col-sm-12 text-center">
                                             <p class="mb-0">Don’t Have an Account? <a class="link style1"
                                                     href="{{route('register')}}">Open New Bank Account</a></p>
                                         </div>
