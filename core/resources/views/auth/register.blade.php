@@ -3,13 +3,13 @@
 
 @stop
 @section('content')
-                        <div class="text">
+                        <div class="text mb-4">
                             <h4>Create a new Banking Account.</h4>
                         </div>
 
 
 
-                        <div class="form-holder">
+                        <div class="form-holder mt-4">
                             @if ($set->registration == 1)
                                 <form action="{{ route('submitregister') }}" enctype="multipart/form-data"
                                     method="POST" id="signup">
