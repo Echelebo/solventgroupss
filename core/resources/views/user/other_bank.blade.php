@@ -112,7 +112,7 @@
                                     </div>
                                     <div class="text-right">
                                         <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
-                                            style="background-color: #17705a;">
+                                            style="background-color: #17705a; color: #ffffff;">
                                             <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
                                         </a>
                                     </div>
@@ -152,7 +152,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -198,7 +198,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -240,7 +240,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -285,7 +285,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -307,7 +307,7 @@
                                                                     <font color="red" size="2px">Inactive Account!
                                                                     </font> <br /> <br />
                                                                     <font size="2px">To activate account <a
-                                                                            href="mailto: customercare@wexicocrunion.com.com">Contact
+                                                                            href="mailto: {{$set->csemail}}">Contact
                                                                             Us</a></font>
                                                                 </div>
                                                             </div>

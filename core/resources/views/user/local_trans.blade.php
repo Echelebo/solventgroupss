@@ -73,14 +73,14 @@
                                             <input type="text" name="address" class="form-control" required>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
+                                    <!--<div class="form-group row">
                                         <label class="col-form-label col-lg-2">
                                             <font size="2px">Swift code/Routine Number</font>
                                         </label>
                                         <div class="col-lg-10">
                                             <input type="text" name="swift" class="form-control" required>
                                         </div>
-                                    </div>
+                                    </div>-->
 
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">
@@ -105,7 +105,7 @@
                                     </div>
                                     <div class="text-right">
                                         <button type="button" data-toggle="modal" data-target="#modal-form"
-                                            class="button btn" style="background-color: #17705a;">
+                                            class="button btn" style="background-color: #17705a; color: #ffffff;">
                                             <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
                                         </button>
                                     </div>
@@ -145,7 +145,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -191,7 +191,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -237,7 +237,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -282,7 +282,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit" class="btn"
                                                                         value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>
@@ -360,7 +360,7 @@
                                                                 <div class="text-right">
                                                                     <input type="submit" id="btnSubmit"
                                                                         class="btn btn-primary" value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                         form="modal-details">
                                                                 </div>
                                                             </div>

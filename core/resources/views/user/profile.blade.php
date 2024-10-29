@@ -293,7 +293,7 @@
                                     </span>
                                 </div>
                                 <div class="text-right card-order__footer-submit  col-12 col-sm">
-                                    <button type="submit" class="btn" style="background-color: #17705a;">
+                                    <button type="submit" class="btn" style="background-color: #17705a; color: #ffffff;">
                                         <font size="2px">UPLOAD</font><i class="icon-paperplane ml-2"></i>
                                     </button>
                                 </div>

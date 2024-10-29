@@ -15,11 +15,7 @@
 
                                     <div class="modal__window">
                                         <div class="modal__content">
-                                            <!-- <a class="modal__close text-danger">
-                                    <svg class="icon-icon-help">
-                                        <use xlink:href="#icon-help"></use>
-                                    </svg>
-                                </a> -->
+
                                             <div class="modal__body">
                                                 <form>
                                                     <div class="modal-account__pane-header"

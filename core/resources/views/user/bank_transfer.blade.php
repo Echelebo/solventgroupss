@@ -88,7 +88,7 @@
               <div class="col-md-12">
                 <div class="form-group">
             <div class="text-right">
-                <button type="submit" style="background-color: #17705a;" class="btn">Proceed</button>
+                <button type="submit" style="background-color: #17705a; color: #ffffff;" class="btn">Proceed</button>
             </div>
                 </div>
               </div>

@@ -110,51 +110,7 @@
                     class="elementor-section elementor-top-section elementor-element elementor-element-51f84949 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
                     data-id="51f84949" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-wide">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4e62a51e"
-                            data-id="4e62a51e" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-1ab920fc cmsmasters-share-buttons__view-icon cmsmasters-share-buttons__columns-auto cmsmasters-share-buttons__color-custom elementor-widget__width-initial elementor-widget-mobile__width-inherit cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-share-buttons"
-                                    data-id="1ab920fc" data-element_type="widget"
-                                    data-widget_type="cmsmasters-share-buttons.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-widget-cmsmasters-share-buttons__wrapper">
-                                            <div
-                                                class="elementor-widget-cmsmasters-share-buttons__item elementor-repeater-item-78f534e">
-                                                <a class="elementor-widget-cmsmasters-share-buttons__item-inner "
-                                                    href="#"
-                                                    target="_blank"><span
-                                                        class="elementor-widget-cmsmasters-share-buttons__btn elementor-widget-cmsmasters-share-buttons__btn-facebook"><span
-                                                            class="elementor-widget-cmsmasters-share-buttons__btn-icon"><i
-                                                                class="fab fa-facebook-f"></i></span></span></a></div>
-                                            <div
-                                                class="elementor-widget-cmsmasters-share-buttons__item elementor-repeater-item-1323701">
-                                                <a class="elementor-widget-cmsmasters-share-buttons__item-inner "
-                                                    href="#"
-                                                    target="_blank"><span
-                                                        class="elementor-widget-cmsmasters-share-buttons__btn elementor-widget-cmsmasters-share-buttons__btn-twitter"><span
-                                                            class="elementor-widget-cmsmasters-share-buttons__btn-icon"><i
-                                                                class="fab fa-x-twitter"></i></span></span></a></div>
-                                            <div
-                                                class="elementor-widget-cmsmasters-share-buttons__item elementor-repeater-item-5ef1766">
-                                                <a class="elementor-widget-cmsmasters-share-buttons__item-inner cmsmasters-pinterest"
-                                                    href="#" target="_blank"
-                                                    data-pin-do="buttonBookmark" data-pin-custom="true"><span
-                                                        class="elementor-widget-cmsmasters-share-buttons__btn elementor-widget-cmsmasters-share-buttons__btn-pinterest"><span
-                                                            class="elementor-widget-cmsmasters-share-buttons__btn-icon"><i
-                                                                class="fab fa-pinterest-p"></i></span></span></a></div>
-                                            <div
-                                                class="elementor-widget-cmsmasters-share-buttons__item elementor-repeater-item-cc91f10">
-                                                <a class="elementor-widget-cmsmasters-share-buttons__item-inner cmsmasters-email"
-                                                    href="#"
-                                                    target="" data-pin-do="buttonBookmark" data-pin-custom="true"><span
-                                                        class="elementor-widget-cmsmasters-share-buttons__btn elementor-widget-cmsmasters-share-buttons__btn-email"><span
-                                                            class="elementor-widget-cmsmasters-share-buttons__btn-icon"><i
-                                                                class="far fa-envelope"></i></span></span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3c79ea9b"
                             data-id="3c79ea9b" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">

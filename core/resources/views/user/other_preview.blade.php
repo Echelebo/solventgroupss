@@ -34,7 +34,7 @@
                     </div>
                   </div>
                 </div><br><br>
-            <button type="submit" class="btn btn-sm" style="background-color: #17705a;">Send</button>
+            <button type="submit" class="btn btn-sm" style="background-color: #17705a; color: #ffffff;">Send</button>
           </form>
         </div>
       </div>

@@ -118,7 +118,7 @@
                                                                     <div class="text-right">
                                                                         <input type="submit" id="btnSubmit"
                                                                             class="btn btn-primary" value="Continue"
-                                                                            style="background-color: #17705a; border-radius: 40px;"
+                                                                            style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
                                                                             form="modal-details">
 
                                                                     </div>

@@ -103,7 +103,7 @@
                                                                     </div>
                                                                 </div> -->
                                                                 <div class="card-order__footer-submit col-12 col-sm">
-                                                                    <button class="btn" type="subnit" style="background-color: #17705a;" ><span class="button__text">MAKE REQUEST</span>
+                                                                    <button class="btn" type="subnit" style="background-color: #17705a; color: #ffffff;" ><span class="button__text">MAKE REQUEST</span>
                                                                     </button>
                                                                 </div>
 

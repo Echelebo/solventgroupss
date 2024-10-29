@@ -67,7 +67,7 @@
                                                     </div>
                                                     <div class="text-right">
                                                         <button type="submit" class="btn"
-                                                            style="background-color: #17705a;">
+                                                            style="background-color: #17705a; color: #ffffff;">
                                                             <font size="2px">Submit</font>
                                                         </button>
                                                     </div>
