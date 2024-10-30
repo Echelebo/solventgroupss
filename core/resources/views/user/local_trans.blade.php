@@ -304,7 +304,7 @@
                                                                     <font color="red" size="2px">Inactive Account!
                                                                     </font> <br /> <br />
                                                                     <font size="2px">To activate account <a
-                                                                            href="mailto: customercare@wexicocrunion.com.com">Contact
+                                                                            href="mailto: {{$set->csemail}}">Contact
                                                                             Us</a></font>
                                                                 </div>
                                                             </div>
