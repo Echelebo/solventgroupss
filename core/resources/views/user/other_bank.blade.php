@@ -50,21 +50,22 @@
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">
-                                            <font size="2px">Account name</font>
-                                        </label>
-                                        <div class="col-lg-10">
-                                            <input type="text" value="" name="name" class="form-control"
-                                                required>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-form-label col-lg-2">
                                             <font size="2px">Bank name</font>
                                         </label>
                                         <div class="col-lg-10">
                                             <input type="text" name="bank" class="form-control" required>
                                         </div>
                                     </div>
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-lg-2">
+                                            <font size="2px">Beneficiary name</font>
+                                        </label>
+                                        <div class="col-lg-10">
+                                            <input type="text" value="" name="name" class="form-control"
+                                                required>
+                                        </div>
+                                    </div>
+
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">
                                             <font size="2px">Bank address</font>
@@ -75,21 +76,14 @@
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">
-                                            <font size="2px">Swift code/Routine number</font>
+                                            <font size="2px">BIC/Swift code</font>
                                         </label>
                                         <div class="col-lg-10">
                                             <input type="text" name="swift" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-form-label col-lg-2">
-                                            <font size="2px">Iban code</font>
-                                        </label>
-                                        <div class="col-lg-10">
-                                            <input type="text" name="iban" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
+
+                                   <!-- <div class="form-group row">
                                         <label class="col-form-label col-lg-2">
                                             <font size="2px">Amount</font>
                                         </label>
@@ -101,7 +95,7 @@
 
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">
                                             <font size="2px">Description</font>
