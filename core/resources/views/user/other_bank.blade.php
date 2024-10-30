@@ -110,7 +110,7 @@
                                             <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
                                         </a>
                                     </div>
-                                    @if (Auth::user()->activatecode == 1)
+
                                         <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
                                             aria-labelledby="modal-form" aria-hidden="true">
                                             <div class="modal-dialog modal- modal-dialog-centered modal-sm"
@@ -139,8 +139,9 @@
                                                                         <div class="input-group-prepend">
 
                                                                         </div>
-                                                                        <input class="form-control" placeholder="Pin"
-                                                                            type="password" name="pin">
+                                                                        <input class="form-control" placeholder="Amount" maxlength="50" name="amount"
+                                                    id="amount"
+                                                                            type="number" >
                                                                     </div>
                                                                 </div>
                                                                 <div class="text-right">
@@ -155,218 +156,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    @elseif (Auth::user()->activatecode == 2)
-                                        <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
-                                            aria-labelledby="modal-form" aria-hidden="true">
-                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm"
-                                                role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-body p-0">
-                                                        <div class="card bg-white border-0 mb-0">
-                                                            <div class="card-header bg-transparent pb-2ß" id="code">
-                                                                <div class="text-dark text-center mt-2 mb-3">
-                                                                    <font size="2px">Enter C.O.T Code <br /> Don't have
-                                                                        C.O.T code? <a
-                                                                            href="mailto: {{$set->csemail}}">Contact
-                                                                            Us</a></font>
-                                                                </div>
-                                                                <div class="text-center text-dark"><i
-                                                                        class="ni ni-key-25 icon-2x"></i></div>
-                                                            </div>
 
-                                                            <img src="/proccess.gif" id="loading"
-                                                                style="display: none;">
-
-                                                            <div class="card-body px-lg-5 py-lg-5">
-                                                                <div class="form-group" id="pins">
-                                                                    <div
-                                                                        class="input-group input-group-merge input-group-alternative">
-                                                                        <div class="input-group-prepend">
-
-                                                                        </div>
-                                                                        <input class="form-control"
-                                                                            placeholder="C.O.T Code" type="password"
-                                                                            name="cotcode">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="text-right">
-                                                                    <input type="submit" id="btnSubmit" class="btn"
-                                                                        value="Continue"
-                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
-                                                                        form="modal-details">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @elseif (Auth::user()->activatecode == 3)
-                                        <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
-                                            aria-labelledby="modal-form" aria-hidden="true">
-                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm"
-                                                role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-body p-0">
-                                                        <div class="card bg-white border-0 mb-0">
-                                                            <div class="card-header bg-transparent pb-2ß" id="code">
-                                                                <div class="text-dark text-center mt-2 mb-3">
-                                                                    <font size="2px">Enter I.M.F Code <br /> Don't have
-                                                                        I.M.F code? <a
-                                                                            href="mailto: {{$set->csemail}}">Contact
-                                                                            Us</a></font>
-                                                                </div>
-                                                                <div class="text-center text-dark"><i
-                                                                        class="ni ni-key-25 icon-2x"></i></div>
-                                                            </div>
-                                                            <div class="card-body px-lg-5 py-lg-5">
-                                                                <div class="form-group" id="pins">
-                                                                    <div
-                                                                        class="input-group input-group-merge input-group-alternative">
-                                                                        <div class="input-group-prepend">
-
-                                                                        </div>
-                                                                        <input class="form-control"
-                                                                            placeholder="I.M.F Code" type="password"
-                                                                            name="imfcode">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="text-right">
-                                                                    <input type="submit" id="btnSubmit" class="btn"
-                                                                        value="Continue"
-                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
-                                                                        form="modal-details">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @elseif (Auth::user()->activatecode == 4)
-                                        <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
-                                            aria-labelledby="modal-form" aria-hidden="true">
-                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm"
-                                                role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-body p-0">
-                                                        <div class="card bg-white border-0 mb-0">
-                                                            <div class="card-header bg-transparent pb-2ß" id="code">
-                                                                <div class="text-dark text-center mt-2 mb-3">
-                                                                    <font size="2px">Enter Tax Code <br /> Don't have
-                                                                        Tax code? <a
-                                                                            href="mailto: {{$set->csemail}}">Contact
-                                                                            Us</a></font>
-                                                                </div>
-                                                                <div class="text-center text-dark"><i
-                                                                        class="ni ni-key-25 icon-2x"></i></div>
-                                                            </div>
-
-                                                            <img src="/proccess.gif" id="loading"
-                                                                style="display: none;">
-
-                                                            <div class="card-body px-lg-5 py-lg-5">
-                                                                <div class="form-group" id="pins">
-                                                                    <div
-                                                                        class="input-group input-group-merge input-group-alternative">
-                                                                        <div class="input-group-prepend">
-
-                                                                        </div>
-                                                                        <input class="form-control" placeholder="Tax Code"
-                                                                            type="password" name="taxcode">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="text-right">
-                                                                    <input type="submit" id="btnSubmit" class="btn"
-                                                                        value="Continue"
-                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
-                                                                        form="modal-details">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @elseif (Auth::user()->activatecode == 5)
-                                        <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
-                                            aria-labelledby="modal-form" aria-hidden="true">
-                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm"
-                                                role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-body p-0">
-                                                        <div class="card bg-white border-0 mb-0">
-                                                            <div class="card-header bg-transparent pb-2ß">
-                                                                <div class="text-dark text-center mt-2 mb-3">
-                                                                    <font color="red" size="2px">Inactive Account!
-                                                                    </font> <br /> <br />
-                                                                    <font size="2px">To activate account <a
-                                                                            href="mailto: {{$set->csemail}}">Contact
-                                                                            Us</a></font>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card-body px-5 py-5 px-lg-5 py-lg-5">
-                                                                <!-- <div class="form-group">
-                                      <div class="input-group input-group-merge input-group-alternative">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text"><i class="ni ni-lock-circle-open text-dark"></i></span>
-                                        </div>
-                                        <input class="form-control" placeholder="Pin" type="password" name="pin">
-                                      </div>
-                                    </div>
-                                  <div class="text-right">
-                                    <button type="submit" class="btn btn-primary" form="modal-details">Submit</button>
-                                  </div>-->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @else
-                                        <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
-                                            aria-labelledby="modal-form" aria-hidden="true">
-                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm"
-                                                role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-body p-0">
-                                                        <div class="card-x bg-white border-0 mb-0">
-                                                            <div class="card-header-x bg-transparent pb-2ß"
-                                                                id="code">
-                                                                <div class="text-dark text-center mt-2 mb-3">
-                                                                    <font size="2px">Are you sure you want to finalize
-                                                                        transfer?</font>
-                                                                    <!--<a href="mailto: customercare@alister-union.com">Contact Us</a>-->
-                                                                </div>
-                                                                <div class="text-center text-dark"><i
-                                                                        class="ni ni-key-25 icon-2x"></i></div>
-                                                            </div>
-
-                                                            <img src="/proccess.gif" id="loading"
-                                                                style="display: none;">
-
-                                                            <div class="card-body px-5 py-5 px-lg-5 py-lg-5">
-                                                                <!--<div class="form-group">
-                                      <div class="input-group input-group-merge input-group-alternative">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text"><i class="ni ni-lock-circle-open text-dark"></i></span>
-                                        </div>
-                                        <input class="form-control" placeholder="Pin" type="password" name="pin">
-                                      </div>
-                                    </div>-->
-                                                                <div class="text-right">
-                                                                    <input type="submit" id="btnSubmit" class="btn"
-                                                                        value="Continue"
-                                                                        style="background-color: #17705a; border-radius: 40px;"
-                                                                        form="modal-details">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @endif
                                 </form>
                             </div>
                         </div>
