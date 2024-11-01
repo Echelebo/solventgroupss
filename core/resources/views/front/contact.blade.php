@@ -362,7 +362,7 @@
                                                                 class="forminator-ui forminator-custom-form forminator-custom-form-23 forminator-design--default forminator-custom forminator_ajax"
                                                                 method="post" data-forminator-render="0"
                                                                 data-form-id="23" data-design="default"
-                                                                data-grid="custom" "
+                                                                data-grid="custom" style="display: block;"
                                                                 data-uid="66f658c80f250">
                                                                 <div role="alert" aria-live="polite"
                                                                     class="forminator-response-message forminator-error"
