@@ -1440,7 +1440,7 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                     <div class="elementor-widget-container">
                                         <div class="elementor-social-icons-wrapper elementor-grid">
                                             <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f-x elementor-repeater-item-32ac3f6"
+                                                <a class="elementor-icon-x elementor-social-icon-x elementor-social-icon-facebook-f-x elementor-repeater-item-32ac3f6-x"
                                                     href="{{route('contacts')}}"
                                                     >
                                                     Email Us
