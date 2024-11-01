@@ -1432,18 +1432,9 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                         <p class="elementor-heading-title elementor-size-default">With affordable fixed
                                             payments, use your personal loan to fund a major purchase,
                                             pay off credit cards.</p>
-                                           <p align="center"> <ul class="cmsmasters-widget-icon-list-items">
-                                                <li class="cmsmasters-widget-icon-list-item">
-                                                    <span class="cmsmasters-widget-icon-list-item-text-wrap">
-                                                        <span
-                                                            class="cmsmasters-widget-icon-list-item-text-inner active-link-item">
-                                                            <span class="cmsmasters-widget-icon-list-item-text">
+                                           <p>
                                                                 <a href="{{ route('contacts') }}">
-                                                                    Email Us</a> </span>
-                                                        </span>
-                                                    </span>
-                                                </li>
-                                            </ul>
+                                                                    Email Us</a>
                                         </p>
                                     </div>
                                 </div>
