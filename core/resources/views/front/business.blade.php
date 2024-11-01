@@ -254,7 +254,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h3
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $0</h3>
+                                                                                            €0</h3>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-1bf145f cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -372,7 +372,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <div
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $200 online cash rewards bonus
+                                                                                            €200 online cash rewards bonus
                                                                                             offer and 3% cash back in the
                                                                                             category of your choice.</div>
                                                                                     </div>
@@ -464,7 +464,7 @@
                                                                                                             currently 13.99%
                                                                                                             to 23.99% will
                                                                                                             apply. 3% fee
-                                                                                                            (min $10)
+                                                                                                            (min €10)
                                                                                                             applies to
                                                                                                             balance
                                                                                                             transfers.
@@ -523,7 +523,7 @@
                                                                                                             available if you
                                                                                                             leave this page,
                                                                                                             if you visit a
-                                                                                                            Bank of America
+                                                                                                            Bank of Netherlands
                                                                                                             financial center
                                                                                                             or call the
                                                                                                             bank. You can
@@ -658,7 +658,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h3
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $25</h3>
+                                                                                            €25</h3>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-bfa95ff cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -776,7 +776,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <div
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $200 online cash rewards bonus
+                                                                                            €200 online cash rewards bonus
                                                                                             offer and 3% cash back in the
                                                                                             category of your choice.</div>
                                                                                     </div>
@@ -868,7 +868,7 @@
                                                                                                             currently 13.99%
                                                                                                             to 23.99% will
                                                                                                             apply. 3% fee
-                                                                                                            (min $10)
+                                                                                                            (min €10)
                                                                                                             applies to
                                                                                                             balance
                                                                                                             transfers.
@@ -927,7 +927,7 @@
                                                                                                             available if you
                                                                                                             leave this page,
                                                                                                             if you visit a
-                                                                                                            Bank of America
+                                                                                                            Bank of Netherlands
                                                                                                             financial center
                                                                                                             or call the
                                                                                                             bank. You can
@@ -1062,7 +1062,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h3
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $65</h3>
+                                                                                            €65</h3>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-b0462f7 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -1180,7 +1180,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <div
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $200 online cash rewards bonus
+                                                                                            €200 online cash rewards bonus
                                                                                             offer and 3% cash back in the
                                                                                             category of your choice.</div>
                                                                                     </div>
@@ -1272,7 +1272,7 @@
                                                                                                             currently 13.99%
                                                                                                             to 23.99% will
                                                                                                             apply. 3% fee
-                                                                                                            (min $10)
+                                                                                                            (min €10)
                                                                                                             applies to
                                                                                                             balance
                                                                                                             transfers.
@@ -1331,7 +1331,7 @@
                                                                                                             available if you
                                                                                                             leave this page,
                                                                                                             if you visit a
-                                                                                                            Bank of America
+                                                                                                            Bank of Netherlands
                                                                                                             financial center
                                                                                                             or call the
                                                                                                             bank. You can
@@ -1467,7 +1467,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <h3
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $200</h3>
+                                                                                            €200</h3>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-1bf43b4 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -1585,7 +1585,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <div
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            $200 online cash rewards bonus
+                                                                                            €200 online cash rewards bonus
                                                                                             offer and 3% cash back in the
                                                                                             category of your choice.</div>
                                                                                     </div>
@@ -1677,7 +1677,7 @@
                                                                                                             currently 13.99%
                                                                                                             to 23.99% will
                                                                                                             apply. 3% fee
-                                                                                                            (min $10)
+                                                                                                            (min €10)
                                                                                                             applies to
                                                                                                             balance
                                                                                                             transfers.
@@ -1736,7 +1736,7 @@
                                                                                                             available if you
                                                                                                             leave this page,
                                                                                                             if you visit a
-                                                                                                            Bank of America
+                                                                                                            Bank of Netherlands
                                                                                                             financial center
                                                                                                             or call the
                                                                                                             bank. You can

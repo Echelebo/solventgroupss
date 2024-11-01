@@ -4220,7 +4220,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h2 class="elementor-heading-title elementor-size-default">Invest
-                                                        with $0 Commission</h2>
+                                                        with €0 Commission</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-f5202cc cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
@@ -4903,7 +4903,7 @@
                                                                                     data-decimals="2"
                                                                                     data-inputmask="'groupSeparator': ' ', 'radixPoint': ',', 'digits': '2'"
                                                                                     inputmode="decimal"><span
-                                                                                    class="forminator-suffix">USD</span>
+                                                                                    class="forminator-suffix">EURO</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>

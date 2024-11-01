@@ -422,7 +422,7 @@
                                                                                             Mortgage</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
+                                                                                            Our €0 Liability Guarantee
                                                                                             credits fraudulent transactions
                                                                                             made with your debit card back
                                                                                             to your account as soon as the
@@ -646,7 +646,7 @@
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Need to access your account
                                                                                             quickly? Sign in to the Bank of
-                                                                                            America Mobile Banking app using
+                                                                                            Netherlands Mobile Banking app using
                                                                                             the fingerprint feature on your
                                                                                             mobile device.</div>
                                                                                     </div>
@@ -737,7 +737,7 @@
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Need to access your account
                                                                                             quickly? Sign in to the Bank of
-                                                                                            America Mobile Banking app using
+                                                                                            Netherlands Mobile Banking app using
                                                                                             the fingerprint feature on your
                                                                                             mobile device.</div>
                                                                                     </div>

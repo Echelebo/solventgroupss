@@ -899,7 +899,7 @@
                                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                                         <span
                                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                                            $0 </span>
+                                                                                                            €0 </span>
                                                                                                     </span>
                                                                                                 </span>
                                                                                                 <span
@@ -1139,7 +1139,7 @@
                                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                                         <span
                                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                                            $18 </span>
+                                                                                                            €18 </span>
                                                                                                     </span>
                                                                                                 </span>
                                                                                                 <span
@@ -1386,7 +1386,7 @@
                                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                                         <span
                                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                                            $25 </span>
+                                                                                                            €25 </span>
                                                                                                     </span>
                                                                                                 </span>
                                                                                                 <span

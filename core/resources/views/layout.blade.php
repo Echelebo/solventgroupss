@@ -1440,31 +1440,15 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                     <div class="elementor-widget-container">
                                         <div class="elementor-social-icons-wrapper elementor-grid">
                                             <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-32ac3f6"
-                                                    href="#"
-                                                    target="_blank">
-                                                    <span class="elementor-screen-only">Facebook-f</span>
-                                                    <i class="fab fa-facebook-f"></i> </a>
+                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f-x elementor-repeater-item-32ac3f6"
+                                                    href="{{route('contacts')}}"
+                                                    >
+                                                    Email Us
+                                                     </a>
                                             </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-3d083c5"
-                                                    href="#" target="_blank">
-                                                    <span class="elementor-screen-only">Instagram</span>
-                                                    <i class="fab fa-instagram"></i> </a>
-                                            </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-5cd3d72"
-                                                    href="#" target="_blank">
-                                                    <span class="elementor-screen-only">Youtube</span>
-                                                    <i class="fab fa-youtube"></i> </a>
-                                            </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-repeater-item-fa8f919"
-                                                    href="#"
-                                                    target="_blank">
-                                                    <span class="elementor-screen-only">X-twitter</span>
-                                                    <i class="fab fa-x-twitter"></i> </a>
-                                            </span>
+
+
+
                                         </div>
                                     </div>
                                 </div>

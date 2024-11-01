@@ -585,7 +585,7 @@
                                                                                             Mortgage</h3>
                                                                                         <div
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
-                                                                                            Our $0 Liability Guarantee
+                                                                                            Our €0 Liability Guarantee
                                                                                             credits fraudulent transactions
                                                                                             made with your debit card back
                                                                                             to your account as soon as the
@@ -809,7 +809,7 @@
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Need to access your account
                                                                                             quickly? Sign in to the Bank of
-                                                                                            America Mobile Banking app using
+                                                                                            Netherlands Mobile Banking app using
                                                                                             the fingerprint feature on your
                                                                                             mobile device.</div>
                                                                                     </div>
@@ -900,7 +900,7 @@
                                                                                             class="elementor-widget-cmsmasters-featured-box__description elementor-widget-cmsmasters-featured-box__content-item">
                                                                                             Need to access your account
                                                                                             quickly? Sign in to the Bank of
-                                                                                            America Mobile Banking app using
+                                                                                            Netherlands Mobile Banking app using
                                                                                             the fingerprint feature on your
                                                                                             mobile device.</div>
                                                                                     </div>
@@ -1073,7 +1073,7 @@
                                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                                         <span
                                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                                            $0 </span>
+                                                                                                            €0 </span>
                                                                                                     </span>
                                                                                                 </span>
                                                                                                 <span
@@ -1313,7 +1313,7 @@
                                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                                         <span
                                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                                            $18 </span>
+                                                                                                            €18 </span>
                                                                                                     </span>
                                                                                                 </span>
                                                                                                 <span
@@ -1560,7 +1560,7 @@
                                                                                                         class="cmsmasters-widget-icon-list-item-text-inner">
                                                                                                         <span
                                                                                                             class="cmsmasters-widget-icon-list-item-text">
-                                                                                                            $25 </span>
+                                                                                                            €25 </span>
                                                                                                     </span>
                                                                                                 </span>
                                                                                                 <span
