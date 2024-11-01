@@ -1433,8 +1433,8 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                             payments, use your personal loan to fund a major purchase,
                                             pay off credit cards.</p>
                                            <p style="margin-top: 24px;">
-                                                                <a href="{{ route('contacts') }}" style="color: #ffffff;" onMouseOver="this.style.color='green'">
-                                                                   <h3> Email Us</h3></a>
+                                                                <a href="{{ route('contacts') }}" style="color: #ffffff;" onMouseOver="this.style.color='green'" onMouseOut="this.style.color='white'">
+                                                                   <h3>Email Us</h3></a>
                                         </p>
                                     </div>
                                 </div>
