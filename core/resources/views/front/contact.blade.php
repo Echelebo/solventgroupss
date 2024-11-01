@@ -127,11 +127,13 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-button-wrapper">
                                                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                            href="tel:+%20(123)%201800-567-8990">
+                                                                            href="tel:{{$set->mobile}}">
                                                                             <span class="elementor-button-content-wrapper">
                                                                                 <span class="elementor-button-text">{{$set->mobile}}</span>
                                                                             </span>
                                                                         </a>
+                                                                        <br />
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -270,6 +272,17 @@
                                                                                 </span>
                                                                             </span>
                                                                         </li>
+                                                                        <li class="cmsmasters-widget-icon-list-item">
+                                                                            <span
+                                                                                class="cmsmasters-widget-icon-list-item-text-wrap">
+                                                                                <span
+                                                                                    class="cmsmasters-widget-icon-list-item-text-inner">
+                                                                                    <span
+                                                                                        class="cmsmasters-widget-icon-list-item-text cmsmasters-widget-icon-list-item-text">
+                                                                                        {{$set->email}} </span>
+                                                                                </span>
+                                                                            </span>
+                                                                        </li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -349,7 +362,7 @@
                                                                 class="forminator-ui forminator-custom-form forminator-custom-form-23 forminator-design--default forminator-custom forminator_ajax"
                                                                 method="post" data-forminator-render="0"
                                                                 data-form-id="23" data-design="default"
-                                                                data-grid="custom" style="display: none;"
+                                                                data-grid="custom" "
                                                                 data-uid="66f658c80f250">
                                                                 <div role="alert" aria-live="polite"
                                                                     class="forminator-response-message forminator-error"
