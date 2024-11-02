@@ -32,7 +32,7 @@
                                                                             href="mailto:{{$set->csemail}}">Request
                                                                             Account Details</a></p>
 
-                                                                            <br /><p>Contact Customer Billing
+                                                                            <br /><br /><p>Contact Customer Billing
                                                                         Department for account information</p>
                                                     </div>
                                                 </div>
@@ -82,7 +82,7 @@
                                                                         <div class="form-group">
                                                                             <div class="text-right">
                                                                                 <button type="submit"
-                                                                                    style="background-color: #17705a;"
+                                                                                    style="background-color: #17705a; color: #ffffff;"
                                                                                     class="btn">Proceed</button>
                                                                             </div>
                                                                         </div>

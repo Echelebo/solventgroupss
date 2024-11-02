@@ -29,7 +29,7 @@
                                                                     href="mailto:{{$set->csemail}}">Request
                                                                     Account Details</a></p>
 
-                                                                    <br /><p>Contact Customer Billing
+                                                                    <br /><br /><p>Contact Customer Billing
                                                                 Department for account information</p>
                                                             </div>
                                                         </div>
