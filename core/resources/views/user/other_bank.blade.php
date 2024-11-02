@@ -120,7 +120,7 @@
                                                             <div class="card-x bg-white border-0 mb-0">
                                                                 <div class="card-header-x bg-transparent pb-2ß"
                                                                     id="code">
-                                                                    <div class="text-dark text-center mt-2 mb-3">
+                                                                    <div class="text-dark text-center mt-4 mb-3">
                                                                         <font size="2px">Enter Amount </font>
                                                                     </div>
                                                                     <div class="text-center text-dark"><i
