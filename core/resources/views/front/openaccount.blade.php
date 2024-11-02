@@ -21,6 +21,11 @@
         background-image: url("{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg");
     }
 </style>
+<style>
+    a + a {
+    margin-left: 10px; /* Adjust the space as needed */
+}
+</style>
 @stop
 @section('content')
 
@@ -165,21 +170,21 @@
                                                                     </div>
                                                                 </div>
 
-                                                                <div style="padding: 20px;">
+
 
                                                                                     <a href="{{route('login')}}"
-                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 15px;">
+                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff;"">
 
                                                                                                         Log In
                                                                                         </a>
                                                                                     <a href="{{route('register')}}"
-                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 15px;">
+                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff;">
 
                                                                                                         Open Account
                                                                                         </a>
 
 
-                                                                </div>
+
 
                                                                 <div class="elementor-element elementor-element-6489693 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="6489693" data-element_type="widget"
