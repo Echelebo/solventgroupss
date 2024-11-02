@@ -190,27 +190,13 @@
 
                                                                                     <a href="{{route('login')}}"
                                                                                             class="cmsmasters-tab-title">
-                                                                                            <div
-                                                                                                class="cmsmasters-tab-title__text-wrap-outer">
-                                                                                                <div
-                                                                                                    class="cmsmasters-tab-title__text-wrap">
-                                                                                                    <h4
-                                                                                                        class="cmsmasters-tab-title__text ">
-                                                                                                        Log In </h4>
-                                                                                                </div>
-                                                                                            </div>
+
+                                                                                                        Log In
                                                                                         </a>
                                                                                     <a href="{{route('register')}}"
                                                                                             class="cmsmasters-tab-title">
-                                                                                            <div
-                                                                                                class="cmsmasters-tab-title__text-wrap-outer">
-                                                                                                <div
-                                                                                                    class="cmsmasters-tab-title__text-wrap">
-                                                                                                    <h4
-                                                                                                        class="cmsmasters-tab-title__text ">
-                                                                                                        Open Account </h4>
-                                                                                                </div>
-                                                                                            </div>
+
+                                                                                                        Open Account
                                                                                         </a>
 
 
