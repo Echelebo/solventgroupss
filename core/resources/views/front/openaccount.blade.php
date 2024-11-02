@@ -37,6 +37,28 @@
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3bf58437"
                             data-id="3bf58437" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
+                                <section
+                                    class="elementor-section elementor-inner-section elementor-element elementor-element-7f13c75c elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
+                                    data-id="7f13c75c" data-element_type="section">
+                                    <div class="elementor-container elementor-column-gap-no">
+                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1cd7ae54 cmsmasters-bg-hide-none cmsmasters-bg-hide-none"
+                                            data-id="1cd7ae54" data-element_type="column"
+                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-element elementor-element-44087014 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-spacer"
+                                                    data-id="44087014" data-element_type="widget"
+                                                    data-widget_type="spacer.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-spacer">
+                                                            <div class="elementor-spacer-inner"><img src="{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
 
                                 <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-4e003b54 elementor-section-full_width elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
