@@ -7,7 +7,7 @@
 
     <div class="login">
         <div class="content">
-                        <h3 class="align-center white">Welcome to Lothian Credit Internet Banking </h3>
+                        <h3 class="align-center white">Welcome to {{$set->site_name}} Internet Banking </h3>
             <p style="text-align: left; color: var(--white-color)">Sign in with your Internet Banking details. Not registered on Internet Banking? Click on register to get started</p>
             <form action="{{ route('submitlogin') }}" method="post">
                 @csrf

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/aos.css">
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
     <link rel="icon" href="{{url('/')}}/lothian/assets/img/metro.png">
-    <title>Login | Lothian Credit Online</title>
+    <title>{{ $title }} | {{ $set->site_name }}</title>
     <!-- Smartsupp Live Chat script -->
 
 </head>
@@ -18,7 +18,7 @@
     <div class="header" style="position: relative; background: var(--blue-color);">
             <div class="left">
                 <div id="mobile-icon"><i class="fa-solid fa-bars"></i></div>
-                <a href="index.html"><img src="{{url('/')}}/lothian/assets/img/metro-logo.png" class="logo" alt="logo"></a>
+                <a href="/"><img src="{{ url('/') }}/asset/{{ $logo->image_link }}" class="logo" alt="logo"></a>
             </div>
 
             <div class="right">
@@ -62,7 +62,7 @@
                     Powered by {{$set->site_name}}  copyright &copy; {{date('Y')}}
                 </p>
             </div>
-        </div>
+    </div>
        <script src="{{url('/')}}/lothian/assets/js/index.js"></script>
        <script src="{{url('/')}}/lothian/assets/js/aos.js"></script>
        <script>
