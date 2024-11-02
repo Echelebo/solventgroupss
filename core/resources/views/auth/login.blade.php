@@ -4,7 +4,8 @@
 @stop
 @section('content')
                         <div class="text">
-                            <h4>Login internet banking portal.</h4>
+                            <h4>Welcome to {{$set->site_name}} Internet Banking</h4>
+                            <p>Sign in with your Internet Banking details. Not registered on Internet Banking? Click on create account to get started</p>
                         </div>
 
                         <div class="form-holder-x" style="margin: auto; width: 80%; margin-left: 5px;">
