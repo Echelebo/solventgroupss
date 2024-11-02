@@ -39,7 +39,7 @@
                                                     id="togglePassword"></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 ">
+                                        <div class="form-group ">
                                             <div class="checkbox style3">
                                                 <input type="checkbox" id="test_1">
                                                 <label for="test_1">
@@ -47,7 +47,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 text-end mb-4">
+                                        <div class="form-group text-end mb-4">
                                             <a href="{{ route('user.password.request') }}" class="link style1">Forgot
                                                 Password?</a>
                                         </div>
@@ -58,9 +58,9 @@
                                                 </button>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 text-center">
+                                        <div class="col-sm-12 text-center-x">
                                             <p class="mb-0">Don’t Have an Account? <a class="link style1"
-                                                    href="{{route('register')}}">Open New Bank Account</a></p>
+                                                    href="{{route('register')}}">Create Account</a></p>
                                         </div>
                                     </div>
                             </form>
