@@ -13,20 +13,20 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6" style="float:left ">
 
-                <span>Amount: </span>
-                <span>Account number: </span>
-                <span>Name: </span>
-                <span>Bank Name: </span>
-                <span>Transfer fee: </span>
+                <span>Amount: </span><br />
+                <span>Account number: </span><br />
+                <span>Name: </span><br />
+                <span>Bank Name: </span><br />
+                <span>Transfer fee: </span><br />
                 <span>Total: </span>
 
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6" style="float:right ">
-                <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount)}}</span>
-                <span class="font-weight-semibold">{{$acct_no}}</span>
-                <span class="font-weight-semibold">{{$acct_name}}</span>
-                <span class="font-weight-semibold">{{$bank}}</span>
-                <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount*$set->transfer_charge/100)}}</span>
+                <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount)}}</span><br />
+                <span class="font-weight-semibold">{{$acct_no}}</span><br />
+                <span class="font-weight-semibold">{{$acct_name}}</span><br />
+                <span class="font-weight-semibold">{{$bank}}</span><br />
+                <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount*$set->transfer_charge/100)}}</span><br />
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount+($amount*$set->transfer_charge/100))}}</span>
 
                     </div>
