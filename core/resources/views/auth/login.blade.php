@@ -17,7 +17,7 @@
                                                 {{ $errors->first('acct_no') }}
                                             </p>
                                         @endif
-                    <input type="text" name="id" id="email" placeholder="Email/Username/Acct Number" style="border-bottom: 2px solid #18ab71;><i class="details fa-regular fa-circle-user"></i></span>
+                    <input type="text" name="acct_no" id="email" placeholder="Email/Username/Acct Number" style="border-bottom: 2px solid #18ab71;><i class="details fa-regular fa-circle-user"></i></span>
                 <span class="input-container">@if ($errors->has('password'))
                     <p style="color: #DC1414;">
                         {{ $errors->first('password') }}
