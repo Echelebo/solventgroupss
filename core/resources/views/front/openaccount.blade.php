@@ -21,10 +21,7 @@
         background-image: url("{{ url('/') }}/wp-content/uploads/sites/3/2021/04/blog-6.jpg");
     }
 </style>
-<style>
-    a + a {
-    margin-left: 10px; /* Adjust the space as needed */
-}
+
 </style>
 @stop
 @section('content')
@@ -173,12 +170,12 @@
 
 
                                                                                     <a href="{{route('login')}}"
-                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff;"">
+                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff; padding: 10px; margin-left: 25px">
 
                                                                                                         Log In
                                                                                         </a>
                                                                                     <a href="{{route('register')}}"
-                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff;">
+                                                                                            class="cmsmasters-tab-title" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff; margin-right: 10px;">
 
                                                                                                         Open Account
                                                                                         </a>
