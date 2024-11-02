@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/main.css">
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/aos.css">
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
-    <link rel="icon" href="{{url('/')}}/lothian/assets/img/metro.png">
+    <link rel="icon" href="{{ url('/') }}/asset/{{ $logo->image_link2 }}">
     <title>{{ $title }} | {{ $set->site_name }}</title>
     <!-- Smartsupp Live Chat script -->
 
