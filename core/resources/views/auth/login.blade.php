@@ -9,7 +9,7 @@
 
                         <div class="form-holder-x" style="margin: auto; width: 80%;">
 
-                            <form class="form-wrap" action="{{ route('submitlogin') }}" method="post"
+                            <form class="form-wrap-x" action="{{ route('submitlogin') }}" method="post"
                                  >
                                 @csrf
                                 <div class="row">
