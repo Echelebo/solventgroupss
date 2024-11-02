@@ -1,78 +1,30 @@
+@php
+<link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/main.css">
+    <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/aos.css">
+    <link rel="stylesheet" href="{{url('/')}}/lothian/assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
+
+@endphp
 @extends('loginlayout')
 @section('css')
 
 @stop
 @section('content')
-                        <div class="text" style="margin-top: -20px;">
-                            <h4><b>Welcome to {{$set->site_name}} Internet Banking</b></h4>
-                            <br />
-                            <p><font size="3px">Sign in with your Internet Banking details. Not registered on Internet Banking? Click on create account to get started</font></p>
-                        </div>
+<div class="reg-container" style="background: transparent url('{{url('/')}}/lothian/assets/img/hd/coworkers-working-computer.jpg') center center no-repeat; background-size: cover; background-attachment: fixed; height: 100vh">
 
-                        <div class="form-holder-x" style="margin: auto; width: 80%; margin-left: 5px;">
-
-                            <form class="form-wrap-x" action="{{ route('submitlogin') }}" method="post"
-                                 >
-                                @csrf
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        @if ($errors->has('acct_no'))
-                                            <p style="color: #DC1414;">
-                                                {{ $errors->first('acct_no') }}
-                                            </p>
-                                        @endif
-                                        <div class="form-group">
-<label>Account Number: </label>
-                                            <input type="number" name="acct_no" placeholder="Account Number"
-                                                id="email_username" required>
-                                        </div>
-
-                                        @if ($errors->has('password'))
-                                            <p style="color: #DC1414;">
-                                                {{ $errors->first('password') }}
-                                            </p>
-                                        @endif
-                                        <div class="form-group">
-                                            <label>Password: </label>
-                                            <div class="input-wrapper">
-                                                <input type="password" name="password" placeholder="Password"
-                                                    id="u_password" required>
-                                                <span class="input-group-text toggle-password uil uil-eye"
-                                                    id="togglePassword"></span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group ">
-                                            <div class="checkbox style3">
-                                                <input type="checkbox" id="test_1">
-                                                <label for="test_1">
-                                                    Remember Me
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="form-group text-end mb-4">
-                                            <a href="{{ route('user.password.request') }}" class="link style1">Forgot
-                                                Password?</a>
-                                        </div>
-                                        <div class="col-sm-12 mt-4">
-                                            <div class="form-group">
-                                                <button class="btn btn-block w-btn" id="login-btn">
-                                                    Login Now
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 text-center-x">
-                                            <p class="mb-0">Don’t Have an Account? <a class="link style1"
-                                                    href="{{route('register')}}">Create Account</a></p>
-                                        </div>
-                                    </div>
-                            </form>
-                            <br />
-                            <br />
-
-
-
-
-                        </div>
-                    </div>
+    <div class="login">
+        <div class="content">
+                        <h3 class="align-center white">Welcome to Lothian Credit Internet Banking </h3>
+            <p style="text-align: left; color: var(--white-color)">Sign in with your Internet Banking details. Not registered on Internet Banking? Click on register to get started</p>
+            <form action="https://lothiancreditonline.com/login" method="post">
+                <span class="input-container"><input type="text" name="id" id="email" placeholder="Email/Username/Acct Number"><i class="details fa-regular fa-circle-user"></i></span>
+                <span class="input-container"><input type="password" name="password" id="password" placeholder="Password"><i class="details fa fa-fingerprint"></i><span class="eye" id="eye" onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span></span>
+                <p><a class="white align-right" href="forgot.html">Forgot Password?</a></p>
+                <button type="submit" class="submit-button white">Proceed</button>
+                <p class="white" style="text-align: center;">Don't have an account yet?</p>
+                <button type="button" onclick="redirectToRegister()" class="submit-blue align-center white">Create an account <i class="fa-solid fa-arrow-right-long"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
 
 @stop
