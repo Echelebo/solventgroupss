@@ -24,17 +24,13 @@
             <div class="right">
                 <a id="hide-mobile" href="{{route('contacts')}}"><i class="fa-solid fa-location-dot"></i>Email Us</a>
 
-                <a id="red-button" href="#">Login <i class="fa-solid fa-chevron-down"></i></a>            </div>
-            <div class="reg-tool align-center">
-                <a href="{{route('login')}}">Apply for online banking</a>
-
             </div>
+
     </div>
     <div class="nav-cont align-center">
 
         <br/><br/>
         <p><i class="fa-solid fa-location-dot"></i>Address: {{$set->address}}</p>
-
     </div>
 
     @yield('content')
