@@ -7,7 +7,7 @@
                             <h4>Login internet banking portal.</h4>
                         </div>
 
-                        <div class="form-holder">
+                        <div class="form-holder" style="margin: auto; width: 50%;">
 
                             <form class="form-wrap" action="{{ route('submitlogin') }}" method="post"
                                  >
@@ -51,14 +51,14 @@
                                             <a href="{{ route('user.password.request') }}" class="link style1">Forgot
                                                 Password?</a>
                                         </div>
-                                        <div class="col-sm-12 mt-4">
+                                        <div class="col-sm-12-x mt-4">
                                             <div class="form-group">
                                                 <button class="btn btn-block w-btn" id="login-btn">
                                                     Login Now
                                                 </button>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 text-center-x">
+                                        <div class="col-sm-12-x text-center-x">
                                             <p class="mb-0">Don’t Have an Account? <a class="link style1"
                                                     href="{{route('register')}}">Create Account</a></p>
                                         </div>
