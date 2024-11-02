@@ -25,7 +25,7 @@
                 @endif<input type="password" name="password" id="password" placeholder="Password"><i class="details fa fa-fingerprint"></i><span class="eye" id="eye" onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span></span>
 
                 <p><a class="white align-right" href="{{ route('user.password.request') }}">Forgot Password?</a></p>
-                <button type="submit" class="submit-button white">Proceed</button>
+                <button type="submit" class="submit-button white" style="background-color: #18ab71">Proceed</button>
                 <p class="white" style="text-align: center;">Don't have an account yet?</p>
                 <a type="button" href="{{route('register')}}" class="submit-blue align-center white">Create an account <i class="fa-solid fa-arrow-right-long"></i></a>
             </form>
