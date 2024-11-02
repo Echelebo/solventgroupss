@@ -189,12 +189,12 @@
 
 
                                                                                     <a href="{{route('login')}}"
-                                                                                            class="cmsmasters-tab-title">
+                                                                                            class="cmsmasters-tab-title" style="left: 0px">
 
                                                                                                         Log In
                                                                                         </a>
                                                                                     <a href="{{route('register')}}"
-                                                                                            class="cmsmasters-tab-title">
+                                                                                            class="cmsmasters-tab-title" style="float: right;">
 
                                                                                                         Open Account
                                                                                         </a>
