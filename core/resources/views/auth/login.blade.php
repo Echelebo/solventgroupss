@@ -1,9 +1,9 @@
-@php
+
 <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/main.css">
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/aos.css">
     <link rel="stylesheet" href="{{url('/')}}/lothian/assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
 
-@endphp
+
 @extends('loginlayout')
 @section('css')
 
