@@ -185,37 +185,49 @@
                                                                             Focus on Banking Portals</h3>
                                                                     </div>
                                                                 </div>
-                                                                <ul class="cmsmasters-tabs-list">
-                                                                    <li id="cmsmasters-tabs-list-item_7601"
-                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
-                                                                        data-tab="1"><a href="{{route('login')}}"
-                                                                            class="cmsmasters-tab-title">
-                                                                            <div
-                                                                                class="cmsmasters-tab-title__text-wrap-outer">
-                                                                                <div
-                                                                                    class="cmsmasters-tab-title__text-wrap">
-                                                                                    <h4
-                                                                                        class="cmsmasters-tab-title__text ">
-                                                                                        Log In </h4>
-                                                                                </div>
-                                                                            </div>
-                                                                        </a></li>
-                                                                    <li id="cmsmasters-tabs-list-item_7602"
-                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
-                                                                        data-tab="2"><a href="{{route('register')}}"
-                                                                            class="cmsmasters-tab-title">
-                                                                            <div
-                                                                                class="cmsmasters-tab-title__text-wrap-outer">
-                                                                                <div
-                                                                                    class="cmsmasters-tab-title__text-wrap">
-                                                                                    <h4
-                                                                                        class="cmsmasters-tab-title__text ">
-                                                                                        Open Account </h4>
-                                                                                </div>
-                                                                            </div>
-                                                                        </a></li>
+                                                                <div class="elementor-element elementor-element-4888aa7 cmsmasters-tabs-responsive-tablet cmsmasters-list-ver-align-center cmsmasters-tabs-type-horizontal cmsmasters-tab-list-mode-inline cmsmasters-list-item-alignment-left cmsmasters-icon-position-left cmsmasters-tabs-position-start cmsmasters-icon-view-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-tabs cmsmasters-widget-tabs"
+                                                                    data-id="4888aa7" data-element_type="widget"
+                                                                    data-settings=""
+                                                                    data-widget_type="cmsmasters-tabs.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="cmsmasters-tabs" role="tablist">
+                                                                            <div class="cmsmasters-tabs-list-wrapper">
+                                                                                <ul class="cmsmasters-tabs-list">
+                                                                                    <li id="cmsmasters-tabs-list-item_7601"
+                                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
+                                                                                        data-tab="1"><a href="{{route('login')}}"
+                                                                                            class="cmsmasters-tab-title">
+                                                                                            <div
+                                                                                                class="cmsmasters-tab-title__text-wrap-outer">
+                                                                                                <div
+                                                                                                    class="cmsmasters-tab-title__text-wrap">
+                                                                                                    <h4
+                                                                                                        class="cmsmasters-tab-title__text ">
+                                                                                                        Log In </h4>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </a></li>
+                                                                                    <li id="cmsmasters-tabs-list-item_7602"
+                                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
+                                                                                        data-tab="2"><a href="{{route('register')}}"
+                                                                                            class="cmsmasters-tab-title">
+                                                                                            <div
+                                                                                                class="cmsmasters-tab-title__text-wrap-outer">
+                                                                                                <div
+                                                                                                    class="cmsmasters-tab-title__text-wrap">
+                                                                                                    <h4
+                                                                                                        class="cmsmasters-tab-title__text ">
+                                                                                                        Open Account </h4>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </a></li>
 
-                                                                </ul>
+                                                                                </ul>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                                 <div class="elementor-element elementor-element-6489693 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="6489693" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
