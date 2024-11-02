@@ -139,7 +139,7 @@
                                                                             </div>
                                                                             <input class="form-control" placeholder="Amount" maxlength="50" name="amount"
                                                     id="amount"
-                                                                            type="number" >
+                                                                            type="number" required>
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-right">
