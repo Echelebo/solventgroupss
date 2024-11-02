@@ -48,7 +48,7 @@
             }
         }
     </script>
-    <div class="footer2">
+    <div class="footer2" style="background:#18ab71;">
             <div class="copyright align-center">
                 <p class="white">
                     Powered by {{$set->site_name}}  copyright &copy; {{date('Y')}}
