@@ -140,19 +140,7 @@
                                                             data-id="293ced6" data-element_type="column">
                                                             <div
                                                                 class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-22623da cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                    data-id="22623da" data-element_type="widget"
-                                                                    data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p>The European bankings are members of the
-                                                                            same family. Their separate existence is a
-                                                                            myth. For science, investment, banking, etc, Europe
-                                                                            uses the same system. The
-                                                                                banks only differ in their
-                                                                            services, their features and their most
-                                                                            common functions to the society. Everyone realizes why internet banking would be desirable.  </p>
-                                                                    </div>
-                                                                </div>
+
                                                                 <section
                                                                     class="elementor-section elementor-inner-section elementor-element elementor-element-7202542 elementor-section-boxed elementor-section-height-default elementor-section-height-default cmsmasters-block-default"
                                                                     data-id="7202542" data-element_type="section"
@@ -185,43 +173,9 @@
                                                                         </div>
                                                                     </div>
                                                                 </section>
-                                                                <div class="elementor-element elementor-element-5644c14 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
-                                                                    data-id="5644c14" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h3
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            Collaboration Across the Value Chain</h3>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-4bb5351 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
-                                                                    data-id="4bb5351" data-element_type="widget"
-                                                                    data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p>This involves integrating various functions and stakeholders to enhance efficiency, create new business lines, and improve overall service offerings. This approach allows banks to leverage resources and expertise from different areas of the value chain, from customer service to risk assessment, to meet the needs of their clients better and maintain a competitive edge.</p>
-                                                                        <p>By fostering collaboration, businesses can effectively transition to a digital supply chain and optimize operations throughout the entire value chain.</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-f1e35c7 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-image"
-                                                                    data-id="f1e35c7" data-element_type="widget"
-                                                                    data-widget_type="image.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <figure class="wp-caption">
-                                                                            <img fetchpriority="high"
-                                                                                fetchpriority="high" decoding="async"
-                                                                                width="800" height="530"
-                                                                                src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-30x20.jpg"
-                                                                                class="attachment-full size-full wp-image-1410 cmsmasters_img cmsmasters-lazyload lazyload"
-                                                                                alt=""
-                                                                                data-sizes="(max-width: 800px) 100vw, 800px"
-                                                                                data-src="{{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6.jpg"
-                                                                                data-srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6.jpg 800w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-300x199.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-768x509.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-453x300.jpg 453w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-600x398.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-30x20.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-15x10.jpg 15w"
-                                                                                srcset="{{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-30x20.jpg 30w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-300x199.jpg 300w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-768x509.jpg 768w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-453x300.jpg 453w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-600x398.jpg 600w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6-15x10.jpg 15w, {{url('/')}}/wp-content/uploads/sites/3/2021/11/open-post-6.jpg 800w"
-                                                                                sizes="(max-width: 800px) 100vw, 800px" />
 
-                                                                        </figure>
-                                                                    </div>
-                                                                </div>
+
+
                                                                 <div class="elementor-element elementor-element-c0a2e31 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                                                     data-id="c0a2e31" data-element_type="widget"
                                                                     data-widget_type="heading.default">
@@ -231,6 +185,37 @@
                                                                             Focus on Banking Portals</h3>
                                                                     </div>
                                                                 </div>
+                                                                <ul class="cmsmasters-tabs-list">
+                                                                    <li id="cmsmasters-tabs-list-item_7601"
+                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
+                                                                        data-tab="1"><a href="{{route('login')}}"
+                                                                            class="cmsmasters-tab-title">
+                                                                            <div
+                                                                                class="cmsmasters-tab-title__text-wrap-outer">
+                                                                                <div
+                                                                                    class="cmsmasters-tab-title__text-wrap">
+                                                                                    <h4
+                                                                                        class="cmsmasters-tab-title__text ">
+                                                                                        Log In </h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a></li>
+                                                                    <li id="cmsmasters-tabs-list-item_7602"
+                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
+                                                                        data-tab="2"><a href="{{route('register')}}"
+                                                                            class="cmsmasters-tab-title">
+                                                                            <div
+                                                                                class="cmsmasters-tab-title__text-wrap-outer">
+                                                                                <div
+                                                                                    class="cmsmasters-tab-title__text-wrap">
+                                                                                    <h4
+                                                                                        class="cmsmasters-tab-title__text ">
+                                                                                        Open Account </h4>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a></li>
+
+                                                                </ul>
                                                                 <div class="elementor-element elementor-element-6489693 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="6489693" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
@@ -238,49 +223,7 @@
                                                                        <p>{{$set->site_name}} banking portals are designed to provide services related to banking, enhancing customer experience and facilitating seamless transactions. It supports various functions like account management, financial services, and secure communication between us and our customers, thereby contributing to the digital transformation strategy of financial institutions.</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="elementor-element elementor-element-4888aa7 cmsmasters-tabs-responsive-tablet cmsmasters-list-ver-align-center cmsmasters-tabs-type-horizontal cmsmasters-tab-list-mode-inline cmsmasters-list-item-alignment-left cmsmasters-icon-position-left cmsmasters-tabs-position-start cmsmasters-icon-view-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-tabs cmsmasters-widget-tabs"
-                                                                    data-id="4888aa7" data-element_type="widget"
-                                                                    data-settings="{&quot;tabs&quot;:[{&quot;tab_title&quot;:&quot;Customer Experience &quot;,&quot;tab_content&quot;:&quot;&lt;p&gt;One of the top reasons why individuals apply for payday loans is that they cannot pay their rent on time or are way behind. This problem became more apparent when the pandemic hit, with\u00a09.9 million Netherlands\u00a0failing to cover rent expenses on time. Having a roof over your head is one of the essential needs of man, so people do their best to keep their home.&lt;\/p&gt;&lt;p&gt;To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. The new common language will be more simple.&lt;\/p&gt;&quot;,&quot;_id&quot;:&quot;e9c2616&quot;,&quot;content_type&quot;:&quot;tab-content&quot;,&quot;saved_section&quot;:null,&quot;tab_subtitle&quot;:&quot;&quot;,&quot;tab_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;tab_custom_id&quot;:&quot;&quot;},{&quot;tab_title&quot;:&quot;Ecosystems &quot;,&quot;tab_content&quot;:&quot;&lt;p&gt;Another common reason for payday loans is electric, water, and internet bills that pile up. Having a place to stay is nice, but your stay will be uncomfortable without the amenities included. The new common language will be more simple.&lt;\/p&gt;&lt;p&gt;To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple. The new common language will be more simple.&lt;\/p&gt;&quot;,&quot;_id&quot;:&quot;c6a9a2c&quot;,&quot;content_type&quot;:&quot;tab-content&quot;,&quot;saved_section&quot;:null,&quot;tab_subtitle&quot;:&quot;&quot;,&quot;tab_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;tab_custom_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;c2b6a94&quot;,&quot;tab_content&quot;:&quot;&lt;p&gt;When the students\u2019 allowance comes in late, or they\u2019ve spent it on something else, and their university doesn\u2019t give them an extension, they can opt to apply for a payday loan. This will solve their problem of paying their tuition fees immediately.&lt;\/p&gt;&lt;p&gt;To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple. The new common language will be more simple.&lt;\/p&gt;&quot;,&quot;tab_title&quot;:&quot;Open Banking&quot;,&quot;content_type&quot;:&quot;tab-content&quot;,&quot;saved_section&quot;:null,&quot;tab_subtitle&quot;:&quot;&quot;,&quot;tab_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;tab_custom_id&quot;:&quot;&quot;}],&quot;tabs_responsive&quot;:&quot;tablet&quot;,&quot;tabs_type&quot;:&quot;horizontal&quot;,&quot;default_tab&quot;:1,&quot;tabs_responsive_choose&quot;:&quot;accordion&quot;}"
-                                                                    data-widget_type="cmsmasters-tabs.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="cmsmasters-tabs" role="tablist">
-                                                                            <div class="cmsmasters-tabs-list-wrapper">
-                                                                                <ul class="cmsmasters-tabs-list">
-                                                                                    <li id="cmsmasters-tabs-list-item_7601"
-                                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
-                                                                                        data-tab="1"><a href="{{route('login')}}"
-                                                                                            class="cmsmasters-tab-title">
-                                                                                            <div
-                                                                                                class="cmsmasters-tab-title__text-wrap-outer">
-                                                                                                <div
-                                                                                                    class="cmsmasters-tab-title__text-wrap">
-                                                                                                    <h4
-                                                                                                        class="cmsmasters-tab-title__text ">
-                                                                                                        Log In </h4>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </a></li>
-                                                                                    <li id="cmsmasters-tabs-list-item_7602"
-                                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
-                                                                                        data-tab="2"><a href="{{route('register')}}"
-                                                                                            class="cmsmasters-tab-title">
-                                                                                            <div
-                                                                                                class="cmsmasters-tab-title__text-wrap-outer">
-                                                                                                <div
-                                                                                                    class="cmsmasters-tab-title__text-wrap">
-                                                                                                    <h4
-                                                                                                        class="cmsmasters-tab-title__text ">
-                                                                                                        Open Account </h4>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </a></li>
 
-                                                                                </ul>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
 
 
 
