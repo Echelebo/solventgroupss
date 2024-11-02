@@ -13,7 +13,7 @@
                             <div class="wallet-usr-info">
                                 <div class="usr-name">
                                     <span>
-                                        Hi, {{ strtoupper($user->name) }} {{ strtoupper($user->lastname) }}</span>
+                                        Hi, {{ strtoupper($user->name) }} </span>
                                 </div>
                                 <div class="add">
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
