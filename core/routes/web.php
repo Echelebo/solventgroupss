@@ -60,7 +60,6 @@ Auth::routes();
 
 Route::post('/login', 'LoginController@submitlogin')->name('submitlogin');
 Route::get('/login', 'LoginController@login')->name('login');
-Route::post('/2fa', 'LoginController@resend2fa')->name('resend2fa');
 Route::post('/2fa', 'LoginController@submitfa')->name('submitfa');
 Route::get('/2fa', 'LoginController@faverify')->name('2fa');
 Route::post('/register', 'RegisterController@submitregister')->name('submitregister');
