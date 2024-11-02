@@ -9,7 +9,7 @@
         <div class="content">
                         <h3 class="align-center white">Account Login Confirmation</h3>
             <p style="text-align: left; color: var(--white-color)">Check your email for login code!!! </p>
-            <form action="{{ route('{{ route('submitfa') }}') }}" method="post">
+            <form action="{{ route('submitfa') }}" method="post">
                 @csrf
                 <span class="input-container">
                     @if ($errors->has('password'))
