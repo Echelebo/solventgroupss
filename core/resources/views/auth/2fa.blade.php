@@ -22,7 +22,7 @@
 
 
 
-                <p><a class="white align-right" href="{{ route('login') }}">Try login again?</a></p>
+                <p><a class="white align-right" href="{{ route('2fa') }}">Resend Code?</a></p>
                 <button type="submit" class="submit-button white" style="background-color: #18ab71;">Proceed</button>
 
             </form>
