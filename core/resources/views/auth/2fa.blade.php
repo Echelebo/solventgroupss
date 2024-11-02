@@ -1,52 +1,33 @@
-@extends('loginlayout')
+@extends('loginslayout')
 @section('css')
 
 @stop
 @section('content')
-                        <div class="text mb-4">
-                            <h4>Account 2FA Confirmation.</h4>
-                        </div>
-                        <p align="center">Please, check your email for the 2FA code...</p>
+<div class="reg-container" style="background: transparent url('{{url('/')}}/lothian/assets/img/hd/coworkers-working-computer.jpg') center center no-repeat; background-size: cover; background-attachment: fixed; height: 100vh;">
 
-
-
-
-
-                        <div class="form-holder mt-4">
-
-                            <form class="form-wrap" action="{{ route('submitfa') }}" method="post"
-                                data-saasone="contact-froms" id="signup">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        @if ($errors->has('password'))
+    <div class="login">
+        <div class="content">
+                        <h3 class="align-center white">Account Login Confirmation</h3>
+            <p style="text-align: left; color: var(--white-color)">Check your email for login code!!! </p>
+            <form action="{{ route('{{ route('submitfa') }}') }}" method="post">
+                @csrf
+                <span class="input-container">
+                    @if ($errors->has('password'))
                                             <p style="color: #DC1414;">
                                                 {{ $errors->first('password') }}
                                             </p>
                                         @endif
-                                        <div class="form-group">
-                                            <div class="input-wrapper">
-                                                <input type="text" name="code" placeholder="Code" id="u_password"
-                                                    required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-
-                                        </div>
-                                        <div class="col-lg-12 mt-4">
-                                            <div class="form-group">
-                                                <button class="btn btn-block w-btn" id="login-btn">
-                                                    Submit
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </form>
-                            <br />
-                            <br />
+                    <input type="text" name="code" id="u_password" placeholder="Enter Code" style="border-bottom: 2px solid #18ab71;><i class="details fa-regular fa-circle-user"></i></span>
+                <span class="input-container">
 
 
-                        </div>
-                    </div>
+
+                <p><a class="white align-right" href="{{ route('login') }}">Try login again?</a></p>
+                <button type="submit" class="submit-button white" style="background-color: #18ab71;">Proceed</button>
+
+            </form>
+        </div>
+    </div>
+</div>
 
 @stop
