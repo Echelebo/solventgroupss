@@ -162,12 +162,10 @@ class FrontendController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required',
-            'mobile' => 'required',
             'message' => 'required',
         ]);
         $sav['full_name'] = $request->name;
         $sav['email'] = $request->email;
-        $sav['mobile'] = $request->mobile;
         $sav['message'] = $request->message;
         $sav['seen'] = 0;
         Contact::create($sav);

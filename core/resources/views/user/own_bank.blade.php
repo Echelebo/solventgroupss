@@ -11,7 +11,7 @@
                                 <div class="card-body-x">
                                     <div class="">
                                         <h3 class="">
-                                            <font size="2px">Finatex Transfer</font>
+                                            <font size="2px">Solvent Transfer</font>
                                         </h3>
                                         <!--<p class="mt-0 mb-5">Transfer charge is {{ $set->transfer_chargex }}% per transaction.</p>-->
                                     </div>
@@ -92,16 +92,13 @@
                                                                 <div class="card-header-x bg-transparent pb-2ß"
                                                                     id="code">
                                                                     <div class="text-dark text-center mt-2 mb-3">
-                                                                        <font size="2px">Enter Activation Code <br />
-                                                                            Don't have activation code? <a
-                                                                                href="mailto: {{$set->csemail}}">Contact
-                                                                                Us</a></font>
+                                                                        <font size="2px">Enter Amount </font>
                                                                     </div>
                                                                     <div class="text-center text-dark"><i
                                                                             class="ni ni-key-25 icon-2x"></i></div>
                                                                 </div>
 
-                                                                <img src="/proccess.gif" id="loading"
+                                                                <img src="{{url('/')}}/proccess.gif" id="loading"
                                                                     style="display: none;">
 
                                                                 <div class="card-body-x px-lg-5 py-lg-5">

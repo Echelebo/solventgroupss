@@ -360,10 +360,12 @@
                                                                 <br /></div>
                                                             <form id="forminator-module-23"
                                                                 class="forminator-ui forminator-custom-form forminator-custom-form-23 forminator-design--default forminator-custom forminator_ajax"
-                                                                method="post" data-forminator-render="0"
+                                                                action="{{route('contact-submit')}}" method="post" data-saasone="contact-froms" data-forminator-render="0"
                                                                 data-form-id="23" data-design="default"
-                                                                data-grid="custom" style="display: block;"
-                                                                data-uid="66f658c80f250">
+                                                                data-grid="custom">
+
+                                                                @csrf
+
                                                                 <div role="alert" aria-live="polite"
                                                                     class="forminator-response-message forminator-error"
                                                                     aria-hidden="true"></div>
@@ -374,7 +376,7 @@
                                                                                 for="forminator-field-name-1_66f658c80f250"
                                                                                 id="forminator-field-name-1_66f658c80f250-label"
                                                                                 class="forminator-label">Name</label><input
-                                                                                type="text" name="name-1"
+                                                                                type="text" name="name"
                                                                                 value="" placeholder=""
                                                                                 id="forminator-field-name-1_66f658c80f250"
                                                                                 class="forminator-input forminator-name--field"
@@ -386,7 +388,7 @@
                                                                                 for="forminator-field-email-1_66f658c80f250"
                                                                                 id="forminator-field-email-1_66f658c80f250-label"
                                                                                 class="forminator-label">E-Mail</label><input
-                                                                                type="email" name="email-1"
+                                                                                type="email" name="email"
                                                                                 value="" placeholder=""
                                                                                 id="forminator-field-email-1_66f658c80f250"
                                                                                 class="forminator-input forminator-email--field"
@@ -402,30 +404,18 @@
                                                                                 id="forminator-field-textarea-1_66f658c80f250-label"
                                                                                 class="forminator-label">Your
                                                                                 Message</label>
-                                                                            <textarea name="textarea-1" placeholder="" id="forminator-field-textarea-1_66f658c80f250"
+                                                                            <textarea name="message" placeholder="" id="forminator-field-textarea-1_66f658c80f250"
                                                                                 class="forminator-textarea" rows="6" style="min-height:140px;"></textarea>
                                                                         </div>
                                                                     </div>
-                                                                </div><input type="hidden" name="referer_url"
-                                                                    value="" />
+                                                                </div>
                                                                 <div class="forminator-row forminator-row-last">
                                                                     <div class="forminator-col">
                                                                         <div class="forminator-field"><button
-                                                                                class="forminator-button forminator-button-submit">Send
+                                                                                class="forminator-button forminator-button-submit" type="submit">Send
                                                                                 Message</button></div>
                                                                     </div>
-                                                                </div><input type="hidden" id="forminator_nonce"
-                                                                    name="forminator_nonce" value="02f7ce52c5" /><input
-                                                                    type="hidden" name="_wp_http_referer"
-                                                                    value="/alternative/contacts/" /><input type="hidden"
-                                                                    name="form_id" value="23"><input type="hidden"
-                                                                    name="page_id" value="7239"><input type="hidden"
-                                                                    name="form_type" value="default"><input
-                                                                    type="hidden" name="current_url"
-                                                                    value="index.html"><input type="hidden"
-                                                                    name="render_id" value="0"><input type="hidden"
-                                                                    name="action"
-                                                                    value="forminator_submit_form_custom-forms">
+                                                                </div>
                                                             </form>
                                                         </div>
                                                     </div>

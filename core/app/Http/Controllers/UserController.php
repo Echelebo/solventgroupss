@@ -37,97 +37,97 @@ use Redirect;
 class UserController extends Controller
 {
 
-        
+
     public function __construct()
-    {		
+    {
         $this->middleware('auth');
     }
 
-        
+
     public function dashboard()
     {
         $data['title']='Dashboard';
         $data['alertx']=Alerts::whereUser_id(Auth::user()->id)->orderBy('id', 'DESC')->limit(7)->get();
         return view('user.index', $data);
     }
-        
+
     public function save()
     {
 		$data['title']='Save 4 Me';
         $data['save']=Save::whereUser_id(Auth::user()->id)->get();
         return view('user.save', $data);
-    } 
-        
+    }
+
     public function branch()
     {
         $data['title']='Bank branches';
         $data['branch']=Branch::all();
         return view('user.branch', $data);
-    } 
-    
+    }
+
     public function merchant()
     {
         $data['title']='Merchant';
         $data['merchant']=Merchant::whereUser_id(Auth::user()->id)->get();
         return view('user.merchant', $data);
-    }    
-    
+    }
+
     public function ticket()
     {
         $data['title']='Tickets';
         $data['ticket']=Ticket::whereUser_id(Auth::user()->id)->get();
         return view('user.ticket', $data);
-    }     
-    
+    }
+
     public function senderlog()
     {
         $data['title']='Sender log';
         $data['sent']=Exttransfer::whereUser_id(Auth::user()->id)->get();
         return view('user.sender-log', $data);
-    } 
-        
+    }
+
     public function loan()
     {
         $data['title']='Loan management';
         $data['loan']=Loan::whereUser_id(Auth::user()->id)->get();
         $data['bank']=Bank::whereUser_id(Auth::user()->id)->first();
         return view('user.loan', $data);
-    } 
-        
+    }
+
     public function statement()
     {
         $data['title']='Transaction history';
         $data['alertx']=Alerts::whereUser_id(Auth::user()->id)->orderBy('id', 'DESC')->limit(7)->get();
         return view('user.statement', $data);
     }
-    
+
     public function viewr($reference){
-     
+
     $data['title']='View Transaction';
     $data['reference']=Alerts::whereReference($reference)->whereUser_id(Auth::user()->id)->get();
     $data['user']=User::whereId(Auth::user()->id)->get();
     return view('user.viewreceipt', $data);
-        
+
     }
-    
+
     public function viewreceipt()
     {
         $data['title']='View Transaction';
         return view('user.viewreceipt', $data);
     }
-    
+
     public function addmerchant()
     {
         $data['title']='Add merchant';
         return view('user.add-merchant', $data);
-    }     
-    
+    }
+
     public function merchant_documentation()
     {
         $data['title']='Documentation';
         return view('user.merchant-documentation', $data);
-    } 
-        
+    }
+
     public function plans()
     {
         $data['title']='PY scheme';
@@ -135,8 +135,8 @@ class UserController extends Controller
         $data['profit']=Profits::whereUser_id(Auth::user()->id)->orderBy('id', 'DESC')->get();
         $data['datetime']=Carbon::now();
         return view('user.plans', $data);
-    } 
-        
+    }
+
     public function fund()
     {
         $data['title']='Fund account';
@@ -148,7 +148,7 @@ class UserController extends Controller
         $data['bank_transfer']=Banktransfer::whereUser_id(Auth::user()->id)->orderBy('id', 'DESC')->get();
         return view('user.fund', $data);
     }
-    
+
      public function viewcard()
     {
         $data['title']='Virtual Card';
@@ -156,14 +156,14 @@ class UserController extends Controller
         $data['user']=User::whereId(Auth::user()->id)->get();
         return view('user.viewcard', $data);
     }
-     
+
      public function virtualcard()
     {
         $data['title']='Virtual Card';
-        
+
         return view('user.virtualcard', $data);
     }
-    
+
     public function withdraw()
     {
         $data['title']='Withdraw';
@@ -171,14 +171,14 @@ class UserController extends Controller
         $data['withdraw']=Withdraw::whereUser_id(Auth::user()->id)->orderBy('id', 'DESC')->get();
         return view('user.withdraw', $data);
     }
-        
+
     public function bank_transfer()
     {
         $data['title']='Bank transfer';
         $data['bank']=Adminbank::whereId(1)->first();
         return view('user.bank_transfer', $data);
     }
-        
+
     public function changePassword()
     {
         $data['title'] = "Security";
@@ -190,47 +190,47 @@ class UserController extends Controller
         $data['secret']=$secret;
         $data['image']=\Sonata\GoogleAuthenticator\GoogleQrUrl::generate($user->email, $secret, $site);
         return view('user.password', $data);
-    } 
+    }
 
     public function changePin()
     {
         $data['title'] = "Change Pin";
         return view('user.pin', $data);
-    } 
-        
+    }
+
     public function profile()
     {
         $data['title'] = "Profile";
         return view('user.profile', $data);
-    }    
-    
+    }
+
     public function ownbank()
     {
         $data['title'] = "Own bank";
         return view('user.own_bank', $data);
     }
-    
+
     public function Replyticket($id)
     {
         $data['ticket']=$ticket=Ticket::find($id);
         $data['title']='#'.$ticket->ticket_id;
         $data['reply']=Reply::whereTicket_id($ticket->ticket_id)->get();
         return view('user.reply-ticket', $data);
-    }      
-    
+    }
+
     public function Editmerchant($id)
     {
         $data['merchant']=$merchant=Merchant::find($id);
         $data['title']=$merchant->name;
         return view('user.edit-merchant', $data);
-    }      
-    
+    }
+
     public function Logmerchant($id)
     {
         $data['log']=Exttransfer::whereMerchant_key($id)->get();
         $data['title']='Merchant log';
         return view('user.log-merchant', $data);
-    }    
+    }
 
     public function otherbank()
     {
@@ -286,8 +286,8 @@ class UserController extends Controller
         $data['plan']=Chart::whereStatus(1)->get();
         $data['logs']=Buyer::whereUser_id(Auth::user()->id)->orderBy('created_at', 'DESC')->get();
         return view('user.buy_asset', $data);
-    }    
-    
+    }
+
     public function sellasset()
     {
         $data['title']='Sell currency';
@@ -295,8 +295,8 @@ class UserController extends Controller
         $data['asset']=Asset::whereUser_id(Auth::user()->id)->get();
         $data['logs']=Seller::whereUser_id(Auth::user()->id)->orderBy('created_at', 'DESC')->get();
         return view('user.sell_asset', $data);
-    }     
-    
+    }
+
     public function exchangeasset()
     {
         $data['title']='Exchange currency';
@@ -304,8 +304,8 @@ class UserController extends Controller
         $data['asset']=Asset::whereUser_id(Auth::user()->id)->get();
         $data['logs']=Exchange::whereUser_id(Auth::user()->id)->orderBy('created_at', 'DESC')->get();
         return view('user.exchange_asset', $data);
-    }     
-    
+    }
+
     public function checkasset()
     {
         $data['title']='Confirm currency';
@@ -320,7 +320,7 @@ class UserController extends Controller
         $data['logs']=Exchange::whereUser_id(Auth::user()->id)->orderBy('created_at', 'DESC')->get();
         $data['plan']=Chart::whereStatus(1)->get();
         return view('user.confirm_asset', $data);
-    } 
+    }
 
     public function transferasset()
     {
@@ -363,8 +363,8 @@ class UserController extends Controller
             session()->flash('alert', 'Verification Code Did not matched');
         }
         return back();
-    }    
-    
+    }
+
 
     public function sendEmailVcode(Request $request)
     {
@@ -400,7 +400,7 @@ class UserController extends Controller
         }
         return back();
     }
-    
+
     public function bank_transfersubmit(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
@@ -419,15 +419,15 @@ class UserController extends Controller
             $sav['trx']=$trx=str_random(16);
             Banktransfer::create($sav);
         	if($set['email_notify']==1){
-    			send_email($user->email,$user->username,'Deposit request under review','We are currently reviewing your deposit of '.$request->amount.$currency->name.', once confirmed your balance will be credited automatically.<br>Thanks for working with us.');    			
+    			send_email($user->email,$user->username,'Deposit request under review','We are currently reviewing your deposit of '.$request->amount.$currency->name.', once confirmed your balance will be credited automatically.<br>Thanks for working with us.');
                 send_email($set->email,$set->site_name,'New bank deposit request','Hello admin, you have a new bank deposit request for '.$trx);
             }
             return redirect()->route('user.fund')->with('success', 'Deposit request under review');
         }else{
             return back()->with('warning', 'An error occured, please try again later');
         }
-    }  
-    
+    }
+
     public function submitmerchant(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
@@ -449,217 +449,25 @@ class UserController extends Controller
             return back()->with('warning', 'An error occured, please try again later');
         }
     }
-    
+
     public function submitownbankotp(Request $request)
-    {		
+    {
         $otp = $request->otp;
         $user=$data['user']=User::find(Auth::user()->id);
         $user->otp=$otp;
         $user->save();
-    
+
             $text = 'This is your transfer OTP <br />OTP: '.$user->otp;
             send_email($user->email, $user->name, 'Transfer OTP', $text);
     }
-    
+
      public function submitownbank(Request $request)
-    { 
-    
-        
-        if (Auth::user()->activatecode == 1){
-         $otp = rand(1000, 9000); 
+    {
+            $otp = rand(1000, 9000);
          $user=$data['user']=User::find(Auth::user()->id);
             $user->otp=$otp;
         $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-            $set=Settings::first();
-        $currency=Currency::whereStatus(1)->first();
-        $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->pin==$request->pin){
-                if($user->acct_no!=$request->acct_no){
-                    $count=User::whereAcct_no($request->acct_no)->get();
-                    
-                    if(count($count)>0){
-                        $trans=User::whereAcct_no($request->acct_no)->first();
-                        if($user->balance>$amountx || $user->balance==$amountx){
-                            Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $trans->name);
-                            Session::put('Acctemail', $trans->email);
-                            return redirect()->route('user.localpreview'); 
-                        }else{
-                            return back()->with('alert', 'Account balance is insufficient');
-                        }
-                    }else{
-                        return back()->with('alert', 'Invalid account number.');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to the same account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid Transfer pin.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-        
-        
-            
-        }
-        
-        elseif (Auth::user()->activatecode == 2){
-            
-            $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-            $set=Settings::first();
-        $currency=Currency::whereStatus(1)->first();
-        $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->cotcode==$request->cotcode){
-                if($user->acct_no!=$request->acct_no){
-                    $count=User::whereAcct_no($request->acct_no)->get();
-                    
-                    if(count($count)>0){
-                        $trans=User::whereAcct_no($request->acct_no)->first();
-                        if($user->balance>$amountx || $user->balance==$amountx){
-                            Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $trans->name);
-                            Session::put('Acctemail', $trans->email);
-                            return redirect()->route('user.localpreview'); 
-                        }else{
-                            return back()->with('alert', 'Account balance is insufficient');
-                        }
-                    }else{
-                        return back()->with('alert', 'Invalid account number.');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to the same account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid C.O.T code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-            
-        }
-        
-        elseif (Auth::user()->activatecode == 3){
-            $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-            
-            $set=Settings::first();
-        $currency=Currency::whereStatus(1)->first();
-        $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->imfcode==$request->imfcode){
-                if($user->acct_no!=$request->acct_no){
-                    $count=User::whereAcct_no($request->acct_no)->get();
-                    
-                    if(count($count)>0){
-                        $trans=User::whereAcct_no($request->acct_no)->first();
-                        if($user->balance>$amountx || $user->balance==$amountx){
-                            Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $trans->name);
-                            Session::put('Acctemail', $trans->email);
-                            return redirect()->route('user.localpreview'); 
-                        }else{
-                            return back()->with('alert', 'Account balance is insufficient');
-                        }
-                    }else{
-                        return back()->with('alert', 'Invalid account number.');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to the same account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid I.M.F code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-            
-        }
-        
-        elseif (Auth::user()->activatecode == 4){
-            
-            $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-            $set=Settings::first();
-        $currency=Currency::whereStatus(1)->first();
-        $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->taxcode==$request->taxcode){
-                if($user->acct_no!=$request->acct_no){
-                    $count=User::whereAcct_no($request->acct_no)->get();
-                    
-                    if(count($count)>0){
-                        $trans=User::whereAcct_no($request->acct_no)->first();
-                        if($user->balance>$amountx || $user->balance==$amountx){
-                            Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $trans->name);
-                            Session::put('Acctemail', $trans->email);
-                            return redirect()->route('user.localpreview'); 
-                        }else{
-                            return back()->with('alert', 'Account balance is insufficient');
-                        }
-                    }else{
-                        return back()->with('alert', 'Invalid account number.');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to the same account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid Tax code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-            
-        }
-        
-        else{
-            $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
+
             $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
             send_email($user->email, $user->name, 'Transfer OTP', $text);
             $set=Settings::first();
@@ -680,7 +488,7 @@ class UserController extends Controller
                             Session::put('Bank', $request->bank);
                             Session::put('Acctname', $trans->name);
                             Session::put('Acctemail', $trans->email);
-                            return redirect()->route('user.localpreview'); 
+                            return redirect()->route('user.localpreview');
                         }else{
                             return back()->with('alert', 'Account balance is insufficient');
                         }
@@ -694,15 +502,15 @@ class UserController extends Controller
                 return back()->with('alert', 'Invalid pin.');
             }*/
         }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
+            return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
-        }
-        
-    } 
-    
-    
+
+
+    }
+
+
     public function submitlocalpreview(Request $request)
-    {  
+    {
         $user=$data['user']=User::find(Auth::user()->id);
         $ptime = Carbon::parse()->addMinutes(10);
         if($request->otp==$user->otp){
@@ -719,14 +527,14 @@ class UserController extends Controller
         if($user->trans_status==0){
         $sav['status']=0;
         }else{
-        $sav['status']=1;  
+        $sav['status']=1;
         }
         $sav['type']=1;
         Transfer::create($sav);
 		if($user->trans_status==0){
         $contentx='Acct: '.$trans->acct_no.', DR Acct: '.$user->acct_no.', Sent From: '.$user->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', CR Amt: '.number_format($request->amount,2).', Bal: '.number_format($trans->balance,2).', Ref: '.$token;
         }else{
-        $contentx='Acct: '.$trans->acct_no.', DR Acct: '.$user->acct_no.', Sent From: '.$user->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', CR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($trans->balance + $amountx),2).', Ref: '.$token;  
+        $contentx='Acct: '.$trans->acct_no.', DR Acct: '.$user->acct_no.', Sent From: '.$user->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', CR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($trans->balance + $amountx),2).', Ref: '.$token;
         }
         $credit['user_id']=$trans->id;
         $credit['amount']=$request->amount;
@@ -737,7 +545,7 @@ class UserController extends Controller
 		if($user->trans_status==0){
         $credit['balance']=$trans->balance;
         }else{
-        $credit['balance']=$trans->balance + $amountx;  
+        $credit['balance']=$trans->balance + $amountx;
         }
         $credit['account']=$trans->acct_no;
         $credit['activation_verify']=1;
@@ -747,7 +555,7 @@ class UserController extends Controller
         $credit['code_count']=4;
         $credit['type']=2;
         $credit['seen']=0;
-        $credit['status']=1;  
+        $credit['status']=1;
         $credit['reference']=$token;
         Alerts::create($credit);
 		if($user->trans_status==1){
@@ -757,7 +565,7 @@ class UserController extends Controller
 		if($user->trans_status==0){
         $content='Acct: '.$user->acct_no.', BNF Acct: '.$trans->acct_no.', BNF Name: '.$trans->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format($user->balance,2).', Ref: '.$token;
         }else{
-        $content='Acct: '.$user->acct_no.', BNF Acct: '.$trans->acct_no.', BNF Name: '.$trans->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($user->balance - $amountx),2).', Ref: '.$token;  
+        $content='Acct: '.$user->acct_no.', BNF Acct: '.$trans->acct_no.', BNF Name: '.$trans->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($user->balance - $amountx),2).', Ref: '.$token;
         }
         $debit['user_id']=Auth::user()->id;
         $debit['amount']=$amountx;
@@ -768,7 +576,7 @@ class UserController extends Controller
 		if($user->trans_status==0){
         $debit['balance']=$user->balance;
         }else{
-        $debit['balance']=$user->balance - $amountx; 
+        $debit['balance']=$user->balance - $amountx;
         }
         $debit['account']=$user->acct_no;
         $debit['type']=1;
@@ -797,7 +605,7 @@ class UserController extends Controller
         $debit['code_count']=0;
         }
         }else{
-         $debit['status']=1; 
+         $debit['status']=1;
          $debit['activation_verify']=1;
          $debit['cot_verify']=1;
          $debit['imf_verify']=1;
@@ -806,12 +614,12 @@ class UserController extends Controller
         }
         $debit['reference']=$token;
         Alerts::create($debit);
-		
+
 		if($user->trans_status==1){
 		 $user->balance = $user->balance - $amountx;
          $user->save();
 		}
-    
+
 	   if($user->trans_status==1){
 	       if($set->sms_notify==1){
            send_sms($user->phone, 'Grand Firm Credit Bank, ' . $content);
@@ -822,122 +630,22 @@ class UserController extends Controller
 		   send_email($trans->email, $trans->username, 'Credit alert', $contentx);
        }
 	   }
-       
+
         session()->flash('success', 'Correct OTP');
-        
+
         if($user->trans_status==0){
                         Session::put('Acctno', $request->acct_no);
                         return redirect()->route('viewr', $debit['reference']);
                         }else{
-                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');   
+                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');
                         }
-}else{
-                return back()->with('alert', 'Invalid OTP.');
-            }
-    } 
-
-public function submitotherpreview(Request $request)
-    {  
-        $user=$data['user']=User::find(Auth::user()->id);
-        $ptime = Carbon::parse()->addMinutes(10);
-        if($request->otp==$user->otp){
-        $set=Settings::first();
-        $currency=Currency::whereStatus(1)->first();
-        $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
-        $token=str_random(10);
-        $user=$data['user']=User::find(Auth::user()->id);
-        
-                        $sav['details']='Acct name: '.$request->name .', Bank name: '.$request->bank .', Address: '.$request->address .', Swift: '.$request->swift .', Iban: '.$request->iban;
-                        $sav['ref_id']=$token;
-                        $sav['amount']=$request->amount;
-                        $sav['user_id']=Auth::user()->id;
-                        if($user->trans_status==0){
-                        $sav['status']=0;
-                        }else{
-                         $sav['status']=1;  
-                         }
-                        $sav['type']=1;
-                        Int_transfer::create($sav);
-                        if($user->trans_status==0){
-                        $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format($user->balance,2).', Ref: '.$token;
-                        }else{
-                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($user->balance - $amountx),2).', Ref: '.$token;  
-                         }
-                        $debit['user_id']=Auth::user()->id;
-                        $debit['amount']=$amountx;
-                        $debit['sender_acctno']=$request->acct_no;
-                        $debit['sender_acctname']=$request->name;
-                        $debit['sender_bankname']=$request->bank;
-                        $debit['details']=$content;
-						if($user->trans_status==0){
-                        $debit['balance']=$user->balance;
-                        }else{
-                         $debit['balance']=$user->balance - $amountx; 
-                         }
-                        $debit['account']=$user->acct_no;
-                        $debit['type']=1;
-                        $debit['seen']=0;
-                        if($user->trans_status==0){
-        $debit['status']=0;
-        $debit['pdates']=$ptime;
-        if($user->activatecode==1){
-        $debit['activation_verify']=1;
-        $debit['requested_code']=1;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==2){
-        $debit['cot_verify']=1;
-        $debit['requested_code']=2;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==3){
-        $debit['imf_verify']=1;
-        $debit['requested_code']=3;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==4){
-        $debit['tax_verify']=1;
-        $debit['requested_code']=4;
-        $debit['code_count']=0;
-        }else{
-        $debit['requested_code']=6;
-        $debit['code_count']=0;
-        }
-        }else{
-         $debit['status']=1; 
-         $debit['activation_verify']=1;
-         $debit['cot_verify']=1;
-         $debit['imf_verify']=1;
-         $debit['tax_verify']=1;
-        $debit['code_count']=4;
-        }
-                        $debit['reference']=$token;
-                        Alerts::create($debit);
-						
-						if($user->trans_status==1){
-		 $user->balance = $user->balance - $amountx;
-         $user->save();
-		}
-                        
-
-
-                        if($user->trans_status==0){
-                        return redirect()->route('viewr', $debit['reference']);
-                        }else{
-                            if($set->sms_notify==1){
-                        send_sms($user->phone, 'Grand Firm Credit Bank, ' . $content);
-                         }
-                            if($set['email_notify']==1){
-                       send_email($user->email, $user->username, 'Debit alert', $content);
-                       }
-                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');   
-                        
-                        }
-                    
 }else{
                 return back()->with('alert', 'Invalid OTP.');
             }
     }
-    
-    public function submitotherpreviewx(Request $request)
-    {  
+
+public function submitotherpreview(Request $request)
+    {
         $user=$data['user']=User::find(Auth::user()->id);
         $ptime = Carbon::parse()->addMinutes(10);
         if($request->otp==$user->otp){
@@ -946,7 +654,7 @@ public function submitotherpreview(Request $request)
         $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
         $token=str_random(10);
         $user=$data['user']=User::find(Auth::user()->id);
-        
+
                         $sav['details']='Acct name: '.$request->name .', Bank name: '.$request->bank .', Address: '.$request->address .', Swift: '.$request->swift .', Iban: '.$request->iban;
                         $sav['ref_id']=$token;
                         $sav['amount']=$request->amount;
@@ -954,14 +662,14 @@ public function submitotherpreview(Request $request)
                         if($user->trans_status==0){
                         $sav['status']=0;
                         }else{
-                         $sav['status']=1;  
+                         $sav['status']=1;
                          }
                         $sav['type']=1;
                         Int_transfer::create($sav);
                         if($user->trans_status==0){
                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format($user->balance,2).', Ref: '.$token;
                         }else{
-                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($user->balance - $amountx),2).', Ref: '.$token; 
+                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($user->balance - $amountx),2).', Ref: '.$token;
                          }
                         $debit['user_id']=Auth::user()->id;
                         $debit['amount']=$amountx;
@@ -974,7 +682,6 @@ public function submitotherpreview(Request $request)
                         }else{
                          $debit['balance']=$user->balance - $amountx;
                          }
-                        
                         $debit['account']=$user->acct_no;
                         $debit['type']=1;
                         $debit['seen']=0;
@@ -1002,7 +709,7 @@ public function submitotherpreview(Request $request)
         $debit['code_count']=0;
         }
         }else{
-         $debit['status']=1; 
+         $debit['status']=1;
          $debit['activation_verify']=1;
          $debit['cot_verify']=1;
          $debit['imf_verify']=1;
@@ -1011,7 +718,108 @@ public function submitotherpreview(Request $request)
         }
                         $debit['reference']=$token;
                         Alerts::create($debit);
-						
+
+						if($user->trans_status==1){
+		 $user->balance = $user->balance - $amountx;
+         $user->save();
+		}
+
+
+
+                        if($user->trans_status==0){
+                        return redirect()->route('viewr', $debit['reference']);
+                        }else{
+                            if($set->sms_notify==1){
+                        send_sms($user->phone, 'Grand Firm Credit Bank, ' . $content);
+                         }
+                            if($set['email_notify']==1){
+                       send_email($user->email, $user->username, 'Debit alert', $content);
+                       }
+                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');
+
+                        }
+
+}else{
+                return back()->with('alert', 'Invalid OTP.');
+            }
+    }
+
+    public function submitotherpreviewx(Request $request)
+    {
+        $user=$data['user']=User::find(Auth::user()->id);
+        $ptime = Carbon::parse()->addMinutes(10);
+        if($request->otp==$user->otp){
+        $set=Settings::first();
+        $currency=Currency::whereStatus(1)->first();
+        $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
+        $token=str_random(10);
+        $user=$data['user']=User::find(Auth::user()->id);
+
+                        $sav['details']='Acct name: '.$request->name .', Bank name: '.$request->bank .', Address: '.$request->address .', Swift: '.$request->swift .', Iban: '.$request->iban;
+                        $sav['ref_id']=$token;
+                        $sav['amount']=$request->amount;
+                        $sav['user_id']=Auth::user()->id;
+                        if($user->trans_status==0){
+                        $sav['status']=0;
+                        }else{
+                         $sav['status']=1;
+                         }
+                        $sav['type']=1;
+                        Int_transfer::create($sav);
+                        if($user->trans_status==0){
+                        $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format($user->balance,2).', Ref: '.$token;
+                        }else{
+                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$request->acct_no.', BNF Name: '.$request->name.', Bank: '.$request->bank.', Date: '.Carbon::now().', DR Amt: '.number_format($request->amount,2).', Bal: '.number_format(($user->balance - $amountx),2).', Ref: '.$token;
+                         }
+                        $debit['user_id']=Auth::user()->id;
+                        $debit['amount']=$amountx;
+                        $debit['sender_acctno']=$request->acct_no;
+                        $debit['sender_acctname']=$request->name;
+                        $debit['sender_bankname']=$request->bank;
+                        $debit['details']=$content;
+						if($user->trans_status==0){
+                        $debit['balance']=$user->balance;
+                        }else{
+                         $debit['balance']=$user->balance - $amountx;
+                         }
+
+                        $debit['account']=$user->acct_no;
+                        $debit['type']=1;
+                        $debit['seen']=0;
+                        if($user->trans_status==0){
+        $debit['status']=0;
+        $debit['pdates']=$ptime;
+        if($user->activatecode==1){
+        $debit['activation_verify']=1;
+        $debit['requested_code']=1;
+        $debit['code_count']=0;
+        }elseif($user->activatecode==2){
+        $debit['cot_verify']=1;
+        $debit['requested_code']=2;
+        $debit['code_count']=0;
+        }elseif($user->activatecode==3){
+        $debit['imf_verify']=1;
+        $debit['requested_code']=3;
+        $debit['code_count']=0;
+        }elseif($user->activatecode==4){
+        $debit['tax_verify']=1;
+        $debit['requested_code']=4;
+        $debit['code_count']=0;
+        }else{
+        $debit['requested_code']=6;
+        $debit['code_count']=0;
+        }
+        }else{
+         $debit['status']=1;
+         $debit['activation_verify']=1;
+         $debit['cot_verify']=1;
+         $debit['imf_verify']=1;
+         $debit['tax_verify']=1;
+        $debit['code_count']=4;
+        }
+                        $debit['reference']=$token;
+                        Alerts::create($debit);
+
 						if($user->trans_status==1){
 		 $user->balance = $user->balance - $amountx;
          $user->save();
@@ -1025,167 +833,23 @@ public function submitotherpreview(Request $request)
                             if($set['email_notify']==1){
                        send_email($user->email, $user->username, 'Debit alert', $content);
                        }
-                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');   
-                        
+                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');
+
                         }
-                    
+
 }else{
                 return back()->with('alert', 'Invalid OTP.');
             }
-    } 
-    
+    }
+
     public function submitotherbank(Request $request)
     {
-    if (Auth::user()->activatecode == 1){
-        $otp = rand(1000, 9000); 
+
+        $otp = rand(1000, 9000);
          $user=$data['user']=User::find(Auth::user()->id);
             $user->otp=$otp;
         $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->pin==$request->pin){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreview'); 
-                        }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid Transfer pin.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    }
-    elseif (Auth::user()->activatecode == 2){
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->cotcode==$request->cotcode){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreview'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid C.O.T code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    }
-    elseif (Auth::user()->activatecode == 3){
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->imfcode==$request->imfcode){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreview'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid I.M.F code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    }
-    elseif (Auth::user()->activatecode == 4){
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->taxcode==$request->taxcode){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreview'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid Tax Code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    }
-    else{
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
+
             $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
             send_email($user->email, $user->name, 'Transfer OTP', $text);
         $set=Settings::first();
@@ -1202,7 +866,7 @@ public function submitotherpreview(Request $request)
                             Session::put('Bank', $request->bank);
                             Session::put('Acctname', $request->name);
                             Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreview'); 
+                            return redirect()->route('user.otherpreview');
                     }else{
                         return back()->with('alert', 'Account balance is insufficient');
                     }
@@ -1213,11 +877,11 @@ public function submitotherpreview(Request $request)
                 return back()->with('alert', 'Invalid pin.');
             }*/
         }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
+            return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
-    } 
+
     }
-    
+
     public function submittransupdate(Request $request)
     {
     $reference = $request->reference;
@@ -1237,10 +901,10 @@ public function submitotherpreview(Request $request)
                 $hh->save();
                 return redirect()->route('viewr', $reference);
             }else{
-            return redirect()->route('viewr', $reference)->with('alert', 'Invalid Token Code');    
+            return redirect()->route('viewr', $reference)->with('alert', 'Invalid Token Code');
             }
         }
-        
+
         if($hh->activation_verify == 1 && $hh->imf_verify == 0){
             $user = User::findOrFail(Auth::user()->id);
             if($request->hasFile('imfimage')){
@@ -1252,12 +916,12 @@ public function submitotherpreview(Request $request)
                 $hh->imf_verify = 0;
                 $hh->status=0;
                 $hh->save();
-                
+
                 $a = $hh->amount;
                 $b=$user->balance-$a;
                         $user->balance=$b;
                         $user->save();
-                        
+
                         $userx=User::whereAcct_no($hh->sender_acctno)->first();
                         $count=User::whereAcct_no($hh->sender_acctno)->get();
                         if(count($count)>0){
@@ -1265,7 +929,7 @@ public function submitotherpreview(Request $request)
                         $userx->balance = $ab;
                         $userx->save();
                         }
-                        
+
                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$hh->sender_acctno.', Bank: '.$hh->sender_bankname.', Date: '.Carbon::now().', DR Amt: '.number_format($hh->amount,2).', Bal: '.number_format($user->balance,2).', Ref: '.$hh->reference;
                 if(count($count)>0){
                 $contentx='Acct: '.$userx->acct_no.', DR Acct: '.$user->acct_no.', Sent From: '.$user->name.', Bank: Finatex Grand Bank, Date: '.Carbon::now().', CR Amt: '.number_format($hh->amount,2).', Bal: '.number_format($userx->balance,2).', Ref: '.$hh->reference;
@@ -1284,17 +948,17 @@ public function submitotherpreview(Request $request)
                         }
                 return redirect()->route('viewr', $reference)->with('info', 'IMF Verification Document Submitted');
             }else{
-            return redirect()->route('viewr', $reference)->with('alert', 'Please upload IMF Verification Document');    
+            return redirect()->route('viewr', $reference)->with('alert', 'Please upload IMF Verification Document');
             }
         }
 
         }
-        
-        
+
+
         if($user->first_verify == 'imf'){
         if($hh->activation_verify == 0 && $hh->imf_verify == 0){
-            
-            
+
+
             $user = User::findOrFail(Auth::user()->id);
             if($request->hasFile('imfimage')){
             $image = $request->file('imfimage');
@@ -1304,31 +968,31 @@ public function submitotherpreview(Request $request)
                 $hh->imfimage = $filename;
                 $hh->imf_verify = 0;
                 $hh->save();
-                
-                
+
+
                 return redirect()->route('viewr', $reference)->with('info', 'IMF Verification Document Submitted');
             }else{
-            return redirect()->route('viewr', $reference)->with('alert', 'Please upload IMF Verification Document');    
+            return redirect()->route('viewr', $reference)->with('alert', 'Please upload IMF Verification Document');
             }
-            
+
         }
-        
-        
-        
-        
+
+
+
+
         if($hh->activation_verify == 0 && $hh->imf_verify == 1){
-            
-            
+
+
             if($user->pin==$request->activation_code){
                 $hh->activation_verify = 1;
                 $hh->status = 1;
                 $hh->save();
-                
+
                 $a = $hh->amount;
                 $b=$user->balance-$a;
                         $user->balance=$b;
                         $user->save();
-                        
+
                         $userx=User::whereAcct_no($hh->sender_acctno)->first();
                         $count=User::whereAcct_no($hh->sender_acctno)->get();
                         if(count($count)>0){
@@ -1336,7 +1000,7 @@ public function submitotherpreview(Request $request)
                         $userx->balance = $ab;
                         $userx->save();
                         }
-                        
+
                         $content='Acct: '.$user->acct_no.', BNF Acct: '.$hh->sender_acctno.', Bank: '.$hh->sender_bankname.', Date: '.Carbon::now().', DR Amt: '.number_format($hh->amount,2).', Bal: '.number_format($user->balance,2).', Ref: '.$hh->reference;
                 if(count($count)>0){
                 $contentx='Acct: '.$userx->acct_no.', DR Acct: '.$user->acct_no.', Sent From: '.$user->name.', Bank: Finatex Grand Bank, Date: '.Carbon::now().', CR Amt: '.number_format($hh->amount,2).', Bal: '.number_format($userx->balance,2).', Ref: '.$hh->reference;
@@ -1355,181 +1019,33 @@ public function submitotherpreview(Request $request)
                         }
                 return redirect()->route('viewr', $reference);
             }else{
-            return redirect()->route('viewr', $reference)->with('alert', 'Invalid Token Code');    
+            return redirect()->route('viewr', $reference)->with('alert', 'Invalid Token Code');
             }
-            
-            
-            
-            
-            
-        }
+
+
+
+
 
         }
 
         }
+
+        }
     }
-            
+
     }
     }
-    
+
     public function submitlocaltrans(Request $request)
     {
-        if (Auth::user()->activatecode == 1){
-            $otp = rand(1000, 9000); 
+        $otp = rand(1000, 9000);
          $user=$data['user']=User::find(Auth::user()->id);
             $user->otp=$otp;
         $user->save();
-    
+
             $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
             send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->pin==$request->pin){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreviewx'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid Transfer pin.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    } 
-    
-    elseif (Auth::user()->activatecode == 2){
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->cotcode==$request->cotcode){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreviewx'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid C.O.T code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    } 
-    
-    elseif (Auth::user()->activatecode == 3){
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->imfcode==$request->imfcode){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreviewx'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid I.M.F code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    } 
-    elseif (Auth::user()->activatecode == 4){
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        $set=Settings::first();
-        $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
-        $token = round(microtime(true));
-        $user=$data['user']=User::find(Auth::user()->id);
-        $loan=$data['loan']=Loan::where('user_id', Auth::user()->id)->where('status', 1)->count();
-        if($loan<1){
-            if($user->taxcode==$request->taxcode){
-                if($user->acct_no!=$request->acct_no){
-                    if($user->balance>$amountx || $user->balance==$amountx){
-                        Session::put('Amount', $request->amount);
-                            Session::put('Acctno', $request->acct_no);
-                            Session::put('Bank', $request->bank);
-                            Session::put('Acctname', $request->name);
-                            Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreviewx'); 
-                    }else{
-                        return back()->with('alert', 'Account balance is insufficient');
-                    }
-                }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
-                }
-            }else{
-                return back()->with('alert', 'Invalid Tax code.');
-            }
-        }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
-        }
-    } 
-    
-    else{
-        $otp = rand(1000, 9000); 
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-    
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-        
+
         $set=Settings::first();
         $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
         $token = round(microtime(true));
@@ -1544,7 +1060,7 @@ public function submitotherpreview(Request $request)
                             Session::put('Bank', $request->bank);
                             Session::put('Acctname', $request->name);
                             Session::put('Acctemail', $user->email);
-                            return redirect()->route('user.otherpreviewx'); 
+                            return redirect()->route('user.otherpreviewx');
                     }else{
                         return back()->with('alert', 'Account balance is insufficient');
                     }
@@ -1555,9 +1071,9 @@ public function submitotherpreview(Request $request)
              //   return back()->with('alert', 'Invalid pin.');
             //}
         }else{
-            return back()->with('alert', 'Request failed, you have an unpaid loan.');       
+            return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
-    }
+
     }
     public function bankupdate(Request $request)
     {
@@ -1585,7 +1101,7 @@ public function submitotherpreview(Request $request)
             return back()->with('success', 'Bank details was successfully created');
         }
     }
-        
+
     public function submitsave(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
@@ -1607,7 +1123,7 @@ public function submitotherpreview(Request $request)
                     $sav['reference']=$token;
                     $sav['status'] = 0;
                     Save::create($sav);
-                    return back()->with('success', 'Operation was succesfully, you wont have access to this funds till '.date("Y/m/d", strtotime($request->end_date)));             
+                    return back()->with('success', 'Operation was succesfully, you wont have access to this funds till '.date("Y/m/d", strtotime($request->end_date)));
                 }else{
                     return back()->with('warning', 'Insufficient Funds, please fund your account');
                 }
@@ -1617,8 +1133,8 @@ public function submitotherpreview(Request $request)
         }else{
             return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
-    } 
-        
+    }
+
     public function loansubmit(Request $request)
     {
         $set=$data['set']=Settings::first();
@@ -1642,8 +1158,8 @@ public function submitotherpreview(Request $request)
         }else{
             return back()->with('alert', 'Proposal failed, you currently have an unpaid loan.');
         }
-    }       
-    
+    }
+
     public function Destroyticket($id)
     {
         $data = Ticket::findOrFail($id);
@@ -1653,7 +1169,7 @@ public function submitotherpreview(Request $request)
         } else {
             return back()->with('alert', 'Problem With Deleting Request');
         }
-    } 
+    }
 
     public function submitticket(Request $request)
     {
@@ -1666,8 +1182,8 @@ public function submitotherpreview(Request $request)
         $sav['status']=0;
         Ticket::create($sav);
         return back()->with('success', 'Ticket Submitted Successfully.');
-    }     
-    
+    }
+
     public function submitreply(Request $request)
     {
         $sav['reply']=$request->details;
@@ -1678,8 +1194,8 @@ public function submitotherpreview(Request $request)
         $data->status=0;
         $data->save();
         return back()->with('success', 'Message sent!.');
-    }  
-        
+    }
+
     public function withdrawsubmit(Request $request)
     {
         $set=$data['set']=Settings::first();
@@ -1701,9 +1217,9 @@ public function submitotherpreview(Request $request)
                 $user->save();
                 if($set->email_notify==1){
                     send_email(
-                        $user->email, 
-                        $user->username, 
-                        'Withdraw Request currently being Processed', 
+                        $user->email,
+                        $user->username,
+                        'Withdraw Request currently being Processed',
                         'We are currently reviewing your withdrawal request of '.$request->amount.$currency->name.'.<br>Thanks for working with us.'
                     );
                 }
@@ -1714,8 +1230,8 @@ public function submitotherpreview(Request $request)
         }else{
             return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
-    }  
-        
+    }
+
     public function fundsubmit(Request $request)
     {
         $gate=Gateway::where('id', $request->gateway)->first();
@@ -1737,17 +1253,17 @@ public function submitotherpreview(Request $request)
             $depo['status'] = 0;
             Deposits::create($depo);
             Session::put('Track', $depo['trx']);
-            return redirect()->route('user.preview');        
+            return redirect()->route('user.preview');
         } else {
             return back()->with('alert', 'Please Follow Deposit Limit');
         }
     }
-    
+
     public function virtualcardsubmit(Request $request)
     {
-        
+
         $user=User::find(Auth::user()->id);
-       
+
             $card['user_id'] = $user->id;
             $card['subject'] = $request->subject;
             $card['cardtype'] = $request->cardtype;
@@ -1755,8 +1271,8 @@ public function submitotherpreview(Request $request)
             $card['descrip'] = $request->message;
             $card['status'] = 0;
             Card::create($card);
-            return back()->with('success', 'Card was successfully requested.');        
-        
+            return back()->with('success', 'Card was successfully requested.');
+
     }
 
     public function depositpreview()
@@ -1781,8 +1297,8 @@ public function submitotherpreview(Request $request)
         }else{
             return back()->with('alert', 'Account balance must exceed loaned amount.');
         }
-    }  
-    
+    }
+
     public function withdrawupdate(Request $request)
     {
         $withdraw=Withdraw::whereId($request->withdraw_id)->first();
@@ -1790,8 +1306,8 @@ public function submitotherpreview(Request $request)
         $withdraw->details=$request->details;
         $withdraw->save();
         return back()->with('success', 'Successfully updated');
-    }    
-    
+    }
+
     public function calculate(Request $request)
     {
         $currency=Currency::whereStatus(1)->first();
@@ -1799,15 +1315,15 @@ public function submitotherpreview(Request $request)
         $profit=$request->amount*($plan->percent/100)*12;
         if($request->amount>$plan->min_deposit || $request->amount==$plan->min_deposit){
             if($request->amount<$plan->amount  || $request->amount==$plan->amount){
-                return back()->with('success', number_format($profit).$currency->name);  
+                return back()->with('success', number_format($profit).$currency->name);
             }else{
-                return back()->with('alert', 'value is greater than maximum deposit');  
+                return back()->with('alert', 'value is greater than maximum deposit');
             }
         }else{
-            return back()->with('alert', 'value is less than minimum deposit');  
+            return back()->with('alert', 'value is less than minimum deposit');
         }
     }
-    
+
     public function buy(Request $request)
     {
         $plan=$data['plan']=Plans::Where('id',$request->plan)->first();
@@ -1830,24 +1346,24 @@ public function submitotherpreview(Request $request)
                             $a=$user->balance-$request->amount;
                             $user->balance=$a;
                             $user->save();
-                            return back()->with('success', 'Plan was successfully purchased, click track earnings to watch your monthly earnings');  
+                            return back()->with('success', 'Plan was successfully purchased, click track earnings to watch your monthly earnings');
                         }else{
-                            return back()->with('alert', 'value is greater than maximum deposit');  
+                            return back()->with('alert', 'value is greater than maximum deposit');
                         }
                     }else{
-                        return back()->with('alert', 'value is less than minimum deposit');  
+                        return back()->with('alert', 'value is less than minimum deposit');
                     }
                 }else{
                     return back()->with('alert', 'Insufficient Funds, please fund your account');
                 }
             }else{
-                return back()->with('alert', 'Upgrade your account to have exclusive access to PY scheme');  
+                return back()->with('alert', 'Upgrade your account to have exclusive access to PY scheme');
             }
         }else{
                 return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
 
-    } 
+    }
 
         public function read()
     {
@@ -1855,7 +1371,7 @@ public function submitotherpreview(Request $request)
         foreach ($alert as $alerts){
             $alerts->seen=1;
             $alerts->save();
-        }   
+        }
         return back()->with('success', 'Notifications have been cleared.');
     }
         public function upgrade()
@@ -1866,7 +1382,7 @@ public function submitotherpreview(Request $request)
             $a=$user->balance-$set->upgrade_fee;
             $user->upgrade=1;
             $user->balance=$a;
-            $user->save();  
+            $user->save();
             return back()->with('success', 'You now have access to exclusive services.');
         }else{
             return back()->with('alert', 'Insufficient balance, add more funds..');
@@ -1881,7 +1397,7 @@ public function submitotherpreview(Request $request)
         session()->flash('message', 'Just Logged Out!');
         return redirect('/login');
     }
-    
+
         public function submitPin(Request $request)
     {
         $this->validate($request, [
@@ -1909,7 +1425,7 @@ public function submitotherpreview(Request $request)
             return back()->with('alert', $e->getMessage());
         }
     }
-    
+
     public function submitPassword(Request $request)
     {
         $this->validate($request, [
@@ -1938,7 +1454,7 @@ public function submitotherpreview(Request $request)
             return back()->with('alert', $e->getMessage());
         }
     }
-    
+
         public function avatar(Request $request)
     {
         $user = User::findOrFail(Auth::user()->id);
@@ -1957,8 +1473,8 @@ public function submitotherpreview(Request $request)
         }else{
             return back()->with('success', 'An error occured, try again.');
         }
-    }       
-    
+    }
+
         public function kyc(Request $request)
     {
         $user = User::findOrFail(Auth::user()->id);
@@ -2038,8 +1554,8 @@ public function submitotherpreview(Request $request)
             return back()->with('alert', 'Request failed, you have an unpaid loan.');
         }
 
-    }      
-    
+    }
+
     public function submitsellasset(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
@@ -2054,7 +1570,7 @@ public function submitotherpreview(Request $request)
             $stock->amount=$stock->amount-$sell;
             $stock->save();
             $user->balance=$user->balance+$rate;
-            $user->save();            
+            $user->save();
             $plan->balance=$plan->balance+$request->amount;
             $plan->save();
             $seller['reference']=$token;
@@ -2066,9 +1582,9 @@ public function submitotherpreview(Request $request)
             return back()->with('success', $plan->name.' was successfully sold');
         }else{
             return back()->with('alert', 'Account balance is insufficient');
-        }        
-    }      
-    
+        }
+    }
+
     public function submitexchangeasset(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
@@ -2082,12 +1598,12 @@ public function submitotherpreview(Request $request)
                 Session::put('Amount', $request->amount);
                 Session::put('From', $request->from);
                 Session::put('To', $request->to);
-                return redirect()->route('user.checkasset');  
+                return redirect()->route('user.checkasset');
             }else{
                 return back()->with('alert', 'Account balance is insufficient');
             }
-        }       
-    } 
+        }
+    }
 
     public function submitcheckasset(Request $request)
     {
@@ -2105,7 +1621,7 @@ public function submitotherpreview(Request $request)
         }else{
             $to_asset=Asset::where('user_id', Auth::user()->id)->where('plan_id', $request->to)->first();
             $to_asset->amount=$to_asset->amount+$request->tamount;
-            $to_asset->save();            
+            $to_asset->save();
             $from_asset=Asset::where('user_id', Auth::user()->id)->where('plan_id', $request->from)->first();
             $from_asset->amount=$from_asset->amount-$request->famount;
             $from_asset->save();
@@ -2118,9 +1634,9 @@ public function submitotherpreview(Request $request)
         $exchange['toe']=$request->to;
         $exchange['charge']=$request->from*$plan->exchange_charge/100;
         Exchange::create($exchange);
-        return redirect()->route('user.exchangeasset')->with('success', 'Exchange was successful');      
-    } 
-        
+        return redirect()->route('user.exchangeasset')->with('success', 'Exchange was successful');
+    }
+
     public function submittransferasset(Request $request)
     {
         $set=$data['set']=Settings::first();
@@ -2140,7 +1656,7 @@ public function submitotherpreview(Request $request)
                         $sav['ref_id']=str_random(16);
                         Assettransfer::create($sav);
                         $stock->amount=$stock->amount-($request->amount+$request->amount*$set->transfer_charge/100);
-                        $stock->save();     
+                        $stock->save();
                         $num_asset=Asset::where('user_id', $receiver->id)->where('plan_id', $request->asset)->count();
                         if($num_asset<1){
                             $savx['user_id']=$receiver->id;
@@ -2150,8 +1666,8 @@ public function submitotherpreview(Request $request)
                         }else{
                             $to_asset=Asset::where('user_id', $receiver->id)->where('plan_id', $request->asset)->first();
                             $to_asset->amount=$to_asset->amount+$request->amount;
-                            $to_asset->save();            
-                        }          
+                            $to_asset->save();
+                        }
                         return back()->with('success', 'Transaction successful.');
                     }else{
                         return back()->with('alert', 'Invalid account number.');
@@ -2165,7 +1681,7 @@ public function submitotherpreview(Request $request)
         }else{
             return back()->with('alert', 'Invalid account number.');
         }
-    } 
+    }
 
     public function updatemerchant(Request $request)
     {
@@ -2186,7 +1702,7 @@ public function submitotherpreview(Request $request)
         } else {
             return back()->with('alert', 'Problem With updating merchant');
         }
-    } 
+    }
 
     public function transferprocess()
     {
@@ -2196,8 +1712,8 @@ public function submitotherpreview(Request $request)
         $data['ext']=Exttransfer::whereReference($token)->first();
         $data['merchant']=Merchant::whereMerchant_key($id)->first();
         return view('user.transfer_process', $data);
-    }    
-    
+    }
+
     public function Cancelmerchant()
     {
         $data['id']= $id = request('id');
@@ -2205,8 +1721,8 @@ public function submitotherpreview(Request $request)
         $ext->status=2;
         $ext->save();
         return Redirect::away($ext->fail_url);
-    }    
-    
+    }
+
     public function Paymerchant()
     {
         $data['id']= $id = request('id');
@@ -2226,7 +1742,7 @@ public function submitotherpreview(Request $request)
             return Redirect::away($ext->notify_url);
         }else{
             return back()->with('alert', 'Account balance is insufficient');
-        }     
+        }
     }
 
     public function submitpay(Request $request)
@@ -2272,7 +1788,7 @@ public function submitotherpreview(Request $request)
                 return back()->with('success', '2fa disabled.');
             }else{
                 return back()->with('alert', 'Invalid pin');
-            }    
+            }
         }else{
             $check=$g->checkcode($secret, $request->code, 3);
             if($check){
