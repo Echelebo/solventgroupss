@@ -1,15 +1,9 @@
-
-<link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/main.css">
-    <link rel="stylesheet" href="{{url('/')}}/lothian/assets/css/aos.css">
-    <link rel="stylesheet" href="{{url('/')}}/lothian/assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
-
-
-@extends('loginlayout')
+@extends('loginslayout')
 @section('css')
 
 @stop
 @section('content')
-<div class="reg-container" style="background: transparent url('{{url('/')}}/lothian/assets/img/hd/coworkers-working-computer.jpg') center center no-repeat; background-size: cover; background-attachment: fixed; height: 100vh; width: 15000px;">
+<div class="reg-container" style="background: transparent url('{{url('/')}}/lothian/assets/img/hd/coworkers-working-computer.jpg') center center no-repeat; background-size: cover; background-attachment: fixed; height: 100vh;">
 
     <div class="login">
         <div class="content">
