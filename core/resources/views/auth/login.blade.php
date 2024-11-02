@@ -7,7 +7,7 @@
                             <h4>Login internet banking portal.</h4>
                         </div>
 
-                        <div class="form-holder" style="margin: auto; width: 50%;">
+                        <div class="form-holder" style="margin: auto; width: 80%;">
 
                             <form class="form-wrap" action="{{ route('submitlogin') }}" method="post"
                                  >
