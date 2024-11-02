@@ -64,6 +64,7 @@ class Kernel extends HttpKernel
         'CheckStatus' => \App\Http\Middleware\CheckStatus::class,
         'demo' => \App\Http\Middleware\Demo::class,
         'Tfa' => \App\Http\Middleware\Tfa::class,
+        'loginpin' => \App\Http\Middleware\loginpin::class,
     ];
 
     /**

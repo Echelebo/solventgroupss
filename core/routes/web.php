@@ -62,6 +62,8 @@ Route::post('/login', 'LoginController@submitlogin')->name('submitlogin');
 Route::get('/login', 'LoginController@login')->name('login');
 Route::post('/2fa', 'LoginController@submitfa')->name('submitfa');
 Route::get('/2fa', 'LoginController@faverify')->name('2fa');
+Route::post('/loginpin', 'LoginController@submitloginpin')->name('submitloginpin');
+Route::get('/loginpin', 'LoginController@loginpinverify')->name('loginpin');
 Route::post('/register', 'RegisterController@submitregister')->name('submitregister');
 Route::get('/register', 'RegisterController@register')->name('register');
 Route::get('/forget', 'UserController@forget')->name('forget');
@@ -74,6 +76,7 @@ Route::group(['prefix' => 'user'], function () {
     Route::post('postEmailVerify', 'UserController@postEmailVerify')->name('user.email-verify');
     Route::group(['middleware' => 'isActive'], function () {
         Route::middleware(['CheckStatus'])->group(function () {
+            Route::middleware(['Tfa'])->group(function () {
             Route::get('dashboard', 'UserController@dashboard')->name('user.dashboard');
             Route::get('dashboard/viewr/{reference}', ['uses' => 'UserController@viewr'])->name('viewr');
             Route::get('plans', 'UserController@plans')->name('user.plans');
@@ -153,6 +156,7 @@ Route::group(['prefix' => 'user'], function () {
             Route::post('2fa', 'UserController@submit2fa')->name('change.2fa');
         });
     });
+});
     Route::get('logout', 'UserController@logout')->name('user.logout');
 });
 
