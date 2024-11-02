@@ -25,30 +25,12 @@
                                                     <div class="row row--md">
                                                     <div class="col-12">
                                                             <div class="row row--md">
-                                                                <table class="depo">
-                                                                    <thead>
-                                                                    <tr>
-                                                                    <th></th>
-                                                                    <th></th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <td>Crypto Name</td>
-                                                                            <td class="pl-4">{{$bank->name}}</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>Network</td>
-                                                                            <td class="pl-4">{{$bank->bank_name}}</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>Wallet Address</td>
-                                                                            <td class="pl-4">{{$bank->address}}</td>
-                                                                        </tr>
+                                                                <p><a class="text-success"
+                                                                    href="mailto:{{$set->csemail}}">Request
+                                                                    Account Details</a></p>
 
-                                                                    </tbody>
-
-                                                                </table>
+                                                                    <br /><p>Contact Customer Billing
+                                                                Department for account information</p>
                                                             </div>
                                                         </div>
 

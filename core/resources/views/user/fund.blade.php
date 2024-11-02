@@ -11,17 +11,7 @@
                         <!-- <div class="modal__wrap"> -->
                         <div class="modal__window">
                             <div class="modal__content">
-                                <!-- <button class="modal__close" data-dismiss="modal">
-                                <svg class="icon-icon-cross">
-                                    <use xlink:href="#icon-cross"></use>
-                                </svg>
-                            </button> -->
 
-                                <!-- <a class="modal__close text-danger">
-                                        <svg class="icon-icon-help">
-                                                <use xlink:href="#icon-help"></use>
-                                            </svg>
-                                     </a> -->
                                 <div class="modal__body">
 
 
@@ -38,42 +28,12 @@
                                             <div class="row row--md">
                                                 <div class="col-12">
                                                     <div class="row row--md">
-                                                        <table class="depo">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th></th>
-                                                                    <th></th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>Bank Name</td>
-                                                                    <td class="pl-4">{{ $bank->acct_no }}</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Bank Address</td>
-                                                                    <td class="pl-4">150 York Rd, Hartlepool TS26 9DZ,
-                                                                        United Kingdom</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Account No</td>
-                                                                    <td class="pl-4">Click <a class="text-success"
+                                                        <p><a class="text-success"
                                                                             href="mailto:{{$set->csemail}}">Request
-                                                                            Account Number</a> to contact Customer Billing
-                                                                        Department for account information</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Iban</td>
-                                                                    <td class="pl-4">{{ $bank->iban }}</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Swift Code</td>
+                                                                            Account Details</a></p>
 
-                                                                    <td class="pl-4">{{ $bank->swift }}</td>
-                                                                </tr>
-                                                            </tbody>
-
-                                                        </table>
+                                                                            <br /><p>Contact Customer Billing
+                                                                        Department for account information</p>
                                                     </div>
                                                 </div>
 
