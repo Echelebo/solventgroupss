@@ -186,13 +186,9 @@
                                                                     </div>
                                                                 </div>
 
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="cmsmasters-tabs" role="tablist">
-                                                                            <div class="cmsmasters-tabs-list-wrapper">
-                                                                                <ul class="cmsmasters-tabs-list">
-                                                                                    <li id="cmsmasters-tabs-list-item_7601"
-                                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
-                                                                                        data-tab="1"><a href="{{route('login')}}"
+
+
+                                                                                    <a href="{{route('login')}}"
                                                                                             class="cmsmasters-tab-title">
                                                                                             <div
                                                                                                 class="cmsmasters-tab-title__text-wrap-outer">
@@ -203,10 +199,8 @@
                                                                                                         Log In </h4>
                                                                                                 </div>
                                                                                             </div>
-                                                                                        </a></li>
-                                                                                    <li id="cmsmasters-tabs-list-item_7602"
-                                                                                        class="cmsmasters-tabs-list-item cmsmasters-animation"
-                                                                                        data-tab="2"><a href="{{route('register')}}"
+                                                                                        </a>
+                                                                                    <a href="{{route('register')}}"
                                                                                             class="cmsmasters-tab-title">
                                                                                             <div
                                                                                                 class="cmsmasters-tab-title__text-wrap-outer">
@@ -217,13 +211,10 @@
                                                                                                         Open Account </h4>
                                                                                                 </div>
                                                                                             </div>
-                                                                                        </a></li>
+                                                                                        </a>
 
-                                                                                </ul>
-                                                                            </div>
 
-                                                                        </div>
-                                                                    </div>
+
 
                                                                 <div class="elementor-element elementor-element-6489693 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="6489693" data-element_type="widget"
