@@ -186,7 +186,7 @@
 
                                                                 <div class="elementor-element elementor-element-6489693 cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-text-editor"
                                                                     data-id="6489693" data-element_type="widget"
-                                                                    data-widget_type="text-editor.default">
+                                                                    data-widget_type="text-editor.default" style="margin-top: 10px;">
                                                                     <div class="elementor-widget-container">
                                                                        <p>{{$set->site_name}} banking portals are designed to provide services related to banking, enhancing customer experience and facilitating seamless transactions. It supports various functions like account management, financial services, and secure communication between us and our customers, thereby contributing to the digital transformation strategy of financial institutions.</p>
                                                                     </div>
