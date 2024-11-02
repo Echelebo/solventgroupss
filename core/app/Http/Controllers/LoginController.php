@@ -32,8 +32,8 @@ class LoginController extends Controller
 		}else{
 	        return view('/auth/login', $data);
 		}
-    }         
-    
+    }
+
     public function faverify()
     {
 		if(Auth::user()){
@@ -43,21 +43,21 @@ class LoginController extends Controller
 	        return view('/auth/login', $data);
 		}
     }
-    
+
     public function submitfa(Request $request)
     {
         $user = User::findOrFail(Auth::user()->id);
         $g=$user->otp;
-        
+
         if($g == $request->code){
-            
+
             return redirect()->route('user.dashboard');
         }else{
             return back()->with('alert', 'Invalid 2fa.');
         }
     }
 
-        
+
         public function submitlogin(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -81,23 +81,38 @@ class LoginController extends Controller
 	        $user->last_login=Carbon::now();
 	        $user->ip_address=$ip_address;
             $user->save();
-            
-                
-            $otp = rand(1000, 9000); 
+
+
+            $otp = rand(1000, 9000);
          $user=$data['user']=User::find(Auth::user()->id);
             $user->otp=$otp;
         $user->save();
-    
-            $text = 'This is your login 2FA <br />2FA: '.$user->otp;
-            send_email($user->email, $user->name, 'Login 2FA', $text);
+
+            $text = 'This is your login Code<br />2FA: '.$user->otp;
+            send_email($user->email, $user->name, 'Login Code', $text);
                 return redirect()->route('2fa');
-            
+
         } else {
         	return back()->with('alert', 'Oops! You have entered invalid credentials');
         }
 
     }
-    
+
+    public function resend2fa(Request $request)
+    {
+    $otp = rand(1000, 9000);
+         $user=$data['user']=User::find(Auth::user()->id);
+            $user->otp=$otp;
+        $user->save();
+
+            $text = 'This is your login Code <br />Code: '.$user->otp;
+            send_email($user->email, $user->name, 'Login Code', $text);
+                return redirect()->route('2fa');
+
+
+
+    }
+
     public function username()
     {
         return 'acct_no';
