@@ -13,8 +13,7 @@
                             <div class="wallet-usr-info">
                                 <div class="usr-name">
                                     <span>
-                                        <img src="{{ url('/') }}/asset/profile/{{ $cast }}" alt="user"
-                                            class="img-fluid"> {{ $user->name }} {{ $user->lastname }}</span>
+                                        Hi, strtoupper({{ $user->name }} {{ $user->lastname }})</span>
                                 </div>
                                 <div class="add">
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
