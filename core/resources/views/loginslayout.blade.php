@@ -20,31 +20,20 @@
                 <div id="mobile-icon"><i class="fa-solid fa-bars"></i></div>
                 <a href="index.html"><img src="{{url('/')}}/lothian/assets/img/metro-logo.png" class="logo" alt="logo"></a>
             </div>
-            <div class="center">
-                <a href="bank-accounts.html">Bank Accounts</a>
-                <a href="savings.html">Savings</a>
-                <a href="mortgage.html">Mortgages</a>
-                <a href="insurance.html">Insurance</a>
-                <a href="private-banking.html">Private-Banking</a>
-            </div>
+
             <div class="right">
-                <a id="hide-mobile" href="#"><i class="fa-solid fa-location-dot"></i>Find A Store</a>
-                <a id="hide-mobile" href="#"><i class="fa-solid fa-regular fa-magnifying-glass"></i> Help</a>
+                <a id="hide-mobile" href="{{route('contacts')}}"><i class="fa-solid fa-location-dot"></i>Email Us</a>
+
                 <a id="red-button" href="#">Login <i class="fa-solid fa-chevron-down"></i></a>            </div>
             <div class="reg-tool align-center">
-                <a href="login.html">Apply for online banking</a>
-                <a href="online-banking.html">Get started guide</a>
-                <a href="business.html">Business banking</a>
+                <a href="{{route('login')}}">Apply for online banking</a>
+
             </div>
     </div>
     <div class="nav-cont align-center">
-        <a href="business.html">Bank Accounts</a>
-        <a href="savings.html">Savings</a>
-        <a href="mortgage.html">Mortgages</a>
-        <a href="insurance.html">Insurance</a>
-        <a href="private-banking.html">Private Banking</a>
+
         <br/><br/>
-        <p><i class="fa-solid fa-location-dot"></i>Address: Lothian Credit, Agatan 55 Linkoping, South Central Sweden, 582 22</p>
+        <p><i class="fa-solid fa-location-dot"></i>Address: {{$set->address}}</p>
 
     </div>
 
@@ -53,7 +42,7 @@
     <script>
         function redirectToRegister() {
             console.log("Button clicked");
-            window.location.href = 'register.html';
+            window.location.href = '/register';
         }
         function toggleEye(){
             var passInput = document.getElementById('password');
@@ -70,7 +59,7 @@
     <div class="footer2">
             <div class="copyright align-center">
                 <p class="white">
-                    Powered by Lothian Credit   copyright &copy; 2024
+                    Powered by {{$set->site_name}}  copyright &copy; {{date('Y')}}
                 </p>
             </div>
         </div>
