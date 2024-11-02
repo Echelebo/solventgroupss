@@ -17,15 +17,15 @@
                                                 {{ $errors->first('acct_no') }}
                                             </p>
                                         @endif
-                    <input type="text" name="id" id="email" placeholder="Email/Username/Acct Number"><i class="details fa-regular fa-circle-user"></i></span>
+                    <input type="text" name="id" id="email" placeholder="Email/Username/Acct Number" style="border-bottom: 2px solid #18ab71;><i class="details fa-regular fa-circle-user"></i></span>
                 <span class="input-container">@if ($errors->has('password'))
                     <p style="color: #DC1414;">
                         {{ $errors->first('password') }}
                     </p>
-                @endif<input type="password" name="password" id="password" placeholder="Password"><i class="details fa fa-fingerprint"></i><span class="eye" id="eye" onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span></span>
+                @endif<input type="password" name="password" id="password" placeholder="Password" style="border-bottom: 2px solid #18ab71;""><i class="details fa fa-fingerprint"></i><span class="eye" id="eye" onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span></span>
 
                 <p><a class="white align-right" href="{{ route('user.password.request') }}">Forgot Password?</a></p>
-                <button type="submit" class="submit-button white" style="background-color: #18ab71">Proceed</button>
+                <button type="submit" class="submit-button white" style="background-color: #18ab71;">Proceed</button>
                 <p class="white" style="text-align: center;">Don't have an account yet?</p>
                 <a type="button" href="{{route('register')}}" class="submit-blue align-center white">Create an account <i class="fa-solid fa-arrow-right-long"></i></a>
             </form>
