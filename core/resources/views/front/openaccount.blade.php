@@ -170,12 +170,13 @@
 
 
                                                                                     <a href="{{route('login')}}"
-                                                                                            class="cmsmasters-tab-title-x" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff; padding: 5px; margin-left: 25px">
+                                                                                            class="cmsmasters-tab-title-x" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff; padding: 8px; ">
 
                                                                                                         Log In
                                                                                         </a>
+
                                                                                     <a href="{{route('register')}}"
-                                                                                            class="cmsmasters-tab-title-x" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff; padding: 8px;">
+                                                                                            class="cmsmasters-tab-title-x" style="background-color: #0b9b71; border-radius: 7px; color: #ffffff; padding: 8px; margin-left: 25px">
 
                                                                                                         Open Account
                                                                                         </a>
