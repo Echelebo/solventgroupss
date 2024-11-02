@@ -3,8 +3,8 @@
 @section('content')
 <div class="container-fluid mt--6">
   <div class="content-wrapper">
-        <div class="row">  
-        @foreach($branch as $val)   
+        <div class="row">
+        @foreach($branch as $val)
          <div class="col-md-4">
           <div class="card bg-white">
             <!-- Card body -->
@@ -27,7 +27,7 @@
               </div>
             </div>
           </div>
-        </div> 
+        </div>
         @endforeach
         </div>
 @stop

@@ -110,50 +110,51 @@
                                         </button>
                                     </div>
 
-                                    <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
-                                    aria-labelledby="modal-form" aria-hidden="true">
-                                    <div class="modal-dialog modal- modal-dialog-centered modal-sm"
-                                        role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-body p-0">
-                                                <div class="card-x bg-white border-0 mb-0">
-                                                    <div class="card-header-x bg-transparent pb-2ß"
-                                                        id="code">
-                                                        <div class="text-dark text-center mt-2 mb-3">
-                                                            <font size="2px">Enter Amount </font>
-                                                        </div>
-                                                        <div class="text-center text-dark"><i
-                                                                class="ni ni-key-25 icon-2x"></i></div>
-                                                    </div>
-
-                                                    <img src="{{url('/')}}/proccess.gif" id="loading"
-                                                        style="display: none;">
-
-                                                    <div class="card-body-x px-lg-5 py-lg-5">
-                                                        <div class="form-group" id="pins">
-                                                            <div
-                                                                class="input-group input-group-merge input-group-alternative">
-                                                                <div class="input-group-prepend">
-
+                                        <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
+                                            aria-labelledby="modal-form" aria-hidden="true">
+                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body p-0">
+                                                        <div class="card bg-white border-0 mb-0">
+                                                            <div class="card-header bg-transparent pb-2ß" id="code">
+                                                                <div class="text-dark text-center mt-2 mb-3">
+                                                                    <font size="2px">Enter Activation Code <br /> Don't
+                                                                        have activation code? <a
+                                                                            href="mailto: {{$set->csemail}}">Contact
+                                                                            Us</a></font>
                                                                 </div>
-                                                                <input class="form-control" placeholder="Amount" maxlength="50" name="amount"
-                                        id="amount"
-                                                                type="number" >
+                                                                <div class="text-center text-dark"><i
+                                                                        class="ni ni-key-25 icon-2x"></i></div>
                                                             </div>
-                                                        </div>
-                                                        <div class="text-right">
-                                                            <input type="submit" id="btnSubmit"
-                                                                class="btn btn-primary" value="Continue"
-                                                                style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
-                                                                form="modal-details">
 
+
+                                                            <img src="/proccess.gif" id="loading"
+                                                                style="display: none;">
+
+                                                            <div class="card-body px-lg-5 py-lg-5">
+                                                                <div class="form-group" id="pins">
+                                                                    <div
+                                                                        class="input-group input-group-merge input-group-alternative">
+                                                                        <div class="input-group-prepend">
+
+                                                                        </div>
+                                                                        <input class="form-control" placeholder="Amount" maxlength="50" name="amount"
+                                                    id="amount"
+                                                                            type="number" >
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-right">
+                                                                    <input type="submit" id="btnSubmit" class="btn"
+                                                                        value="Continue"
+                                                                        style="background-color: #17705a; color: #ffffff; border-radius: 40px;"
+                                                                        form="modal-details">
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
                                 </form>
                             </div>
                         </div>
