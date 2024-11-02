@@ -15,23 +15,19 @@
 
 </head>
 <body>
-    <div class="header" style="position: relative; background: var(--blue-color);">
+    <div class="header" style="position: relative; background: #ffffff;">
             <div class="left">
                 <div id="mobile-icon"><i class="fa-solid fa-bars"></i></div>
                 <a href="/"><img src="{{ url('/') }}/asset/{{ $logo->image_link }}" class="logo" alt="logo"></a>
             </div>
 
             <div class="right">
-                <a id="hide-mobile" href="{{route('contacts')}}"><i class="fa-solid fa-location-dot"></i>Email Us</a>
+                <a id="hide-mobile" href="{{route('contacts')}}" style="color: ##18ab71;"><i class="fa-solid fa-location-dot"></i>Email Us</a>
 
             </div>
 
     </div>
-    <div class="nav-cont align-center">
 
-        <br/><br/>
-        <p><i class="fa-solid fa-location-dot"></i>Address: {{$set->address}}</p>
-    </div>
 
     @yield('content')
 
