@@ -22,7 +22,7 @@
             </div>
 
             <div class="right">
-                <a id="hide-mobile" href="{{route('contacts')}}" style="color: ##18ab71;"><i class="fa-solid fa-location-dot"></i>Email Us</a>
+                <a id="hide-mobile" href="{{route('contacts')}}" style="color: #18ab71;"><i class="fa-solid fa-location-dot"></i>Email Us</a>
 
             </div>
 
