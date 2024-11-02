@@ -194,7 +194,7 @@
                                                                                                         Log In
                                                                                         </a>
                                                                                     <a href="{{route('register')}}"
-                                                                                            class="cmsmasters-tab-title" style="float: right;">
+                                                                                            class="cmsmasters-tab-title" style="right: 10px;">
 
                                                                                                         Open Account
                                                                                         </a>
