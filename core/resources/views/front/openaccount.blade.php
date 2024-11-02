@@ -185,7 +185,7 @@
                                                                             Focus on Banking Portals</h3>
                                                                     </div>
                                                                 </div>
-                                                                <div class="elementor-element elementor-element-4888aa7 cmsmasters-tabs-responsive-tablet-x cmsmasters-list-ver-align-center cmsmasters-tabs-type-horizontal cmsmasters-tab-list-mode-inline cmsmasters-list-item-alignment-left cmsmasters-icon-position-left cmsmasters-tabs-position-start cmsmasters-icon-view-default cmsmasters-pointer-none cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-cmsmasters-tabs cmsmasters-widget-tabs"
+                                                                <div class="elementor-element elementor-element-4888aa7 cmsmasters-tabs-responsive-tablet-x cmsmasters-list-ver-align-center cmsmasters-tabs-type-horizontal cmsmasters-tab-list-mode-inline cmsmasters-list-item-alignment-left cmsmasters-icon-position-left cmsmasters-tabs-position-start cmsmasters-icon-view-default cmsmasters-pointer-none-x cmsmasters-block-default-x cmsmasters-sticky-default-x elementor-widget elementor-widget-cmsmasters-tabs cmsmasters-widget-tabs"
                                                                     data-id="4888aa7" data-element_type="widget"
                                                                     data-settings=""
                                                                     data-widget_type="cmsmasters-tabs.default">
