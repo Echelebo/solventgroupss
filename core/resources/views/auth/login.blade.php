@@ -6,7 +6,7 @@
                         <div class="text" style="margin-top: -20px;">
                             <h4><b>Welcome to {{$set->site_name}} Internet Banking</b></h4>
                             <br />
-                            <p><font size="14px">Sign in with your Internet Banking details. Not registered on Internet Banking? Click on create account to get started</font></p>
+                            <p><font size="3px">Sign in with your Internet Banking details. Not registered on Internet Banking? Click on create account to get started</font></p>
                         </div>
 
                         <div class="form-holder-x" style="margin: auto; width: 80%; margin-left: 5px;">
