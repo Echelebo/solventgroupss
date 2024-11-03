@@ -821,7 +821,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     </aside>
 
 
-    <link href="{{url('/')}}/newe/new/css/dashh.csssdsd" rel="stylesheet" type="text/css">
+    <link href="{{url('/')}}/newe/new/css/dashh.css" rel="stylesheet" type="text/css">
     <style>
       @media screen and (max-width:768px) {
         .title-name {
