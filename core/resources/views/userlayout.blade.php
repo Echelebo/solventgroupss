@@ -47,12 +47,12 @@
     <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
     <link rel="stylesheet" type="text/css" href="/css/currency-flags.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-select.min.css" />-->
-    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.cssdssd" />
 
   <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
 
-  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css-fg"
+  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
          rel = "stylesheet">
       <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
       <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
