@@ -113,7 +113,7 @@
 
                                     <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
                                                 aria-labelledby="modal-form" aria-hidden="true">
-                                                <div class="modal-dialog modal- modal-dialog-centered-x modal-sm-x"
+                                                <div class="modal-dialog modal-form modal-dialog-centered-x modal-sm-x"
                                                     role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-body p-0">
