@@ -17,8 +17,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/vendor.min.css">
-  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/commo.cssdssd">
+  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/vendor.min.cssrt">
+  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/commo.css">
 
 
   <link rel="shortcut icon" href="{{url('/')}}/asset/{{ $logo->image_link2 }}" />
