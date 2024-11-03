@@ -18,7 +18,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <link rel="stylesheet" href="{{url('/')}}/newe/new/css/vendor.min.css">
-  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/commo.css">
+  <link rel="stylesheet" href="{{url('/')}}/newe/new/css/commo.cssdssd">
 
 
   <link rel="shortcut icon" href="{{url('/')}}/asset/{{ $logo->image_link2 }}" />
@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
     <link rel="stylesheet" type="text/css" href="/css/currency-flags.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-select.min.css" />-->
-    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.cssdssd" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.css" />
 
   <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
