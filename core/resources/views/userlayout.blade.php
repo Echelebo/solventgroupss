@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
     <link rel="stylesheet" type="text/css" href="/css/currency-flags.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-select.min.css" />-->
-    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.cssds" />
 
   <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
