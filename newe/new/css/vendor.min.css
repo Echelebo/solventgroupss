@@ -6719,7 +6719,8 @@ a.close.disabled {
     }
 
     .modal-sm {
-        max-width: 300px
+        max-width: 50%;
+        margin: auto;
     }
 }
 
