@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
     <link rel="stylesheet" type="text/css" href="/css/currency-flags.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-select.min.css" />-->
-    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.cssds" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/newe/scss/style.css" />
 
   <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
@@ -821,7 +821,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     </aside>
 
 
-    <link href="{{url('/')}}/newe/new/css/dashh.css" rel="stylesheet" type="text/css">
+    <link href="{{url('/')}}/newe/new/css/dashh.csssdsd" rel="stylesheet" type="text/css">
     <style>
       @media screen and (max-width:768px) {
         .title-name {
