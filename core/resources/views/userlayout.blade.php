@@ -52,7 +52,7 @@
   <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/sweetalert.css" type="text/css">
 
-  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css-fg"
          rel = "stylesheet">
       <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
       <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -821,7 +821,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     </aside>
 
 
-    <link href="{{url('/')}}/newe/new/css/dashh.cssds" rel="stylesheet" type="text/css">
+    <link href="{{url('/')}}/newe/new/css/dashh.css" rel="stylesheet" type="text/css">
     <style>
       @media screen and (max-width:768px) {
         .title-name {
