@@ -130,7 +130,7 @@
                                                                 <img src="{{url('/')}}/proccess.gif" id="loading"
                                                                     style="display: none;">
 
-                                                                <div class="card-body-x">
+                                                                <div class="card-body-x p-5">
                                                                     <div class="form-group" id="pins">
                                                                         <div
                                                                             class="input-group input-group-merge input-group-alternative">
