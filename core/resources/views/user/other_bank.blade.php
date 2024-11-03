@@ -6,8 +6,8 @@
             <div class="content-wrapper">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="card-x bg-white">
-                            <div class="card-body-x">
+                        <div class="card bg-white">
+                            <div class="card-body">
                                 <div class="">
                                     <h3 class="">
                                         <font size="2px">Inter Bank Transfer</font>
@@ -21,8 +21,8 @@
                 <div class="row">
                     <div class="col-md-8">
                         <!-- Basic layout-->
-                        <div class="card-x">
-                            <div class="card-header-x header-elements-inline">
+                        <div class="card">
+                            <div class="card-header header-elements-inline">
                                 <h3 class="mb-0">
                                     <font size="2px">Transfer Funds</font>
                                 </h3>
@@ -31,7 +31,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body-x">
+                            <div class="card-body">
                                 <form action="{{ route('submit.otherbank') }}"
                                     onsubmit="document.getElementById('btnSubmit').disabled=true;document.getElementById('loading').style.display='block';document.getElementById('code').style.display='none';document.getElementById('pins').style.display='none';"
                                     method="post" id="modal-details">
@@ -115,10 +115,10 @@
                                                 aria-labelledby="modal-form" aria-hidden="true">
                                                 <div class="modal-dialog modal- modal-dialog-centered modal-sm"
                                                     role="document">
-                                                    <div class="modal-content-x">
+                                                    <div class="modal-content">
                                                         <div class="modal-body p-0">
-                                                            <div class="card-x bg-white border-0 mb-0">
-                                                                <div class="card-header-x bg-transparent pb-2ß"
+                                                            <div class="card bg-white border-0 mb-0">
+                                                                <div class="card-header bg-transparent pb-2ß"
                                                                     id="code">
                                                                     <div class="text-dark text-center mt-4 mb-3">
                                                                         <font size="2px">Enter Amount </font>
@@ -130,7 +130,7 @@
                                                                 <img src="{{url('/')}}/proccess.gif" id="loading"
                                                                     style="display: none;">
 
-                                                                <div class="card-body-x px-lg-5 py-lg-5">
+                                                                <div class="card-body px-lg-5 py-lg-5">
                                                                     <div class="form-group" id="pins">
                                                                         <div
                                                                             class="input-group input-group-merge input-group-alternative">
