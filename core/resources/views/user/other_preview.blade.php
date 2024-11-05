@@ -9,11 +9,11 @@
       <div class="card-x bg-white">
         <div class="card-body-x">
 
-            <h3 class="text-center">Inter Transfer</h3><br />
+            <h3 class="text-center">Inter Transfer</h3>
             <h3 class="text-center">{{$user->Currency}}{{number_format($amount)}}</h3>
 
 
-            <div class="conspbtw">
+            <div class="conspbtw" style="width: 50%; margin: auto;">
                 <div class="lefutu">
                     <span>Amount: </span><br />
                 <span>Account number: </span><br />
