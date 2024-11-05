@@ -8,31 +8,31 @@
     <div class="col-lg-12 col-md-12 col-sm-12">
       <div class="card-x bg-white">
         <div class="card-body-x">
-          <div class="d-sm-flex align-item-sm-center flex-sm-nowrap">
-            <div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6" style="float:left ">
 
-                <span>Amount: </span><br />
+            <h3 class="text-center">Inter Transfer</h3><br />
+            <h3 class="text-center">{{$user->Currency}}{{number_format($amount)}}</h3>
+
+
+            <div class="conspbtw">
+                <div class="lefutu">
+                    <span>Amount: </span><br />
                 <span>Account number: </span><br />
                 <span>Name: </span><br />
                 <span>Bank Name: </span><br />
                 <span>Transfer fee: </span><br />
                 <span>Total: </span>
-
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6" style="float:right ">
-                <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount)}}</span><br />
+                </div>
+                <div class="rightu">
+                    <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount)}}</span><br />
                 <span class="font-weight-semibold">{{$acct_no}}</span><br />
                 <span class="font-weight-semibold">{{$acct_name}}</span><br />
                 <span class="font-weight-semibold">{{$bank}}</span><br />
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount*$set->transfer_charge/100)}}</span><br />
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount+($amount*$set->transfer_charge/100))}}</span>
-
-                    </div>
                 </div>
             </div>
-          </div><br>
+
+          <br>
           <form action="{{route('submit.otherpreview')}}" method="post">
             @csrf
             <input type="hidden" name="acct_no" value="{{$acct_no}}">

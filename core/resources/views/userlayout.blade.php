@@ -823,6 +823,21 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
     <link href="{{url('/')}}/newe/new/css/dashh.css" rel="stylesheet" type="text/css">
     <style>
+
+.conspbtw {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+}
+
+.lefutu {
+    text-align: left; /* Aligns content to the left */
+}
+
+.rightu {
+    text-align: right; /* Aligns content to the right */
+}
+
+
       @media screen and (max-width:768px) {
         .title-name {
           font-size: 18px;
