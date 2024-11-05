@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="text-right" style="margin-right: 100px">
+            <div class="text-right" style="margin-right: 120px">
                 <br />
                 <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
                     style="background-color: #17705a; color: #ffffff;">
