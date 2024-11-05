@@ -32,23 +32,56 @@
                 </div>
             </div>
 
-          <br>
-          <form action="{{route('submit.otherpreview')}}" method="post">
-            @csrf
-            <input type="hidden" name="acct_no" value="{{$acct_no}}">
-            <input type="hidden" name="bank" value="{{$bank}}">
-            <input type="hidden" name="amount" value="{{$amount}}">
-            <label>Check your email for One Time Password</label><br>
-            <div class="form-group row">
-                  <div class="col-lg-10">
-                    <div class="input-group">
+            <div class="text-right">
+                <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
+                    style="background-color: #17705a; color: #ffffff;">
+                    <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
+                </a>
+            </div>
 
-                      <input type="text" name="otp" value="" placeholder="Insert OTP" class="form-control" required>
+            <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
+            aria-labelledby="modal-form" aria-hidden="true">
+            <div class="modal-dialog modal- modal-dialog-centered modal-sm"
+                role="document">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <div class="card-x bg-white border-0 mb-0">
+                            <div class="card-header-x bg-transparent pb-2ß"
+                                id="code">
+                                <div class="text-dark text-center mt-4 mb-3">
+                                    <font size="2px">Enter Amount </font>
+                                </div>
+                                <div class="text-center text-dark"><i
+                                        class="ni ni-key-25 icon-2x"></i></div>
+                            </div>
+
+                            <img src="{{url('/')}}/proccess.gif" id="loading"
+                                style="display: none;">
+
+                            <div class="card-body-x p-5">
+                                <form action="{{route('submit.otherpreview')}}" method="post">
+                                    @csrf
+                                    <input type="hidden" name="acct_no" value="{{$acct_no}}">
+                                    <input type="hidden" name="bank" value="{{$bank}}">
+                                    <input type="hidden" name="amount" value="{{$amount}}">
+                                    <label>Check your email for One Time Password</label><br>
+                                    <div class="form-group row">
+                                          <div class="col-lg-10">
+                                            <div class="input-group">
+
+                                              <input type="text" name="otp" value="" placeholder="Insert OTP" class="form-control" required>
+                                            </div>
+                                          </div>
+                                        </div><br><br>
+                                    <button type="submit" class="btn btn-sm" style="background-color: #17705a; color: #ffffff;">Confirm To Pay</button>
+                                  </form>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div><br><br>
-            <button type="submit" class="btn btn-sm" style="background-color: #17705a; color: #ffffff;">Send</button>
-          </form>
+                </div>
+            </div>
+        </div>
+
         </div>
       </div>
     </div>
