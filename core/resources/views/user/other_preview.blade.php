@@ -30,7 +30,8 @@
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount*$set->transfer_charge/100)}}</span><br />
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount+($amount*$set->transfer_charge/100))}}</span>
                 </div>
-
+<br />
+<br />
                 <div class="text-right">
                     <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
                         style="background-color: #17705a; color: #ffffff;">
