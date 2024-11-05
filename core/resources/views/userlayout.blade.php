@@ -883,8 +883,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 
 
-<div class="text-center" style="margin-top:; margin-bottom:10px">
-    <span class="text-center">©{{date('Y')}} {{$set->site_name}}.</span>
+<div class="text-center" style="margin-bottom:10px">
+    ©{{date('Y')}} {{$set->site_name}}.
 </div>
   </div>
 
