@@ -13,13 +13,13 @@
             <h3 class="text-center">{{$user->Currency}}{{number_format($amount)}}</h3>
 
 
-            <div class="conspbtw" style="width: 50%; margin: auto;">
+            <div class="conspbtw" style="width: 80%; margin: auto;">
                 <div class="lefutu">
                     <span>Amount: </span><br />
                 <span>Account number: </span><br />
                 <span>Name: </span><br />
                 <span>Bank Name: </span><br />
-                <span>Transfer fee: </span><br />
+                <span>Fee: </span><br />
                 <span>Total: </span>
                 </div>
                 <div class="rightu">
