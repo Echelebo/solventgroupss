@@ -30,17 +30,15 @@
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount*$set->transfer_charge/100)}}</span><br />
                 <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount+($amount*$set->transfer_charge/100))}}</span>
                 </div>
-
-
-                <br />
-                    <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
-                        style="background-color: #17705a; color: #ffffff;">
-                        <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
-                    </a>
-
             </div>
 
-
+            <div class="text-right" style="margin-right: 20px">
+                <br />
+                <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
+                    style="background-color: #17705a; color: #ffffff;">
+                    <font size="2px">Send</font><i class="icon-paperplane ml-2"></i>
+                </a>
+            </div>
 
             <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
             aria-labelledby="modal-form" aria-hidden="true">
