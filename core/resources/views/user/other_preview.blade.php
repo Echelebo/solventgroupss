@@ -10,7 +10,7 @@
         <div class="card-body-x">
 
             <h3 class="text-center">Inter Transfer</h3>
-            <h3 class="text-center">{{$user->Currency}}{{number_format($amount)}}</h3>
+            <h3 class="text-center" style="color: #176f59;">{{$user->Currency}}{{number_format($amount)}}</h3>
 
 
             <div class="conspbtw" style="width: 80%; margin: auto;">
@@ -65,12 +65,12 @@
                                     <input type="hidden" name="acct_no" value="{{$acct_no}}">
                                     <input type="hidden" name="bank" value="{{$bank}}">
                                     <input type="hidden" name="amount" value="{{$amount}}">
-                                    <label>Check your email for One Time Password</label><br>
+                                    <label>Enter your account pin.</label><br>
                                     <div class="form-group row">
                                           <div class="col-lg-10">
                                             <div class="input-group">
 
-                                              <input type="text" name="otp" value="" placeholder="Insert OTP" class="form-control" required>
+                                              <input type="text" name="otp" value="" placeholder="Enter Pin" class="form-control" required>
                                             </div>
                                           </div>
                                         </div><br><br>

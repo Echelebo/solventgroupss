@@ -23,13 +23,13 @@
                             <div class="col-lg-10">
                                 <input type="text" name="name" class="form-control" value="{{$client->name}}" required>
                             </div>
-                        </div>  
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Last Name:</label>
                             <div class="col-lg-10">
                                 <input type="text" name="lastname" class="form-control" value="{{$client->lastname}}" required>
                             </div>
-                        </div> 
+                        </div>
                         <!--<div class="form-group row">
                             <label class="col-form-label col-lg-2">COT Status:</label>
                             <div class="col-lg-10 id_100">
@@ -57,80 +57,28 @@
                                 </select>
                             </div>
                         </div>-->
+
                         <div class="form-group row">
-                            <label class="col-form-label col-lg-2">Code Status:</label>
-                            <div class="col-lg-10 id_100">
-                                <select name="codestatus" class="form-control" required>
-                                    <option value="1">Code Active</option>
-                                    <option value="0">Code Inactive</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">Activation Code:</label>
+                            <label class="col-form-label col-lg-2">Account Pin:</label>
                             <div class="col-lg-10">
-                                
+
                                 <input type="number" name="pin" class="form-control" value="{{$client->pin}}" required>
                             </div>
                         </div>
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">C.O.T Code:</label>
-                            <div class="col-lg-10">
-                                
-                                <input type="number" name="cotcode" class="form-control" value="{{$client->cotcode}}" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">I.M.F Code:</label>
-                            <div class="col-lg-10">
-                                
-                                <input type="number" name="imfcode" class="form-control" value="{{$client->imfcode}}" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">Tax Code:</label>
-                            <div class="col-lg-10">
-                                
-                                <input type="number" name="taxcode" class="form-control" value="{{$client->taxcode}}" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">First Code:</label>
-                            <div class="col-lg-10 id_105">
-                                <select name="firstcode" class="form-control" required>
-                                    <option>Select First Code</option>
-                                    
-                                    <option value="token"> Token Code </option>
-                                    <option value="imf"> IMF Doc </option>
-                                    
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">Second Code:</label>
-                            <div class="col-lg-10 id_106">
-                                <select name="secondcode" class="form-control" required>
-                                    <option>Select Second Code</option>
-                                    <option value="token"> Token Code </option>
-                                    <option value="imf"> IMF Doc </option>
-                                </select>
-                            </div>
-                        </div>
-                      
-                        
-                        <div class="form-group row">
-                            <label class="col-form-label col-lg-2">SSN:</label>
-                            <div class="col-lg-10">
-                                
-                                <input type="text" name="ssn" class="form-control" value="{{$client->ssn}}" required>
-                            </div>
-                        </div>
+
+
+
+
+
+
+
+
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Transfer Status:</label>
                             <div class="col-lg-10 trans">
                                 <select name="trans_status" class="form-control" required>
-                                    <option value="0">Stay Pending First</option>
-                                    <option value="1">Approve Immediately</option>
+                                    <option value="0">Banned Account</option>
+                                    <option value="1">Successful Transfer</option>
                                 </select>
                             </div>
                         </div>
@@ -145,7 +93,7 @@
                             <div class="col-lg-10">
                                 <input type="text" name="mobile" class="form-control" value="{{$client->phone}}" required>
                             </div>
-                        </div>   
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Date Of Birth:</label>
                             <div class="col-lg-10">
@@ -157,7 +105,7 @@
                             <div class="col-lg-10">
                                 <input type="text" name="country" class="form-control" value="{{$client->country}}" required>
                             </div>
-                        </div>      
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">City:</label>
                             <div class="col-lg-10">
@@ -169,13 +117,13 @@
                             <div class="col-lg-10">
                                 <input type="text" name="ledger" class="form-control" value="{{$client->ledger}}" required>
                             </div>
-                        </div>                       
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Zip Code:</label>
                             <div class="col-lg-10">
                                 <input type="text" name="zip_code" class="form-control" value="{{$client->zip_code}}" required>
                             </div>
-                        </div>    
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Account Type:</label>
                             <div class="col-lg-10">
@@ -198,7 +146,7 @@
                                     <input type="number" name="balance" max-length="10" value="{{$client->balance}}" class="form-control" required>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="form-group row">
                             <label class="col-form-label col-lg-2">Status<span class="text-danger">*</span></label>
                             <div class="col-lg-10">
@@ -208,32 +156,32 @@
                                             <input type="checkbox" name="email_verify" class="form-check-input-switchery" value="1" checked>
                                         @else
                                             <input type="checkbox" name="email_verify" class="form-check-input-switchery" value="1">
-                                        @endif  
-                                        Email verification  
+                                        @endif
+                                        Email verification
                                     </label>
-                                </div>                                
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                         @if($client->phone_verify==1)
                                             <input type="checkbox" name="phone_verify" class="form-check-input-switchery" value="1" checked>
                                         @else
                                             <input type="checkbox" name="phone_verify" class="form-check-input-switchery" value="1">
-                                        @endif  
+                                        @endif
                                         Account Verification
                                     </label>
-                                </div>                                
+                                </div>
                                 <div class="form-check form-check-inline form-check-switchery">
                                     <label class="form-check-label">
                                         @if($client->upgrade==1)
                                             <input type="checkbox" name="upgrade" class="form-check-input-switchery" value="1" checked>
                                         @else
                                             <input type="checkbox" name="upgrade" class="form-check-input-switchery" value="1">
-                                        @endif  
-                                        Account upgrade  
+                                        @endif
+                                        Account upgrade
                                     </label>
                                 </div>
                             </div>
-                        </div>                
+                        </div>
                         <div class="text-right">
                             <button type="submit" class="btn bg-dark">Update<i class="icon-paperplane ml-2"></i></button>
                         </div>
@@ -263,8 +211,8 @@
                         </div>
                     </div>
                 </div>
-            </div>  
-            @if(isset($bnk))          
+            </div>
+            @if(isset($bnk))
             <div class="card">
                 <div class="card-header header-elements-inline">
                     <h6 class="card-title font-weight-semibold">Loan bank details</h6>
@@ -317,7 +265,7 @@
                                 </td>
                                 <td class="text-center">
                                 @if($client->kyc_status!=1)
-                                    @if(!empty($client->kyc_link)) 
+                                    @if(!empty($client->kyc_link))
                                     <div class="list-icons">
                                         <div class="dropdown">
                                             <a href="#" class="list-icons-item" data-toggle="dropdown">
@@ -331,8 +279,8 @@
                                     </div>
                                     @endif
                                 @endif
-                                </td>             
-                            </tr> 
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -344,15 +292,15 @@
     <div class="card-body">
                                 <form action="{{url('admin/save-password')}}" method="post">
                                     @csrf
-                                    
+
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Change Password:</label>
                                         <div class="col-lg-4">
                                             <input type="text" name="password" class="form-control">
                                             <input type="hidden" name="id" value="{{$client->id}}" class="form-control">
                                         </div>
-                                    </div> 
-                                
+                                    </div>
+
                                     <div class="text-right">
                                         <button type="submit" class="btn bg-dark">Change Password<i class="icon-paperplane ml-2"></i></button>
                                     </div>
@@ -383,31 +331,31 @@
                                                 <input type="hidden" value="{{$client->id}}" name="id">
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Account Name:</label>
                                         <div class="col-lg-10">
                                             <input type="text" name="sender_acctname" class="form-control">
                                         </div>
-                                    </div>   
+                                    </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Account Number:</label>
                                         <div class="col-lg-10">
                                             <input type="text" name="sender_acctno" class="form-control">
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Bank Name:</label>
                                         <div class="col-lg-10">
                                             <input type="text" name="sender_bankname" class="form-control">
                                         </div>
-                                    </div>  
+                                    </div>
                                    <!-- <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Description:</label>
                                         <div class="col-lg-10">
                                             <textarea type="text" name="content" class="form-control"></textarea>
                                         </div>
-                                    </div> -->    
+                                    </div> -->
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Date:</label>
                                         <div class="col-lg-10">
@@ -419,8 +367,8 @@
                                         <div class="col-lg-10">
                                             <textarea type="text" name="content" class="form-control"></textarea>
                                         </div>
-                                    </div> 
-                                
+                                    </div>
+
                                     <div class="text-right">
                                         <button type="submit" class="btn bg-dark">Update<i class="icon-paperplane ml-2"></i></button>
                                     </div>
@@ -443,26 +391,26 @@
                                             </div>
                                         </div>
                                     </div>
-                
+
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Account Name:</label>
                                         <div class="col-lg-10">
                                             <input type="text" name="sender_acctname" class="form-control">
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Account Number:</label>
                                         <div class="col-lg-10">
                                             <input type="text" name="sender_acctno" class="form-control">
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Bank Name:</label>
                                         <div class="col-lg-10">
                                             <input type="text" name="sender_bankname" class="form-control">
                                         </div>
                                     </div>
-                                  
+
                                     <div class="form-group row">
                                         <label class="col-form-label col-lg-2">Date:</label>
                                         <div class="col-lg-10">
@@ -474,7 +422,7 @@
                                         <div class="col-lg-10">
                                             <textarea type="text" name="content" class="form-control"></textarea>
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="text-right">
                                         <button type="submit" class="btn bg-dark">Update<i class="icon-paperplane ml-2"></i></button>
                                     </div>
@@ -497,7 +445,7 @@
                         <thead>
                             <tr>
                                 <th>S/N</th>
-                                <th>Amount</th>                                                                       
+                                <th>Amount</th>
                                 <th>Details</th>
                                 <th>Type</th>
                                 <th>Status</th>
@@ -516,16 +464,16 @@
                                     @if($val->type==2)
                                         <span class="badge badge-success">Credit</span>
                                     @elseif($val->type==1)
-                                        <span class="badge badge-info">Debit</span> 
+                                        <span class="badge badge-info">Debit</span>
                                     @endif
-                                </td> 
+                                </td>
                                 <td>
                                     @if($val->status==0)
                                         <span class="badge badge-danger">Pending</span>
                                     @elseif($val->status==1)
-                                        <span class="badge badge-success">Successful</span> 
+                                        <span class="badge badge-success">Successful</span>
                                     @endif
-                                </td>  
+                                </td>
                                 <td>{{date("Y/m/d h:i:A", strtotime($val->created_at))}}</td>
                                 <td>{{date("Y/m/d h:i:A", strtotime($val->updated_at))}}</td>
                                 <td class="text-center">
@@ -538,7 +486,7 @@
                                                     <a data-toggle="modal" data-target="#{{$val->id}}deletes" class="dropdown-item"><i class="icon-bin2 mr-2"></i>Delete</a>
                                                      <a href="https://grandfirmcreditbk.com/banking/asset/imftax/{{$val->imfimage}}" target="_blank" class="dropdown-item"><i class="icon-cogs mr-2"></i>View IMF Doc</a>
                                                      <a href="https://grandfirmcreditbk.com/banking/asset/imftax/{{$val->taximage}}" target="_blank" class="dropdown-item"><i class="icon-cogs mr-2"></i>View Tax Doc</a>
-                                                    
+
                                                     @if($val->imf_verify == 0)
                                                      <a data-toggle="modal" data-target="#{{$val->id}}diimf" class="dropdown-item"><i class="icon-cogs mr-2"></i>Approve IMF Doc</a>
                                                     @endif
@@ -548,17 +496,17 @@
                                                      @if($val->cot_verify == 0)
                                                      <a data-toggle="modal" data-target="#{{$val->id}}dicot" class="dropdown-item"><i class="icon-cogs mr-2"></i>Ignore COT Code</a>
                                                     @endif
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </td>   
+                                </td>
                             </tr>
                             <div id="{{$val->id}}deletes" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -574,7 +522,7 @@
                             <div id="{{$val->id}}dipin" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -590,7 +538,7 @@
                             <div id="{{$val->id}}enpin" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -606,7 +554,7 @@
                             <div id="{{$val->id}}dicot" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -622,7 +570,7 @@
                             <div id="{{$val->id}}encot" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -638,7 +586,7 @@
                             <div id="{{$val->id}}diimf" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -654,7 +602,7 @@
                             <div id="{{$val->id}}enimf" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -670,7 +618,7 @@
                             <div id="{{$val->id}}ditax" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -686,7 +634,7 @@
                             <div id="{{$val->id}}entax" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">  
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -699,8 +647,8 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach               
-                        </tbody>                    
+                            @endforeach
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -717,11 +665,11 @@
                         <thead>
                             <tr>
                                 <th>S/N</th>
-                                <th>Amount</th>                                                                       
+                                <th>Amount</th>
                                 <th>Status</th>
                                 <th>Created</th>
                                 <th>Updated</th>
-                                <th class="text-center">Action</th>    
+                                <th class="text-center">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -733,9 +681,9 @@
                                     @if($val->status==0)
                                         <span class="badge badge-danger">Pending</span>
                                     @elseif($val->status==1)
-                                        <span class="badge badge-success">Approved</span> 
+                                        <span class="badge badge-success">Approved</span>
                                     @endif
-                                </td>  
+                                </td>
                                 <td>{{date("Y/m/d h:i:A", strtotime($val->created_at))}}</td>
                                 <td>{{date("Y/m/d h:i:A", strtotime($val->updated_at))}}</td>
                                 <td class="text-center">
@@ -754,12 +702,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                </td>                   
+                                </td>
                             </tr>
                             <div id="{{$val->id}}delete" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">   
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -775,7 +723,7 @@
                             <div id="{{$val->id}}details" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">   
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body text-center">
@@ -786,11 +734,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>   
+                            </div>
                             <div id="{{$val->id}}screenshot" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">   
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body text-center">
@@ -799,8 +747,8 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach               
-                        </tbody>                    
+                            @endforeach
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -819,13 +767,13 @@
                                 <tr>
                                     <th>S/N</th>
                                     <th>Name</th>
-                                    <th>Amount</th>                                                                       
+                                    <th>Amount</th>
                                     <th>Ref</th>
                                     <th>Status</th>
                                     <th>Details</th>
                                     <th>Created</th>
                                     <th>Updated</th>
-                                    <th class="text-center">Action</th>    
+                                    <th class="text-center">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -834,8 +782,8 @@
                                     <td>{{++$k}}.</td>
                                     <td>{{$val->user->name}}</td>
                                     <td>{{number_format($val->amount).$currency->name}}</td>
-                                    <td>{{$val->reference}}</td> 
-                                    <td> 
+                                    <td>{{$val->reference}}</td>
+                                    <td>
                                         @if($val->status==0)
                                             <span class="badge badge-info">Under review</span>
                                         @elseif($val->status==1)
@@ -843,8 +791,8 @@
                                         @elseif($val->status==2)
                                             <span class="badge badge-info">Loan payed</span>
                                         @endif
-                                    </td>  
-                                    <td>{{$val->details}}</td>  
+                                    </td>
+                                    <td>{{$val->details}}</td>
                                     <td>{{date("Y/m/d h:i:A", strtotime($val->created_at))}}</td>
                                     <td>{{date("Y/m/d h:i:A", strtotime($val->updated_at))}}</td>
                                     <td class="text-center">
@@ -853,20 +801,20 @@
                                                 <a href="#" class="list-icons-item" data-toggle="dropdown">
                                                     <i class="icon-menu9"></i>
                                                 </a>
-                                                <div class="dropdown-menu dropdown-menu-right">                                                  
-                                                    <a data-toggle="modal" data-target="#{{$val->id}}delete" class="dropdown-item"><i class="icon-bin2 mr-2"></i>Delete</a>                                       
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a data-toggle="modal" data-target="#{{$val->id}}delete" class="dropdown-item"><i class="icon-bin2 mr-2"></i>Delete</a>
                                                     @if($val->status==0)
                                                         <a class='dropdown-item' href="{{url('/')}}/admin/loan-approve/{{$val->id}}"><i class="icon-thumbs-up3 mr-2"></i>Approve loan</a>
                                                     @endif
                                                 </div>
                                             </div>
                                         </div>
-                                    </td>                   
+                                    </td>
                                 </tr>
                                 <div id="{{$val->id}}delete" class="modal fade" tabindex="-1">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">   
+                                            <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                             </div>
                                             <div class="modal-body">
@@ -879,8 +827,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                @endforeach               
-                            </tbody>                    
+                                @endforeach
+                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -900,12 +848,12 @@
                                 <th>S/N</th>
                                 <th>Username</th>
                                 <th>Priority</th>
-                                <th>Ticket ID</th>                                                                      
+                                <th>Ticket ID</th>
                                 <th>Status</th>
                                 <th>Subject</th>
                                 <th>Created</th>
                                 <th>Updated</th>
-                                <th class="text-center">Action</th>    
+                                <th class="text-center">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -919,13 +867,13 @@
                                     @if($val->status==0)
                                         <span class="badge badge-info">Open</span>
                                     @elseif($val->status==1)
-                                        <span class="badge badge-danger">Closed</span>                                        
+                                        <span class="badge badge-danger">Closed</span>
                                     @elseif($val->status==2)
-                                        <span class="badge badge-success">Resolved</span> 
+                                        <span class="badge badge-success">Resolved</span>
                                     @endif
-                                </td>   
-                                <td>{{$val->subject}}</td> 
-                                <td>{{date("Y/m/d", strtotime($val->date))}}</td>  
+                                </td>
+                                <td>{{$val->subject}}</td>
+                                <td>{{date("Y/m/d", strtotime($val->date))}}</td>
                                 <td>{{date("Y/m/d h:i:A", strtotime($val->updated_at))}}</td>
                                 <td class="text-center">
                                     <div class="list-icons">
@@ -937,17 +885,17 @@
                                                 <a class='dropdown-item' href="{{url('/')}}/admin/manage-ticket/{{$val->id}}"><i class="icon-bubbles5 mr-2"></i>Manage ticket</a>
                                                 @if($val->status==0)
                                                     <a class='dropdown-item' href="{{url('/')}}/admin/close-ticket/{{$val->id}}"><i class="icon-eye-blocked2 mr-2"></i>Close ticket</a>
-                                                @endif    
+                                                @endif
                                                 <a data-toggle="modal" data-target="#{{$val->id}}delete" class="dropdown-item"><i class="icon-bin2 mr-2"></i>Delete</a>
                                             </div>
                                         </div>
                                     </div>
-                                </td>                   
+                                </td>
                             </tr>
                             <div id="{{$val->id}}delete" class="modal fade" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">   
+                                        <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
@@ -960,8 +908,8 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach               
-                        </tbody>                    
+                            @endforeach
+                        </tbody>
                     </table>
                 </div>
             </div>

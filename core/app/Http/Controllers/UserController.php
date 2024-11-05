@@ -450,26 +450,10 @@ class UserController extends Controller
         }
     }
 
-    public function submitownbankotp(Request $request)
-    {
-        $otp = $request->otp;
-        $user=$data['user']=User::find(Auth::user()->id);
-        $user->otp=$otp;
-        $user->save();
-
-            $text = 'This is your transfer OTP <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
-    }
 
      public function submitownbank(Request $request)
     {
-            $otp = rand(1000, 9000);
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
 
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
             $set=Settings::first();
         $currency=Currency::whereStatus(1)->first();
         $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
@@ -496,7 +480,7 @@ class UserController extends Controller
                         return back()->with('alert', 'Invalid account number.');
                     }
                 }else{
-                    return back()->with('alert', 'You cant transfer money to the same account.');
+                    return back()->with('alert', 'You cannot transfer money to the same account.');
                 }
            /* }else{
                 return back()->with('alert', 'Invalid pin.');
@@ -512,8 +496,7 @@ class UserController extends Controller
     public function submitlocalpreview(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
-        $ptime = Carbon::parse()->addMinutes(10);
-        if($request->otp==$user->otp){
+        if($request->otp==$user->pin){
         $set=Settings::first();
         $currency=Currency::whereStatus(1)->first();
         $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
@@ -548,11 +531,6 @@ class UserController extends Controller
         $credit['balance']=$trans->balance + $amountx;
         }
         $credit['account']=$trans->acct_no;
-        $credit['activation_verify']=1;
-        $credit['cot_verify']=1;
-        $credit['imf_verify']=1;
-        $credit['tax_verify']=1;
-        $credit['code_count']=4;
         $credit['type']=2;
         $credit['seen']=0;
         $credit['status']=1;
@@ -583,34 +561,9 @@ class UserController extends Controller
         $debit['seen']=0;
         if($user->trans_status==0){
         $debit['status']=0;
-        $debit['pdates']=$ptime;
-        if($user->activatecode==1){
-        $debit['activation_verify']=1;
-        $debit['requested_code']=1;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==2){
-        $debit['cot_verify']=1;
-        $debit['requested_code']=2;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==3){
-        $debit['imf_verify']=1;
-        $debit['requested_code']=3;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==4){
-        $debit['tax_verify']=1;
-        $debit['requested_code']=4;
-        $debit['code_count']=0;
-        }else{
-        $debit['requested_code']=6;
-        $debit['code_count']=0;
-        }
         }else{
          $debit['status']=1;
-         $debit['activation_verify']=1;
-         $debit['cot_verify']=1;
-         $debit['imf_verify']=1;
-         $debit['tax_verify']=1;
-        $debit['code_count']=4;
+
         }
         $debit['reference']=$token;
         Alerts::create($debit);
@@ -622,8 +575,8 @@ class UserController extends Controller
 
 	   if($user->trans_status==1){
 	       if($set->sms_notify==1){
-           send_sms($user->phone, 'Grand Firm Credit Bank, ' . $content);
-           send_sms($trans->phone, 'Grand Firm Credit Bank, ' . $contentx);
+           send_sms($user->phone, 'Solvent Groups, ' . $content);
+           send_sms($trans->phone, 'Solvent Groups, ' . $contentx);
        }
         if($set['email_notify']==1){
            send_email($user->email, $user->username, 'Debit alert', $content);
@@ -631,24 +584,22 @@ class UserController extends Controller
        }
 	   }
 
-        session()->flash('success', 'Correct OTP');
+        session()->flash('success', 'Correct Pin');
 
         if($user->trans_status==0){
-                        Session::put('Acctno', $request->acct_no);
-                        return redirect()->route('viewr', $debit['reference']);
+            return back()->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
                         }else{
-                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');
+                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Transfer Successful');
                         }
 }else{
-                return back()->with('alert', 'Invalid OTP.');
+                return back()->with('alert', 'Invalid Pin.');
             }
     }
 
 public function submitotherpreview(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
-        $ptime = Carbon::parse()->addMinutes(10);
-        if($request->otp==$user->otp){
+        if($request->otp==$user->pin){
         $set=Settings::first();
         $currency=Currency::whereStatus(1)->first();
         $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
@@ -687,34 +638,11 @@ public function submitotherpreview(Request $request)
                         $debit['seen']=0;
                         if($user->trans_status==0){
         $debit['status']=0;
-        $debit['pdates']=$ptime;
-        if($user->activatecode==1){
-        $debit['activation_verify']=1;
-        $debit['requested_code']=1;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==2){
-        $debit['cot_verify']=1;
-        $debit['requested_code']=2;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==3){
-        $debit['imf_verify']=1;
-        $debit['requested_code']=3;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==4){
-        $debit['tax_verify']=1;
-        $debit['requested_code']=4;
-        $debit['code_count']=0;
-        }else{
-        $debit['requested_code']=6;
-        $debit['code_count']=0;
-        }
+
+
         }else{
          $debit['status']=1;
-         $debit['activation_verify']=1;
-         $debit['cot_verify']=1;
-         $debit['imf_verify']=1;
-         $debit['tax_verify']=1;
-        $debit['code_count']=4;
+
         }
                         $debit['reference']=$token;
                         Alerts::create($debit);
@@ -727,28 +655,28 @@ public function submitotherpreview(Request $request)
 
 
                         if($user->trans_status==0){
-                        return redirect()->route('viewr', $debit['reference']);
+                        return back()->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
                         }else{
                             if($set->sms_notify==1){
-                        send_sms($user->phone, 'Grand Firm Credit Bank, ' . $content);
+                        send_sms($user->phone, 'Solvent Groups, ' . $content);
                          }
                             if($set['email_notify']==1){
                        send_email($user->email, $user->username, 'Debit alert', $content);
                        }
-                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');
+                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Transfer Successful');
 
                         }
 
 }else{
-                return back()->with('alert', 'Invalid OTP.');
+                return back()->with('alert', 'Invalid Pin.');
             }
     }
 
     public function submitotherpreviewx(Request $request)
     {
         $user=$data['user']=User::find(Auth::user()->id);
-        $ptime = Carbon::parse()->addMinutes(10);
-        if($request->otp==$user->otp){
+
+        if($request->otp==$user->pin){
         $set=Settings::first();
         $currency=Currency::whereStatus(1)->first();
         $amountx=$request->amount+($request->amount*$set->transfer_charge/100);
@@ -788,34 +716,10 @@ public function submitotherpreview(Request $request)
                         $debit['seen']=0;
                         if($user->trans_status==0){
         $debit['status']=0;
-        $debit['pdates']=$ptime;
-        if($user->activatecode==1){
-        $debit['activation_verify']=1;
-        $debit['requested_code']=1;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==2){
-        $debit['cot_verify']=1;
-        $debit['requested_code']=2;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==3){
-        $debit['imf_verify']=1;
-        $debit['requested_code']=3;
-        $debit['code_count']=0;
-        }elseif($user->activatecode==4){
-        $debit['tax_verify']=1;
-        $debit['requested_code']=4;
-        $debit['code_count']=0;
-        }else{
-        $debit['requested_code']=6;
-        $debit['code_count']=0;
-        }
+
         }else{
          $debit['status']=1;
-         $debit['activation_verify']=1;
-         $debit['cot_verify']=1;
-         $debit['imf_verify']=1;
-         $debit['tax_verify']=1;
-        $debit['code_count']=4;
+
         }
                         $debit['reference']=$token;
                         Alerts::create($debit);
@@ -825,15 +729,15 @@ public function submitotherpreview(Request $request)
          $user->save();
 		}
                         if($user->trans_status==0){
-                        return redirect()->route('viewr', $debit['reference']);
+                            return back()->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
                         }else{
                             if($set->sms_notify==1){
-                        send_sms($user->phone, 'Grand Firm Credit Bank, ' . $content);
+                        send_sms($user->phone, 'Solvent Groups, ' . $content);
                          }
                             if($set['email_notify']==1){
                        send_email($user->email, $user->username, 'Debit alert', $content);
                        }
-                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Succesful Transfer');
+                        return redirect()->route('viewr', $debit['reference'])->with('success', 'Transfer Successful');
 
                         }
 
@@ -844,14 +748,6 @@ public function submitotherpreview(Request $request)
 
     public function submitotherbank(Request $request)
     {
-
-        $otp = rand(1000, 9000);
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
         $set=Settings::first();
         $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
         $token = round(microtime(true));
@@ -871,7 +767,7 @@ public function submitotherpreview(Request $request)
                         return back()->with('alert', 'Account balance is insufficient');
                     }
                 }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
+                    return back()->with('alert', 'You cannot transfer money to the same account.');
                 }
             /*}else{
                 return back()->with('alert', 'Invalid pin.');
@@ -1038,13 +934,6 @@ public function submitotherpreview(Request $request)
 
     public function submitlocaltrans(Request $request)
     {
-        $otp = rand(1000, 9000);
-         $user=$data['user']=User::find(Auth::user()->id);
-            $user->otp=$otp;
-        $user->save();
-
-            $text = 'This is your transfer One Time Password (OTP) <br />OTP: '.$user->otp;
-            send_email($user->email, $user->name, 'Transfer OTP', $text);
 
         $set=Settings::first();
         $amountx=$request->amount+($request->amount*$set->transfer_chargex/100);
@@ -1065,7 +954,7 @@ public function submitotherpreview(Request $request)
                         return back()->with('alert', 'Account balance is insufficient');
                     }
                 }else{
-                    return back()->with('alert', 'You cant transfer money to thesame account.');
+                    return back()->with('alert', 'You cannot transfer money to the same account.');
                 }
            // }else{
              //   return back()->with('alert', 'Invalid pin.');
