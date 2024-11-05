@@ -9,7 +9,7 @@
       <div class="card-x bg-white">
         <div class="card-body-x">
 
-            <h3 class="text-center">Inter Transfer</h3>
+            <h3 class="text-center">Solvent Transfer</h3>
             <h3 class="text-center" style="color: #176f59;">{{$user->Currency}}{{number_format($amount)}}</h3>
 
 

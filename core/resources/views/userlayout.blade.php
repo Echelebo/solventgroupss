@@ -638,14 +638,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
                       <svg class="icon-icon-password">
                         <use xlink:href="#icon-password"></use>
                       </svg></span><span>Change Pin</span></a>
-                  <!-- <a class="profile-dropdown__item dropdown-menu__item" href="editpass.php" tabindex="0"><span class="profile-dropdown__icon">
-                                            <svg class="icon-icon-task">
-                                                <use xlink:href="#icon-task"></use>
-                                            </svg></span><span>Tasks</span></a> -->
-                  <!-- <a class="profile-dropdown__item dropdown-menu__item" href="#" tabindex="0"><span class="profile-dropdown__icon">
-                                            <svg class="icon-icon-settings">
-                                                <use xlink:href="#icon-settings"></use>
-                                            </svg></span><span>Settings</span></a> -->
+                  
+                 
                   <div class="dropdown-menu__divider"></div><a class="profile-dropdown__item dropdown-menu__item"
                     href="{{route('user.logout')}}" tabindex="0"><span class="profile-dropdown__icon">
                       <svg class="icon-icon-logout">
