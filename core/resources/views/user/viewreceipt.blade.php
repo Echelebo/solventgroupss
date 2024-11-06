@@ -24,7 +24,7 @@
 @endif</p>
 
 
-            <div class="text-right" style="margin-right: 120px">
+            <div class="text-right" style="margin-right: 120px; margin-top: 30px;">
                 <br />
                 <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
                     style="background-color: #17705a; color: #ffffff;">
