@@ -8,11 +8,19 @@
     <div class="col-lg-12 col-md-12 col-sm-12">
       <div class="card-x bg-white">
         <div class="card-body-x">
-
-            <div class="text-center"><img src="{{url('/')}}/newee/img/mark.png" width="50" height="50" / ></div>
+            @foreach ($reference as $hh)
+            <div class="text-center"><img src="{{url('/')}}/newee/img/mark.png" width="50" height="50" / >
             <h4 class="text-center">Successful</h4>
+            @if ($hh->type == 1)
             <h3 class="text-center"><b>{{$user->Currency}}{{number_format($amount)}}</b></h3>
-<p>Kindly note the actual credit time subject to the bank.</p>
+            @elseif($hh->type == 2)
+            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($amount)}}</b></h3>
+            @endif
+<p class="text-center">@if ($hh->valuex == 1)
+    {{ $hh->dates }}
+@elseif($hh->valuex == 0)
+    {{ $hh->created_at }}
+@endif</p>
 
 
             <div class="text-right" style="margin-right: 120px">
@@ -31,7 +39,6 @@
                     <div class="modal-body p-0">
                         <div class="card-x bg-white border-0 mb-0">
 <div class="card-body-x p-5">
-    @foreach ($reference as $hh)
                                 <div class="conspbtw" style="width: 80%; margin: auto;">
                                     <div class="text-right">
                                     <img src="{{url('/')}}/asset/{{ $logo->image_link }}" width="150">
@@ -50,12 +57,7 @@
                                     <span>Total: </span>
                                     </div>
                                     <div class="rightu">
-                                        <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount)}}</span><br />
-                                    <span class="font-weight-semibold">{{$acct_no}}</span><br />
-                                    <span class="font-weight-semibold">{{$acct_name}}</span><br />
-                                    <span class="font-weight-semibold">{{$bank}}</span><br />
-                                    <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount*$set->transfer_charge/100)}}</span><br />
-                                    <span class="font-weight-semibold">{{$user->Currency}}{{number_format($amount+($amount*$set->transfer_charge/100))}}</span>
+
                                     </div>
                                 </div>
                                 @endforeach
