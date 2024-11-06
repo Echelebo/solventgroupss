@@ -15,7 +15,7 @@
             @if ($hh->type == 1)
             <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
             @elseif($hh->type == 2)
-            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($$hh->amount)}}</b></h3>
+            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
             @endif
 <p class="text-center">@if ($hh->valuex == 1)
     {{ $hh->dates }}
@@ -44,7 +44,7 @@
                                     <div class="text-right">
                                     <img src="{{url('/')}}/asset/{{ $logo->image_link }}" width="150">
                                     div class="text-center"></div>
-                                    <h3 class="text-center" style="color: #176f59;"><b>{{$user->Currency}}{{number_format($amount)}}</b></h3>
+                                    <h3 class="text-center" style="color: #176f59;"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
             <h4 class="text-center">Successful Transaction</h4>
 
 <p>Kindly note the actual credit time subject to the bank.</p>
