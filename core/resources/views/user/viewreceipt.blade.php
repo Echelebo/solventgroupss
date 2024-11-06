@@ -12,9 +12,9 @@
             <div class="text-center"><img src="{{url('/')}}/newee/img/mark.png" width="50" height="50" / >
             <h4 class="text-center">Successful</h4>
             @if ($hh->type == 1)
-            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($amount)}}</b></h3>
+            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
             @elseif($hh->type == 2)
-            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($amount)}}</b></h3>
+            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($$hh->amount)}}</b></h3>
             @endif
 <p class="text-center">@if ($hh->valuex == 1)
     {{ $hh->dates }}
