@@ -10,6 +10,7 @@
         <div class="card-body-x">
             @foreach ($reference as $hh)
             <div class="text-center"><img src="{{url('/')}}/newee/img/mark.png" width="50" height="50" / >
+            </div>
             <h4 class="text-center">Successful</h4>
             @if ($hh->type == 1)
             <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
