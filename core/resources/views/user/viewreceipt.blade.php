@@ -9,7 +9,7 @@
       <div class="card-x bg-white">
         <div class="card-body-x">
             @foreach ($reference as $hh)
-            <div class="text-center-x"><img src="{{url('/')}}/newe/img/mark.png" width="10px" height="10px" / >
+            <div class="text-center-x" style="width: 50px" ><img src="{{url('/')}}/newe/img/mark.png" / >
             </div>
             <h4 class="text-center">Successful</h4>
             @if ($hh->type == 1)
