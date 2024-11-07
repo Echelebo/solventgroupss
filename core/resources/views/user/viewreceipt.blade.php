@@ -43,7 +43,7 @@
 <div class="card-body-x p-5">
                                 <div class="conspbtw" style="width: 80%; margin: auto;">
 
-                                    <img class="text-right"  src="{{url('/')}}/asset/{{ $logo->image_link }}" width="150">
+                                    <img class="text-right"  src="{{url('/')}}/asset/{{ $logo->image_link }}" width="40">
 
                                     @if ($hh->type == 1)
             <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
