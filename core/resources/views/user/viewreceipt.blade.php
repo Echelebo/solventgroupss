@@ -58,7 +58,7 @@
 @elseif($hh->valuex == 0)
 {{ $hh->created_at }}
 @endif</p>
-                                <div class="conspbtw" style="width: 80%; margin: auto;">
+                                <div class="conspbtw" style="width: 90%; margin: auto;">
 
 
 
@@ -71,7 +71,7 @@
                                     <span>Sender: </span><br />
                                     @endif
                                     @if ($hh->type == 1)
-                                                                <span>Beneficiary Bank:</span><br />
+                                                                <span>Recipient Bank:</span><br />
                                                             @elseif($hh->type == 2)
                                                                 <span>Sender Bank:</span><br />
                                                             @endif
