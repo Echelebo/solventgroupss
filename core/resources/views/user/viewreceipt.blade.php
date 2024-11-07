@@ -17,7 +17,8 @@
             @elseif($hh->type == 2)
             <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
             @endif
-<p class="text-center">@if ($hh->valuex == 1)
+<p class="text-center">
+    @if ($hh->valuex == 1)
     {{ $hh->dates }}
 @elseif($hh->valuex == 0)
     {{ $hh->created_at }}
