@@ -25,7 +25,7 @@
 @endif</p>
 
 
-            <div class="text-right" style="margin-right: 120px; margin-top: 80px;">
+            <div class="text-right" style="margin-right: 5px; margin-top: 100px;">
                 <br />
                 <a href="#" data-toggle="modal" data-target="#modal-form{{ $hh->reference }}" class="btn"
                     style="background-color: #17705a; color: #ffffff;">
@@ -94,7 +94,7 @@
                                 @endforeach
 
 
-                                <div class="text-left" style="margin-left: 10px">
+                                <div class="text-left" style="margin-left: 10px; margin-top: 10px;">
                                     <br />
                                     <a href="#" class="btn"
                                         style="background-color: #17705a; color: #ffffff;">
