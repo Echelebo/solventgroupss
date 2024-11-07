@@ -11,7 +11,7 @@
             @foreach ($reference as $hh)
             <div class="text-center" style="width: 40px; margin: auto;" ><img src="{{url('/')}}/newe/img/mark.png" / >
             </div>
-            <h4 class="text-center">Successful</h4>
+            <h4 class="text-center mt-5">Successful</h4>
             @if ($hh->type == 1)
             <h3 class="text-center" style="color:darkred;"><b>- {{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
             @elseif($hh->type == 2)
@@ -42,13 +42,13 @@
                         <div class="card-x bg-white border-0 mb-0">
 <div class="card-body-x p-5">
 
-    <div class="text-left mt-5" style="width: 100px; margin-left: 5px; " ><img src="{{url('/')}}/asset/{{ $logo->image_link }}" / >
+    <div class="text-left" style="width: 100px; margin-left: 5px; " ><img src="{{url('/')}}/asset/{{ $logo->image_link }}" / >
     </div>
 
     @if ($hh->type == 1)
-    <h3 class="text-center" style="color:darkred;"><b>- {{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
+    <h3 class="text-center mt-5" style="color:darkred;"><b>- {{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
     @elseif($hh->type == 2)
-    <h3 class="text-center" style="color:#17705a;"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
+    <h3 class="text-center mt-5" style="color:#17705a;"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
     @endif
 
     <h4 class="text-center">Successful Transaction</h4>
