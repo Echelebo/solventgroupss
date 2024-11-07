@@ -43,22 +43,47 @@
                                 <div class="conspbtw" style="width: 80%; margin: auto;">
                                     <div class="text-right">
                                     <img src="{{url('/')}}/asset/{{ $logo->image_link }}" width="150">
-                                    div class="text-center"></div>
-                                    <h3 class="text-center" style="color: #176f59;"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
+                                    </div>
+                                    @if ($hh->type == 1)
+            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
+            @elseif($hh->type == 2)
+            <h3 class="text-center"><b>{{$user->Currency}}{{number_format($hh->amount)}}</b></h3>
+            @endif
             <h4 class="text-center">Successful Transaction</h4>
 
-<p>Kindly note the actual credit time subject to the bank.</p>
+<p class="text-center">@if ($hh->valuex == 1)
+    {{ $hh->dates }}
+@elseif($hh->valuex == 0)
+    {{ $hh->created_at }}
+@endif</p>
 
                                     <div class="lefutu">
-                                    <span>Transaction Date: </span><br />
-                                    <span>Debit Account: </span><br />
-                                    <span>Name: </span><br />
-                                    <span>Bank Name: </span><br />
-                                    <span>Fee: </span><br />
-                                    <span>Total: </span>
+                                    @if ($hh->type == 1)
+                                    <span>Sender: </span><br />
+                                    <span>Recipient: </span><br />
+                                    @elseif($hh->type == 2)
+                                    <span>Recipient: </span><br />
+                                    <span>Sender: </span><br />
+                                    @endif
+                                    @if ($hh->type == 1)
+                                                                <span>Beneficiary Bank:</span><br />
+                                                            @elseif($hh->type == 2)
+                                                                <span>Sender Bank:</span><br />
+                                                            @endif
+                                    <span>Reference: </span><br />
+                                    <span>Amount: </span><br />
                                     </div>
                                     <div class="rightu">
-
+                                        @if ($hh->type == 1)
+                                    <span>{{ $hh->account }}</span><br />
+                                    <span>{{ $hh->sender_acctno }}</span><br />
+                                    @elseif($hh->type == 2)
+                                    <span>{{ $hh->account }}</span><br />
+                                    <span>{{ $hh->sender_acctno }}</span><br />
+                                    @endif
+                                    <span>{{ $hh->sender_bankname }}</span><br />
+                                    <span>{{ $hh->reference }}</span><br />
+                                    <span>{{ $user->Currency }}{{ number_format($hh->amount, 2) }}</span><br />
                                     </div>
                                 </div>
                                 @endforeach
