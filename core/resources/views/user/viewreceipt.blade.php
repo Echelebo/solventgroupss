@@ -94,7 +94,7 @@
                                 @endforeach
 
 
-                                <div class="text-right" style="margin-right: 120px">
+                                <div class="text-left" style="margin-left: 10px">
                                     <br />
                                     <a href="#" class="btn"
                                         style="background-color: #17705a; color: #ffffff;">
