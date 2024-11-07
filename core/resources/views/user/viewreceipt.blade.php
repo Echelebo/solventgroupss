@@ -26,13 +26,13 @@
 
             <div class="text-right" style="margin-right: 120px; margin-top: 80px;">
                 <br />
-                <a href="#" data-toggle="modal" data-target="#modal-form" class="btn"
+                <a href="#" data-toggle="modal" data-target="#modal-form{{ $hh->reference }}" class="btn"
                     style="background-color: #17705a; color: #ffffff;">
                     <font size="2px">View Receipt</font><i class="icon-paperplane ml-2"></i>
                 </a>
             </div>
 
-            <div class="modal fade" id="modal-form" tabindex="-1" role="dialog"
+            <div class="modal fade" id="modal-form{{ $hh->reference }}" tabindex="-1" role="dialog"
             aria-labelledby="modal-form" aria-hidden="true">
             <div class="modal-dialog modal- modal-dialog-centered modal-sm"
                 role="document">
@@ -87,6 +87,15 @@
                                     </div>
                                 </div>
                                 @endforeach
+
+
+                                <div class="text-right" style="margin-right: 120px">
+                                    <br />
+                                    <a href="#" class="btn"
+                                        style="background-color: #17705a; color: #ffffff;">
+                                        <font size="2px">Share Receipt</font><i class="icon-paperplane ml-2"></i>
+                                    </a>
+                                </div>
 
                             </div>
 
