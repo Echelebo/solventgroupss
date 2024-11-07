@@ -42,7 +42,7 @@
                         <div class="card-x bg-white border-0 mb-0">
 <div class="card-body-x p-5">
 
-    <div class="text-left" style="width: 30px; margin: auto;" ><img src="{{url('/')}}/asset/{{ $logo->image_link }}" / >
+    <div class="text-left" style="width: 30px; margin-left: 5px;" ><img src="{{url('/')}}/asset/{{ $logo->image_link }}" / >
     </div>
 
     @if ($hh->type == 1)
