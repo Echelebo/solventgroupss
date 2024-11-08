@@ -141,7 +141,7 @@
 
 document.getElementById('saveAsPDFBtn').addEventListener('click', function() {
     var element = document.getElementById('modalContent'); // Your modal content ID
-    var pdf = new jsPDF();
+    var pdf = window.jspdf;
     pdf.fromHTML(element.innerHTML);
     pdf.save('receipt.pdf');
 });
