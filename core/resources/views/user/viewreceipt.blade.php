@@ -96,14 +96,14 @@
 
                                 <div >
 
-                                    <a class="text-left btn btw" style="margin-top: 10px; background-color: #17705a; color: #ffffff;" href="#" id="saveAsPDFBtn"
+                                    <button class="text-left btn btw" style="margin-top: 10px; background-color: #17705a; color: #ffffff;"  id="saveAsPDFBtn"
                                         >
                                         <font size="2px">Save As PDF</font><i class="icon-paperplane ml-2"></i>
-                                    </a>
-                                    <a href="#" class="text-right btn btw" style="margin-left: 20px; margin-top: 10px; background-color: #17705a; color: #ffffff;" id="saveAsImageBtn"
+                                </button>
+                                    <button class="text-right btn btw" style="margin-left: 20px; margin-top: 10px; background-color: #17705a; color: #ffffff;" id="saveAsImageBtn"
                                         >
                                         <font size="2px">Save As Image</font><i class="icon-paperplane ml-2"></i>
-                                    </a>
+                            </button>
                                 </div>
 
 
