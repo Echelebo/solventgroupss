@@ -94,20 +94,21 @@
                                 @endforeach
 
 
-                                <div class="text-left" style="margin-left: 10px; margin-top: 10px;">
-                                    <br />
-                                    <a href="#" class="btn" id="saveAsPDFBtn"
+                                <div >
+
+                                    <a class="text-left btn" style="margin-left: 10px; margin-top: 10px;" href="#" id="saveAsPDFBtn"
                                         style="background-color: #17705a; color: #ffffff;">
                                         <font size="2px">Save As PDF</font><i class="icon-paperplane ml-2"></i>
                                     </a>
-                                </div>
-                                <div class="text-right" style="margin-right: 10px; margin-top: 10px;">
-                                    <br />
-                                    <a href="#" class="btn" id="saveAsImageBtn"
+                                    <a href="#" class="text-right btn" style="margin-right: 10px; margin-top: 10px;" id="saveAsImageBtn"
                                         style="background-color: #17705a; color: #ffffff;">
                                         <font size="2px">Save As Image</font><i class="icon-paperplane ml-2"></i>
                                     </a>
                                 </div>
+
+
+
+
 
                             </div>
 
