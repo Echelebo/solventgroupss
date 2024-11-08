@@ -37,7 +37,7 @@
             aria-labelledby="modal-form" aria-hidden="true">
             <div class="modal-dialog modal- modal-dialog-centered modal-sm"
                 role="document">
-                <div class="modal-content">
+                <div class="modal-content" id="modalContent">
                     <div class="modal-body p-0">
                         <div class="card-x bg-white border-0 mb-0">
 <div class="card-body-x p-5">
