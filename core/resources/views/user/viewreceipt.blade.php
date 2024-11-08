@@ -100,7 +100,7 @@
                                         >
                                         <font size="2px">Save As PDF</font><i class="icon-paperplane ml-2"></i>
                                 </button>
-                                    <button class="text-right btn btw" style="margin-left: 50px; margin-top: 20px; background-color: #17705a; color: #ffffff;" id="saveAsImageBtn"
+                                    <button class="text-right btn" style="margin-left: 50px; margin-top: 20px; background-color: #17705a; color: #ffffff;" id="saveAsImageBtn"
                                         >
                                         <font size="2px">Save As Image</font><i class="icon-paperplane ml-2"></i>
                             </button>

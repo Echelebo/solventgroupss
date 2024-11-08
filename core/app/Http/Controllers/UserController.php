@@ -587,7 +587,7 @@ class UserController extends Controller
         session()->flash('success', 'Correct Pin');
 
         if($user->trans_status==0){
-            return redirect()->route('dashboard')->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
+            return redirect()->route('user.dashboard')->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
                         }else{
                         return redirect()->route('viewr', $debit['reference'])->with('success', 'Transfer Successful');
                         }
@@ -655,7 +655,7 @@ public function submitotherpreview(Request $request)
 
 
                         if($user->trans_status==0){
-                        return redirect()->route('dashboard')->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
+                        return redirect()->route('user.dashboard')->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
                         }else{
                             if($set->sms_notify==1){
                         send_sms($user->phone, 'Solvent Groups, ' . $content);
@@ -729,7 +729,7 @@ public function submitotherpreview(Request $request)
          $user->save();
 		}
                         if($user->trans_status==0){
-                            return redirect()->route('dashboard')->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
+                            return redirect()->route('user.dashboard')->with('alert', 'Your account was temporarily restricted from carrying out transactions via our online banking channel, Kindly visit any of our nearest branches to resolve this issue. For more informations, kindly contact our online customer care representatives.');
                         }else{
                             if($set->sms_notify==1){
                         send_sms($user->phone, 'Solvent Groups, ' . $content);
