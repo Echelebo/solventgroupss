@@ -100,8 +100,7 @@
 
                                 <div >
 
-                                    <button class="text-left btn btw" style="margin-top: 20px; background-color: #17705a; color: #ffffff;"  id="saveAsPDFBtn"
-                                        >
+                                    <button class="text-left btn" style="margin-top: 20px; background-color: #17705a; color: #ffffff;"  id="saveAsPDFBtn">
                                         <font size="2px">Save As PDF</font><i class="icon-paperplane ml-2"></i>
                                 </button>
                                     <button class="text-right btn" style="margin-left: 50px; margin-top: 20px; background-color: #17705a; color: #ffffff;" id="saveAsImageBtn"
@@ -139,10 +138,11 @@
     });
 });
 
+const { jsPDF } = window.jspdf;
 document.getElementById('saveAsPDFBtn').addEventListener('click', function() {
     var element = document.getElementById('modalContent'); // Your modal content ID
-    var { jsPDF } = window.jspdf;
-    var pdf = new jsPDF();
+
+    const pdf = new jsPDF();
     pdf.fromHTML(element.innerHTML);
     pdf.save('receipt.pdf');
 });
