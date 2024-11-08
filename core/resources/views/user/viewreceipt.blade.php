@@ -96,9 +96,16 @@
 
                                 <div class="text-left" style="margin-left: 10px; margin-top: 10px;">
                                     <br />
-                                    <a href="#" class="btn"
+                                    <a href="#" class="btn" id="saveAsPDFBtn"
                                         style="background-color: #17705a; color: #ffffff;">
-                                        <font size="2px">Share Receipt</font><i class="icon-paperplane ml-2"></i>
+                                        <font size="2px">Save As PDF</font><i class="icon-paperplane ml-2"></i>
+                                    </a>
+                                </div>
+                                <div class="text-right" style="margin-right: 10px; margin-top: 10px;">
+                                    <br />
+                                    <a href="#" class="btn" id="saveAsImageBtn"
+                                        style="background-color: #17705a; color: #ffffff;">
+                                        <font size="2px">Save As Image</font><i class="icon-paperplane ml-2"></i>
                                     </a>
                                 </div>
 
@@ -115,4 +122,25 @@
   </div>
   </div>
   </main>
+
+  <script>
+    document.getElementById('saveAsImageBtn').addEventListener('click', function() {
+    var element = document.getElementById('modalContent'); // Your modal content ID
+    html2canvas(element).then(function(canvas) {
+        var link = document.createElement('a');
+        link.download = 'receipt.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+    });
+});
+
+document.getElementById('saveAsPDFBtn').addEventListener('click', function() {
+    var element = document.getElementById('modalContent'); // Your modal content ID
+    var pdf = new jsPDF();
+    pdf.fromHTML(element.innerHTML);
+    pdf.save('receipt.pdf');
+});
+  </script>
+
+
 @stop
