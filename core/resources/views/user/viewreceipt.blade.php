@@ -138,15 +138,15 @@
     });
 });
 
+
+  </script>
+  <script>
 document.getElementById('saveAsPDFBtn').addEventListener('click', function() {
-    const doc = new jsPDF();
-    doc.html(document.querySelector("#modal-content"), {
-        callback: function (doc) {
-            doc.save('receipt.pdf');
-        },
-        x: 10,
-        y: 10
-    });
+    var element = document.getElementById('modalContent'); // Your modal content ID
+
+    const pdf = new jsPDF();
+    pdf.fromHTML(element.innerHTML);
+    pdf.save('receipt.pdf');
 });
   </script>
 
