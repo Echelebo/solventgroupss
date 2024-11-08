@@ -19,7 +19,7 @@
                                                     <h4 style="color: #ffffff; font-size:18px">Online Deposit</h4>
                                                 </div>
 
-                                                    <h6 class="ml-4 text-danger">Use the below Crypto information to make deposit. </h6>
+                                                    <h6 class="ml-4 text-danger">Use the below information to make deposit. </h6>
                                         <div class="modal-account__right tab-content">
                                             <div class="modal-account__pane tab-pane show active" id="accountDetails">
                                                     <div class="row row--md">
