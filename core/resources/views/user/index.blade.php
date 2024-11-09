@@ -26,11 +26,24 @@
                                 </div>
                             </div>
                             <div class="wallet-balance">
-                                <p>Balance</p>
-                                <h5>{{ $user->Currency }}<input type="text" id="balance"
-                                        value="{{ number_format($user->balance) }}" style="border-width: 0px" readonly></h5>
-                                <i class="details fa fa-fingerprint"></i><span class="eye" id="eye"
-                                    onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span>
+                                <div class="conspbtw">
+
+
+
+                                    <div class="lefutu">
+                                        <p>Balance</p>
+                                    </div>
+                                    <div class="rightu">
+                                        <h5>{{ $user->Currency }}<input type="text" id="balance"
+                                                value="{{ number_format($user->balance) }}" style="border-width: 0px"
+                                                readonly><span class="eye" id="eye" onclick="toggleEye()"><i
+                                                    class="fa fa-eye-slash"></i></span></h5>
+
+                                    </div>
+                                </div>
+
+
+
                             </div>
                         </div>
 
