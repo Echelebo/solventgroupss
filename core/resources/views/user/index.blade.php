@@ -1,4 +1,10 @@
 @extends('userlayout')
+<style>
+    .inputbal {
+        width: 20px;
+        height: 7px;
+    }
+</style>
 
 @section('content')
     <main class="page-content" style="margin-top:-20px">
@@ -34,10 +40,11 @@
                                         <p>Balance</p>
                                     </div>
                                     <div class="rightu">
-                                        <h5>{{ $user->Currency }}<input type="text" id="balance"
-                                                value="{{ number_format($user->balance) }}" style="border-width: 0px"
-                                                readonly><span class="eye" id="eye" onclick="toggleEye()"><i
-                                                    class="fa fa-eye-slash"></i></span></h5>
+                                        <p style="font-size:5px;">{{ $user->Currency }}<input class="inputbal"
+                                                type="text" id="balance" value="{{ number_format($user->balance) }}"
+                                                style="border-width: 0px" readonly></p><span class="eye" id="eye"
+                                            style="font-size:3px; color: #ffffff;" onclick="toggleEye()"><i
+                                                class="fa fa-eye-slash"></i></span>
 
                                     </div>
                                 </div>
