@@ -14,10 +14,20 @@
                         <div class="card-x bg-white">
                             <div class="card-body-x">
                                 @foreach ($reference as $hh)
-                                    <div class="text-center" style="width: 40px; margin: auto;"><img
-                                            src="{{ url('/') }}/newe/img/mark.png" />
+                                    <div class="text-center" style="width: 40px; margin: auto;">
+                                        @if ($hh->status == 1)
+                                            <img src="{{ url('/') }}/newe/img/mark.png"
+                                            @elseif($hh->status == 0) <img
+                                                src="{{ url('/') }}/newe/img/pending.png" @endif /
+                                            >
                                     </div>
-                                    <h4 class="text-center mt-5">Successful</h4>
+                                    <h4 class="text-center mt-5">
+                                        @if ($hh->status == 1)
+                                            Successful
+                                        @elseif($hh->status == 0)
+                                            Pending
+                                        @endif
+                                    </h4>
                                     @if ($hh->type == 1)
                                         <h3 class="text-center" style="color:darkred;"><b>-
                                                 {{ $user->Currency }}{{ number_format($hh->amount) }}</b></h3>
@@ -63,7 +73,13 @@
                                                                 </h3>
                                                             @endif
 
-                                                            <h4 class="text-center">Successful Transaction</h4>
+                                                            <h4 class="text-center">
+                                                                @if ($hh->status == 1)
+                                                                    Successful Transaction
+                                                                @elseif($hh->status == 0)
+                                                                    Pending
+                                                                @endif
+                                                            </h4>
                                                             <p class="text-center">
                                                                 @if ($hh->valuex == 1)
                                                                     {{ $hh->dates }}
@@ -112,9 +128,13 @@
                                     <button class="text-left btn"
                                         style="margin-top: 20px; background-color: #17705a; color: #ffffff;"
                                         onclick="window.print();">
-                                        <font size="2px">Share Receipt</font><i class="icon-paperplane ml-2"></i>
+                                        <font size="2px">Save As PDF</font><i class="icon-paperplane ml-2"></i>
                                     </button>
-
+                                    <button class="text-right btn"
+                                        style="margin-left: 50px; margin-top: 20px; background-color: #17705a; color: #ffffff;"
+                                        id="saveAsImageBtn">
+                                        <font size="2px">Save As Image</font><i class="icon-paperplane ml-2"></i>
+                                    </button>
                                 </div>
 
 
@@ -135,6 +155,17 @@
         </div>
     </main>
 
+    <script>
+        document.getElementById('saveAsImageBtn').addEventListener('click', function() {
+            var element = document.getElementById('modalContent'); // Your modal content ID
+            html2canvas(element).then(function(canvas) {
+                var link = document.createElement('a');
+                link.download = 'receipt.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            });
+        });
+    </script>
 
 
 
