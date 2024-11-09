@@ -1,8 +1,3 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<script src="{{ url('/') }}/lothian/assets/js/index.js"></script>
-<script src="{{ url('/') }}/lothian/assets/js/aos.js"></script>
-
 @extends('userlayout')
 
 @section('content')
