@@ -31,15 +31,15 @@
 
 
                                 <div class="lefutu">
-                                    <p>Balance</p>
+                                    <p style="font-size: 15px;">Balance</p>
                                 </div>
                                 <div class="rightu">
-                                    <b><span style="font-size:20px;">{{ $user->Currency }}<input class="inputbal"
-                                                type="text" id="balance" value="{{ number_format($user->balance) }}"
-                                                style="border-width: 0px; width:50%;" readonly></span></b>
-                                    <span class="eye" id="eye"
-                                        style="font-size:15px; color: #ffffff; margin-left: 4px;" onclick="toggleEye()"><i
-                                            class="fa fa-eye-slash"></i></span>
+                                    <b><span style="font-size:20px;">{{ $user->Currency }}<input type="text"
+                                                id="balance" value="{{ number_format($user->balance) }}"
+                                                style="border-width: 0px; width:70%; margin-right: 4px;"
+                                                readonly></span></b>
+                                    <span class="eye" id="eye" style="font-size:15px; color: #ffffff;"
+                                        onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span>
 
                                 </div>
 
