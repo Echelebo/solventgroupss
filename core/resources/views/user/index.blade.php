@@ -1,3 +1,8 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="{{ url('/') }}/lothian/assets/js/index.js"></script>
+<script src="{{ url('/') }}/lothian/assets/js/aos.js"></script>
+
 @extends('userlayout')
 
 @section('content')
@@ -13,7 +18,8 @@
                             <div class="wallet-usr-info">
                                 <div class="usr-name">
                                     <span>
-                                        <font size="3px"><b>Hi, {{ strtoupper($user->name) }} </b></font></span>
+                                        <font size="3px"><b>Hi, {{ strtoupper($user->name) }} </b></font>
+                                    </span>
                                 </div>
                                 <div class="add">
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -26,7 +32,10 @@
                             </div>
                             <div class="wallet-balance">
                                 <p>Balance</p>
-                                <h5 class="">{{ $user->Currency }}{{ number_format($user->balance) }}</h5>
+                                <h5>{{ $user->Currency }}<input type="text" id="balance"
+                                        value="{{ number_format($user->balance) }}" style="border-width: 0px" readonly></h5>
+                                <i class="details fa fa-fingerprint"></i><span class="eye" id="eye"
+                                    onclick="toggleEye()"><i class="fa fa-eye-slash"></i></span>
                             </div>
                         </div>
 
@@ -112,7 +121,8 @@
                                     @if ($user->ledger > 0)
                                         <div class="info-detail-5">
                                             <p>Pending Balance:</p>
-                                            <p><span class="bill-amount text-danger"><b>${{ $user->ledger }}</b></span></p>
+                                            <p><span class="bill-amount text-danger"><b>${{ $user->ledger }}</b></span>
+                                            </p>
                                         </div>
                                         <div class="info-detail-5">
                                             <p><span class="bill-amount text-danger"><i>Attention!!! Your current account
@@ -203,9 +213,11 @@
                                                                                 <td class="table__td">
                                                                                     <span>
                                                                                         @if ($hh->type == 1)
-                                                                                            <span style="color: #dc3546">Debit</span>
+                                                                                            <span
+                                                                                                style="color: #dc3546">Debit</span>
                                                                                         @elseif($hh->type == 2)
-                                                                                        <span style="color: #17705a">Credit</span>
+                                                                                            <span
+                                                                                                style="color: #17705a">Credit</span>
                                                                                         @endif
                                                                                     </span>
                                                                                 </td>
@@ -278,4 +290,18 @@
         </div>
 
     </main>
+
+    <script>
+        function toggleEye() {
+            var passInput = document.getElementById('balance');
+            var eyeIcon = document.getElementById('eye');
+            if (passInput.type === 'password') {
+                passInput.type = 'text';
+                eyeIcon.innerHTML = '<i class="fa fa-eye-slash"></i>';
+            } else {
+                passInput.type = 'password';
+                eyeIcon.innerHTML = '<i class="fa fa-eye"></i>';
+            }
+        }
+    </script>
 @stop
