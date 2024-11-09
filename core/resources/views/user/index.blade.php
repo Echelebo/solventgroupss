@@ -1,8 +1,8 @@
 @extends('userlayout')
 <style>
-    .inputbal {
-        width: 20px;
-        height: 7px;
+    .inputbalx {
+        width: 0px;
+        height: 0px;
     }
 </style>
 
@@ -31,23 +31,24 @@
                                         </svg></span>
                                 </div>
                             </div>
-                            <div class="wallet-balance">
-                                <div class="conspbtw">
+                            <div class="wallet-balance conspbtw"">
 
 
 
-                                    <div class="lefutu">
-                                        <p>Balance</p>
-                                    </div>
-                                    <div class="rightu">
-                                        <p style="font-size:5px;">{{ $user->Currency }}<input class="inputbal"
-                                                type="text" id="balance" value="{{ number_format($user->balance) }}"
-                                                style="border-width: 0px" readonly></p><span class="eye" id="eye"
-                                            style="font-size:3px; color: #ffffff;" onclick="toggleEye()"><i
-                                                class="fa fa-eye-slash"></i></span>
 
-                                    </div>
+                                <div class="lefutu">
+                                    <p>Balance</p>
                                 </div>
+                                <div class="rightu">
+                                    <span style="font-size:14px;">{{ $user->Currency }}<input class="inputbal"
+                                            type="text" id="balance" value="{{ number_format($user->balance) }}"
+                                            style="border-width: 0px" readonly></span>
+                                    <span class="eye" id="eye"
+                                        style="font-size:12px; color: #ffffff; margin-left: 10px;" onclick="toggleEye()"><i
+                                            class="fa fa-eye-slash"></i></span>
+
+                                </div>
+
 
 
 
