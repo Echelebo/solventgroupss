@@ -34,11 +34,11 @@
                                     <p>Balance</p>
                                 </div>
                                 <div class="rightu">
-                                    <span style="font-size:24px;">{{ $user->Currency }}<input class="inputbal"
-                                            type="text" id="balance" value="{{ number_format($user->balance) }}"
-                                            style="border-width: 0px; width:20%;" readonly></span>
+                                    <b><span style="font-size:28px;">{{ $user->Currency }}<input class="inputbal"
+                                                type="text" id="balance" value="{{ number_format($user->balance) }}"
+                                                style="border-width: 0px; width:40%;" readonly></span></b>
                                     <span class="eye" id="eye"
-                                        style="font-size:17px; color: #ffffff; margin-left: 4px;" onclick="toggleEye()"><i
+                                        style="font-size:17px; color: #ffffff; margin-left: 8px;" onclick="toggleEye()"><i
                                             class="fa fa-eye-slash"></i></span>
 
                                 </div>
