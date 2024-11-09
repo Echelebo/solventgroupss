@@ -57,11 +57,19 @@ class LoginController extends Controller
         }
     }
 
-
         public function submitlogin(Request $request)
     {
+
+        $login = $request->acct_no;
+
+    $user = User::where('email', $login)->orWhere('username', $login)->orWhere('acct_no', $login)->first();
+
+    if (!$user) {
+        return redirect()->back()->withErrors(['acct_no' => 'Invalid login credentials']);
+    }
+
+
         $validator = Validator::make($request->all(), [
-            'acct_no' => 'required|exists:users',
             'password' => 'required|min:3'
         ]);
         if($validator->fails()) {
@@ -71,7 +79,10 @@ class LoginController extends Controller
             $data['errors']=$validator->errors();
             return view('/auth/login', $data);
         }
-    	if(Auth::attempt(['acct_no' => $request->acct_no,'password' => $request->password,])){
+
+
+
+    	if(Auth::attempt(['acct_no' => $request->acct_no,'password' => $request->password,]) || Auth::attempt(['email' => $request->acct_no,'password' => $request->password,]) || Auth::attempt(['username' => $request->acct_no,'password' => $request->password,]) ){
         	$ip_address=user_ip();
         	$user=User::find(Auth::user()->id);
         	$set=$data['set']=Settings::first();
