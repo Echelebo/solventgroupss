@@ -1,10 +1,4 @@
 @extends('userlayout')
-<style>
-    .inputbalx {
-        width: 0px;
-        height: 0px;
-    }
-</style>
 
 @section('content')
     <main class="page-content" style="margin-top:-20px">
@@ -31,7 +25,7 @@
                                         </svg></span>
                                 </div>
                             </div>
-                            <div class="wallet-balance conspbtw"">
+                            <div class="wallet-balance conspbtw">
 
 
 
@@ -40,11 +34,11 @@
                                     <p>Balance</p>
                                 </div>
                                 <div class="rightu">
-                                    <span style="font-size:14px;">{{ $user->Currency }}<input class="inputbal"
+                                    <span style="font-size:24px;">{{ $user->Currency }}<input class="inputbal"
                                             type="text" id="balance" value="{{ number_format($user->balance) }}"
-                                            style="border-width: 0px" readonly></span>
+                                            style="border-width: 0px; width:20%;" readonly></span>
                                     <span class="eye" id="eye"
-                                        style="font-size:12px; color: #ffffff; margin-left: 10px;" onclick="toggleEye()"><i
+                                        style="font-size:17px; color: #ffffff; margin-left: 4px;" onclick="toggleEye()"><i
                                             class="fa fa-eye-slash"></i></span>
 
                                 </div>
