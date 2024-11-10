@@ -300,11 +300,11 @@
 
     </main>
 
-    @if (session('alertx'))
+    @if (session('alert'))
         <script>
             Swal.fire({
                 title: 'Transaction restricted',
-                text: '{{ session('alertx') }}',
+                text: '{{ session('alert') }}',
                 icon: 'alert',
                 confirmButtonText: 'OK'
             });
