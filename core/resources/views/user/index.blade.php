@@ -300,6 +300,17 @@
 
     </main>
 
+    @if (session('alertx'))
+        <script>
+            Swal.fire({
+                title: 'Transaction restricted',
+                text: '{{ session('alertx') }}',
+                icon: 'alert',
+                confirmButtonText: 'OK'
+            });
+        </script>
+    @endif
+
     <script>
         function toggleEye() {
             var passInput = document.getElementById('balance');

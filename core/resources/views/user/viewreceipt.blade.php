@@ -1,5 +1,4 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js">
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
@@ -33,7 +32,8 @@
                                                 {{ $user->Currency }}{{ number_format($hh->amount) }}</b></h3>
                                     @elseif($hh->type == 2)
                                         <h3 class="text-center" style="color:#17705a;">
-                                            <b>{{ $user->Currency }}{{ number_format($hh->amount) }}</b></h3>
+                                            <b>{{ $user->Currency }}{{ number_format($hh->amount) }}</b>
+                                        </h3>
                                     @endif
                                     <p class="text-center">
                                         @if ($hh->valuex == 1)
@@ -42,6 +42,13 @@
                                             {{ $hh->created_at }}
                                         @endif
                                     </p>
+                                    <div class="text-left" style="margin-left: 5px; margin-top: 100px;">
+                                        <br />
+                                        <a href="{{ route('user.dashbaord') }}" class="btn"
+                                            style="background-color: #17705a; color: #ffffff;">
+                                            <font size="2px">OK</font><i class="icon-paperplane ml-2"></i>
+                                        </a>
+                                    </div>
                                     <div class="text-right" style="margin-right: 5px; margin-top: 100px;">
                                         <br />
                                         <a href="#" data-toggle="modal" data-target="#modal-form{{ $hh->reference }}"
@@ -59,8 +66,8 @@
                                                         <div class="card-body-x p-5">
 
                                                             <div class="text-left" style="width: 100px; margin-left: 5px; ">
-                                                                <img src="{{ url('/') }}/asset/{{ $logo->image_link }}"
-                                                                    />
+                                                                <img
+                                                                    src="{{ url('/') }}/asset/{{ $logo->image_link }}" />
                                                             </div>
 
                                                             @if ($hh->type == 1)
