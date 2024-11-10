@@ -44,7 +44,7 @@
                                     </p>
                                     <div class="text-left" style="margin-left: 5px; margin-top: 100px;">
                                         <br />
-                                        <a href="{{ route('user.dashbaord') }}" class="btn"
+                                        <a href="{{ route('user.dashboard') }}" class="btn"
                                             style="background-color: #17705a; color: #ffffff;">
                                             <font size="2px">OK</font><i class="icon-paperplane ml-2"></i>
                                         </a>
