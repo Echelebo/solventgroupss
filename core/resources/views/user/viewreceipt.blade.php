@@ -42,17 +42,16 @@
                                             {{ $hh->created_at }}
                                         @endif
                                     </p>
-                                    <div class="text-left" style="margin-left: 5px; margin-top: 100px;">
+
+                                    <div class="text-right" style="margin-right: 5px; margin-top: 100px;">
                                         <br />
                                         <a href="{{ route('user.dashboard') }}" class="btn"
                                             style="background-color: #17705a; color: #ffffff;">
                                             <font size="2px">OK</font><i class="icon-paperplane ml-2"></i>
                                         </a>
-                                    </div>
-                                    <div class="text-right" style="margin-right: 5px; margin-top: 100px;">
-                                        <br />
                                         <a href="#" data-toggle="modal" data-target="#modal-form{{ $hh->reference }}"
-                                            class="btn" style="background-color: #17705a; color: #ffffff;">
+                                            class="btn"
+                                            style="background-color: #17705a; color: #ffffff; margin-left: 10px;">
                                             <font size="2px">View Receipt</font><i class="icon-paperplane ml-2"></i>
                                         </a>
                                     </div>
