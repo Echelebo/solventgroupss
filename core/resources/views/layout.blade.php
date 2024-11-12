@@ -679,9 +679,8 @@
     </script>
 </head>
 
-<body id="{{ $bodyid }}"
-class="{{ $bodyclass }}"
-data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" data-gr-ext-installed="">
+<body id="{{ $bodyid }}" class="{{ $bodyclass }}" data-elementor-device-mode="mobile"
+    data-new-gr-c-s-check-loaded="14.1200.0" data-gr-ext-installed="">
 
     <div data-elementor-type="cmsmasters_header" data-elementor-id="104"
         class="elementor elementor-104 cmsmasters-location-cmsmasters_header cmsmasters-header-position-absolute-">
@@ -1046,7 +1045,8 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                                         class="elementor-widget-cmsmasters-nav-menu__dropdown-item"
                                                         aria-label="Menu item"><span
                                                             class="elementor-widget-cmsmasters-nav-menu__item-text-wrap"><span
-                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">About Us</span></span></a>
+                                                                class="elementor-widget-cmsmasters-nav-menu__item-text">About
+                                                                Us</span></span></a>
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
@@ -1233,7 +1233,8 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                                                                 <a href="{{ route('about') }}"
                                                                                     class=" elementor-widget-cmsmasters-offcanvas__item elementor-widget-cmsmasters-offcanvas__main-item"
                                                                                     aria-label="Menu item"><span
-                                                                                        class="elementor-widget-cmsmasters-offcanvas__item-text">About Us</span></a>
+                                                                                        class="elementor-widget-cmsmasters-offcanvas__item-text">About
+                                                                                        Us</span></a>
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8987">
@@ -1432,9 +1433,12 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                         <p class="elementor-heading-title elementor-size-default">With affordable fixed
                                             payments, use your personal loan to fund a major purchase,
                                             pay off credit cards.</p>
-                                           <p style="margin-top: 24px;">
-                                                                <a href="{{ route('contacts') }}" style="color: #ffffff;" onMouseOver="this.style.color='green'" onMouseOut="this.style.color='white'">
-                                                                   <h3>Email Us</h3></a>
+                                        <p style="margin-top: 24px;">
+                                            <a href="{{ route('contacts') }}" style="color: #ffffff;"
+                                                onMouseOver="this.style.color='green'"
+                                                onMouseOut="this.style.color='white'">
+                                                <h3>Email Us</h3>
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
@@ -1708,7 +1712,8 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
                                 <div class="elementor-element elementor-element-467506ee elementor-widget__width-initial cmsmasters-block-default cmsmasters-sticky-default elementor-widget elementor-widget-heading"
                                     data-id="467506ee" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <p class="elementor-heading-title elementor-size-default">©{{ date('Y') }} - All Rights
+                                        <p class="elementor-heading-title elementor-size-default">
+                                            ©{{ date('Y') }} - All Rights
                                             Reserved.</p>
                                     </div>
                                 </div>
@@ -2481,8 +2486,6 @@ data-elementor-device-mode="mobile" data-new-gr-c-s-check-loaded="14.1200.0" dat
     <script type="text/javascript"
         src="{{ url('/') }}/wp-content/plugins/forminator/assets/js/library/inputmask.binding.js?ver=1.29.2" async=""
         defer=""></script>
-</body><chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar><grammarly-desktop-integration
-    data-grammarly-shadow-root="true"></grammarly-desktop-integration><chatgpt-sidebar-popups
-    data-gpts-theme="light"></chatgpt-sidebar-popups>
+</body>
 
 </html>
